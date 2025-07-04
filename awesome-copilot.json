@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-04T21:06:02.562714385Z",
+  "generated" : "2025-07-04T21:40:10.990933528Z",
   "instructions" : [ {
     "filename" : "angular.instructions.md",
     "title" : "Angular Development Instructions",
@@ -192,6 +192,11 @@
     "title" : "Create PRD Chat Mode",
     "description" : "Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, technical considerations, and metrics. Optionally create GitHub issues upon user confirmation.",
     "link" : "chatmodes/prd.chatmode.md"
+  }, {
+    "filename" : "prompt-engineer.chatmode.md",
+    "title" : "Prompt Engineer",
+    "description" : "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a propt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
+    "link" : "chatmodes/prompt-engineer.chatmode.md"
   }, {
     "filename" : "refine-issue.chatmode.md",
     "title" : "Refine Requirement or Issue Chat Mode",
