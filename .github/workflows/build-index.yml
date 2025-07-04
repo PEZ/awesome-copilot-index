@@ -46,11 +46,7 @@ jobs:
       - name: Create pages directory structure
         run: |
           mkdir -p _site
-          cp site/awesome-copilot-menu.png _site/
-          cp site/awesome_copilot.cljs _site/
-          cp site/awesome-copilot.json _site/
-          cp site/awesome-copilot.edn _site/
-          cp site/index.md _site/
+          cp -r site/* _site/
 
       - name: Deploy app to gh-pages
         if: github.ref == 'refs/heads/master'
