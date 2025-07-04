@@ -7,6 +7,8 @@ title: Awesome Copilot Index
 
 This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes.
 
+![Awesome Copilot menu](awesome-copilot-menu.png)
+
 | Category | Count |
 |----------|------:|
 | **Instructions** | 18 |
@@ -14,7 +16,11 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Chat Modes** | 7 |
 | **Total Resources** | 40 |
 
-*Last updated: 2025-07-04 21:40:10 UTC*
+*Last updated: 2025-07-04 22:37:30 UTC*
+
+The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
+- [Awesome Copilot Joyride Script](awesome_copilot.cljs)
+The script includes instructions for how to install it in VS Code/Joyride.
 
 ## Download Index Files
 
@@ -30,15 +36,16 @@ Each entry in the index contains:
 - `description` - From frontmatter if available
 - `link` - Relative path to the file in the repository
 
-## Usage Examples
+---
 
-You can use these index files to:
+## Support This Project ♥️
 
-- Build search interfaces for Copilot resources
-- Create filtered views by category (instructions, prompts, chatmodes)
-- Generate documentation or catalogs
-- Power recommendation systems
+If you find this project useful, consider sponsoring me:
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/pez?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=ff69b4)](https://github.com/sponsors/pez)
+
+Thanks for considering!
 
 ---
 
-Source for generating: [pez/awesome-copilot-index](https://github.com/pez/awesome-copilot-index)
+Source for this site: [pez/awesome-copilot-index](https://github.com/pez/awesome-copilot-index)
