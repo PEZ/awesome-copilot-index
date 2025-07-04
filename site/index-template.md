@@ -7,6 +7,8 @@ title: Awesome Copilot Index
 
 This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes.
 
+![Awesome Copilot menu](awesome-copilot-menu.png)
+
 | Category | Count |
 |----------|------:|
 | **Instructions** | {{instruction-count}} |
@@ -15,6 +17,10 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Total Resources** | {{total-count}} |
 
 *Last updated: {{formatted-date}}*
+
+The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
+- [Awesome Copilot Joyride Script](awesome_copilot.cljs)
+The script includes instructions for how to install it in VS Code/Joyride.
 
 ## Download Index Files
 
