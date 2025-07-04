@@ -18,7 +18,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 *Last updated: {{formatted-date}}*
 
 The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
-- [Awesome Copilot Joyride Script](awesome-copilot-script.html)
+- [Awesome Copilot Joyride Script](awesome-copilot-script)
 The script includes instructions for how to install it in VS Code/Joyride.
 
 ![Awesome Copilot menu](awesome-copilot-menu.png)
