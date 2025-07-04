@@ -92,9 +92,9 @@
                      :prompts prompts
                      :chatmodes chatmodes}]
      (println "Writing index.json...")
-     (spit "index.json" (json/generate-string index-data {:pretty true}))
+     (spit "site/index.json" (json/generate-string index-data {:pretty true}))
      (println "Writing index.edn...")
-     (spit "index.edn" (with-out-str (pprint/pprint index-data)))
+     (spit "site/index.edn" (with-out-str (pprint/pprint index-data)))
      (println "Index generation complete!")
      index-data)))
 
