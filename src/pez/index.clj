@@ -3,7 +3,8 @@
    [babashka.fs :as fs]
    [cheshire.core :as json]
    [clojure.pprint :as pprint]
-   [clojure.string :as str]))
+   [clojure.string :as str]
+   [selmer.parser :as selmer]))
 
 (defn parse-markdown-file
   "Parse a markdown file with frontmatter into frontmatter and content sections"
@@ -79,6 +80,31 @@
   (->> (get-markdown-files dir)
        (map #(process-file % base-dir))))
 
+(defn format-stats-table
+  "Format statistics for template rendering"
+  [index-data]
+  (let [{:keys [instructions prompts chatmodes generated]} index-data
+        instruction-count (count instructions)
+        prompt-count (count prompts)
+        chatmode-count (count chatmodes)
+        total-count (+ instruction-count prompt-count chatmode-count)]
+    {:total-count total-count
+     :instruction-count instruction-count
+     :prompt-count prompt-count
+     :chatmode-count chatmode-count
+     :generated generated
+     :formatted-date (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd HH:mm:ss 'UTC'")
+                              (java.time.ZonedDateTime/parse generated))}))
+
+(defn render-index-page!
+  "Render the index page from template with data"
+  [index-data]
+  (let [template (slurp "site/index-template.md")
+        stats (format-stats-table index-data)
+        rendered (selmer/render template stats)]
+    (println "Writing site/index.md...")
+    (spit "site/index.md" rendered)))
+
 (defn generate-index!
   "Generate index files from awesome-copilot repository contents"
   ([] (generate-index! "awesome-copilot-main"))
@@ -95,6 +121,7 @@
      (spit "site/awesome-copilot.json" (json/generate-string index-data {:pretty true}))
      (println "Writing awesome-copilot.edn...")
      (spit "site/awesome-copilot.edn" (with-out-str (pprint/pprint index-data)))
+     (render-index-page! index-data)
      (println "Index generation complete!")
      index-data)))
 
