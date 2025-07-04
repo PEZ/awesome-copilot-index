@@ -79,9 +79,9 @@
   (->> (get-markdown-files dir)
        (map #(process-file % base-dir))))
 
-(defn generate-index
+(defn generate-index!
   "Generate index files from awesome-copilot repository contents"
-  ([] (generate-index "awesome-copilot-main"))
+  ([] (generate-index! "awesome-copilot-main"))
   ([base-dir]
    (println "Generating index from" base-dir "...")
    (let [instructions (process-directory (fs/path base-dir "instructions") base-dir)
@@ -99,6 +99,6 @@
      index-data)))
 
 (comment
-  (generate-index)
+  (generate-index!)
   :rcf)
 

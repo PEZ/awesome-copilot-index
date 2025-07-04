@@ -31,4 +31,4 @@
   (when-not (fs/exists? awesome-dir)
     (throw (ex-info (str "Repository directory '" awesome-dir "' not found. Run 'bb download-awesome!' first.")
                     {:directory awesome-dir})))
-  (index/generate-index awesome-dir))
+  (index/generate-index! awesome-dir))
