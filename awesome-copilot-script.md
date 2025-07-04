@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Awesome Copilot Joyride Script
+youtubeId: AiL8LurZgSI
 ---
 
 # Awesome Copilot Joyride Script
 
 This script powers the Awesome Copilot menu in VS Code via [Joyride](https://github.com/BetterThanTomorrow/joyride).
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Installation Instructions
 
