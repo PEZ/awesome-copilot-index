@@ -1,4 +1,6 @@
 {:paths ["src"]
  :tasks
  {download-awesome {:doc "Download the awesome-copilot repository"
-                    :task pez.tasks/download-awesome!}}}
+                    :task pez.tasks/download-awesome!}
+  generate-index   {:doc "Generate index files from the awesome-copilot repository"
+                    :task pez.tasks/generate-index!}}}
