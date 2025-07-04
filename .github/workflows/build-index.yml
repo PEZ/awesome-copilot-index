@@ -10,16 +10,8 @@ on:
   # Allow manual triggering
   workflow_dispatch:
 
-# Required for GitHub Pages deployment
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Only allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  contents: write
 
 jobs:
   build:
@@ -51,28 +43,10 @@ jobs:
       - name: Generate index files
         run: bb generate-index!
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Create pages directory structure
+      - name: Commit and push changes
         run: |
-          mkdir -p _site
-          cp index.json _site/
-          cp index.edn _site/
-          cp index.md _site/
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '_site'
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add index.json index.edn
+          git diff --staged --quiet || git commit -m "Update index files"
+          git push
