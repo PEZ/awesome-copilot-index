@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Awesome Copilot Index
+youtubeId: AiL8LurZgSI
 ---
 
 # Awesome Copilot Index
@@ -22,7 +23,7 @@ The index powers the **Awesome Copilot** menu in VS Code together with [Joyride]
 - [Awesome Copilot Joyride Script](awesome-copilot-script.html)
 The script includes instructions for how to install it in VS Code/Joyride.
 
-[![Awesome Copilot VS Code Menu Demo](https://img.youtube.com/vi/AiL8LurZgSI/maxresdefault.jpg)](https://youtu.be/AiL8LurZgSI)
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Download Index Files
 
