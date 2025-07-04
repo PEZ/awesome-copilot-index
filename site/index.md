@@ -14,8 +14,8 @@ This site hosts an daily generated index of the [awesome-copilot](https://github
 
 ## Download Index Files
 
-- [JSON Format](index.json)
-- [EDN Format](index.edn)
+- [JSON Format](awesome-copilot.json)
+- [EDN Format](awesome-copilot.edn)
 
 ## Index Structure
 
