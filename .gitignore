@@ -23,3 +23,5 @@ pom.xml.asc
 .clj-kondo/.cache
 
 awesome-copilot-main/
+index.json
+index.edn
