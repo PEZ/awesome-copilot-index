@@ -11,12 +11,12 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 
 | Category | Count |
 |----------|------:|
-| **Instructions** | 18 |
-| **Prompts** | 15 |
-| **Chat Modes** | 7 |
-| **Total Resources** | 40 |
+| **Instructions** | {{instruction-count}} |
+| **Prompts** | {{prompt-count}} |
+| **Chat Modes** | {{chatmode-count}} |
+| **Total Resources** | {{total-count}} |
 
-*Last updated: 2025-07-04 22:54:43 UTC*
+*Last updated: {{formatted-date}}*
 
 The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
 - [Awesome Copilot Joyride Script](awesome-copilot-script.html)
