@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Awesome Copilot Index
-youtubeId: AiL8LurZgSI
 ---
 
 # Awesome Copilot Index
 
 This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes.
 
-![Awesome Copilot menu](awesome-copilot-menu.png)
 
 | Category | Count |
 |----------|------:|
@@ -23,7 +21,7 @@ The index powers the **Awesome Copilot** menu in VS Code together with [Joyride]
 - [Awesome Copilot Joyride Script](awesome-copilot-script.html)
 The script includes instructions for how to install it in VS Code/Joyride.
 
-{% include youtubePlayer.html id=page.youtubeId %}
+![Awesome Copilot menu](awesome-copilot-menu.png)
 
 ## Download Index Files
 
