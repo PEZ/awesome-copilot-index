@@ -22,6 +22,8 @@ The index powers the **Awesome Copilot** menu in VS Code together with [Joyride]
 - [Awesome Copilot Joyride Script](awesome_copilot.cljs)
 The script includes instructions for how to install it in VS Code/Joyride.
 
+[![Awesome Copilot VS Code Menu Demo](https://img.youtube.com/vi/AiL8LurZgSI/maxresdefault.jpg)](https://youtu.be/AiL8LurZgSI)
+
 ## Download Index Files
 
 - [JSON Format](awesome-copilot.json)
