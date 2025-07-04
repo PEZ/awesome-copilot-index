@@ -22,4 +22,4 @@ pom.xml.asc
 .lsp/.cache
 .clj-kondo/.cache
 
-awesome-copilot/
+awesome-copilot-main/

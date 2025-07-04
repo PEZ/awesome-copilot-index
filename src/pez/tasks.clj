@@ -1,20 +1,25 @@
 (ns pez.tasks
-  (:require [babashka.tasks :refer [shell]]
-            [babashka.fs :as fs]))
+  (:require [babashka.fs :as fs]
+            [babashka.http-client :as http]
+            [clojure.java.io :as io]))
+
+(def awesome-dir "awesome-copilot-main")
+(def zip-url "https://github.com/github/awesome-copilot/archive/refs/heads/main.zip")
 
 (defn ^:export clone-awesome
   "Get contents of the awesome-copilot repository without git history"
   [& _]
-  (let [repo-dir "awesome-copilot"]
-    ;; Remove existing directory if it exists
-    (when (fs/exists? repo-dir)
-      (println "Removing existing" repo-dir "directory...")
-      (fs/delete-tree repo-dir))
-
-    ;; Do a shallow clone
-    (println "Cloning repository...")
-    (shell {:dir "."} "git clone --depth 1 https://github.com/github/awesome-copilot.git")
-
-    ;; Then remove the .git directory
-    (fs/delete-tree (fs/path repo-dir ".git"))
-    (println "Repository contents extracted to:" repo-dir)))
+  (when (fs/exists? awesome-dir)
+    (println "Removing existing" awesome-dir "directory...")
+    (fs/delete-tree awesome-dir))
+  (println "Downloading repository ZIP archive...")
+  (let [zip-file "awesome-copilot.zip"
+        response (http/get zip-url {:as :stream})
+        body     (:body response)]
+    (with-open [in body
+                out (io/output-stream zip-file)]
+      (io/copy in out))
+    (println "Extracting ZIP archive...")
+    (fs/unzip zip-file ".")
+    (fs/delete zip-file))
+  (println "Repository contents extracted to:" awesome-dir))
