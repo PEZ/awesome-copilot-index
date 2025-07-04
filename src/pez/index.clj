@@ -79,16 +79,6 @@
   (->> (get-markdown-files dir)
        (map #(process-file % base-dir))))
 
-(defn write-json
-  "Write data as pretty-printed JSON"
-  [data filename]
-  (spit filename (json/generate-string data {:pretty true})))
-
-(defn write-edn
-  "Write data as pretty-printed EDN"
-  [data filename]
-  (spit filename (with-out-str (pprint/pprint data))))
-
 (defn generate-index
   "Generate index files from awesome-copilot repository contents"
   ([] (generate-index "awesome-copilot-main"))
@@ -102,9 +92,9 @@
                      :prompts prompts
                      :chatmodes chatmodes}]
      (println "Writing index.json...")
-     (write-json index-data "index.json")
+     (spit "index.json" (json/generate-string index-data {:pretty true}))
      (println "Writing index.edn...")
-     (write-edn index-data "index.edn")
+     (spit "index.edn" (with-out-str (pprint/pprint index-data)))
      (println "Index generation complete!")
      index-data)))
 
