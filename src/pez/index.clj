@@ -91,10 +91,10 @@
                      :instructions instructions
                      :prompts prompts
                      :chatmodes chatmodes}]
-     (println "Writing index.json...")
-     (spit "site/index.json" (json/generate-string index-data {:pretty true}))
-     (println "Writing index.edn...")
-     (spit "site/index.edn" (with-out-str (pprint/pprint index-data)))
+     (println "Writing awesome-copilot.json...")
+     (spit "site/awesome-copilot.json" (json/generate-string index-data {:pretty true}))
+     (println "Writing awesome-copilot.edn...")
+     (spit "site/awesome-copilot.edn" (with-out-str (pprint/pprint index-data)))
      (println "Index generation complete!")
      index-data)))
 

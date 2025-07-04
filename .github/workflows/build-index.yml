@@ -44,8 +44,8 @@ jobs:
       - name: Create pages directory structure
         run: |
           mkdir -p _site
-          cp site/index.json _site/
-          cp site/index.edn _site/
+          cp site/awesome-copilot.json _site/
+          cp site/awesome-copilot.edn _site/
           cp site/index.md _site/
 
       - name: Upload artifact
