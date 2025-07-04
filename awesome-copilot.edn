@@ -1,4 +1,4 @@
-{:generated "2025-07-04T20:58:52.550226535Z",
+{:generated "2025-07-04T21:06:02.562714385Z",
  :instructions
  ({:filename "angular.instructions.md",
    :title "Angular Development Instructions",
@@ -155,8 +155,7 @@
    :link "prompts/next-intl-add-language.prompt.md"}),
  :chatmodes
  ({:filename "4.1-Beast.chatmode.md",
-   :title
-   "SYSTEM PROMPT — GPT-4.1 Coding Agent (VS Code Tools Edition)",
+   :title "4.1 Beast Mode",
    :description
    "A custom prompt to get GPT 4.1 to behave like a top-notch coding agent.",
    :link "chatmodes/4.1-Beast.chatmode.md"}
