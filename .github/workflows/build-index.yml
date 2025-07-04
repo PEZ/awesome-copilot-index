@@ -3,7 +3,7 @@ name: Build Awesome Copilot Index
 on:
   # Run on push to main branch
   push:
-    branches: [ main ]
+    branches: [ master ]
   # Run daily at 6 AM UTC to keep index fresh
   schedule:
     - cron: '0 6 * * *'
