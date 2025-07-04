@@ -8,7 +8,7 @@ title: Awesome Copilot Index
 This site hosts an daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes.
 
 | Category | Count |
-|----------|-------|
+|----------|------:|
 | **Instructions** | {{instruction-count}} |
 | **Prompts** | {{prompt-count}} |
 | **Chat Modes** | {{chatmode-count}} |
