@@ -16,11 +16,13 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Chat Modes** | 7 |
 | **Total Resources** | 40 |
 
-*Last updated: 2025-07-04 22:39:08 UTC*
+*Last updated: 2025-07-04 22:46:56 UTC*
 
 The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
 - [Awesome Copilot Joyride Script](awesome_copilot.cljs)
 The script includes instructions for how to install it in VS Code/Joyride.
+
+[![Awesome Copilot VS Code Menu Demo](https://img.youtube.com/vi/AiL8LurZgSI/maxresdefault.jpg)](https://youtu.be/AiL8LurZgSI)
 
 ## Download Index Files
 
