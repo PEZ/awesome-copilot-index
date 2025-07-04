@@ -44,9 +44,9 @@ jobs:
       - name: Create pages directory structure
         run: |
           mkdir -p _site
-          cp index.json _site/
-          cp index.edn _site/
-          cp index.md _site/
+          cp site/index.json _site/
+          cp site/index.edn _site/
+          cp site/index.md _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
