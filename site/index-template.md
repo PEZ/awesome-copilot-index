@@ -36,15 +36,16 @@ Each entry in the index contains:
 - `description` - From frontmatter if available
 - `link` - Relative path to the file in the repository
 
-## Usage Examples
+---
 
-You can use these index files to:
+## Support This Project ♥️
 
-- Build search interfaces for Copilot resources
-- Create filtered views by category (instructions, prompts, chatmodes)
-- Generate documentation or catalogs
-- Power recommendation systems
+If you find this project useful, consider sponsoring me:
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/pez?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=ff69b4)](https://github.com/sponsors/pez)
+
+Thanks for considering!
 
 ---
 
-Source for generating: [pez/awesome-copilot-index](https://github.com/pez/awesome-copilot-index)
+Source for this site: [pez/awesome-copilot-index](https://github.com/pez/awesome-copilot-index)
