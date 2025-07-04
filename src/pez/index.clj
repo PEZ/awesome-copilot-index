@@ -44,9 +44,10 @@
            (str/join " "))))
 
 (defn extract-title
-  "Extract the first H1 heading as the title, fallback to filename-based title"
-  [content-lines filename]
-  (or (->> content-lines
+  "Extract title from frontmatter first, then H1 heading, finally fallback to filename-based title"
+  [content-lines frontmatter filename]
+  (or (:title frontmatter)
+      (->> content-lines
            (filter #(str/starts-with? % "# "))
            first
            (#(when % (str/replace % #"^# " ""))))
@@ -60,7 +61,7 @@
         parsed (parse-markdown-file content)
         frontmatter (parse-frontmatter (:frontmatter parsed))
         filename (fs/file-name file-path)
-        title (extract-title (:content parsed) filename)
+        title (extract-title (:content parsed) frontmatter filename)
         relative-path (str/replace file-str (str (fs/path base-dir) fs/file-separator) "")]
     {:filename filename
      :title title

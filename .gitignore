@@ -25,3 +25,4 @@ pom.xml.asc
 awesome-copilot-main/
 site/awesome-copilot.json
 site/awesome-copilot.edn
+site/index.md
