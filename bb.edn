@@ -1,4 +1,4 @@
 {:paths ["src"]
  :tasks
- {clone-awesome {:doc "Shallow clone of the awesome-copilot repository"
-                 :task pez.tasks/clone-awesome}}}
+ {download-awesome {:doc "Download the awesome-copilot repository"
+                    :task pez.tasks/download-awesome!}}}

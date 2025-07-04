@@ -6,7 +6,7 @@
 (def awesome-dir "awesome-copilot-main")
 (def zip-url "https://github.com/github/awesome-copilot/archive/refs/heads/main.zip")
 
-(defn ^:export clone-awesome
+(defn ^:export download-awesome!
   "Get contents of the awesome-copilot repository without git history"
   [& _]
   (when (fs/exists? awesome-dir)
