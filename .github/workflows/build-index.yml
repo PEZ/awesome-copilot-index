@@ -46,10 +46,10 @@ jobs:
           restore-keys: bb-deps-
 
       - name: Download awesome-copilot repository
-        run: bb download-awesome
+        run: bb download-awesome!
 
       - name: Generate index files
-        run: bb generate-index
+        run: bb generate-index!
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -66,13 +66,13 @@ jobs:
         with:
           path: '_site'
 
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v3
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3
