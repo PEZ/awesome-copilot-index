@@ -7,10 +7,14 @@ title: Awesome Copilot Index
 
 This site hosts an daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes.
 
-<div id="stats" style="background: #f6f8fa; border-radius: 6px; padding: 15px; margin: 20px 0;">
-<p>Loading statistics...</p>
-</div>
+| Category | Count |
+|----------|-------|
+| **Instructions** | 18 |
+| **Prompts** | 15 |
+| **Chat Modes** | 6 |
+| **Total Resources** | 39 |
 
+*Last updated: 2025-07-04 20:58:52 UTC*
 
 ## Download Index Files
 
@@ -38,30 +42,3 @@ You can use these index files to:
 ---
 
 Source for generating: [pez/awesome-copilot-index](https://github.com/pez/awesome-copilot-index)
-
-<script>
-// Load and display statistics from the JSON index
-fetch('index.json')
-    .then(response => response.json())
-    .then(data => {
-        const statsDiv = document.getElementById('stats');
-        const instructionCount = data.instructions?.length || 0;
-        const promptCount = data.prompts?.length || 0;
-        const chatmodeCount = data.chatmodes?.length || 0;
-        const totalCount = instructionCount + promptCount + chatmodeCount;
-
-        statsDiv.innerHTML = `
-            <p><strong>Total Resources:</strong> ${totalCount}</p>
-            <ul>
-                <li><strong>Instructions:</strong> ${instructionCount}</li>
-                <li><strong>Prompts:</strong> ${promptCount}</li>
-                <li><strong>Chat Modes:</strong> ${chatmodeCount}</li>
-            </ul>
-            <p><small>Last updated: ${new Date(data.generated).toLocaleString()}</small></p>
-        `;
-    })
-    .catch(error => {
-        document.getElementById('stats').innerHTML = '<p>Statistics unavailable</p>';
-        console.error('Error loading index:', error);
-    });
-</script>
