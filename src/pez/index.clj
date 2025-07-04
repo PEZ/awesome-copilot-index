@@ -32,13 +32,24 @@
        (map (fn [[k v]] [(keyword k) (str/replace v #"^'|'$" "")]))
        (into {})))
 
+(defn filename-to-title
+  "Convert a filename to a human-readable title"
+  [filename]
+  (-> filename
+      (str/replace #"\.(instructions|prompt|chatmode)\.md$" "")
+      (str/replace #"[-_]" " ")
+      (str/split #" ")
+      (->> (map str/capitalize)
+           (str/join " "))))
+
 (defn extract-title
-  "Extract the first H1 heading as the title"
-  [content-lines]
-  (->> content-lines
-       (filter #(str/starts-with? % "# "))
-       first
-       (#(when % (str/replace % #"^# " "")))))
+  "Extract the first H1 heading as the title, fallback to filename-based title"
+  [content-lines filename]
+  (or (->> content-lines
+           (filter #(str/starts-with? % "# "))
+           first
+           (#(when % (str/replace % #"^# " ""))))
+      (filename-to-title filename)))
 
 (defn process-file
   "Process a single markdown file and extract metadata"
@@ -47,9 +58,9 @@
         content (slurp file-str)
         parsed (parse-markdown-file content)
         frontmatter (parse-frontmatter (:frontmatter parsed))
-        title (extract-title (:content parsed))
         filename (fs/file-name file-path)
-        relative-path (str/replace file-str (str base-dir "/") "")]
+        title (extract-title (:content parsed) filename)
+        relative-path (str/replace file-str (str (fs/path base-dir) fs/file-separator) "")]
     {:filename filename
      :title title
      :description (:description frontmatter)
@@ -83,9 +94,9 @@
   ([] (generate-index "awesome-copilot-main"))
   ([base-dir]
    (println "Generating index from" base-dir "...")
-   (let [instructions (process-directory (str base-dir "/instructions") base-dir)
-         prompts (process-directory (str base-dir "/prompts") base-dir)
-         chatmodes (process-directory (str base-dir "/chatmodes") base-dir)
+   (let [instructions (process-directory (fs/path base-dir "instructions") base-dir)
+         prompts (process-directory (fs/path base-dir "prompts") base-dir)
+         chatmodes (process-directory (fs/path base-dir "chatmodes") base-dir)
          index-data {:generated (str (java.time.Instant/now))
                      :instructions instructions
                      :prompts prompts
