@@ -6,6 +6,12 @@ description: Daily generated index of the awesome-copilot repository, providing 
 
 # Awesome Copilot Index
 
+<div style="float: right; margin: -1rem 0 1rem 1rem;">
+  <a href="https://github.com/github/awesome-copilot" target="_blank">
+    <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
+  </a>
+</div>
+
 This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes.
 
 ## Download Index Files
@@ -20,7 +26,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Chat Modes** | 7 |
 | **Total Resources** | 40 |
 
-*Last updated: 2025-07-05 11:30:41 UTC*
+*Last updated: 2025-07-05 11:41:04 UTC*
 
 ## Usage Example
 
