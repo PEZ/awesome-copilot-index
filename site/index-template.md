@@ -40,7 +40,7 @@ Each entry in the index contains:
 
 ---
 
-<div class="sponsors-section">
+<div class="sponsors-section" markdown="1">
 
 ## Support This Project ♥️
 

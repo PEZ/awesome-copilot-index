@@ -157,6 +157,7 @@ code {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.875rem;
+  font-family: 'SFMono-Regular', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 }
 
 pre code {
@@ -164,6 +165,27 @@ pre code {
   color: inherit;
   padding: 0;
 }
+
+/* Rouge syntax highlighting */
+.highlight {
+  background: #1a202c;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.highlight .c { color: #718096; } /* Comment */
+.highlight .k { color: #9f7aea; } /* Keyword */
+.highlight .s { color: #68d391; } /* String */
+.highlight .n { color: #e2e8f0; } /* Name */
+.highlight .nf { color: #63b3ed; } /* Name.Function */
+.highlight .nc { color: #f6ad55; } /* Name.Class */
+.highlight .o { color: #ed8936; } /* Operator */
+.highlight .p { color: #cbd5e0; } /* Punctuation */
+.highlight .m { color: #fc8181; } /* Number */
+.highlight .nb { color: #4fd1c7; } /* Name.Builtin */
+.highlight .bp { color: #4fd1c7; } /* Name.Builtin.Pseudo */
 
 /* Images */
 img {
@@ -187,6 +209,7 @@ img {
 .sponsors-section h2 {
   color: white;
   border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  margin-top: 0;
 }
 
 .sponsors-section p {

@@ -1,11 +1,12 @@
+# Node.js
 node_modules/
 
+# Clojure/Babashka
 /target
 /checkouts
 /src/gen
 .cpcache/
 /build
-
 pom.xml
 pom.xml.asc
 *.iml
@@ -15,14 +16,31 @@ pom.xml.asc
 .idea
 .lein-*
 .nrepl-*
-.DS_Store
 
+# Calva/LSP
 .calva/output-window
 .calva/repl.calva-repl
 .lsp/.cache
 .clj-kondo/.cache
 
+# macOS
+.DS_Store
+
+# Generated content from awesome-copilot repository
 awesome-copilot-main/
+
+# Generated index files (Babashka tasks)
 site/awesome-copilot.json
 site/awesome-copilot.edn
 site/index.md
+
+# Jekyll generated content
+site/_site/
+site/.jekyll-cache/
+site/.jekyll-metadata
+site/.sass-cache/
+site/Gemfile.lock
+
+# Ruby
+.bundle/
+vendor/
