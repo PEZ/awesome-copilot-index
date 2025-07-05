@@ -34,4 +34,4 @@ This script powers the Awesome Copilot menu in VS Code via [Joyride](https://git
 
 ---
 
-[← Back to Index](index.html) | [Download Script](awesome_copilot.cljs)
+[← Back to Index]({{ site.baseurl }}/) | [Download Script](awesome_copilot.cljs)
