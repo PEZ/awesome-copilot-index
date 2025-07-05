@@ -237,6 +237,33 @@ hr {
   margin: 3rem 0;
 }
 
+/* Code textarea styling */
+textarea.code {
+  width: 100%;
+  min-height: 400px;
+  background: #f6f8fa;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 16px;
+  font-family: 'SFMono-Regular', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  resize: vertical;
+  box-shadow: inset 0 1px 0 rgba(208, 215, 222, 0.2);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea.code:focus {
+  outline: none;
+  border-color: #0969da;
+  box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.1);
+}
+
+textarea.code:hover {
+  border-color: #858f99;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .container {

@@ -28,10 +28,10 @@ This script powers the Awesome Copilot menu in VS Code via [Joyride](https://git
 
 ## Script Source
 
-```clojure
+<textarea class="code" readonly>
 {% include_relative awesome_copilot.cljs %}
-```
+</textarea>
 
 ---
 
-[← Back to Index]({{ site.baseurl }}/) | [Download Script](awesome_copilot.cljs)
+[← Back to Index](index.html) | [Download Script](awesome_copilot.cljs)
