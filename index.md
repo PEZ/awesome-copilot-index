@@ -16,7 +16,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Chat Modes** | 7 |
 | **Total Resources** | 40 |
 
-*Last updated: 2025-07-05 08:53:07 UTC*
+*Last updated: 2025-07-05 08:57:29 UTC*
 
 The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
 - [Awesome Copilot Joyride Script](awesome-copilot-script)
@@ -40,6 +40,8 @@ Each entry in the index contains:
 
 ---
 
+<div class="sponsors-section">
+
 ## Support This Project ♥️
 
 If you find this project useful, consider sponsoring me:
@@ -47,6 +49,8 @@ If you find this project useful, consider sponsoring me:
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/pez?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=ff69b4)](https://github.com/sponsors/pez)
 
 Thanks for considering!
+
+</div>
 
 ---
 
