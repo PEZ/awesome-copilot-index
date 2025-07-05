@@ -6,6 +6,10 @@ gem "jekyll", "~> 3.9.0"
 # Required for Jekyll serve on Ruby 3.x
 gem "webrick"
 
+# Fix warnings for Ruby 3.4+ compatibility
+gem "csv"
+gem "faraday-retry"
+
 # GitHub Pages gem for compatibility
 gem "github-pages", group: :jekyll_plugins
 
