@@ -1,0 +1,32 @@
+# Site settings
+title: "Awesome Copilot Index"
+description: "Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes."
+url: "https://pez.github.io/awesome-copilot-index"
+baseurl: ""
+
+# Author
+author:
+  name: "Peter Strömberg"
+  github: "PEZ"
+
+# Social
+social:
+  github: "PEZ"
+  twitter: "pappapez"
+  linkedin: "cospaia"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - awesome-copilot-main/

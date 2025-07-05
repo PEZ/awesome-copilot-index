@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Awesome Copilot Index
+description: Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes.
 ---
 
 # Awesome Copilot Index
