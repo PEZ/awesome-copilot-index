@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Awesome Copilot Index
+description: Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes.
 ---
 
 # Awesome Copilot Index
@@ -15,7 +16,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Chat Modes** | 7 |
 | **Total Resources** | 40 |
 
-*Last updated: 2025-07-05 06:00:33 UTC*
+*Last updated: 2025-07-05 08:53:07 UTC*
 
 The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
 - [Awesome Copilot Joyride Script](awesome-copilot-script)
