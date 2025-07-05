@@ -3,9 +3,9 @@ name: Build Awesome Copilot Index
 on:
   push:
     branches: [ master ]
-  # Run daily at 6 AM UTC to keep index fresh
+  # Run every hour to keep index fresh
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 
