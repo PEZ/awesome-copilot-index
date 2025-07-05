@@ -201,6 +201,33 @@ img {
   margin: 1.5rem 0;
 }
 
+/* Copy button for script */
+.copy-button {
+  float: right;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #656d76;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.copy-button:hover {
+  background: #0969da;
+  color: white;
+  border-color: #0969da;
+}
+
+.copy-button.copied {
+  background: #1a7f37;
+  color: white;
+  border-color: #1a7f37;
+}
+
 /* GitHub Sponsors badge styling - Clean version */
 .sponsors-section {
   text-align: center;
