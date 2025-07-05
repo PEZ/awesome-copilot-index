@@ -20,6 +20,16 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+# Kramdown settings for better code highlighting
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+
 # Plugins
 plugins:
   - jekyll-feed
