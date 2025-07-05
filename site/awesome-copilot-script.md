@@ -28,34 +28,9 @@ This script powers the Awesome Copilot menu in VS Code via [Joyride](https://git
 
 ## Script Source
 
-<button class="copy-button" onclick="copyScript()" id="copy-btn">📋 Copy</button>
-
-```clojure
+<textarea class="code" readonly>
 {% include_relative awesome_copilot.cljs %}
-```
-
-<script>
-async function copyScript() {
-  const button = document.getElementById('copy-btn');
-  const codeBlock = document.querySelector('pre code');
-  
-  try {
-    await navigator.clipboard.writeText(codeBlock.textContent);
-    button.textContent = '✅ Copied!';
-    button.classList.add('copied');
-    
-    setTimeout(() => {
-      button.textContent = '📋 Copy';
-      button.classList.remove('copied');
-    }, 2000);
-  } catch (err) {
-    button.textContent = '❌ Failed';
-    setTimeout(() => {
-      button.textContent = '📋 Copy';
-    }, 2000);
-  }
-}
-</script>
+</textarea>
 
 ---
 
