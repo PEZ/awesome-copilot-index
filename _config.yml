@@ -1,8 +1,8 @@
 # Site settings
 title: "Awesome Copilot Index"
 description: "Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes."
-url: "https://pez.github.io/awesome-copilot-index"
-baseurl: ""
+url: "https://pez.github.io"
+baseurl: "/awesome-copilot-index"
 
 # Author
 author:
