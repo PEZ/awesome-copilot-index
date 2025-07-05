@@ -18,7 +18,6 @@ social:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
 
 # Kramdown settings for better code highlighting
 kramdown:
