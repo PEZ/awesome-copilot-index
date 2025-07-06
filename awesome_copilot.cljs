@@ -26,6 +26,8 @@
 
 (def INDEX-URL "https://pez.github.io/awesome-copilot-index/awesome-copilot.json")
 (def CONTENT-BASE-URL "https://raw.githubusercontent.com/github/awesome-copilot/main/")
+;; Preference management for picker memory
+(def PREFS-KEY "awesome-copilot-preferences")
 
 (defn get-vscode-user-dir []
   (let [context (joyride/extension-context)
@@ -36,6 +38,58 @@
     (-> global-storage-path
         path/dirname
         path/dirname)))
+
+(defn get-preferences []
+  (let [context (joyride/extension-context)
+        global-state (.-globalState context)
+        stored (.get global-state PREFS-KEY)]
+    (if stored
+      (js->clj (js/JSON.parse stored) :keywordize-keys true)
+      {})))
+
+(defn save-preference [key value]
+  (let [context (joyride/extension-context)
+        global-state (.-globalState context)
+        current-prefs (get-preferences)
+        updated-prefs (assoc current-prefs key value)]
+    (.update global-state PREFS-KEY (js/JSON.stringify (clj->js updated-prefs)))))
+
+(defn get-preference [key default-value]
+  (get (get-preferences) key default-value))
+
+(defn show-picker-with-memory+
+  [items {:keys [title placeholder preference-key match-fn save-fn]}]
+  (let [last-choice (get-preference preference-key nil)
+        items-js (clj->js items)
+        picker (vscode/window.createQuickPick)]
+
+    (set! (.-items picker) items-js)
+    (set! (.-title picker) title)
+    (set! (.-placeholder picker) placeholder)
+    (set! (.-ignoreFocusOut picker) true)
+
+    (when last-choice
+      (when-let [active-index (some->> items-js
+                                       (map-indexed vector)
+                                       (some (fn [[idx item]]
+                                               (when (match-fn item last-choice) idx))))]
+        (set! (.-activeItems picker) #js [(aget items-js active-index)])))
+
+    ;; Return a promise that handles the user interaction
+    (js/Promise.
+     (fn [resolve _reject]
+       (.onDidAccept picker
+                     (fn []
+                       (let [selected (first (.-selectedItems picker))]
+                         (.hide picker)
+                         (when selected
+                           (let [selected-clj (js->clj selected :keywordize-keys true)]
+                             (save-preference preference-key (save-fn selected-clj))
+                             (resolve selected-clj))))))
+       (.onDidHide picker
+                   (fn []
+                     (resolve nil)))
+       (.show picker)))))
 
 (def categories
   [{:label "Instructions"
@@ -71,60 +125,62 @@
     :detail "Only available in this project"
     :action :workspace}])
 
-(defn fetch-index []
+(defn fetch-index+ []
   (p/let [response (js/fetch INDEX-URL)
           data (.json response)
           clj-data (js->clj data :keywordize-keys true)]
     clj-data))
 
-(defn fetch-content [link]
+(defn fetch-content+ [link]
   (let [content-url (str CONTENT-BASE-URL link)]
     (p/let [response (js/fetch content-url)
             text (.text response)]
       text)))
 
-(defn show-category-picker []
-  (p/let [selected (vscode/window.showQuickPick
-                    (clj->js categories)
-                    #js {:title "Awesome Copilot"
-                         :placeHolder "Select Awesome Copilot category"
-                         :ignoreFocusOut true})]
-    (when selected
-      (js->clj selected :keywordize-keys true))))
+(defn show-category-picker+ []
+  (show-picker-with-memory+
+   categories
+   {:title "Awesome Copilot"
+    :placeholder "Select Awesome Copilot category"
+    :preference-key :last-category
+    :match-fn (fn [item last-choice] (= (.-category item) last-choice))
+    :save-fn :category}))
 
 (defn show-item-picker [items category-name]
-  (p/let [items-js (clj->js
-                    (map (fn [item]
-                           {:label (:title item)
-                            :iconPath (vscode/ThemeIcon. "copilot")
-                            :description (:filename item)
-                            :detail (:description item)
-                            :item item})
-                         items))
-          selected (vscode/window.showQuickPick
-                    items-js
-                    #js {:placeHolder (str "Select a " category-name " item")
-                         :matchOnDescription true
-                         :matchOnDetail true
-                         :ignoreFocusOut true})]
-    (when selected
-      (js->clj selected :keywordize-keys true))))
+  (let [items-with-metadata (map (fn [item]
+                                   {:label (:title item)
+                                    :iconPath (vscode/ThemeIcon. "copilot")
+                                    :description (:filename item)
+                                    :detail (:description item)
+                                    :item item})
+                                 items)
+        preference-key (keyword (str "last-item-" category-name))]
 
-(defn show-action-menu [item]
-  (p/let [selected (vscode/window.showQuickPick
-                    (clj->js actions)
-                    #js {:placeHolder (str "Action for " (-> item :item :title))
-                         :ignoreFocusOut true})]
-    (when selected
-      (js->clj selected :keywordize-keys true))))
+    (show-picker-with-memory+
+     items-with-metadata
+     {:title "Awesome Copilot"
+      :placeholder (str "Select a " category-name " item")
+      :preference-key preference-key
+      :match-fn (fn [item last-choice]
+                  (= (-> item .-item .-filename) (:filename last-choice)))
+      :save-fn (fn [selected-clj] (-> selected-clj :item))})))
 
-(defn open-in-untitled-editor [content _]
+(defn show-action-menu+ [item]
+  (show-picker-with-memory+
+   actions
+   {:title "Awesome Copilot"
+    :placeholder (str "Action for " (-> item :item :title))
+    :preference-key :last-action
+    :match-fn (fn [action-item last-choice] (= (name (.-action action-item)) (name last-choice)))
+    :save-fn :action}))
+
+(defn open-in-untitled-editor+ [content _]
   (p/let [doc (vscode/workspace.openTextDocument #js {:content content
                                                       :language "markdown"})
           _ (vscode/window.showTextDocument doc)]
     {:success true}))
 
-(defn install-globally [content item category]
+(defn install-globally! [content item category]
   (p/let [vscode-user-dir (get-vscode-user-dir)
           dir-path (cond
                      ;; Instructions go in .vscode/instructions in user home
@@ -161,7 +217,7 @@
          (str "Unknown category: " category))
         {:success false :error (str "Unknown category: " category)}))))
 
-(defn install-to-workspace [content item category]
+(defn install-to-workspace! [content item category]
   (if-let [workspace-folder (first vscode/workspace.workspaceFolders)]
     (let [filename (:filename (:item item))
           workspace-path (-> workspace-folder .-uri .-fsPath)
@@ -193,7 +249,7 @@
       {:success false :error "No workspace folder"})))
 
 ;; Special handling for instructions to copilot-instructions.md
-(defn install-to-copilot-instructions [content item]
+(defn install-to-copilot-instructions! [content item]
   (if-let [workspace-folder (first vscode/workspace.workspaceFolders)]
     (let [workspace-path (-> workspace-folder .-uri .-fsPath)
           github-dir (.join path workspace-path ".github")
@@ -247,22 +303,22 @@
       (vscode/window.showErrorMessage "No workspace folder open")
       {:success false :error "No workspace folder"})))
 
-(defn open-installed-file [file-path]
+(defn open-installed-file+ [file-path]
   (p/let [uri (vscode/Uri.file file-path)
           doc (vscode/workspace.openTextDocument uri)
           _ (vscode/window.showTextDocument doc)]
     {:success true}))
 
-(defn execute-action [item action-type category]
-  (p/let [content (fetch-content (-> item :item :link))]
+(defn execute-action! [item action-type category]
+  (p/let [content (fetch-content+ (-> item :item :link))]
     (case (keyword action-type)
       :view
-      (open-in-untitled-editor content (-> item :item :filename))
+      (open-in-untitled-editor+ content (-> item :item :filename))
 
       :global
-      (p/let [result (install-globally content item category)]
+      (p/let [result (install-globally! content item category)]
         (when (:success result)
-          (open-installed-file (:path result)))
+          (open-installed-file+ (:path result)))
         result)
 
       :workspace
@@ -278,17 +334,17 @@
                 choice-clj (when choice (js->clj choice :keywordize-keys true))
                 choice-text (when choice-clj (:label choice-clj))]
           (if (= choice-text "Copilot Instructions File")
-            (p/let [result (install-to-copilot-instructions content item)]
+            (p/let [result (install-to-copilot-instructions! content item)]
               (when (:success result)
-                (open-installed-file (:path result)))
+                (open-installed-file+ (:path result)))
               result)
-            (p/let [result (install-to-workspace content item category)]
+            (p/let [result (install-to-workspace! content item category)]
               (when (:success result)
-                (open-installed-file (:path result)))
+                (open-installed-file+ (:path result)))
               result)))
-        (p/let [result (install-to-workspace content item category)]
+        (p/let [result (install-to-workspace! content item category)]
           (when (:success result)
-            (open-installed-file (:path result)))
+            (open-installed-file+ (:path result)))
           result))
 
       ;; Unknown action
@@ -298,16 +354,16 @@
 
 (defn main []
   (p/catch
-   (p/let [index (fetch-index)
-           category (show-category-picker)]
+   (p/let [index (fetch-index+)
+           category (show-category-picker+)]
      (when category
        (p/let [category-name (:category category)
                category-items (get index (keyword category-name))
                item (show-item-picker category-items (subs category-name 0 (dec (count category-name))))]
          (when item
-           (p/let [action (show-action-menu item)]
+           (p/let [action (show-action-menu+ item)]
              (when action
-               (execute-action item (:action action) category-name)))))))
+               (execute-action! item (:action action) category-name)))))))
 
    (fn [error]
      (vscode/window.showErrorMessage (str "Error: " (.-message error)))

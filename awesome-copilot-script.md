@@ -24,6 +24,10 @@ This script powers the Awesome Copilot menu in VS Code via [Joyride](https://git
 - **Command Palette**: `Joyride: Run User Script...`
 - **Select**: `awesome_copilot.cljs`
 
+The script presents a sort of “wizard”, with a series of quick-pick menus. The menu for the actual Awesome Copilot content is fuzzy-searchable so you can quickly filter it for the content you are looking for.
+
+The menus remember their last choice, so you can view the contents of an item first, and then quickly find the same item to install it.
+
 ---
 
 ## Script Source
