@@ -40,8 +40,14 @@ jobs:
       - name: Download awesome-copilot repository
         run: bb download-awesome
 
+      - name: Download awesome-cursorrules repository
+        run: bb download-cursorrules
+
       - name: Generate index files
         run: bb generate-index
+
+      - name: Generate cursor rules index
+        run: bb generate-cursorrules-index
 
       - name: Create pages directory structure
         run: |
