@@ -126,7 +126,138 @@
      (println "Index generation complete!")
      index-data)))
 
+;; Cursor rules processing functions
+
+(defn directory-name-to-tech-stack
+  "Convert directory name to human-readable tech stack"
+  [dir-name]
+  (-> dir-name
+      (str/replace #"-cursorrules-prompt-file$" "")
+      (str/replace #"-" " ")
+      (str/split #" ")
+      (->> (map (fn [word]
+                  (case word
+                    "nextjs" "Next.js"
+                    "fastapi" "FastAPI"
+                    "js" "JS"
+                    "ts" "TypeScript"
+                    "typescript" "TypeScript"
+                    "react" "React"
+                    "python" "Python"
+                    "rails" "Rails"
+                    "go" "Go"
+                    "vue" "Vue"
+                    "angular" "Angular"
+                    "svelte" "Svelte"
+                    "node" "Node.js"
+                    "nodejs" "Node.js"
+                    "express" "Express"
+                    "django" "Django"
+                    "flask" "Flask"
+                    "rust" "Rust"
+                    "java" "Java"
+                    "spring" "Spring"
+                    "kotlin" "Kotlin"
+                    "swift" "Swift"
+                    "php" "PHP"
+                    "laravel" "Laravel"
+                    "symfony" "Symfony"
+                    "csharp" "C#"
+                    "dotnet" ".NET"
+                    "net" ".NET"
+                    "cpp" "C++"
+                    "c++" "C++"
+                    (str/capitalize word))))
+           (str/join " "))))
+
+(defn filename-to-domain
+  "Convert filename to human-readable domain"
+  [filename]
+  (-> filename
+      (str/replace #"\.(mdc|mdx)$" "")
+      (str/replace #"[-_]" " ")
+      (str/split #" ")
+      (->> (map str/capitalize)
+           (str/join " "))))
+
+(defn get-component-type
+  "Determine component type from filename"
+  [filename]
+  (cond
+    (str/ends-with? filename ".mdc") "mdc"
+    (str/ends-with? filename ".mdx") "mdx"
+    :else nil))
+
+(defn get-cursor-rule-files
+  "Get all .mdc and .mdx files in a directory (exclude .cursorrules and README.md)"
+  [dir]
+  (->> (fs/list-dir dir)
+       (filter #(let [filename (fs/file-name %)]
+                  (and (or (str/ends-with? filename ".mdc")
+                           (str/ends-with? filename ".mdx"))
+                       (not= filename "README.md"))))
+       (sort)))
+
+(defn process-cursor-rule-file
+  "Process a single cursor rule file and extract metadata"
+  [file-path base-dir tech-stack]
+  (let [file-str (str file-path)
+        content (slurp file-str)
+        parsed (parse-markdown-file content)
+        frontmatter (parse-frontmatter (:frontmatter parsed))
+        filename (fs/file-name file-path)
+        domain (filename-to-domain filename)
+        title (extract-title (:content parsed) frontmatter filename)
+        relative-path (str/replace file-str (str (fs/path base-dir) fs/file-separator) "")
+        component-type (get-component-type filename)]
+    {:title title
+     :description (:description frontmatter)
+     :tech-stack tech-stack
+     :domain domain
+     :link relative-path
+     :component-type component-type}))
+
+(defn process-cursorrules-tech-directory
+  "Process a single technology directory for cursor rules"
+  [tech-dir base-dir]
+  (let [dir-name (fs/file-name tech-dir)
+        tech-stack (directory-name-to-tech-stack dir-name)
+        cursor-rule-files (get-cursor-rule-files tech-dir)]
+    (when (seq cursor-rule-files)
+      (println "Processing" dir-name "(" tech-stack ") -" (count cursor-rule-files) "files")
+      (->> cursor-rule-files
+           (map #(process-cursor-rule-file % base-dir tech-stack))))))
+
+(defn process-cursorrules-directory
+  "Process all technology directories in the cursor rules repository"
+  [base-dir]
+  (println "Processing cursor rules from" base-dir "...")
+  (let [rules-dir (fs/path base-dir "rules")]
+    (->> (fs/list-dir rules-dir)
+         (filter #(and (fs/directory? %)
+                       (str/ends-with? (fs/file-name %) "-cursorrules-prompt-file")))
+         (mapcat #(process-cursorrules-tech-directory % base-dir))
+         (filter some?)
+         (vec))))
+
+(defn generate-cursorrules-index!
+  "Generate cursor rules index files from repository contents"
+  ([] (generate-cursorrules-index! "awesome-cursorrules-main"))
+  ([base-dir]
+   (println "Generating cursor rules index from" base-dir "...")
+   (let [cursor-rules (process-cursorrules-directory base-dir)
+         index-data {:generated (str (java.time.Instant/now))
+                     :cursor-rules cursor-rules}]
+     (println "Found" (count cursor-rules) "cursor rule components")
+     (println "Writing site/cursor-rules.json...")
+     (spit "site/cursor-rules.json" (json/generate-string index-data {:pretty true}))
+     (println "Writing site/cursor-rules.edn...")
+     (spit "site/cursor-rules.edn" (with-out-str (pprint/pprint index-data)))
+     (println "Cursor rules index generation complete!")
+     index-data)))
+
 (comment
   (generate-index!)
+  (generate-cursorrules-index!)
   :rcf)
 

@@ -1,6 +1,10 @@
 {:paths ["src"]
  :tasks
- {download-awesome {:doc "Download the awesome-copilot repository"
-                    :task pez.tasks/download-awesome!}
-  generate-index   {:doc "Generate index files from the awesome-copilot repository"
-                    :task pez.tasks/generate-index!}}}
+ {download-awesome       {:doc "Download the awesome-copilot repository"
+                          :task pez.tasks/download-awesome!}
+  generate-index         {:doc "Generate index files from the awesome-copilot repository"
+                          :task pez.tasks/generate-index!}
+  download-cursorrules   {:doc "Download the awesome-cursorrules repository"
+                          :task pez.tasks/download-cursorrules!}
+  generate-cursorrules-index {:doc "Generate cursor rules index files from the awesome-cursorrules repository"
+                              :task pez.tasks/generate-cursorrules-index!}}}

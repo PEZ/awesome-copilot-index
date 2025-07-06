@@ -28,6 +28,8 @@ pom.xml.asc
 
 # Generated content from awesome-copilot repository
 awesome-copilot-main/
+# Generated content from awesome-cursorrules repository
+awesome-cursorrules-main/
 
 # Generated index files (Babashka tasks)
 site/awesome-copilot.json

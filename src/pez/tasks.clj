@@ -7,6 +7,9 @@
 (def awesome-dir "awesome-copilot-main")
 (def zip-url "https://github.com/github/awesome-copilot/archive/refs/heads/main.zip")
 
+(def cursorrules-dir "awesome-cursorrules-main")
+(def cursorrules-zip-url "https://github.com/PatrickJS/awesome-cursorrules/archive/refs/heads/main.zip")
+
 (defn ^:export download-awesome!
   "Get contents of the awesome-copilot repository without git history"
   [& _]
@@ -24,6 +27,32 @@
     (fs/unzip zip-file ".")
     (fs/delete zip-file))
   (println "Repository contents extracted to:" awesome-dir))
+
+(defn ^:export download-cursorrules!
+  "Get contents of the awesome-cursorrules repository without git history"
+  [& _]
+  (when (fs/exists? cursorrules-dir)
+    (println "Removing existing" cursorrules-dir "directory...")
+    (fs/delete-tree cursorrules-dir))
+  (println "Downloading cursor rules repository ZIP archive...")
+  (let [zip-file "awesome-cursorrules.zip"
+        response (http/get cursorrules-zip-url {:as :stream})
+        body     (:body response)]
+    (with-open [in body
+                out (io/output-stream zip-file)]
+      (io/copy in out))
+    (println "Extracting ZIP archive...")
+    (fs/unzip zip-file ".")
+    (fs/delete zip-file))
+  (println "Cursor rules repository contents extracted to:" cursorrules-dir))
+
+(defn ^:export generate-cursorrules-index!
+  "Generate cursor rules index files from the downloaded awesome-cursorrules repository"
+  [& _]
+  (when-not (fs/exists? cursorrules-dir)
+    (throw (ex-info (str "Cursor rules repository directory '" cursorrules-dir "' not found. Run 'bb download-cursorrules!' first.")
+                    {:directory cursorrules-dir})))
+  (index/generate-cursorrules-index! cursorrules-dir))
 
 (defn ^:export generate-index!
   "Generate index files from the downloaded awesome-copilot repository"
