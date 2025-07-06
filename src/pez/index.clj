@@ -230,10 +230,10 @@
          index-data {:generated (str (java.time.Instant/now))
                      :cursor-rules cursor-rules}]
      (println "Found" (count cursor-rules) "cursor rule components")
-     (println "Writing site/cursor-rules.json...")
-     (spit "site/cursor-rules.json" (json/generate-string index-data {:pretty true}))
-     (println "Writing site/cursor-rules.edn...")
-     (spit "site/cursor-rules.edn" (with-out-str (pprint/pprint index-data)))
+     (println "Writing site/awesome-cursorrules.json...")
+     (spit "site/awesome-cursorrules.json" (json/generate-string index-data {:pretty true}))
+     (println "Writing site/awesome-cursorrules.edn...")
+     (spit "site/awesome-cursorrules.edn" (with-out-str (pprint/pprint index-data)))
      (println "Cursor rules index generation complete!")
      index-data)))
 
