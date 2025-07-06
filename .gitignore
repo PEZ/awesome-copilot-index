@@ -35,6 +35,8 @@ awesome-cursorrules-main/
 site/awesome-copilot.json
 site/awesome-copilot.edn
 site/index.md
+site/cursor-rules.edn
+site/cursor-rules.json
 
 # Jekyll generated content
 site/_site/
