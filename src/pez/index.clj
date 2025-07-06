@@ -139,34 +139,17 @@
                   (case word
                     "nextjs" "Next.js"
                     "fastapi" "FastAPI"
-                    "js" "JS"
-                    "ts" "TypeScript"
-                    "typescript" "TypeScript"
-                    "react" "React"
-                    "python" "Python"
-                    "rails" "Rails"
-                    "go" "Go"
-                    "vue" "Vue"
-                    "angular" "Angular"
-                    "svelte" "Svelte"
+                    "js" "JS/JavaScript"
+                    "ts" "TS/TypeScript"
+                    "typescript" "TS/TypeScript"
                     "node" "Node.js"
                     "nodejs" "Node.js"
-                    "express" "Express"
-                    "django" "Django"
-                    "flask" "Flask"
-                    "rust" "Rust"
-                    "java" "Java"
-                    "spring" "Spring"
-                    "kotlin" "Kotlin"
-                    "swift" "Swift"
                     "php" "PHP"
-                    "laravel" "Laravel"
-                    "symfony" "Symfony"
-                    "csharp" "C#"
-                    "dotnet" ".NET"
-                    "net" ".NET"
-                    "cpp" "C++"
-                    "c++" "C++"
+                    "csharp" "C#/csharp"
+                    "dotnet" ".NET/dotnet"
+                    "net" ".NET/dotnet"
+                    "cpp" "C++/cpp"
+                    "c++" "C++/cpp"
                     (str/capitalize word))))
            (str/join " "))))
 
@@ -207,11 +190,9 @@
         frontmatter (parse-frontmatter (:frontmatter parsed))
         filename (fs/file-name file-path)
         domain (filename-to-domain filename)
-        title (extract-title (:content parsed) frontmatter filename)
         relative-path (str/replace file-str (str (fs/path base-dir) fs/file-separator) "")
         component-type (get-component-type filename)]
-    {:title title
-     :description (:description frontmatter)
+    {:description (:description frontmatter)
      :tech-stack tech-stack
      :domain domain
      :link relative-path
