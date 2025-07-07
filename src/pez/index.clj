@@ -14,13 +14,17 @@
       (let [end-idx (->> lines
                         rest
                         (map-indexed vector)
-                        (filter #(= "---" (second %)))
+                        (filter #(= "---" (str/trim (second %))))
                         first
-                        first)
-            frontmatter-lines (take end-idx (rest lines))
-            content-lines (drop (+ end-idx 2) lines)]
-        {:frontmatter frontmatter-lines
-         :content content-lines})
+                        first)]
+        (if end-idx
+          (let [frontmatter-lines (take end-idx (rest lines))
+                content-lines (drop (+ end-idx 2) lines)]
+            {:frontmatter frontmatter-lines
+             :content content-lines})
+          ;; Fallback: treat as content-only if no closing --- found
+          {:frontmatter []
+           :content lines}))
       {:frontmatter []
        :content lines})))
 
