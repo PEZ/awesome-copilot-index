@@ -8,6 +8,8 @@ description: Browse and convert Awesome Cursor Rules to Copilot Instructions, Pr
 
 Browse and convert [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) to Copilot [Instructions](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions), [Prompts](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental), and [Chat modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes) right from inside VS Code with this [Joyride](https://github.com/BetterThanTomorrow/joyride) Script.
 
+![awesome-cursorrules-to-copilot-menu](awesome-cursorrules-to-copilot-menu.png)
+
 As the [Awesome Copilot repository](https://github.com/github/awesome-copilot) grows you may not always find the configuration you need using the [Awesome Copilot VS Code Menu](awesome-copilot-script.md). That's where this script comes in, because maybe the content you need is available at Awesome Cursor Rules.
 
 
@@ -36,7 +38,7 @@ The menus remember their last choice, so you can view the contents or the README
 
 When you have confirmed that you have Copilot configuration that is helpful, consider contributing them to the [Awesome Copilot repository](https://github.com/github/awesome-copilot).
 
-See also: [Awesome Copilot VS Code Menu](awesome-copilot-script.md)
+See also: [Awesome Copilot VS Code Menu](awesome-copilot-script)
 
 ---
 
