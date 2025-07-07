@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-07T07:57:46.600742726Z",
+  "generated" : "2025-07-07T14:28:15.791819301Z",
   "cursor-rules" : [ {
     "description" : "Interaction with AI models. Used to minimize AI generated comments and focus on clear code",
     "tech-stack" : "Next.js TS/TypeScript Tailwind",
@@ -99,19 +99,19 @@
   }, {
     "description" : "Applies general best practices for using HTMX with Go, focusing on server-side rendering and request handling.",
     "tech-stack" : "Htmx Go Basic",
-    "domain" : "Htmx And Go   Best Practices",
+    "domain" : "Htmx And Go Best Practices",
     "link" : "rules/htmx-go-basic-cursorrules-prompt-file/htmx-and-go---best-practices.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides additional instructions for implementing HTMX with Go, including semantic HTML, CSRF protection, and error handling.",
     "tech-stack" : "Htmx Go Basic",
-    "domain" : "Htmx With Go   Additional Instructions",
+    "domain" : "Htmx With Go Additional Instructions",
     "link" : "rules/htmx-go-basic-cursorrules-prompt-file/htmx-with-go---additional-instructions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specifies the recommended folder structure for a Go project using HTMX, including directories for commands, internal logic, templates, and static assets.",
     "tech-stack" : "Htmx Go Basic",
-    "domain" : "Htmx With Go   Folder Structure",
+    "domain" : "Htmx With Go Folder Structure",
     "link" : "rules/htmx-go-basic-cursorrules-prompt-file/htmx-with-go---folder-structure.mdc",
     "component-type" : "mdc"
   }, {
@@ -153,85 +153,85 @@
   }, {
     "description" : "Suggests utilizing createStore for complex state management within SolidJS components.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Complex State Management",
+    "domain" : "Solidjs Complex State Management",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---complex-state-management.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Advises the implementation of Show and For components for conditional and list rendering in SolidJS.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Conditional And List Rendering",
+    "domain" : "Solidjs Conditional And List Rendering",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---conditional-and-list-rendering.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Recommends using createResource for data fetching within SolidJS components.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Data Fetching",
+    "domain" : "Solidjs Data Fetching",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---data-fetching.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Guides the implementation of createMemo for managing derived values in SolidJS components.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Derived Values Management",
+    "domain" : "Solidjs Derived Values Management",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---derived-values-management.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Recommends implementing proper error boundaries within the SolidJS project.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Error Boundaries",
+    "domain" : "Solidjs Error Boundaries",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---error-boundaries.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces the preference for functional components in SolidJS projects within the components directory.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Functional Components Preference",
+    "domain" : "Solidjs Functional Components Preference",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---functional-components-preference.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specifies the use of JSX for component templates throughout the SolidJS project.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Jsx Templates",
+    "domain" : "Solidjs Jsx Templates",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---jsx-templates.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Recommends implementing lazy-loading for improved performance within SolidJS.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Lazy Loading",
+    "domain" : "Solidjs Lazy Loading",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---lazy-loading.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Requires adherence to Solid.js naming conventions and best practices throughout the project.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Naming Conventions",
+    "domain" : "Solidjs Naming Conventions",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---naming-conventions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Suggests utilizing Solid's built-in optimization features for enhanced performance.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Optimization Features",
+    "domain" : "Solidjs Optimization Features",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---optimization-features.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides guidelines for managing reactive state using createSignal in SolidJS components.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Reactive State Management",
+    "domain" : "Solidjs Reactive State Management",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---reactive-state-management.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Suggests the implementation of server-side rendering (SSR) when needed in SolidJS projects.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Server Side Rendering",
+    "domain" : "Solidjs Server Side Rendering",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---server-side-rendering.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specifies the use of createEffect for handling side effects in SolidJS components.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Side Effects Handling",
+    "domain" : "Solidjs Side Effects Handling",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---side-effects-handling.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Encourages the use of Solid Router for routing when applicable in SolidJS projects.",
     "tech-stack" : "Solidjs Basic",
-    "domain" : "Solidjs   Solid Router",
+    "domain" : "Solidjs Solid Router",
     "link" : "rules/solidjs-basic-cursorrules-prompt-file/solidjs---solid-router.mdc",
     "component-type" : "mdc"
   }, {
@@ -399,25 +399,25 @@
   }, {
     "description" : "Provides additional instructions for TypeScript React development, including file extensions, strict checks, and error handling.",
     "tech-stack" : "TS/TypeScript React",
-    "domain" : "Typescript React   Additional Instructions",
+    "domain" : "Typescript React Additional Instructions",
     "link" : "rules/typescript-react-cursorrules-prompt-file/typescript-react---additional-instructions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces TypeScript React best practices related to using React.FC, hooks, interfaces, and optimization techniques.",
     "tech-stack" : "TS/TypeScript React",
-    "domain" : "Typescript React   Best Practices",
+    "domain" : "Typescript React Best Practices",
     "link" : "rules/typescript-react-cursorrules-prompt-file/typescript-react---best-practices.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Defines the preferred folder structure for TypeScript React projects to maintain a consistent organization.",
     "tech-stack" : "TS/TypeScript React",
-    "domain" : "Typescript React   Folder Structure",
+    "domain" : "Typescript React Folder Structure",
     "link" : "rules/typescript-react-cursorrules-prompt-file/typescript-react---folder-structure.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Sets general preferences for TypeScript React development, such as preferring functional components.",
     "tech-stack" : "TS/TypeScript React",
-    "domain" : "Typescript React   General Preferences",
+    "domain" : "Typescript React General Preferences",
     "link" : "rules/typescript-react-cursorrules-prompt-file/typescript-react---general-preferences.mdc",
     "component-type" : "mdc"
   }, {
@@ -1077,55 +1077,55 @@
   }, {
     "description" : "Recommends a flexible project structure for Android applications, adapting to existing project organization.",
     "tech-stack" : "Android Jetpack Compose",
-    "domain" : "Android   Project Structure",
+    "domain" : "Android Project Structure",
     "link" : "rules/android-jetpack-compose-cursorrules-prompt-file/android---project-structure.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Applies general best practices for Android Jetpack Compose development within the main application code.",
     "tech-stack" : "Android Jetpack Compose",
-    "domain" : "Android Jetpack Compose   General Best Practices",
+    "domain" : "Android Jetpack Compose General Best Practices",
     "link" : "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---general-best-practices.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Outlines performance optimization guidelines for Android Jetpack Compose applications.",
     "tech-stack" : "Android Jetpack Compose",
-    "domain" : "Android Jetpack Compose   Performance Guidelines",
+    "domain" : "Android Jetpack Compose Performance Guidelines",
     "link" : "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---performance-guidelines.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Defines testing guidelines for Android Jetpack Compose components, ViewModels, and UseCases.",
     "tech-stack" : "Android Jetpack Compose",
-    "domain" : "Android Jetpack Compose   Testing Guidelines",
+    "domain" : "Android Jetpack Compose Testing Guidelines",
     "link" : "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---testing-guidelines.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces specific UI-related guidelines for Jetpack Compose within the presentation layer.",
     "tech-stack" : "Android Jetpack Compose",
-    "domain" : "Android Jetpack Compose   Ui Guidelines",
+    "domain" : "Android Jetpack Compose Ui Guidelines",
     "link" : "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---ui-guidelines.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Applies general rules for Convex development, emphasizing schema design, validator usage, and correct handling of system fields.",
     "tech-stack" : "Convex",
-    "domain" : "Convex Development   General",
+    "domain" : "Convex Development General",
     "link" : "rules/convex-cursorrules-prompt-file/convex-development---general.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides guidance on using built-in system fields and data types when defining Convex schemas to ensure proper data handling.",
     "tech-stack" : "Convex",
-    "domain" : "Convex Schema Design   Built In Types",
+    "domain" : "Convex Schema Design Built In Types",
     "link" : "rules/convex-cursorrules-prompt-file/convex-schema-design---built-in-types.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Instructs developers to follow the patterns demonstrated in the example schema provided, paying attention to index creation and field validation using `v`.",
     "tech-stack" : "Convex",
-    "domain" : "Convex Schema Design   Example Schema",
+    "domain" : "Convex Schema Design Example Schema",
     "link" : "rules/convex-cursorrules-prompt-file/convex-schema-design---example-schema.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces the understanding that Convex automatically handles system fields (_id, _creationTime) and that manual index creation for these fields is unnecessary.",
     "tech-stack" : "Convex",
-    "domain" : "Convex Schema Design   System Fields",
+    "domain" : "Convex Schema Design System Fields",
     "link" : "rules/convex-cursorrules-prompt-file/convex-schema-design---system-fields.mdc",
     "component-type" : "mdc"
   }, {
@@ -1370,31 +1370,31 @@
     "component-type" : "mdc"
   }, {
     "description" : "Specific guidelines for Django projects, enforcing the use of the latest stable version and best practices.",
-    "tech-stack" : "Python  TS/TypeScript Guide",
+    "tech-stack" : "Python TS/TypeScript Guide",
     "domain" : "Django Framework Rules",
     "link" : "rules/python--typescript-guide-cursorrules-prompt-file/django-framework-rules.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "General rules for the AI's behavior, focusing on providing accurate and thoughtful answers.",
-    "tech-stack" : "Python  TS/TypeScript Guide",
+    "tech-stack" : "Python TS/TypeScript Guide",
     "domain" : "General Ai Behavior Rules",
     "link" : "rules/python--typescript-guide-cursorrules-prompt-file/general-ai-behavior-rules.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "General rules for Python and Typescript code to ensure clarity and readability.",
-    "tech-stack" : "Python  TS/TypeScript Guide",
+    "tech-stack" : "Python TS/TypeScript Guide",
     "domain" : "Python And Typescript Code Style",
     "link" : "rules/python--typescript-guide-cursorrules-prompt-file/python-and-typescript-code-style.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specific rules for React projects, enforcing the use of the latest stable version and best practices.",
-    "tech-stack" : "Python  TS/TypeScript Guide",
+    "tech-stack" : "Python TS/TypeScript Guide",
     "domain" : "React Framework Rules",
     "link" : "rules/python--typescript-guide-cursorrules-prompt-file/react-framework-rules.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Rules for using Tailwind CSS and InertiaJS, including the use of Catalyst components.",
-    "tech-stack" : "Python  TS/TypeScript Guide",
+    "tech-stack" : "Python TS/TypeScript Guide",
     "domain" : "Tailwind And Inertiajs Rules",
     "link" : "rules/python--typescript-guide-cursorrules-prompt-file/tailwind-and-inertiajs-rules.mdc",
     "component-type" : "mdc"
@@ -1479,19 +1479,19 @@
   }, {
     "description" : "Provides additional instructions for NativeScript development, such as using TypeScript, secure storage and biometrics for sensitive data, nativescript-fonticon for font icons.",
     "tech-stack" : "Nativescript",
-    "domain" : "Nativescript   Additional Instructions",
+    "domain" : "Nativescript Additional Instructions",
     "link" : "rules/nativescript-cursorrules-prompt-file/nativescript---additional-instructions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Applies general NativeScript best practices.",
     "tech-stack" : "Nativescript",
-    "domain" : "Nativescript   General Best Practices",
+    "domain" : "Nativescript General Best Practices",
     "link" : "rules/nativescript-cursorrules-prompt-file/nativescript---general-best-practices.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces the recommended folder structure for NativeScript projects at the root level, including assets, src, and nativescript.config.ts.",
     "tech-stack" : "Nativescript",
-    "domain" : "Nativescript   Project Structure",
+    "domain" : "Nativescript Project Structure",
     "link" : "rules/nativescript-cursorrules-prompt-file/nativescript---project-structure.mdc",
     "component-type" : "mdc"
   }, {
@@ -1521,25 +1521,25 @@
   }, {
     "description" : "Specifies steps to adapt generated React components to the SPA project structure after initial creation.",
     "tech-stack" : "React Components Creation",
-    "domain" : "React Component Adaptation   Post Generation Spa",
+    "domain" : "React Component Adaptation Post Generation Spa",
     "link" : "rules/react-components-creation-cursorrules-prompt-file/react-component-adaptation---post-generation-spa.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specifies steps to adapt generated React components to the project structure after initial creation.",
     "tech-stack" : "React Components Creation",
-    "domain" : "React Component Adaptation   Post Generation",
+    "domain" : "React Component Adaptation Post Generation",
     "link" : "rules/react-components-creation-cursorrules-prompt-file/react-component-adaptation---post-generation.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides guidelines for creating React components, emphasizing careful planning, existing component checks, and prompt generation.",
     "tech-stack" : "React Components Creation",
-    "domain" : "React Component Creation   General",
+    "domain" : "React Component Creation General",
     "link" : "rules/react-components-creation-cursorrules-prompt-file/react-component-creation---general.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides guidelines for creating React components, emphasizing careful planning, existing component checks, and prompt generation in SPA.",
     "tech-stack" : "React Components Creation",
-    "domain" : "React Component Creation   Spa App",
+    "domain" : "React Component Creation Spa App",
     "link" : "rules/react-components-creation-cursorrules-prompt-file/react-component-creation---spa-app.mdc",
     "component-type" : "mdc"
   }, {
@@ -1647,25 +1647,25 @@
   }, {
     "description" : "Provides additional instructions for React Native Expo development, such as using TypeScript, StyleSheet for styling, and Expo's secure store for sensitive data.",
     "tech-stack" : "React Native Expo",
-    "domain" : "React Native Expo   Additional Instructions",
+    "domain" : "React Native Expo Additional Instructions",
     "link" : "rules/react-native-expo-cursorrules-prompt-file/react-native-expo---additional-instructions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Applies general React Native Expo best practices within the src directory, such as using functional components with hooks and Expo SDK features.",
     "tech-stack" : "React Native Expo",
-    "domain" : "React Native Expo   General Best Practices",
+    "domain" : "React Native Expo General Best Practices",
     "link" : "rules/react-native-expo-cursorrules-prompt-file/react-native-expo---general-best-practices.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces the recommended folder structure for React Native Expo projects at the root level, including assets, src, App.js, and app.json.",
     "tech-stack" : "React Native Expo",
-    "domain" : "React Native Expo   Project Structure",
+    "domain" : "React Native Expo Project Structure",
     "link" : "rules/react-native-expo-cursorrules-prompt-file/react-native-expo---project-structure.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specific configuration guidelines for the root level files App.js and app.json",
     "tech-stack" : "React Native Expo",
-    "domain" : "React Native Expo   Root Files",
+    "domain" : "React Native Expo Root Files",
     "link" : "rules/react-native-expo-cursorrules-prompt-file/react-native-expo---root-files.mdc",
     "component-type" : "mdc"
   }, {
@@ -1875,55 +1875,55 @@
   }, {
     "description" : "Rules for data handling and preprocessing scripts in chemistry ML projects, emphasizing robust pipelines and appropriate techniques for chemical data.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Data Handling And Preprocessing",
+    "domain" : "Chemistry Ml Data Handling And Preprocessing",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---data-handling-and-preprocessing.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "General Python guidelines for chemistry machine learning projects, including code style, naming conventions, and documentation.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   General Python",
+    "domain" : "Chemistry Ml General Python",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---general-python.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Rules for model evaluation and interpretation scripts in chemistry ML projects, emphasizing appropriate metrics, error analysis, and visualization techniques.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Model Evaluation And Interpretation",
+    "domain" : "Chemistry Ml Model Evaluation And Interpretation",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---model-evaluation-and-interpretation.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Guidelines for deep learning model development with PyTorch in chemistry applications, including network architecture, batch processing, and optimization techniques.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Pytorch Models",
+    "domain" : "Chemistry Ml Pytorch Models",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---pytorch-models.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specific guidance regarding the usage of RDKit and related cheminformatics libraries",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Rdkit Usage",
+    "domain" : "Chemistry Ml Rdkit Usage",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---rdkit-usage.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Guidelines for ensuring reproducibility and proper version control in chemistry machine learning projects.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Reproducibility And Version Control",
+    "domain" : "Chemistry Ml Reproducibility And Version Control",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---reproducibility-and-version-control.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Guidelines for developing machine learning models using scikit-learn in chemistry applications, focusing on algorithm selection, hyperparameter tuning, and cross-validation.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Scikit Learn Models",
+    "domain" : "Chemistry Ml Scikit Learn Models",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---scikit-learn-models.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Guidelines for integrating machine learning models with a Tauri frontend via a backend like Flask",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Tauri Integration",
+    "domain" : "Chemistry Ml Tauri Integration",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---tauri-integration.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Rules for implementing testing and validation procedures specific to chemistry applications.",
     "tech-stack" : "Pytorch Scikit Learn",
-    "domain" : "Chemistry Ml   Testing And Validation",
+    "domain" : "Chemistry Ml Testing And Validation",
     "link" : "rules/pytorch-scikit-learn-cursorrules-prompt-file/chemistry-ml---testing-and-validation.mdc",
     "component-type" : "mdc"
   }, {
@@ -2307,7 +2307,7 @@
   }, {
     "description" : "Applies best practices for HTMX and Django integration, focusing on template usage within the 'templates' directory. It encourages using Django's templating engine with HTMX attributes.",
     "tech-stack" : "Htmx Django",
-    "domain" : "Htmx And Django Best Practices   General",
+    "domain" : "Htmx And Django Best Practices General",
     "link" : "rules/htmx-django-cursorrules-prompt-file/htmx-and-django-best-practices---general.mdc",
     "component-type" : "mdc"
   }, {
@@ -2421,13 +2421,13 @@
   }, {
     "description" : "Specific rules for composables in the Vue 3 Composition API. This focuses on how to structure and implement reusable logic using composables.",
     "tech-stack" : "Vue3 Composition Api",
-    "domain" : "Vue 3 Composition Api   Composables",
+    "domain" : "Vue 3 Composition Api Composables",
     "link" : "rules/vue3-composition-api-cursorrules-prompt-file/vue-3-composition-api---composables.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "General guidelines for Vue 3 components using the Composition API. This includes best practices and recommendations for component structure and reactive state management.",
     "tech-stack" : "Vue3 Composition Api",
-    "domain" : "Vue 3 Composition Api   General",
+    "domain" : "Vue 3 Composition Api General",
     "link" : "rules/vue3-composition-api-cursorrules-prompt-file/vue-3-composition-api---general.mdc",
     "component-type" : "mdc"
   }, {
@@ -2445,43 +2445,43 @@
   }, {
     "description" : "Accessibility features for React components built with Chakra UI.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Accessibility Features",
+    "domain" : "Chakra Ui Accessibility Features",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---accessibility-features.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Ensuring that React components are built composably using Chakra UI components.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Component Composition",
+    "domain" : "Chakra Ui Component Composition",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---component-composition.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Implement dark mode using Chakra UI's color mode when building React components.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Dark Mode Implementation",
+    "domain" : "Chakra Ui Dark Mode Implementation",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---dark-mode-implementation.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Following Chakra UI best practices for optimizing React components for performance.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Performance Optimization",
+    "domain" : "Chakra Ui Performance Optimization",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---performance-optimization.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Utilize Chakra UI's layout components for creating responsive designs in React applications.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Responsive Design",
+    "domain" : "Chakra Ui Responsive Design",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---responsive-design.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Use the 'as' prop for semantic HTML rendering when working with Chakra UI components.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Semantic Html Rendering",
+    "domain" : "Chakra Ui Semantic Html Rendering",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---semantic-html-rendering.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Rules specific to the theme directory for managing and customizing the Chakra UI theme.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "Chakra Ui   Theme Directory Rules",
+    "domain" : "Chakra Ui Theme Directory Rules",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/chakra-ui---theme-directory-rules.mdc",
     "component-type" : "mdc"
   }, {
@@ -2493,19 +2493,19 @@
   }, {
     "description" : "Maintain the defined folder structure for React and Chakra UI projects to ensure organized code.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "React Chakra Ui   Folder Structure",
+    "domain" : "React Chakra Ui Folder Structure",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/react-chakra-ui---folder-structure.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "General preferences for React components using Chakra UI, including the use of functional components with hooks.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "React Chakra Ui   General Preferences",
+    "domain" : "React Chakra Ui General Preferences",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/react-chakra-ui---general-preferences.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Utilize Typescript for type safety when using React components with Chakra UI.",
     "tech-stack" : "React Chakra Ui",
-    "domain" : "React Chakra Ui   Typescript Usage",
+    "domain" : "React Chakra Ui Typescript Usage",
     "link" : "rules/react-chakra-ui-cursorrules-prompt-file/react-chakra-ui---typescript-usage.mdc",
     "component-type" : "mdc"
   }, {
@@ -2763,49 +2763,49 @@
   }, {
     "description" : "Recommends utilizing styled-components' attrs method for frequently used props.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Attrs Method",
+    "domain" : "Styled Components Attrs Method",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---attrs-method.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Recommends using the css prop for conditional styling in Styled Components when appropriate.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Conditional Styling Css Prop",
+    "domain" : "Styled Components Conditional Styling Css Prop",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---conditional-styling-css-prop.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Ensures all styling is done using CSS-in-JS with Styled Components.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Css In Js",
+    "domain" : "Styled Components Css In Js",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---css-in-js.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Recommends following the styled-components documentation for best practices.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Documentation",
+    "domain" : "Styled Components Documentation",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---documentation.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces proper naming conventions for Styled Components.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Naming Conventions",
+    "domain" : "Styled Components Naming Conventions",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---naming-conventions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Specifies the use of a consistent theming system with Styled Components.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Theming",
+    "domain" : "Styled Components Theming",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---theming.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Ensures proper TypeScript support for styled-components.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components   Typescript Support",
+    "domain" : "Styled Components Typescript Support",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components---typescript-support.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Applies best practices for Styled Components within React components.",
     "tech-stack" : "React Styled Components",
-    "domain" : "Styled Components Best Practices   General",
+    "domain" : "Styled Components Best Practices General",
     "link" : "rules/react-styled-components-cursorrules-prompt-file/styled-components-best-practices---general.mdc",
     "component-type" : "mdc"
   }, {
@@ -3165,7 +3165,7 @@
   }, {
     "description" : "Instructions for using snippets in Svelte 5 components to create reusable markup.",
     "tech-stack" : "Svelte 5 Vs Svelte 4",
-    "domain" : "Svelte 5 Component Structure   Snippets",
+    "domain" : "Svelte 5 Component Structure Snippets",
     "link" : "rules/svelte-5-vs-svelte-4-cursorrules-prompt-file/svelte-5-component-structure---snippets.mdc",
     "component-type" : "mdc"
   }, {
@@ -3183,37 +3183,37 @@
   }, {
     "description" : "Applies Qwik.js best practices for files within the src directory, focusing on lazy-loading, reactive state, data fetching, and side effects.",
     "tech-stack" : "Qwik Basic",
-    "domain" : "Qwik Js   Best Practices",
+    "domain" : "Qwik Js Best Practices",
     "link" : "rules/qwik-basic-cursorrules-prompt-file/qwik-js---best-practices.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Focuses on error handling, routing with Qwik City, Qwik's optimization features, and lazy-loading for improved performance.",
     "tech-stack" : "Qwik Basic",
-    "domain" : "Qwik Js   Error Handling Optimization",
+    "domain" : "Qwik Js Error Handling Optimization",
     "link" : "rules/qwik-basic-cursorrules-prompt-file/qwik-js---error-handling-optimization.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides guidelines and the expected folder structure for a Qwik.js project.",
     "tech-stack" : "Qwik Basic",
-    "domain" : "Qwik Js   Folder Structure",
+    "domain" : "Qwik Js Folder Structure",
     "link" : "rules/qwik-basic-cursorrules-prompt-file/qwik-js---folder-structure.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces general preferences for Qwik.js components in TypeScript files, promoting functional components.",
     "tech-stack" : "Qwik Basic",
-    "domain" : "Qwik Js   General Preferences",
+    "domain" : "Qwik Js General Preferences",
     "link" : "rules/qwik-basic-cursorrules-prompt-file/qwik-js---general-preferences.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Adheres to Qwik's naming conventions, server-side code execution, and leveraging Vite plugins for optimized builds.",
     "tech-stack" : "Qwik Basic",
-    "domain" : "Qwik Js   Naming Conventions",
+    "domain" : "Qwik Js Naming Conventions",
     "link" : "rules/qwik-basic-cursorrules-prompt-file/qwik-js---naming-conventions.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Ensures TypeScript is used for all .ts and .tsx files, enhancing type safety in Qwik.js projects.",
     "tech-stack" : "Qwik Basic",
-    "domain" : "Qwik Js   Typescript Usage",
+    "domain" : "Qwik Js Typescript Usage",
     "link" : "rules/qwik-basic-cursorrules-prompt-file/qwik-js---typescript-usage.mdc",
     "component-type" : "mdc"
   }, {
@@ -3291,7 +3291,7 @@
   }, {
     "description" : "General Python rules to be applied within the 'service-1' directory. Enforces dependency management, Python version, and code structure.",
     "tech-stack" : "Vue 3 Nuxt 3 TS/TypeScript",
-    "domain" : "Python General Rules   Service 1",
+    "domain" : "Python General Rules Service 1",
     "link" : "rules/vue-3-nuxt-3-typescript-cursorrules-prompt-file/python-general-rules---service-1.mdc",
     "component-type" : "mdc"
   } ]
