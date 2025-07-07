@@ -185,11 +185,11 @@
           dir-path (cond
                      ;; Instructions go in .vscode/instructions in user home
                      (= category "instructions")
-                     (.join path (.. js/process -env -HOME) ".vscode" "instructions")
+                     (path/join js/process.env.HOME ".vscode" "instructions")
 
                      ;; Both prompts and chatmodes go in User/prompts folder
                      (or (= category "prompts") (= category "chatmodes"))
-                     (.join path vscode-user-dir "prompts")
+                     (path/join vscode-user-dir "prompts")
 
                      ;; Unknown category
                      :else nil)
@@ -198,11 +198,11 @@
 
     (if dir-path
       (try
-        (when-not (.existsSync fs dir-path)
-          (.mkdirSync fs dir-path #js {:recursive true}))
+        (when-not (fs/existsSync dir-path)
+          (fs/mkdirSync dir-path #js {:recursive true}))
 
-        (let [file-path (.join path dir-path filename)]
-          (.writeFileSync fs file-path content)
+        (let [file-path (path/join dir-path filename)]
+          (fs/writeFileSync file-path content)
           (vscode/window.showInformationMessage
            (str "Installed " filename " to " (.-appName vscode/env) " User/prompts directory"))
 
@@ -222,18 +222,18 @@
     (let [filename (:filename (:item item))
           workspace-path (-> workspace-folder .-uri .-fsPath)
           dir-path (case category
-                     "instructions" (.join path workspace-path ".github" "instructions")
-                     "prompts" (.join path workspace-path ".github" "prompts")
-                     "chatmodes" (.join path workspace-path ".github" "chatmodes")
+                     "instructions" (path/join workspace-path ".github" "instructions")
+                     "prompts" (path/join workspace-path ".github" "prompts")
+                     "chatmodes" (path/join workspace-path ".github" "chatmodes")
                      nil)]
 
       (if dir-path
         (do
-          (when-not (.existsSync fs dir-path)
-            (.mkdirSync fs dir-path #js {:recursive true}))
+          (when-not (fs/existsSync dir-path)
+            (fs/mkdirSync dir-path #js {:recursive true}))
 
-          (let [file-path (.join path dir-path filename)]
-            (.writeFileSync fs file-path content)
+          (let [file-path (path/join dir-path filename)]
+            (fs/writeFileSync file-path content)
             (vscode/window.showInformationMessage
              (str "Installed " filename " to workspace"))
 
@@ -252,15 +252,15 @@
 (defn install-to-copilot-instructions! [content item]
   (if-let [workspace-folder (first vscode/workspace.workspaceFolders)]
     (let [workspace-path (-> workspace-folder .-uri .-fsPath)
-          github-dir (.join path workspace-path ".github")
-          file-path (.join path github-dir "copilot-instructions.md")]
+          github-dir (path/join workspace-path ".github")
+          file-path (path/join github-dir "copilot-instructions.md")]
 
       ;; Create .github directory if it doesn't exist
-      (when-not (.existsSync fs github-dir)
-        (.mkdirSync fs github-dir #js {:recursive true}))
+      (when-not (fs/existsSync github-dir)
+        (fs/mkdirSync github-dir #js {:recursive true}))
 
       ;; Check if file already exists for append vs create
-      (if (.existsSync fs file-path)
+      (if (fs/existsSync file-path)
         ;; Append mode
         (p/let [choice (vscode/window.showQuickPick
                         (clj->js [{:label "Append"
@@ -274,16 +274,16 @@
                 choice-text (when choice-clj (:label choice-clj))]
           (cond
             (= choice-text "Append")
-            (let [existing-content (.readFileSync fs file-path #js {:encoding "utf-8"})
+            (let [existing-content (fs/readFileSync file-path #js {:encoding "utf-8"})
                   new-content (str existing-content "\n\n" content)]
-              (.writeFileSync fs file-path new-content)
+              (fs/writeFileSync file-path new-content)
               (vscode/window.showInformationMessage
                (str "Appended " (-> item :item :filename) " to copilot-instructions.md"))
               {:success true :path file-path :mode "append"})
 
             (= choice-text "Replace")
             (do
-              (.writeFileSync fs file-path content)
+              (fs/writeFileSync file-path content)
               (vscode/window.showInformationMessage
                "Replaced copilot-instructions.md")
               {:success true :path file-path :mode "replace"})
@@ -293,7 +293,7 @@
 
         ;; Create new file
         (do
-          (.writeFileSync fs file-path content)
+          (fs/writeFileSync file-path content)
           (vscode/window.showInformationMessage
            "Created copilot-instructions.md")
           {:success true :path file-path :mode "create"})))
