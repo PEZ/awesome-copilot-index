@@ -138,7 +138,7 @@
   (-> dir-name
       (str/replace #"-cursorrules-prompt-file$" "")
       (str/replace #"-" " ")
-      (str/split #" ")
+      (str/split #" +")
       (->> (map (fn [word]
                   (case word
                     "nextjs" "Next.js"
@@ -163,7 +163,7 @@
   (-> filename
       (str/replace #"\.(mdc|mdx)$" "")
       (str/replace #"[-_]" " ")
-      (str/split #" ")
+      (str/split #" +")
       (->> (map str/capitalize)
            (str/join " "))))
 
