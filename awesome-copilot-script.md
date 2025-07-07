@@ -28,6 +28,8 @@ The script presents a sort of “wizard”, with a series of quick-pick menus. T
 
 The menus remember their last choice, so you can view the contents of an item first, and then quickly find the same item to install it.
 
+See also: [Awesome Cursor Rules to Copilot Joyride Script](awesome-cursorrules-to-copilot-script)
+
 ---
 
 ## Script Source
