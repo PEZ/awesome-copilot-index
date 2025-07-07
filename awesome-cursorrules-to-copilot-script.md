@@ -10,6 +10,7 @@ Browse and convert [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-c
 
 ![awesome-cursorrules-to-copilot-menu](awesome-cursorrules-to-copilot-menu.png)
 
+
 As the [Awesome Copilot repository](https://github.com/github/awesome-copilot) grows you may not always find the configuration you need using the [Awesome Copilot VS Code Menu](awesome-copilot-script.md). That's where this script comes in, because maybe the content you need is available at Awesome Cursor Rules.
 
 

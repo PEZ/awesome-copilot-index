@@ -118,8 +118,8 @@
     :format "view-content"}
    {:label "View README"
     :iconPath (vscode/ThemeIcon. "book")
-    :description "View tech-stack README"
-    :detail "Preview the README file for this tech-stack"
+    :description "View README"
+    :detail "Preview the README file for this rule in an editor"
     :format "view-readme"}])
 
 ;; Actions - matching awesome_copilot exactly
@@ -163,8 +163,8 @@
 
 (defn prepare-component-for-display [component]
   {:label (str (:tech-stack component) " - " (:domain component))
-   :iconPath (vscode/ThemeIcon. "copilot")
-   :description (str (:component-type component) " component")
+   :iconPath (vscode/ThemeIcon. "list-ordered")
+   :description (str "Cursor Rule " (:component-type component) " component")
    :detail (:description component)
    :component component})
 
@@ -172,7 +172,7 @@
   (let [prepared-components (map prepare-component-for-display components)]
     (show-picker-with-memory+
      prepared-components
-     {:title "Cursor Rules Converter"
+     {:title "Awesome Cursor Rules → Copilot Converter"
       :placeholder "Select a cursor rule component to convert"
       :preference-key :last-component
       :match-fn (fn [item last-choice]
