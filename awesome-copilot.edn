@@ -1,4 +1,4 @@
-{:generated "2025-07-06T22:21:49.841846773Z",
+{:generated "2025-07-07T07:57:46.312132715Z",
  :instructions
  ({:filename "angular.instructions.md",
    :title "Angular Development Instructions",
@@ -61,6 +61,10 @@
    :title "Markdown",
    :description "Documentation and content creation standards",
    :link "instructions/markdown.instructions.md"}
+  {:filename "memory-bank.instructions.md",
+   :title "Memory Bank",
+   :description nil,
+   :link "instructions/memory-bank.instructions.md"}
   {:filename "nextjs-tailwind.instructions.md",
    :title "Next.js + Tailwind Development Instructions",
    :description
@@ -71,15 +75,33 @@
    :description
    "The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.",
    :link "instructions/performance-optimization.instructions.md"}
+  {:filename "powershell.instructions.md",
+   :title "PowerShell Cmdlet Development Guidelines",
+   :description
+   "PowerShell cmdlet and scripting best practices based on Microsoft guidelines",
+   :link "instructions/powershell.instructions.md"}
   {:filename "python.instructions.md",
    :title "Python Coding Conventions",
    :description "Python coding conventions and guidelines",
    :link "instructions/python.instructions.md"}
+  {:filename "quarkus.instructions.md",
+   :title "Quarkus",
+   :description "Quarkus development standards and instructions",
+   :link "instructions/quarkus.instructions.md"}
   {:filename "security-and-owasp.instructions.md",
    :title "Secure Coding and OWASP Guidelines",
    :description
    "\"Comprehensive secure coding instructions for all languages and frameworks, based on OWASP Top 10 and industry best practices.\"",
-   :link "instructions/security-and-owasp.instructions.md"}),
+   :link "instructions/security-and-owasp.instructions.md"}
+  {:filename "taming-copilot.instructions.md",
+   :title "Taming Copilot",
+   :description
+   "Prevent Copilot from wreaking havoc across your codebase, keeping it under control.",
+   :link "instructions/taming-copilot.instructions.md"}
+  {:filename "tanstack-start-shadcn-tailwind.md",
+   :title "TanStack Start with Shadcn/ui Development Guide",
+   :description "Guidelines for building TanStack Start applications",
+   :link "instructions/tanstack-start-shadcn-tailwind.md"}),
  :prompts
  ({:filename "aspnet-minimal-api-openapi.prompt.md",
    :title "ASP.NET Minimal API with OpenAPI",
@@ -96,6 +118,60 @@
    :description
    "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
    :link "prompts/comment-code-generate-a-tutorial.prompt.md"}
+  {:filename "create-architectural-decision-record.prompt.md",
+   :title "Create Architectural Decision Record",
+   :description
+   "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.",
+   :link "prompts/create-architectural-decision-record.prompt.md"}
+  {:filename
+   "create-github-issue-feature-from-specification.prompt.md",
+   :title "Create GitHub Issue from Specification",
+   :description
+   "Create GitHub Issue for feature request from specification file using feature_request.yml template.",
+   :link
+   "prompts/create-github-issue-feature-from-specification.prompt.md"}
+  {:filename
+   "create-github-issues-feature-from-implementation-plan.prompt.md",
+   :title "Create GitHub Issue from Implementation Plan",
+   :description
+   "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+   :link
+   "prompts/create-github-issues-feature-from-implementation-plan.prompt.md"}
+  {:filename
+   "create-github-issues-for-unmet-specification-requirements.prompt.md",
+   :title "Create GitHub Issues for Unmet Specification Requirements",
+   :description
+   "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.",
+   :link
+   "prompts/create-github-issues-for-unmet-specification-requirements.prompt.md"}
+  {:filename "create-implementation-plan.prompt.md",
+   :title "Create Implementation Plan",
+   :description
+   "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+   :link "prompts/create-implementation-plan.prompt.md"}
+  {:filename "create-llms.prompt.md",
+   :title "Create LLMs.txt File from Repository Structure",
+   :description
+   "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/",
+   :link "prompts/create-llms.prompt.md"}
+  {:filename "create-oo-component-documentation.prompt.md",
+   :title "Generate Standard OO Component Documentation",
+   :description
+   "Create comprehensive, standardized documentation for object-oriented components following industry best practices and architectural documentation standards.",
+   :link "prompts/create-oo-component-documentation.prompt.md"}
+  {:filename "create-specification.prompt.md",
+   :title "Create Specification",
+   :description
+   "Create a new specification file for the solution, optimized for Generative AI consumption.",
+   :link "prompts/create-specification.prompt.md"}
+  {:filename "create-spring-boot-java-project.prompt.md",
+   :title "Create Spring Boot Java project prompt",
+   :description "Create Spring Boot Java project skeleton",
+   :link "prompts/create-spring-boot-java-project.prompt.md"}
+  {:filename "create-spring-boot-kotlin-project.prompt.md",
+   :title "Create Spring Boot Kotlin project prompt",
+   :description "Create Spring Boot Kotlin project skeleton",
+   :link "prompts/create-spring-boot-kotlin-project.prompt.md"}
   {:filename "csharp-async.prompt.md",
    :title "C# Async Programming Best Practices",
    :description "Get best practices for C# async programming",
@@ -120,6 +196,16 @@
    :description
    "Get best practices for XUnit unit testing, including data-driven tests",
    :link "prompts/csharp-xunit.prompt.md"}
+  {:filename "dotnet-best-practices.prompt.md",
+   :title ".NET/C# Best Practices",
+   :description
+   "Ensure .NET/C# code meets best practices for the solution/project.",
+   :link "prompts/dotnet-best-practices.prompt.md"}
+  {:filename "dotnet-design-pattern-review.prompt.md",
+   :title ".NET/C# Design Pattern Review",
+   :description
+   "Review the C#/.NET code for design pattern implementation and suggest improvements.",
+   :link "prompts/dotnet-design-pattern-review.prompt.md"}
   {:filename "ef-core.prompt.md",
    :title "Entity Framework Core Best Practices",
    :description "Get best practices for Entity Framework Core",
@@ -152,7 +238,47 @@
    :title "Next Intl Add Language",
    :description
    "Add new language to a Next.js + next-intl application",
-   :link "prompts/next-intl-add-language.prompt.md"}),
+   :link "prompts/next-intl-add-language.prompt.md"}
+  {:filename "suggest-awesome-github-copilot-chatmodes.prompt.md",
+   :title "Suggest Awesome GitHub Copilot Chatmodes",
+   :description
+   "Suggest relevant GitHub Copilot chatmode files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing chatmodes in this repository.",
+   :link "prompts/suggest-awesome-github-copilot-chatmodes.prompt.md"}
+  {:filename "suggest-awesome-github-copilot-prompts.prompt.md",
+   :title "Suggest Awesome GitHub Copilot Prompts",
+   :description
+   "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository.",
+   :link "prompts/suggest-awesome-github-copilot-prompts.prompt.md"}
+  {:filename "update-avm-modules-in-bicep.prompt.md",
+   :title "Update Azure Verified Modules in Bicep Files",
+   :description
+   "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+   :link "prompts/update-avm-modules-in-bicep.prompt.md"}
+  {:filename "update-implementation-plan.prompt.md",
+   :title "Update Implementation Plan",
+   :description
+   "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+   :link "prompts/update-implementation-plan.prompt.md"}
+  {:filename "update-llms.prompt.md",
+   :title "Update LLMs.txt File",
+   :description
+   "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/",
+   :link "prompts/update-llms.prompt.md"}
+  {:filename "update-markdown-file-index.prompt.md",
+   :title "Update Markdown File Index",
+   :description
+   "Update a markdown file section with an index/table of files from a specified folder.",
+   :link "prompts/update-markdown-file-index.prompt.md"}
+  {:filename "update-oo-component-documentation.prompt.md",
+   :title "Update Standard OO Component Documentation",
+   :description
+   "Update existing object-oriented component documentation following industry best practices and architectural documentation standards.",
+   :link "prompts/update-oo-component-documentation.prompt.md"}
+  {:filename "update-specification.prompt.md",
+   :title "Update Specification",
+   :description
+   "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
+   :link "prompts/update-specification.prompt.md"}),
  :chatmodes
  ({:filename "4.1-Beast.chatmode.md",
    :title "4.1 Beast Mode",
@@ -163,6 +289,11 @@
    :title "Debug Mode Instructions",
    :description "Debug your application to find and fix a bug",
    :link "chatmodes/debug.chatmode.md"}
+  {:filename "plan.chatmode.md",
+   :title "Plan Mode - Strategic Planning & Architecture Assistant",
+   :description
+   "Strategic planning and architecture assistant focused on thoughtful analysis before implementation. Helps developers understand codebases, clarify requirements, and develop comprehensive implementation strategies.",
+   :link "chatmodes/plan.chatmode.md"}
   {:filename "planner.chatmode.md",
    :title "Planning mode instructions",
    :description
