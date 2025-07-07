@@ -22,6 +22,7 @@
             ["path" :as path]
             ["fs" :as fs]
             [promesa.core :as p]
+            [clojure.string :as str]
             [joyride.core :as joyride]))
 
 (def INDEX-URL "https://pez.github.io/awesome-copilot-index/awesome-copilot.json")
@@ -67,6 +68,7 @@
     (set! (.-title picker) title)
     (set! (.-placeholder picker) placeholder)
     (set! (.-ignoreFocusOut picker) true)
+    (set! (.-matchOnDetail picker) true)  ; Enable searching in detail field
 
     (when last-choice
       (when-let [active-index (some->> items-js
@@ -162,17 +164,57 @@
       :placeholder (str "Select a " category-name " item")
       :preference-key preference-key
       :match-fn (fn [item last-choice]
-                  (= (-> item .-item .-filename) (:filename last-choice)))
+                  (= (some-> item .-item .-filename) (:filename last-choice)))
       :save-fn (fn [selected-clj] (-> selected-clj :item))})))
 
 (defn show-action-menu+ [item]
   (show-picker-with-memory+
    actions
    {:title "Awesome Copilot"
-    :placeholder (str "Action for " (-> item :item :title))
+    :placeholder (str "Action for " (some-> item :item :title))
     :preference-key :last-action
     :match-fn (fn [action-item last-choice] (= (name (.-action action-item)) (name last-choice)))
     :save-fn :action}))
+
+(defn flatten-all-items [index]
+  (->> [[:instructions (:instructions index)]
+        [:prompts (:prompts index)]
+        [:chatmodes (:chatmodes index)]]
+       (mapcat (fn [[category-key items]]
+                 (let [category-name (name category-key)]
+                   (map (fn [item]
+                          (assoc item :category category-name))
+                        items))))
+       (sort-by :title)))
+
+(defn get-category-icon [category]
+  (case category
+    "instructions" (vscode/ThemeIcon. "list-ordered")
+    "prompts" (vscode/ThemeIcon. "chevron-right")
+    "chatmodes" (vscode/ThemeIcon. "color-mode")
+    (vscode/ThemeIcon. "copilot")))
+
+(defn create-unified-picker-items [flattened-items]
+  (map (fn [item]
+         {:label (:title item)
+          :iconPath (get-category-icon (:category item))
+          :description (:filename item)
+          :detail (str (str/capitalize (:category item)) " • " (:description item))
+          :item item})
+       flattened-items))
+
+(defn show-unified-item-picker+ [index]
+  (let [all-items (->> index
+                       flatten-all-items
+                       create-unified-picker-items)]
+    (show-picker-with-memory+
+     all-items
+     {:title "Awesome Copilot"
+      :placeholder "Select an item to view or install it"
+      :preference-key :last-unified-item
+      :match-fn (fn [item last-choice]
+                  (= (some-> item .-item .-filename) (:filename last-choice)))
+      :save-fn (fn [selected-clj] (-> selected-clj :item))})))
 
 (defn open-in-untitled-editor+ [content _]
   (p/let [doc (vscode/workspace.openTextDocument #js {:content content
@@ -355,15 +397,11 @@
 (defn main []
   (p/catch
    (p/let [index (fetch-index+)
-           category (show-category-picker+)]
-     (when category
-       (p/let [category-name (:category category)
-               category-items (get index (keyword category-name))
-               item (show-item-picker category-items (subs category-name 0 (dec (count category-name))))]
-         (when item
-           (p/let [action (show-action-menu+ item)]
-             (when action
-               (execute-action! item (:action action) category-name)))))))
+           item (show-unified-item-picker+ index)]
+     (when item
+       (p/let [action (show-action-menu+ item)]
+         (when action
+           (execute-action! item (:action action) (:category (:item item)))))))
 
    (fn [error]
      (vscode/window.showErrorMessage (str "Error: " (.-message error)))
