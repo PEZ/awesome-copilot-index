@@ -126,29 +126,6 @@ tr:hover td {
   margin: 0.25rem;
 }
 
-/* Lists - Clean mobile-friendly */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
-}
-
-li {
-  margin: 0.75rem 0;
-  padding-left: 1.25rem;
-  position: relative;
-  line-height: 1.6;
-}
-
-li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #3b82f6;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
 /* Code blocks - Modern and clean */
 pre {
   background: #1e293b;
@@ -297,8 +274,12 @@ textarea.code:hover {
     padding: 1rem 1.25rem;
   }
 
-  li {
-    padding-left: 1.5rem;
+  ul li {
+    padding-left: 0.75rem;
+  }
+
+  ol li {
+    padding-left: 0.75rem;
   }
 }
 
