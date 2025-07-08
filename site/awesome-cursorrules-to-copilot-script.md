@@ -2,19 +2,21 @@
 layout: default
 title: Awesome Cursor Rules to Copilot Joyride Script
 description: Browse and convert Awesome Cursor Rules to Copilot Instructions, Prompts Chat modes right from inside VS Code with this Joyride Script
+youtubeId: YsPg5sf67ps
+
 ---
 
 # Awesome Cursor Rules to Copilot Joyride Script
 
 Browse and convert [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) to Copilot [Instructions](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions), [Prompts](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental), and [Chat modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes) right from inside VS Code with this [Joyride](https://github.com/BetterThanTomorrow/joyride) Script.
 
-![awesome-cursorrules-to-copilot-menu](awesome-cursorrules-to-copilot-menu.png)
 
+{% include youtubePlayer.html id=page.youtubeId %}
 
 As the [Awesome Copilot repository](https://github.com/github/awesome-copilot) grows you may not always find the configuration you need using the [Awesome Copilot VS Code Menu](awesome-copilot-script.md). That's where this script comes in, because maybe the content you need is available at Awesome Cursor Rules.
 
 
-<!-- {% include youtubePlayer.html id=page.youtubeId %} -->
+
 
 ## Installation Instructions
 
@@ -52,4 +54,3 @@ See also: [Awesome Copilot VS Code Menu](awesome-copilot-script)
 ---
 
 [← Back to Index](index.html) | [Download Script](awesome_cursorrules_to_copilot.cljs)
-![alt text](image.png)
