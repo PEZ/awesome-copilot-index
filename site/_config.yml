@@ -3,6 +3,7 @@ title: "Awesome Copilot Index"
 description: "Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes."
 url: "https://pez.github.io"
 baseurl: "/awesome-copilot-index"
+social_image: "awesome-copilot-menu-header.png"
 
 # Author
 author:
