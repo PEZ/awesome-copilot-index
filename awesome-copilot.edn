@@ -1,4 +1,4 @@
-{:generated "2025-07-07T21:53:35.194037229Z",
+{:generated "2025-07-08T06:07:25.092889461Z",
  :instructions
  ({:filename "angular.instructions.md",
    :title "Angular Development Instructions",
@@ -24,6 +24,12 @@
    :title "Cmake Vcpkg",
    :description "C++ project configuration and package management",
    :link "instructions/cmake-vcpkg.instructions.md"}
+  {:filename "containerization-docker-best-practices.instructions.md",
+   :title "Containerization & Docker Best Practices",
+   :description
+   "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
+   :link
+   "instructions/containerization-docker-best-practices.instructions.md"}
   {:filename "copilot-thought-logging.instructions.md",
    :title "Copilot Process tracking Instructions",
    :description
@@ -33,6 +39,11 @@
    :title "C# Development",
    :description "Guidelines for building C# applications",
    :link "instructions/csharp.instructions.md"}
+  {:filename "devops-core-principles.instructions.md",
+   :title "DevOps Core Principles",
+   :description
+   "Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery.",
+   :link "instructions/devops-core-principles.instructions.md"}
   {:filename "dotnet-maui.instructions.md",
    :title ".NET MAUI",
    :description ".NET MAUI component and application patterns",
@@ -48,11 +59,27 @@
    "Guidelines for generating modern Terraform code for Azure",
    :link
    "instructions/generate-modern-terraform-code-for-azure.instructions.md"}
+  {:filename "github-actions-ci-cd-best-practices.instructions.md",
+   :title "GitHub Actions CI/CD Best Practices",
+   :description
+   "Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions. Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies.",
+   :link
+   "instructions/github-actions-ci-cd-best-practices.instructions.md"}
   {:filename "go.instructions.md",
    :title "Go Development Instructions",
    :description
    "Instructions for writing Go code following idiomatic Go practices and community standards",
    :link "instructions/go.instructions.md"}
+  {:filename "java.instructions.md",
+   :title "Java Development",
+   :description "Guidelines for building Java base applications",
+   :link "instructions/java.instructions.md"}
+  {:filename "kubernetes-deployment-best-practices.instructions.md",
+   :title "Kubernetes Deployment Best Practices",
+   :description
+   "Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.",
+   :link
+   "instructions/kubernetes-deployment-best-practices.instructions.md"}
   {:filename "localization.instructions.md",
    :title "Guidance for Localization",
    :description "Guidelines for localizing markdown documents",
@@ -88,11 +115,20 @@
    :title "Quarkus",
    :description "Quarkus development standards and instructions",
    :link "instructions/quarkus.instructions.md"}
+  {:filename "ruby-on-rails.instructions.md",
+   :title "Ruby on Rails",
+   :description "Ruby on Rails coding conventions and guidelines",
+   :link "instructions/ruby-on-rails.instructions.md"}
   {:filename "security-and-owasp.instructions.md",
    :title "Secure Coding and OWASP Guidelines",
    :description
    "\"Comprehensive secure coding instructions for all languages and frameworks, based on OWASP Top 10 and industry best practices.\"",
    :link "instructions/security-and-owasp.instructions.md"}
+  {:filename "springboot.instructions.md",
+   :title "Spring Boot Development",
+   :description
+   "Guidelines for building Spring Boot base applications",
+   :link "instructions/springboot.instructions.md"}
   {:filename "taming-copilot.instructions.md",
    :title "Taming Copilot",
    :description
@@ -113,6 +149,11 @@
    :description
    "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
    :link "prompts/az-cost-optimize.prompt.md"}
+  {:filename "azure-resource-health-diagnose.prompt.md",
+   :title "Azure Resource Health & Issue Diagnosis",
+   :description
+   "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
+   :link "prompts/azure-resource-health-diagnose.prompt.md"}
   {:filename "comment-code-generate-a-tutorial.prompt.md",
    :title "Comment Code Generate A Tutorial",
    :description
@@ -216,11 +257,31 @@
    :description
    "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.",
    :link "prompts/gen-specs-as-issues.prompt.md"}
+  {:filename "java-docs.prompt.md",
+   :title "Java Documentation (Javadoc) Best Practices",
+   :description
+   "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.",
+   :link "prompts/java-docs.prompt.md"}
+  {:filename "java-junit.prompt.md",
+   :title "JUnit 5+ Best Practices",
+   :description
+   "Get best practices for JUnit 5 unit testing, including data-driven tests",
+   :link "prompts/java-junit.prompt.md"}
+  {:filename "java-springboot.prompt.md",
+   :title "Spring Boot Best Practices",
+   :description
+   "Get best practices for developing applications with Spring Boot.",
+   :link "prompts/java-springboot.prompt.md"}
   {:filename "javascript-typescript-jest.prompt.md",
    :title "Javascript Typescript Jest",
    :description
    "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.",
    :link "prompts/javascript-typescript-jest.prompt.md"}
+  {:filename "kotlin-springboot.prompt.md",
+   :title "Spring Boot with Kotlin Best Practices",
+   :description
+   "Get best practices for developing applications with Spring Boot and Kotlin.",
+   :link "prompts/kotlin-springboot.prompt.md"}
   {:filename "multi-stage-dockerfile.prompt.md",
    :title "Multi Stage Dockerfile",
    :description
@@ -285,10 +346,70 @@
    :description
    "A custom prompt to get GPT 4.1 to behave like a top-notch coding agent.",
    :link "chatmodes/4.1-Beast.chatmode.md"}
+  {:filename "azure-principal-architect.chatmode.md",
+   :title "Azure Principal Architect mode instructions",
+   :description
+   "Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.",
+   :link "chatmodes/azure-principal-architect.chatmode.md"}
+  {:filename "azure-saas-architect.chatmode.md",
+   :title "Azure SaaS Architect mode instructions",
+   :description
+   "Provide expert Azure SaaS Architect guidance focusing on multitenant applications using Azure Well-Architected SaaS principles and Microsoft best practices.",
+   :link "chatmodes/azure-saas-architect.chatmode.md"}
+  {:filename "azure-verified-modules-bicep.chatmode.md",
+   :title "Azure AVM Bicep mode",
+   :description
+   "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).",
+   :link "chatmodes/azure-verified-modules-bicep.chatmode.md"}
+  {:filename "azure-verified-modules-terraform.chatmode.md",
+   :title "Azure AVM Terraform mode",
+   :description
+   "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
+   :link "chatmodes/azure-verified-modules-terraform.chatmode.md"}
+  {:filename "critical-thinking.chatmode.md",
+   :title "Critical thinking mode instructions",
+   :description
+   "Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes.",
+   :link "chatmodes/critical-thinking.chatmode.md"}
+  {:filename "csharp-dotnet-janitor.chatmode.md",
+   :title "C#/.NET Janitor",
+   :description
+   "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
+   :link "chatmodes/csharp-dotnet-janitor.chatmode.md"}
   {:filename "debug.chatmode.md",
    :title "Debug Mode Instructions",
    :description "Debug your application to find and fix a bug",
    :link "chatmodes/debug.chatmode.md"}
+  {:filename "demonstrate-understanding.chatmode.md",
+   :title "Demonstrate Understanding mode instructions",
+   :description
+   "Validate user understanding of code, design patterns, and implementation details through guided questioning.",
+   :link "chatmodes/demonstrate-understanding.chatmode.md"}
+  {:filename "expert-dotnet-software-engineer.chatmode.md",
+   :title "Expert .NET software engineer mode instructions",
+   :description
+   "Provide expert .NET software engineering guidance using modern software design patterns.",
+   :link "chatmodes/expert-dotnet-software-engineer.chatmode.md"}
+  {:filename "expert-react-frontend-engineer.chatmode.md",
+   :title "Expert React Frontend Engineer Mode Instructions",
+   :description
+   "Provide expert React frontend engineering guidance using modern TypeScript and design patterns.",
+   :link "chatmodes/expert-react-frontend-engineer.chatmode.md"}
+  {:filename "implementation-plan.chatmode.md",
+   :title "Implementation Plan Generation Mode",
+   :description
+   "Generate an implementation plan for new features or refactoring existing code.",
+   :link "chatmodes/implementation-plan.chatmode.md"}
+  {:filename "janitor.chatmode.md",
+   :title "Universal Janitor",
+   :description
+   "Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.",
+   :link "chatmodes/janitor.chatmode.md"}
+  {:filename "mentor.chatmode.md",
+   :title "Mentor mode instructions",
+   :description
+   "Help mentor the engineer by providing guidance and support.",
+   :link "chatmodes/mentor.chatmode.md"}
   {:filename "plan.chatmode.md",
    :title "Plan Mode - Strategic Planning & Architecture Assistant",
    :description
@@ -309,6 +430,11 @@
    :description
    "Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, technical considerations, and metrics. Optionally create GitHub issues upon user confirmation.",
    :link "chatmodes/prd.chatmode.md"}
+  {:filename "principal-software-engineer.chatmode.md",
+   :title "Principal software engineer mode instructions",
+   :description
+   "Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation.",
+   :link "chatmodes/principal-software-engineer.chatmode.md"}
   {:filename "prompt-engineer.chatmode.md",
    :title "Prompt Engineer",
    :description
@@ -318,4 +444,29 @@
    :title "Refine Requirement or Issue Chat Mode",
    :description
    "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
-   :link "chatmodes/refine-issue.chatmode.md"})}
+   :link "chatmodes/refine-issue.chatmode.md"}
+  {:filename "semantic-kernel-dotnet.chatmode.md",
+   :title "Semantic Kernel .NET mode instructions",
+   :description
+   "Create, update, refactor, explain or work with code using the .NET version of Semantic Kernel.",
+   :link "chatmodes/semantic-kernel-dotnet.chatmode.md"}
+  {:filename "semantic-kernel-python.chatmode.md",
+   :title "Semantic Kernel Python mode instructions",
+   :description
+   "Create, update, refactor, explain or work with code using the Python version of Semantic Kernel.",
+   :link "chatmodes/semantic-kernel-python.chatmode.md"}
+  {:filename "simple-app-idea-generator.chatmode.md",
+   :title "Idea Generator mode instructions",
+   :description
+   "Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification creation.",
+   :link "chatmodes/simple-app-idea-generator.chatmode.md"}
+  {:filename "specification.chatmode.md",
+   :title "Specification mode instructions",
+   :description
+   "Generate or update specification documents for new or existing functionality.",
+   :link "chatmodes/specification.chatmode.md"}
+  {:filename "tech-debt-remediation-plan.chatmode.md",
+   :title "Technical Debt Remediation Plan",
+   :description
+   "Generate technical debt remediation plans for code, tests, and documentation.",
+   :link "chatmodes/tech-debt-remediation-plan.chatmode.md"})}
