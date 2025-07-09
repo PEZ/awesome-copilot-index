@@ -1,4 +1,4 @@
-{:generated "2025-07-08T18:06:44.442219474Z",
+{:generated "2025-07-09T06:07:51.880981089Z",
  :instructions
  ({:filename "angular.instructions.md",
    :title "Angular Development Instructions",
@@ -74,6 +74,16 @@
    :title "Java Development",
    :description "Guidelines for building Java base applications",
    :link "instructions/java.instructions.md"}
+  {:filename "joyride-user-project.instructions.md",
+   :title "Joyride User Script Project Assistant",
+   :description
+   "Expert assistance for Joyride User Script projects - REPL-driven ClojureScript and user space automation of VS Code",
+   :link "instructions/joyride-user-project.instructions.md"}
+  {:filename "joyride-workspace-automation.instructions.md",
+   :title "Joyride Workspace Automation Assistant",
+   :description
+   "Expert assistance for Joyride Workspace automation - REPL-driven and user space ClojureScript automation within specific VS Code workspaces",
+   :link "instructions/joyride-workspace-automation.instructions.md"}
   {:filename "kubernetes-deployment-best-practices.instructions.md",
    :title "Kubernetes Deployment Best Practices",
    :description
@@ -102,6 +112,15 @@
    :description
    "The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.",
    :link "instructions/performance-optimization.instructions.md"}
+  {:filename "playwright-typescript.instructions.md",
+   :title "Playwright Typescript",
+   :description "Playwright test generation instructions",
+   :link "instructions/playwright-typescript.instructions.md"}
+  {:filename "power-platform-connector-instructions.md",
+   :title "Power Platform Connectors Schema Development Instructions",
+   :description
+   "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
+   :link "instructions/power-platform-connector-instructions.md"}
   {:filename "powershell.instructions.md",
    :title "PowerShell Cmdlet Development Guidelines",
    :description
@@ -129,6 +148,11 @@
    :description
    "Guidelines for building Spring Boot base applications",
    :link "instructions/springboot.instructions.md"}
+  {:filename "sql-sp-generation.instructions.md",
+   :title "SQL Development",
+   :description
+   "Guidelines for generating SQL statements and stored procedures",
+   :link "instructions/sql-sp-generation.instructions.md"}
   {:filename "taming-copilot.instructions.md",
    :title "Taming Copilot",
    :description
@@ -342,9 +366,8 @@
    :link "prompts/update-specification.prompt.md"}),
  :chatmodes
  ({:filename "4.1-Beast.chatmode.md",
-   :title "4.1 Beast Mode",
-   :description
-   "A custom prompt to get GPT 4.1 to behave like a top-notch coding agent.",
+   :title "4.1 Beast Mode (VS Code v1.102)",
+   :description "GPT 4.1 as a top-notch coding agent.",
    :link "chatmodes/4.1-Beast.chatmode.md"}
   {:filename "azure-principal-architect.chatmode.md",
    :title "Azure Principal Architect mode instructions",
@@ -385,6 +408,11 @@
    :description
    "Validate user understanding of code, design patterns, and implementation details through guided questioning.",
    :link "chatmodes/demonstrate-understanding.chatmode.md"}
+  {:filename "electron-angular-native.chatmode.md",
+   :title "Electron Code Review Mode Instructions",
+   :description
+   "\"Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here.\"",
+   :link "chatmodes/electron-angular-native.chatmode.md"}
   {:filename "expert-dotnet-software-engineer.chatmode.md",
    :title "Expert .NET software engineer mode instructions",
    :description
@@ -469,4 +497,14 @@
    :title "Technical Debt Remediation Plan",
    :description
    "Generate technical debt remediation plans for code, tests, and documentation.",
-   :link "chatmodes/tech-debt-remediation-plan.chatmode.md"})}
+   :link "chatmodes/tech-debt-remediation-plan.chatmode.md"}
+  {:filename "wg-code-alchemist.chatmode.md",
+   :title "Wg Code Alchemist",
+   :description
+   "Ask WG Code Alchemist to transform your code with Clean Code principles and SOLID design",
+   :link "chatmodes/wg-code-alchemist.chatmode.md"}
+  {:filename "wg-code-sentinel.chatmode.md",
+   :title "Wg Code Sentinel",
+   :description
+   "Ask WG Code Sentinel to review your code for security issues.",
+   :link "chatmodes/wg-code-sentinel.chatmode.md"})}
