@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-09T18:07:17.452529058Z",
+  "generated" : "2025-07-10T06:07:40.964714314Z",
   "instructions" : [ {
     "filename" : "angular.instructions.md",
     "title" : "Angular Development Instructions",
@@ -382,6 +382,11 @@
     "title" : "4.1 Beast Mode (VS Code v1.102)",
     "description" : "GPT 4.1 as a top-notch coding agent.",
     "link" : "chatmodes/4.1-Beast.chatmode.md"
+  }, {
+    "filename" : "accesibility.chatmode.md",
+    "title" : "Accessibility mode",
+    "description" : "Accessibility mode.",
+    "link" : "chatmodes/accesibility.chatmode.md"
   }, {
     "filename" : "azure-principal-architect.chatmode.md",
     "title" : "Azure Principal Architect mode instructions",
