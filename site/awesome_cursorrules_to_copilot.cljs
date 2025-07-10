@@ -26,11 +26,11 @@
    [joyride.core :as joyride]
    [promesa.core :as p]))
 
-(def INDEX-URL "https://pez.github.io/awesome-copilot-index/awesome-cursorrules.json")
-(def CONTENT-BASE-URL "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/")
+(def index-url "https://pez.github.io/awesome-copilot-index/awesome-cursorrules.json")
+(def content-base-url "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/")
 
 ;; Preference management for picker memory
-(def PREFS-KEY "cursor-rules-converter-preferences")
+(def prefs-key "cursor-rules-converter-preferences")
 
 (defn get-vscode-user-dir []
   (let [context (joyride/extension-context)
@@ -45,7 +45,7 @@
 (defn get-preferences []
   (let [context (joyride/extension-context)
         global-state (.-globalState context)
-        stored (.get global-state PREFS-KEY)]
+        stored (.get global-state prefs-key)]
     (if stored
       (js->clj (js/JSON.parse stored) :keywordize-keys true)
       {})))
@@ -55,7 +55,7 @@
         global-state (.-globalState context)
         current-prefs (get-preferences)
         updated-prefs (assoc current-prefs key value)]
-    (.update global-state PREFS-KEY (js/JSON.stringify (clj->js updated-prefs)))))
+    (.update global-state prefs-key (js/JSON.stringify (clj->js updated-prefs)))))
 
 (defn get-preference [key default-value]
   (get (get-preferences) key default-value))
@@ -136,14 +136,14 @@
     :action :workspace}])
 
 (defn fetch-index+ []
-  (p/let [response (js/fetch INDEX-URL)
+  (p/let [response (js/fetch index-url)
           data (.json response)
           clj-data (js->clj data :keywordize-keys true)]
     ;; Extract the actual rules from the cursor-rules key
     (get clj-data :cursor-rules)))
 
 (defn fetch-component-content+ [link]
-  (let [content-url (str CONTENT-BASE-URL link)]
+  (let [content-url (str content-base-url link)]
     (p/let [response (js/fetch content-url)
             text (.text response)]
       text)))
@@ -156,7 +156,7 @@
                       (string/split #"/")
                       (->> (take 2))
                       (->> (string/join "/")))
-        readme-url (str CONTENT-BASE-URL directory "/README.md")]
+        readme-url (str content-base-url directory "/README.md")]
     (p/let [response (js/fetch readme-url)
             text (.text response)]
       text)))
@@ -198,42 +198,49 @@
     :save-fn :action}))
 
 (defn parse-frontmatter
-  "Parse a cursorrules file into {:content ..., :frontmatter {...}}
-   where frontmatter values are kept as raw strings (verbatim strategy)"
+  "Parses frontmatter text (lines between --- delimiters) into a map.
+   Handles multi-line values by concatenating continuation lines.
+   Keys are converted to keywords, values are kept as raw strings but trimmed overall."
+  [frontmatter-text]
+  (let [lines (string/split-lines frontmatter-text)
+        {:keys [acc current-key current-value]}
+        (reduce (fn [{:keys [acc current-key current-value] :as state} line]
+                  (if-let [key-match (re-find #"^([^:]+):\s*(.*)$" line)]
+                    ;; New key: Commit any pending value, start fresh
+                    (let [new-key (keyword (string/trim (second key-match)))
+                          new-value (string/trim (nth key-match 2))
+                          new-acc (if current-key
+                                    (assoc acc current-key (string/trim current-value))
+                                    acc)]
+                      {:acc new-acc
+                       :current-key new-key
+                       :current-value new-value})
+                    ;; Non-key line: Append as continuation if a key is active, else skip
+                    (if current-key
+                      {:acc acc
+                       :current-key current-key
+                       :current-value (str current-value "\n" line)}
+                      state)))  ;; No change if no active key (e.g., leading blank lines)
+                {:acc {}
+                 :current-key nil
+                 :current-value ""}
+                lines)]
+    ;; After processing all lines, commit any final pending value
+    (if current-key
+      (assoc acc current-key (string/trim current-value))
+      acc)))
+
+(defn parse-text
+  "Parses a string containing possible YAML-like frontmatter delimited by ---.
+   Returns a map with :content (the body text) and :frontmatter (a map of key-value pairs).
+   Frontmatter values are kept as raw, trimmed strings."
   [content]
   (if-let [frontmatter-match (re-find #"(?s)^---\s*\n(.*?)\n---\s*\n?(.*)" content)]
     (let [frontmatter-text (second frontmatter-match)
-          body-text (string/trim (nth frontmatter-match 2))
-          lines (string/split-lines frontmatter-text)
-          ;; Parse frontmatter handling multi-line values
-          frontmatter-map (loop [lines lines
-                                 acc {}
-                                 current-key nil
-                                 current-value ""]
-                            (if (empty? lines)
-                              ;; Final key-value pair
-                              (if current-key
-                                (assoc acc current-key (string/trim current-value))
-                                acc)
-                              (let [line (first lines)
-                                    remaining (rest lines)]
-                                (if-let [key-match (re-find #"^([^:]+):\s*(.*)$" line)]
-                                  ;; New key found
-                                  (let [new-key (keyword (string/trim (second key-match)))
-                                        new-value (string/trim (nth key-match 2))
-                                        ;; Save previous key-value if exists
-                                        updated-acc (if current-key
-                                                      (assoc acc current-key (string/trim current-value))
-                                                      acc)]
-                                    (recur remaining updated-acc new-key new-value))
-                                  ;; Continuation line (indented or blank)
-                                  (if current-key
-                                    (recur remaining acc current-key
-                                           (str current-value "\n" line))
-                                    (recur remaining acc current-key current-value))))))]
+          body-text (string/trim (nth frontmatter-match 2))]
       {:content body-text
-       :frontmatter frontmatter-map})
-    ;; No frontmatter found
+       :frontmatter (parse-frontmatter frontmatter-text)})
+    ;; No frontmatter delimiters found; treat entire input as content
     {:content content
      :frontmatter {}}))
 
@@ -287,7 +294,7 @@
 (defn convert-content
   "Convert cursor rule content to the specified format"
   [component content format]
-  (let [parsed (parse-frontmatter content)]
+  (let [parsed (parse-text content)]
     (case format
       "instructions" (convert-to-instructions component parsed)
       "prompts" (convert-to-prompt component content parsed)
