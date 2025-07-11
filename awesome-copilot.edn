@@ -1,4 +1,4 @@
-{:generated "2025-07-10T18:06:51.699069868Z",
+{:generated "2025-07-11T06:07:36.668307294Z",
  :instructions
  ({:filename "angular.instructions.md",
    :title "Angular Development Instructions",
@@ -134,6 +134,10 @@
    :title "Quarkus",
    :description "Quarkus development standards and instructions",
    :link "instructions/quarkus.instructions.md"}
+  {:filename "reactjs.instructions.md",
+   :title "ReactJS Development Instructions",
+   :description "ReactJS development standards and best practices",
+   :link "instructions/reactjs.instructions.md"}
   {:filename "ruby-on-rails.instructions.md",
    :title "Ruby on Rails",
    :description "Ruby on Rails coding conventions and guidelines",
@@ -373,6 +377,11 @@
    :title "Accessibility mode",
    :description "Accessibility mode.",
    :link "chatmodes/accesibility.chatmode.md"}
+  {:filename "api-architect.chatmode.md",
+   :title "API Architect mode instructions",
+   :description
+   "Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.",
+   :link "chatmodes/api-architect.chatmode.md"}
   {:filename "azure-principal-architect.chatmode.md",
    :title "Azure Principal Architect mode instructions",
    :description
@@ -502,6 +511,11 @@
    :description
    "Generate technical debt remediation plans for code, tests, and documentation.",
    :link "chatmodes/tech-debt-remediation-plan.chatmode.md"}
+  {:filename "voidbeast-gpt41enhanced.chatmode.md",
+   :title "voidBeast_GPT41Enhanced 1.0 - Elite Developer AI Assistant",
+   :description
+   "4.1 voidBeast_GPT41Enhanced 1.0 : a advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution. Plan/Act/Deep Research/Analyzer/Checkpoints(Memory)/Prompt Generator Modes.",
+   :link "chatmodes/voidbeast-gpt41enhanced.chatmode.md"}
   {:filename "wg-code-alchemist.chatmode.md",
    :title "Wg Code Alchemist",
    :description
