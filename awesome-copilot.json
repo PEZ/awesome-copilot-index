@@ -1,6 +1,16 @@
 {
-  "generated" : "2025-07-13T18:06:17.161971924Z",
+  "generated" : "2025-07-14T06:08:26.459954544Z",
   "instructions" : [ {
+    "filename" : "Rust-GPT-4.1-Beast-Mode.md",
+    "title" : "Rust Beast Mode",
+    "description" : "Rust GPT-4.1 Coding Beast Mode for VS Code",
+    "link" : "instructions/Rust-GPT-4.1-Beast-Mode.md"
+  }, {
+    "filename" : "ai-prompt-engineering-safety-best-practices.instructions.md",
+    "title" : "AI Prompt Engineering & Safety Best Practices",
+    "description" : "\"Comprehensive best practices for AI prompt engineering, safety frameworks, bias mitigation, and responsible AI usage for Copilot and LLMs.\"",
+    "link" : "instructions/ai-prompt-engineering-safety-best-practices.instructions.md"
+  }, {
     "filename" : "angular.instructions.md",
     "title" : "Angular Development Instructions",
     "description" : "Angular-specific coding standards and best practices",
@@ -50,6 +60,11 @@
     "title" : "DevOps Core Principles",
     "description" : "Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery.",
     "link" : "instructions/devops-core-principles.instructions.md"
+  }, {
+    "filename" : "dotnet-architecture-good-practices.instructions.md",
+    "title" : "DDD Systems & .NET Guidelines",
+    "description" : "\"DDD and .NET architecture guidelines",
+    "link" : "instructions/dotnet-architecture-good-practices.instructions.md"
   }, {
     "filename" : "dotnet-maui.instructions.md",
     "title" : ".NET MAUI",
@@ -116,6 +131,11 @@
     "description" : "Next.js + Tailwind development standards and instructions",
     "link" : "instructions/nextjs-tailwind.instructions.md"
   }, {
+    "filename" : "nodejs-javascript-vitest.instructions.md",
+    "title" : "Code Generation Guidelines",
+    "description" : "\"Guidelines for writing Node.js and JavaScript code with Vitest testing\"",
+    "link" : "instructions/nodejs-javascript-vitest.instructions.md"
+  }, {
     "filename" : "performance-optimization.instructions.md",
     "title" : "Performance Optimization Best Practices",
     "description" : "The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.",
@@ -126,10 +146,10 @@
     "description" : "Playwright test generation instructions",
     "link" : "instructions/playwright-typescript.instructions.md"
   }, {
-    "filename" : "power-platform-connector-instructions.md",
+    "filename" : "power-platform-connector.instructions.md",
     "title" : "Power Platform Connectors Schema Development Instructions",
     "description" : "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
-    "link" : "instructions/power-platform-connector-instructions.md"
+    "link" : "instructions/power-platform-connector.instructions.md"
   }, {
     "filename" : "powershell.instructions.md",
     "title" : "PowerShell Cmdlet Development Guidelines",
@@ -161,6 +181,11 @@
     "description" : "\"Comprehensive secure coding instructions for all languages and frameworks, based on OWASP Top 10 and industry best practices.\"",
     "link" : "instructions/security-and-owasp.instructions.md"
   }, {
+    "filename" : "self-explanatory-code-commenting.instructions.md",
+    "title" : "Self-explanatory Code Commenting Instructions",
+    "description" : "Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.",
+    "link" : "instructions/self-explanatory-code-commenting.instructions.md"
+  }, {
     "filename" : "springboot.instructions.md",
     "title" : "Spring Boot Development",
     "description" : "Guidelines for building Spring Boot base applications",
@@ -176,12 +201,22 @@
     "description" : "Prevent Copilot from wreaking havoc across your codebase, keeping it under control.",
     "link" : "instructions/taming-copilot.instructions.md"
   }, {
-    "filename" : "tanstack-start-shadcn-tailwind.md",
+    "filename" : "tanstack-start-shadcn-tailwind.instructions.md",
     "title" : "TanStack Start with Shadcn/ui Development Guide",
     "description" : "Guidelines for building TanStack Start applications",
-    "link" : "instructions/tanstack-start-shadcn-tailwind.md"
+    "link" : "instructions/tanstack-start-shadcn-tailwind.instructions.md"
+  }, {
+    "filename" : "vuejs3.instructions.md",
+    "title" : "VueJS 3 Development Instructions",
+    "description" : "VueJS 3 development standards and best practices with Composition API and TypeScript",
+    "link" : "instructions/vuejs3.instructions.md"
   } ],
   "prompts" : [ {
+    "filename" : "ai-prompt-engineering-safety-review.prompt.md",
+    "title" : "AI Prompt Engineering Safety Review & Improvement",
+    "description" : "\"Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.\"",
+    "link" : "prompts/ai-prompt-engineering-safety-review.prompt.md"
+  }, {
     "filename" : "aspnet-minimal-api-openapi.prompt.md",
     "title" : "ASP.NET Minimal API with OpenAPI",
     "description" : "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation",
@@ -237,6 +272,11 @@
     "description" : "Create comprehensive, standardized documentation for object-oriented components following industry best practices and architectural documentation standards.",
     "link" : "prompts/create-oo-component-documentation.prompt.md"
   }, {
+    "filename" : "create-readme.prompt.md",
+    "title" : "Create Readme",
+    "description" : "Create a README.md file for the project",
+    "link" : "prompts/create-readme.prompt.md"
+  }, {
     "filename" : "create-specification.prompt.md",
     "title" : "Create Specification",
     "description" : "Create a new specification file for the solution, optimized for Generative AI consumption.",
@@ -271,6 +311,11 @@
     "title" : "NUnit Best Practices",
     "description" : "Get best practices for NUnit unit testing, including data-driven tests",
     "link" : "prompts/csharp-nunit.prompt.md"
+  }, {
+    "filename" : "csharp-tunit.prompt.md",
+    "title" : "TUnit Best Practices",
+    "description" : null,
+    "link" : "prompts/csharp-tunit.prompt.md"
   }, {
     "filename" : "csharp-xunit.prompt.md",
     "title" : "XUnit Best Practices",
@@ -341,6 +386,11 @@
     "title" : "Next Intl Add Language",
     "description" : "Add new language to a Next.js + next-intl application",
     "link" : "prompts/next-intl-add-language.prompt.md"
+  }, {
+    "filename" : "review-and-refactor.prompt.md",
+    "title" : "Review And Refactor",
+    "description" : "Review and refactor code in your project according to defined instructions",
+    "link" : "prompts/review-and-refactor.prompt.md"
   }, {
     "filename" : "suggest-awesome-github-copilot-chatmodes.prompt.md",
     "title" : "Suggest Awesome GitHub Copilot Chatmodes",
@@ -467,6 +517,16 @@
     "title" : "Mentor mode instructions",
     "description" : "Help mentor the engineer by providing guidance and support.",
     "link" : "chatmodes/mentor.chatmode.md"
+  }, {
+    "filename" : "meta-agentic-project-scaffold.chatmode.md",
+    "title" : "Meta Agentic Project Scaffold",
+    "description" : "Meta agentic project creation assistant to help users create and manage project workflows effectively.",
+    "link" : "chatmodes/meta-agentic-project-scaffold.chatmode.md"
+  }, {
+    "filename" : "microsoft_learn_contributor.chatmode.md",
+    "title" : "Microsoft Learn Contributor",
+    "description" : "Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices.",
+    "link" : "chatmodes/microsoft_learn_contributor.chatmode.md"
   }, {
     "filename" : "plan.chatmode.md",
     "title" : "Plan Mode - Strategic Planning & Architecture Assistant",
