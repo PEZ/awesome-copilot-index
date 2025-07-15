@@ -11,7 +11,7 @@ redirect_from:
 
 # Cursor Rules to Copilot Joyride Script
 
-Browse and convert [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) to Copilot [Instructions](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions), [Prompts](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental), and [Chat modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes) right from inside VS Code with this [Joyride](https://github.com/BetterThanTomorrow/joyride) Script.
+Convert Cursor Rules to Copilot configuration, both local and from [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) right from inside VS Code with this [Joyride](https://github.com/BetterThanTomorrow/joyride) Script. When converting you'll get to select to target Copilot [Instructions](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions), [Prompts](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental), and [Chat modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes).
 
 
 {% include youtubePlayer.html id=page.youtubeId %}
