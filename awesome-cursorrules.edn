@@ -1,4 +1,4 @@
-{:generated "2025-07-15T06:07:44.330170923Z",
+{:generated "2025-07-15T12:09:14.688123239Z",
  :cursor-rules
  [{:description
    "Rules for proper API usage within Chrome extensions, ensuring compatibility and best practices.",
