@@ -1,10 +1,6 @@
-{:generated "2025-07-14T18:07:07.720933674Z",
+{:generated "2025-07-15T06:07:43.889804566Z",
  :instructions
- ({:filename "Rust-GPT-4.1-Beast-Mode.md",
-   :title "Rust Beast Mode",
-   :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
-   :link "instructions/Rust-GPT-4.1-Beast-Mode.md"}
-  {:filename
+ ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
    :title "AI Prompt Engineering & Safety Best Practices",
    :description
@@ -118,6 +114,11 @@
    :title "Memory Bank",
    :description nil,
    :link "instructions/memory-bank.instructions.md"}
+  {:filename "ms-sql-dba.instructions.md",
+   :title "MS-SQL DBA Chat Mode Instructions",
+   :description
+   "Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode.",
+   :link "instructions/ms-sql-dba.instructions.md"}
   {:filename "nextjs-tailwind.instructions.md",
    :title "Next.js + Tailwind Development Instructions",
    :description
@@ -151,6 +152,11 @@
    :title "Python Coding Conventions",
    :description "Python coding conventions and guidelines",
    :link "instructions/python.instructions.md"}
+  {:filename "quarkus-mcp-server-sse.instructions.md",
+   :title "Quarkus MCP Server",
+   :description
+   "Quarkus and MCP Server with HTTP SSE transport development standards and instructions",
+   :link "instructions/quarkus-mcp-server-sse.instructions.md"}
   {:filename "quarkus.instructions.md",
    :title "Quarkus",
    :description "Quarkus development standards and instructions",
@@ -511,6 +517,11 @@
    :description
    "Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices.",
    :link "chatmodes/microsoft_learn_contributor.chatmode.md"}
+  {:filename "ms-sql-dba.chatmode.md",
+   :title "MS-SQL Database Administrator",
+   :description
+   "Work with Microsoft SQL Server databases using the MS SQL extension.",
+   :link "chatmodes/ms-sql-dba.chatmode.md"}
   {:filename "plan.chatmode.md",
    :title "Plan Mode - Strategic Planning & Architecture Assistant",
    :description
@@ -546,6 +557,10 @@
    :description
    "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
    :link "chatmodes/refine-issue.chatmode.md"}
+  {:filename "rust-gpt-4.1-beast-mode.chatmode.md",
+   :title "Rust Beast Mode",
+   :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
+   :link "chatmodes/rust-gpt-4.1-beast-mode.chatmode.md"}
   {:filename "semantic-kernel-dotnet.chatmode.md",
    :title "Semantic Kernel .NET mode instructions",
    :description
