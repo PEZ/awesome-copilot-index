@@ -23,13 +23,13 @@ As the [Awesome Copilot repository](https://github.com/github/awesome-copilot) g
 1. **Install Joyride** from the VS Code Extensions marketplace
 2. **Copy the script below**
 3. **In VS Code Command Palette**: `Joyride: Create User Script...`
-4. **Name it**: `awesome-cursorrules-to-copilot`
+4. **Name it**: `cursorrules-to-copilot`
 5. **Paste the script** in the editor that opens
 
 ## Usage
 
 1. **Command Palette**: `Joyride: Run User Script...`
-2. **Select**: `awesome_cursorrules_to_copilot.cljs`
+2. **Select**: `cursorrules_to_copilot.cljs`
 
 The script presents a fuzzy searchable menu with Cursor Rules Components files from [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules). At the source, cursor rules are most often organized into "tech stack" with several components. Each component corresponds roughly to a problem domain. The menu will present this as a flat list of components and will convert to files named from both the tech stack and the problem domain.
 
@@ -46,9 +46,9 @@ See also: [Awesome Copilot VS Code Menu](awesome-copilot-script)
 ## Script Source
 
 <textarea class="code" readonly>
-{% include_relative awesome_cursorrules_to_copilot.cljs %}
+{% include_relative cursorrules_to_copilot.cljs %}
 </textarea>
 
 ---
 
-[← Back to Index](index.html) | [Download Script](awesome_cursorrules_to_copilot.cljs)
+[← Back to Index](index.html) | [Download Script](cursorrules_to_copilot.cljs)
