@@ -1,4 +1,4 @@
-{:generated "2025-07-15T18:07:16.530482709Z",
+{:generated "2025-07-16T06:07:48.645727500Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -71,6 +71,11 @@
    "Guidelines for generating modern Terraform code for Azure",
    :link
    "instructions/generate-modern-terraform-code-for-azure.instructions.md"}
+  {:filename "gilfoyle-code-review.instructions.md",
+   :title "Gilfoyle Code Review Instructions",
+   :description
+   "Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley\\'s most arrogant systems architect.",
+   :link "instructions/gilfoyle-code-review.instructions.md"}
   {:filename "github-actions-ci-cd-best-practices.instructions.md",
    :title "GitHub Actions CI/CD Best Practices",
    :description
@@ -492,6 +497,11 @@
    :description
    "Provide expert React frontend engineering guidance using modern TypeScript and design patterns.",
    :link "chatmodes/expert-react-frontend-engineer.chatmode.md"}
+  {:filename "gilfoyle.chatmode.md",
+   :title "Gilfoyle Code Review Mode",
+   :description
+   "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
+   :link "chatmodes/gilfoyle.chatmode.md"}
   {:filename "implementation-plan.chatmode.md",
    :title "Implementation Plan Generation Mode",
    :description
