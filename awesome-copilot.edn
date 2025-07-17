@@ -1,4 +1,4 @@
-{:generated "2025-07-16T18:07:07.506647103Z",
+{:generated "2025-07-17T06:07:37.559857110Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -74,7 +74,7 @@
   {:filename "gilfoyle-code-review.instructions.md",
    :title "Gilfoyle Code Review Instructions",
    :description
-   "Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley\\'s most arrogant systems architect.",
+   "Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley''s most arrogant systems architect.",
    :link "instructions/gilfoyle-code-review.instructions.md"}
   {:filename "github-actions-ci-cd-best-practices.instructions.md",
    :title "GitHub Actions CI/CD Best Practices",
@@ -463,6 +463,11 @@
    :description
    "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
    :link "chatmodes/azure-verified-modules-terraform.chatmode.md"}
+  {:filename "clojure-interactive-programming.chatmode.md",
+   :title "Clojure Interactive Programming with Backseat Driver",
+   :description
+   "Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.",
+   :link "chatmodes/clojure-interactive-programming.chatmode.md"}
   {:filename "critical-thinking.chatmode.md",
    :title "Critical thinking mode instructions",
    :description

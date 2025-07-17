@@ -23,10 +23,10 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 |----------|------:|
 | **Instructions** | 44 |
 | **Prompts** | 44 |
-| **Chat Modes** | 37 |
-| **Total Resources** | 125 |
+| **Chat Modes** | 38 |
+| **Total Resources** | 126 |
 
-*Last updated: 2025-07-16 18:07:07 UTC*
+*Last updated: 2025-07-17 06:07:37 UTC*
 
 ## Usage Example
 
