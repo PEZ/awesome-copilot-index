@@ -1,4 +1,4 @@
-{:generated "2025-07-17T18:07:04.711285273Z",
+{:generated "2025-07-18T06:07:31.982270342Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -185,6 +185,11 @@
    "Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.",
    :link
    "instructions/self-explanatory-code-commenting.instructions.md"}
+  {:filename "spec-driven-workflow-v1.instructions.md",
+   :title "Spec Driven Workflow v1",
+   :description
+   "Specification-Driven Workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated.",
+   :link "instructions/spec-driven-workflow-v1.instructions.md"}
   {:filename "springboot.instructions.md",
    :title "Spring Boot Development",
    :description
@@ -591,6 +596,11 @@
    :description
    "Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification creation.",
    :link "chatmodes/simple-app-idea-generator.chatmode.md"}
+  {:filename "software-engineer-agent-v1.chatmode.md",
+   :title "Software Engineer Agent v1",
+   :description
+   "Expert-level software engineering agent. Deliver production-ready, maintainable code. Execute systematically and specification-driven. Document comprehensively. Operate autonomously and adaptively.",
+   :link "chatmodes/software-engineer-agent-v1.chatmode.md"}
   {:filename "specification.chatmode.md",
    :title "Specification mode instructions",
    :description
