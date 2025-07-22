@@ -1,4 +1,4 @@
-{:generated "2025-07-22T06:08:04.183929268Z",
+{:generated "2025-07-22T18:07:22.598112681Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -53,7 +53,7 @@
    :link "instructions/devops-core-principles.instructions.md"}
   {:filename "dotnet-architecture-good-practices.instructions.md",
    :title "DDD Systems & .NET Guidelines",
-   :description "\"DDD and .NET architecture guidelines",
+   :description "\"DDD and .NET architecture guidelines\"",
    :link
    "instructions/dotnet-architecture-good-practices.instructions.md"}
   {:filename "dotnet-maui.instructions.md",
