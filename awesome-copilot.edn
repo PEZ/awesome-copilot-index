@@ -1,4 +1,4 @@
-{:generated "2025-07-24T06:07:44.226759725Z",
+{:generated "2025-07-24T18:07:17.172645562Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -129,6 +129,10 @@
    :description
    "Next.js + Tailwind development standards and instructions",
    :link "instructions/nextjs-tailwind.instructions.md"}
+  {:filename "nextjs.instructions.md",
+   :title "Next.js Best Practices for LLMs (2025)",
+   :description nil,
+   :link "instructions/nextjs.instructions.md"}
   {:filename "nodejs-javascript-vitest.instructions.md",
    :title "Code Generation Guidelines",
    :description

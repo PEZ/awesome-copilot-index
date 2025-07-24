@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-24T06:07:44.700138604Z",
+  "generated" : "2025-07-24T18:07:17.635935389Z",
   "cursor-rules" : [ {
     "description" : "Rules for proper API usage within Chrome extensions, ensuring compatibility and best practices.",
     "tech-stack" : "Javascript Chrome Apis",
@@ -1019,6 +1019,30 @@
     "tech-stack" : "Next.js App Router",
     "domain" : "Next Js Typescript Usage",
     "link" : "rules/nextjs-app-router-cursorrules-prompt-file/next-js-typescript-usage.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Applies clean-code guidelines for Scala 3.",
+    "tech-stack" : "Scala Kafka",
+    "domain" : "General Scala Clean Code",
+    "link" : "rules/scala-kafka-cursorrules-prompt-file/general-scala-clean-code.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Applies general coding standards and best practices for Scala 3 development, focusing on SOLID, DRY, KISS, YAGNI and idiomatic functional-programming style. Tailored for an sbt project that uses Kafka Streams.",
+    "tech-stack" : "Scala Kafka",
+    "domain" : "General Scala Development Practices",
+    "link" : "rules/scala-kafka-cursorrules-prompt-file/general-scala-development-practices.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Applies general coding standards and best practices for Kafka development with Scala.",
+    "tech-stack" : "Scala Kafka",
+    "domain" : "Kafka Development Practices",
+    "link" : "rules/scala-kafka-cursorrules-prompt-file/kafka-development-practices.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Enforce a unified scalafmt style across all Scala sources",
+    "tech-stack" : "Scala Kafka",
+    "domain" : "Linting Formatting",
+    "link" : "rules/scala-kafka-cursorrules-prompt-file/linting-formatting.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "General rules for the entire Todo web application project. Encompasses specifications and guidelines applicable across all files.",
