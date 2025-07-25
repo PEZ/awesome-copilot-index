@@ -1,4 +1,4 @@
-{:generated "2025-07-24T18:07:17.172645562Z",
+{:generated "2025-07-25T06:08:04.971210258Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -60,6 +60,10 @@
    :title ".NET MAUI",
    :description ".NET MAUI component and application patterns",
    :link "instructions/dotnet-maui.instructions.md"}
+  {:filename "dotnet-wpf.instructions.md",
+   :title "Dotnet Wpf",
+   :description ".NET WPF component and application patterns",
+   :link "instructions/dotnet-wpf.instructions.md"}
   {:filename "genaiscript.instructions.md",
    :title "Genaiscript",
    :description "AI-powered script generation guidelines",
@@ -138,6 +142,11 @@
    :description
    "\"Guidelines for writing Node.js and JavaScript code with Vitest testing\"",
    :link "instructions/nodejs-javascript-vitest.instructions.md"}
+  {:filename "object-calisthenics.instructions.md",
+   :title "Object Calisthenics Rules",
+   :description
+   "Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code",
+   :link "instructions/object-calisthenics.instructions.md"}
   {:filename "performance-optimization.instructions.md",
    :title "Performance Optimization Best Practices",
    :description
@@ -152,6 +161,11 @@
    :description
    "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
    :link "instructions/power-platform-connector.instructions.md"}
+  {:filename "powershell-pester-5.instructions.md",
+   :title "PowerShell Pester v5 Testing Guidelines",
+   :description
+   "PowerShell Pester testing best practices based on Pester v5 conventions",
+   :link "instructions/powershell-pester-5.instructions.md"}
   {:filename "powershell.instructions.md",
    :title "PowerShell Cmdlet Development Guidelines",
    :description
@@ -224,6 +238,11 @@
    :description
    "\"Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.\"",
    :link "prompts/ai-prompt-engineering-safety-review.prompt.md"}
+  {:filename "architecture-blueprint-generator.prompt.md",
+   :title "Comprehensive Project Architecture Blueprint Generator",
+   :description
+   "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.",
+   :link "prompts/architecture-blueprint-generator.prompt.md"}
   {:filename "aspnet-minimal-api-openapi.prompt.md",
    :title "ASP.NET Minimal API with OpenAPI",
    :description
@@ -239,16 +258,32 @@
    :description
    "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
    :link "prompts/azure-resource-health-diagnose.prompt.md"}
+  {:filename "code-exemplars-blueprint-generator.prompt.md",
+   :title "Code Exemplars Blueprint Generator",
+   :description
+   "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams.",
+   :link "prompts/code-exemplars-blueprint-generator.prompt.md"}
   {:filename "comment-code-generate-a-tutorial.prompt.md",
    :title "Comment Code Generate A Tutorial",
    :description
    "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
    :link "prompts/comment-code-generate-a-tutorial.prompt.md"}
+  {:filename "copilot-instructions-blueprint-generator.prompt.md",
+   :title "Copilot Instructions Blueprint Generator",
+   :description
+   "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.",
+   :link "prompts/copilot-instructions-blueprint-generator.prompt.md"}
   {:filename "create-architectural-decision-record.prompt.md",
    :title "Create Architectural Decision Record",
    :description
    "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.",
    :link "prompts/create-architectural-decision-record.prompt.md"}
+  {:filename "create-github-action-workflow-specification.prompt.md",
+   :title "Create GitHub Actions Workflow Specification",
+   :description
+   "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance.",
+   :link
+   "prompts/create-github-action-workflow-specification.prompt.md"}
   {:filename
    "create-github-issue-feature-from-specification.prompt.md",
    :title "Create GitHub Issue from Specification",
@@ -344,6 +379,11 @@
    :title "Entity Framework Core Best Practices",
    :description "Get best practices for Entity Framework Core",
    :link "prompts/ef-core.prompt.md"}
+  {:filename "folder-structure-blueprint-generator.prompt.md",
+   :title "Project Folder Structure Blueprint Generator",
+   :description
+   "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, file placement patterns, and extension templates for maintaining consistent code organization across diverse technology stacks.",
+   :link "prompts/folder-structure-blueprint-generator.prompt.md"}
   {:filename "gen-specs-as-issues.prompt.md",
    :title
    "Product Manager Assistant: Feature Identification and Specification",
@@ -393,11 +433,42 @@
    :description
    "Add new language to a Next.js + next-intl application",
    :link "prompts/next-intl-add-language.prompt.md"}
+  {:filename "postgresql-code-review.prompt.md",
+   :title "PostgreSQL Code Review Assistant",
+   :description
+   "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS).",
+   :link "prompts/postgresql-code-review.prompt.md"}
+  {:filename "postgresql-optimization.prompt.md",
+   :title "PostgreSQL Development Assistant",
+   :description
+   "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.",
+   :link "prompts/postgresql-optimization.prompt.md"}
+  {:filename "project-workflow-analysis-blueprint-generator.prompt.md",
+   :title "Project Workflow Documentation Generator",
+   :description
+   "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
+   :link
+   "prompts/project-workflow-analysis-blueprint-generator.prompt.md"}
+  {:filename "readme-blueprint-generator.prompt.md",
+   :title "README Generator Prompt",
+   :description
+   "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
+   :link "prompts/readme-blueprint-generator.prompt.md"}
   {:filename "review-and-refactor.prompt.md",
    :title "Review And Refactor",
    :description
    "Review and refactor code in your project according to defined instructions",
    :link "prompts/review-and-refactor.prompt.md"}
+  {:filename "sql-code-review.prompt.md",
+   :title "SQL Code Review",
+   :description
+   "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage.",
+   :link "prompts/sql-code-review.prompt.md"}
+  {:filename "sql-optimization.prompt.md",
+   :title "SQL Performance Optimization Assistant",
+   :description
+   "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
+   :link "prompts/sql-optimization.prompt.md"}
   {:filename "suggest-awesome-github-copilot-chatmodes.prompt.md",
    :title "Suggest Awesome GitHub Copilot Chatmodes",
    :description
@@ -408,6 +479,11 @@
    :description
    "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository.",
    :link "prompts/suggest-awesome-github-copilot-prompts.prompt.md"}
+  {:filename "technology-stack-blueprint-generator.prompt.md",
+   :title "Comprehensive Technology Stack Blueprint Generator",
+   :description
+   "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development.",
+   :link "prompts/technology-stack-blueprint-generator.prompt.md"}
   {:filename "update-avm-modules-in-bicep.prompt.md",
    :title "Update Azure Verified Modules in Bicep Files",
    :description
@@ -610,6 +686,21 @@
    :description
    "Generate or update specification documents for new or existing functionality.",
    :link "chatmodes/specification.chatmode.md"}
+  {:filename "tdd-green.chatmode.md",
+   :title "TDD Green Phase - Make Tests Pass Quickly",
+   :description
+   "Implement minimal code to satisfy GitHub issue requirements and make failing tests pass without over-engineering.",
+   :link "chatmodes/tdd-green.chatmode.md"}
+  {:filename "tdd-red.chatmode.md",
+   :title "TDD Red Phase - Write Failing Tests First",
+   :description
+   "Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists.",
+   :link "chatmodes/tdd-red.chatmode.md"}
+  {:filename "tdd-refactor.chatmode.md",
+   :title "TDD Refactor Phase - Improve Quality & Security",
+   :description
+   "Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance.",
+   :link "chatmodes/tdd-refactor.chatmode.md"}
   {:filename "tech-debt-remediation-plan.chatmode.md",
    :title "Technical Debt Remediation Plan",
    :description

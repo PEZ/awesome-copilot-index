@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-24T18:07:17.635935389Z",
+  "generated" : "2025-07-25T06:08:05.522683737Z",
   "cursor-rules" : [ {
     "description" : "Rules for proper API usage within Chrome extensions, ensuring compatibility and best practices.",
     "tech-stack" : "Javascript Chrome Apis",
