@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-31T18:07:29.071688267Z",
+  "generated" : "2025-08-01T06:08:58.033532607Z",
   "instructions" : [ {
     "filename" : "ai-prompt-engineering-safety-best-practices.instructions.md",
     "title" : "AI Prompt Engineering & Safety Best Practices",
@@ -40,6 +40,11 @@
     "title" : "Containerization & Docker Best Practices",
     "description" : "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
     "link" : "instructions/containerization-docker-best-practices.instructions.md"
+  }, {
+    "filename" : "conventional-commit.prompt.md",
+    "title" : "Conventional Commit",
+    "description" : "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.",
+    "link" : "instructions/conventional-commit.prompt.md"
   }, {
     "filename" : "copilot-thought-logging.instructions.md",
     "title" : "Copilot Process tracking Instructions",
@@ -412,6 +417,11 @@
     "description" : "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.",
     "link" : "prompts/gen-specs-as-issues.prompt.md"
   }, {
+    "filename" : "git-flow-branch-creator.prompt.md",
+    "title" : "Git Flow Branch Creator",
+    "description" : "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
+    "link" : "prompts/git-flow-branch-creator.prompt.md"
+  }, {
     "filename" : "java-docs.prompt.md",
     "title" : "Java Documentation (Javadoc) Best Practices",
     "description" : "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.",
@@ -599,8 +609,8 @@
     "link" : "chatmodes/azure-verified-modules-terraform.chatmode.md"
   }, {
     "filename" : "blueprint-mode.chatmode.md",
-    "title" : "Blueprint Mode v12",
-    "description" : "Blueprint Mode enforces autonomous engineering with strict specification-first development. Agents must plan rigorously, document meticulously, and resolve issues proactively. All resources are maximized, constraints bypassed, and no placeholders allowed to deliver optimal solutions.",
+    "title" : "Blueprint Mode v16",
+    "description" : "Blueprint Mode drives autonomous engineering through strict specification-first development, requiring rigorous planning, comprehensive documentation, proactive issue resolution, and resource optimization to deliver robust, high-quality solutions without placeholders.",
     "link" : "chatmodes/blueprint-mode.chatmode.md"
   }, {
     "filename" : "clojure-interactive-programming.chatmode.md",
