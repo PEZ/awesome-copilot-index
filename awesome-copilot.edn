@@ -1,4 +1,4 @@
-{:generated "2025-08-03T18:06:44.385703427Z",
+{:generated "2025-08-04T06:11:22.288863777Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -61,6 +61,11 @@
    :description "\"DDD and .NET architecture guidelines\"",
    :link
    "instructions/dotnet-architecture-good-practices.instructions.md"}
+  {:filename "dotnet-framework.instructions.md",
+   :title ".NET Framework Development",
+   :description
+   "Guidance for working with .NET Framework projects. Includes project structure, C# language version, NuGet management, and best practices.",
+   :link "instructions/dotnet-framework.instructions.md"}
   {:filename "dotnet-maui.instructions.md",
    :title ".NET MAUI",
    :description ".NET MAUI component and application patterns",
@@ -272,6 +277,36 @@
    :description
    "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
    :link "prompts/azure-resource-health-diagnose.prompt.md"}
+  {:filename "breakdown-epic-arch.prompt.md",
+   :title "Epic Architecture Specification Prompt",
+   :description
+   "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document.",
+   :link "prompts/breakdown-epic-arch.prompt.md"}
+  {:filename "breakdown-epic-pm.prompt.md",
+   :title "Epic Product Requirements Document (PRD) Prompt",
+   :description
+   "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specification.",
+   :link "prompts/breakdown-epic-pm.prompt.md"}
+  {:filename "breakdown-feature-implementation.prompt.md",
+   :title "Feature Implementation Plan Prompt",
+   :description
+   "Prompt for creating detailed feature implementation plans, following Epoch monorepo structure.",
+   :link "prompts/breakdown-feature-implementation.prompt.md"}
+  {:filename "breakdown-feature-prd.prompt.md",
+   :title "Feature PRD Prompt",
+   :description
+   "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic.",
+   :link "prompts/breakdown-feature-prd.prompt.md"}
+  {:filename "breakdown-plan.prompt.md",
+   :title "GitHub Issue Planning & Project Automation Prompt",
+   :description
+   "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
+   :link "prompts/breakdown-plan.prompt.md"}
+  {:filename "breakdown-test.prompt.md",
+   :title "Test Planning & Quality Assurance Prompt",
+   :description
+   "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.",
+   :link "prompts/breakdown-test.prompt.md"}
   {:filename "code-exemplars-blueprint-generator.prompt.md",
    :title "Code Exemplars Blueprint Generator",
    :description
@@ -561,6 +596,11 @@
    :title "4.1 Beast Mode (VS Code v1.102)",
    :description "GPT 4.1 as a top-notch coding agent.",
    :link "chatmodes/4.1-Beast.chatmode.md"}
+  {:filename "Thinking-Beast-Mode.chatmode.md",
+   :title "Thinking Beast Mode",
+   :description
+   "A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.",
+   :link "chatmodes/Thinking-Beast-Mode.chatmode.md"}
   {:filename "accesibility.chatmode.md",
    :title "Accessibility mode",
    :description "Accessibility mode.",
