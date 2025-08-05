@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-04T18:07:40.202294513Z",
+  "generated" : "2025-08-05T06:09:06.670208279Z",
   "instructions" : [ {
     "filename" : "ai-prompt-engineering-safety-best-practices.instructions.md",
     "title" : "AI Prompt Engineering & Safety Best Practices",
@@ -332,6 +332,11 @@
     "description" : "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
     "link" : "prompts/comment-code-generate-a-tutorial.prompt.md"
   }, {
+    "filename" : "containerize-aspnetcore.prompt.md",
+    "title" : "ASP.NET Core Docker Containerization Prompt",
+    "description" : "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+    "link" : "prompts/containerize-aspnetcore.prompt.md"
+  }, {
     "filename" : "copilot-instructions-blueprint-generator.prompt.md",
     "title" : "Copilot Instructions Blueprint Generator",
     "description" : "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.",
@@ -481,6 +486,11 @@
     "title" : "Spring Boot with Kotlin Best Practices",
     "description" : "Get best practices for developing applications with Spring Boot and Kotlin.",
     "link" : "prompts/kotlin-springboot.prompt.md"
+  }, {
+    "filename" : "mkdocs-translations.prompt.md",
+    "title" : "MkDocs AI Translator",
+    "description" : "Generate a language translation for a mkdocs documentation stack.",
+    "link" : "prompts/mkdocs-translations.prompt.md"
   }, {
     "filename" : "multi-stage-dockerfile.prompt.md",
     "title" : "Multi Stage Dockerfile",
