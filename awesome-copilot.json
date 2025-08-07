@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-06T18:07:40.398536151Z",
+  "generated" : "2025-08-07T06:08:41.809012309Z",
   "instructions" : [ {
     "filename" : "ai-prompt-engineering-safety-best-practices.instructions.md",
     "title" : "AI Prompt Engineering & Safety Best Practices",
@@ -20,6 +20,11 @@
     "title" : "Azure Functions Typescript",
     "description" : "TypeScript patterns for Azure Functions",
     "link" : "instructions/azure-functions-typescript.instructions.md"
+  }, {
+    "filename" : "azure-verified-modules-terraform.instructions.md",
+    "title" : "Azure Verified Modules (AVM) Terraform",
+    "description" : " Azure Verified Modules (AVM) and Terraform",
+    "link" : "instructions/azure-verified-modules-terraform.instructions.md"
   }, {
     "filename" : "bicep-code-best-practices.instructions.md",
     "title" : "Bicep Code Best Practices",
@@ -55,6 +60,11 @@
     "title" : "C# Development",
     "description" : "Guidelines for building C# applications",
     "link" : "instructions/csharp.instructions.md"
+  }, {
+    "filename" : "devbox-image-definition.instructions.md",
+    "title" : "Dev Box image definitions",
+    "description" : "Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations",
+    "link" : "instructions/devbox-image-definition.instructions.md"
   }, {
     "filename" : "devops-core-principles.instructions.md",
     "title" : "DevOps Core Principles",
@@ -176,6 +186,11 @@
     "description" : "The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.",
     "link" : "instructions/performance-optimization.instructions.md"
   }, {
+    "filename" : "playwright-python.instructions.md",
+    "title" : "Playwright Python Test Generation Instructions",
+    "description" : "Playwright Python AI test generation instructions based on official documentation.",
+    "link" : "instructions/playwright-python.instructions.md"
+  }, {
     "filename" : "playwright-typescript.instructions.md",
     "title" : "Playwright Typescript",
     "description" : "Playwright test generation instructions",
@@ -256,6 +271,11 @@
     "description" : "Guidelines for building TanStack Start applications",
     "link" : "instructions/tanstack-start-shadcn-tailwind.instructions.md"
   }, {
+    "filename" : "task-implementation.instructions.md",
+    "title" : "Task Plan Implementation Instructions",
+    "description" : "Instructions for implementing task plans with progressive tracking and change record - Brought to you by microsoft/edge-ai",
+    "link" : "instructions/task-implementation.instructions.md"
+  }, {
     "filename" : "terraform.instructions.md",
     "title" : "Terraform Conventions",
     "description" : "Terraform Conventions and Guidelines",
@@ -331,6 +351,11 @@
     "title" : "Comment Code Generate A Tutorial",
     "description" : "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
     "link" : "prompts/comment-code-generate-a-tutorial.prompt.md"
+  }, {
+    "filename" : "containerize-aspnet-framework.prompt.md",
+    "title" : "ASP.NET .NET Framework Containerization Prompt",
+    "description" : "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project.",
+    "link" : "prompts/containerize-aspnet-framework.prompt.md"
   }, {
     "filename" : "containerize-aspnetcore.prompt.md",
     "title" : "ASP.NET Core Docker Containerization Prompt",
@@ -773,6 +798,11 @@
     "description" : "Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation.",
     "link" : "chatmodes/principal-software-engineer.chatmode.md"
   }, {
+    "filename" : "prompt-builder.chatmode.md",
+    "title" : "Prompt Builder Instructions",
+    "description" : "Expert prompt engineering and validation system for creating high-quality prompts - Brought to you by microsoft/edge-ai",
+    "link" : "chatmodes/prompt-builder.chatmode.md"
+  }, {
     "filename" : "prompt-engineer.chatmode.md",
     "title" : "Prompt Engineer",
     "description" : "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a propt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
@@ -812,6 +842,16 @@
     "title" : "Specification mode instructions",
     "description" : "Generate or update specification documents for new or existing functionality.",
     "link" : "chatmodes/specification.chatmode.md"
+  }, {
+    "filename" : "task-planner.chatmode.md",
+    "title" : "Task Planner Instructions",
+    "description" : "Task planner for creating actionable implementation plans - Brought to you by microsoft/edge-ai",
+    "link" : "chatmodes/task-planner.chatmode.md"
+  }, {
+    "filename" : "task-researcher.chatmode.md",
+    "title" : "Task Researcher Instructions",
+    "description" : "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai",
+    "link" : "chatmodes/task-researcher.chatmode.md"
   }, {
     "filename" : "tdd-green.chatmode.md",
     "title" : "TDD Green Phase - Make Tests Pass Quickly",
