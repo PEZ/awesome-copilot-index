@@ -1,4 +1,4 @@
-{:generated "2025-08-07T18:07:39.797626676Z",
+{:generated "2025-08-08T06:08:37.478948942Z",
  :instructions
  ({:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -56,6 +56,11 @@
    :title "C# Development",
    :description "Guidelines for building C# applications",
    :link "instructions/csharp.instructions.md"}
+  {:filename "dart-n-flutter.instructions.md",
+   :title "Dart and Flutter",
+   :description
+   "Instructions for writing Dart and Flutter code following the official recommendations.",
+   :link "instructions/dart-n-flutter.instructions.md"}
   {:filename "devbox-image-definition.instructions.md",
    :title "Dev Box image definitions",
    :description
@@ -186,6 +191,11 @@
    :title "Playwright Typescript",
    :description "Playwright test generation instructions",
    :link "instructions/playwright-typescript.instructions.md"}
+  {:filename "power-apps-canvas-yaml.instructions.md",
+   :title "Power Apps Canvas Apps YAML Structure Guide",
+   :description
+   "Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.",
+   :link "instructions/power-apps-canvas-yaml.instructions.md"}
   {:filename "power-platform-connector.instructions.md",
    :title "Power Platform Connectors Schema Development Instructions",
    :description
@@ -222,6 +232,11 @@
    :title "Ruby on Rails",
    :description "Ruby on Rails coding conventions and guidelines",
    :link "instructions/ruby-on-rails.instructions.md"}
+  {:filename "rust.instructions.md",
+   :title "Rust Coding Conventions and Best Practices",
+   :description
+   "Rust programming language coding conventions and best practices",
+   :link "instructions/rust.instructions.md"}
   {:filename "security-and-owasp.instructions.md",
    :title "Secure Coding and OWASP Guidelines",
    :description
