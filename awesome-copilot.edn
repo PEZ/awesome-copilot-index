@@ -1,6 +1,10 @@
-{:generated "2025-08-10T18:06:19.946759281Z",
+{:generated "2025-08-11T06:08:37.156194060Z",
  :instructions
- ({:filename
+ ({:filename "a11y.instructions.md",
+   :title "Instructions for accessibility",
+   :description "Guidance for creating more accessible code",
+   :link "instructions/a11y.instructions.md"}
+  {:filename
    "ai-prompt-engineering-safety-best-practices.instructions.md",
    :title "AI Prompt Engineering & Safety Best Practices",
    :description
@@ -484,6 +488,12 @@
    :description
    "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.",
    :link "prompts/gen-specs-as-issues.prompt.md"}
+  {:filename "generate-custom-instructions-from-codebase.prompt.md",
+   :title "Migration and Code Evolution Instructions Generator",
+   :description
+   "Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to create precise instructions allowing Copilot to maintain consistency during technology migrations, major refactoring, or framework version upgrades.",
+   :link
+   "prompts/generate-custom-instructions-from-codebase.prompt.md"}
   {:filename "git-flow-branch-creator.prompt.md",
    :title "Git Flow Branch Creator",
    :description
