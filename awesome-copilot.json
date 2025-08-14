@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-13T18:07:52.983452380Z",
+  "generated" : "2025-08-14T06:07:42.430057800Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -296,6 +296,11 @@
     "description" : "Instructions for implementing task plans with progressive tracking and change record - Brought to you by microsoft/edge-ai",
     "link" : "instructions/task-implementation.instructions.md"
   }, {
+    "filename" : "tasksync.instructions.md",
+    "title" : "TaskSync V4 Protocol",
+    "description" : "TaskSync V4 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
+    "link" : "instructions/tasksync.instructions.md"
+  }, {
     "filename" : "terraform.instructions.md",
     "title" : "Terraform Conventions",
     "description" : "Terraform Conventions and Guidelines",
@@ -331,6 +336,11 @@
     "title" : "Azure Resource Health & Issue Diagnosis",
     "description" : "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
     "link" : "prompts/azure-resource-health-diagnose.prompt.md"
+  }, {
+    "filename" : "boost-prompt.prompt.md",
+    "title" : "Boost Prompt",
+    "description" : "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension.",
+    "link" : "prompts/boost-prompt.prompt.md"
   }, {
     "filename" : "breakdown-epic-arch.prompt.md",
     "title" : "Epic Architecture Specification Prompt",
@@ -469,7 +479,7 @@
   }, {
     "filename" : "csharp-tunit.prompt.md",
     "title" : "TUnit Best Practices",
-    "description" : null,
+    "description" : "Get best practices for TUnit unit testing, including data-driven tests",
     "link" : "prompts/csharp-tunit.prompt.md"
   }, {
     "filename" : "csharp-xunit.prompt.md",
@@ -682,6 +692,11 @@
     "title" : "Thinking Beast Mode",
     "description" : "A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.",
     "link" : "chatmodes/Thinking-Beast-Mode.chatmode.md"
+  }, {
+    "filename" : "Ultimate-Transparent-Thinking-Beast-Mode.chatmode.md",
+    "title" : "Ultimate Transparent Thinking Beast Mode",
+    "description" : "Ultimate Transparent Thinking Beast Mode",
+    "link" : "chatmodes/Ultimate-Transparent-Thinking-Beast-Mode.chatmode.md"
   }, {
     "filename" : "accesibility.chatmode.md",
     "title" : "Accessibility mode",
