@@ -1,9 +1,9 @@
 {
-  "generated" : "2025-08-17T18:06:17.955551408Z",
+  "generated" : "2025-08-18T06:08:22.394464013Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
-    "description" : "Guidance for creating more accessible code",
+    "description" : "\"Guidance for creating more accessible code\"",
     "link" : "instructions/a11y.instructions.md"
   }, {
     "filename" : "ai-prompt-engineering-safety-best-practices.instructions.md",
@@ -55,6 +55,11 @@
     "title" : "Conventional Commit",
     "description" : "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.",
     "link" : "instructions/conventional-commit.prompt.md"
+  }, {
+    "filename" : "convert-jpa-to-spring-data-cosmos.instructions.md",
+    "title" : "Convert Spring JPA project to Spring Data Cosmos",
+    "description" : "Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data Cosmos",
+    "link" : "instructions/convert-jpa-to-spring-data-cosmos.instructions.md"
   }, {
     "filename" : "copilot-thought-logging.instructions.md",
     "title" : "Copilot Process tracking Instructions",
@@ -703,6 +708,11 @@
     "description" : "Accessibility mode.",
     "link" : "chatmodes/accesibility.chatmode.md"
   }, {
+    "filename" : "address-comments.chatmode.md",
+    "title" : "Universal PR Comment Addresser",
+    "description" : "\"Address PR comments\"",
+    "link" : "chatmodes/address-comments.chatmode.md"
+  }, {
     "filename" : "api-architect.chatmode.md",
     "title" : "API Architect mode instructions",
     "description" : "Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.",
@@ -729,8 +739,8 @@
     "link" : "chatmodes/azure-verified-modules-terraform.chatmode.md"
   }, {
     "filename" : "blueprint-mode.chatmode.md",
-    "title" : "Blueprint Mode v16",
-    "description" : "Blueprint Mode drives autonomous engineering through strict specification-first development, requiring rigorous planning, comprehensive documentation, proactive issue resolution, and resource optimization to deliver robust, high-quality solutions without placeholders.",
+    "title" : "Blueprint Mode v30",
+    "description" : "Follows strict workflows (Debug, Express, Main, Loop) to analyze requirements, plan before coding and verify against edge cases. Self-corrects and favors simple, maintainable solutions.",
     "link" : "chatmodes/blueprint-mode.chatmode.md"
   }, {
     "filename" : "clojure-interactive-programming.chatmode.md",
@@ -787,6 +797,11 @@
     "title" : "Universal Janitor",
     "description" : "Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.",
     "link" : "chatmodes/janitor.chatmode.md"
+  }, {
+    "filename" : "kusto-assistant.chatmode.md",
+    "title" : "Kusto Assistant: Azure Data Explorer (Kusto) Engineering Assistant",
+    "description" : "\"Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server\"",
+    "link" : "chatmodes/kusto-assistant.chatmode.md"
   }, {
     "filename" : "mentor.chatmode.md",
     "title" : "Mentor mode instructions",
