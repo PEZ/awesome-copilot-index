@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-19T18:07:09.601742325Z",
+  "generated" : "2025-08-20T06:07:45.890033344Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -491,6 +491,11 @@
     "title" : "XUnit Best Practices",
     "description" : "Get best practices for XUnit unit testing, including data-driven tests",
     "link" : "prompts/csharp-xunit.prompt.md"
+  }, {
+    "filename" : "documentation-writer.prompt.md",
+    "title" : "Diátaxis Documentation Expert",
+    "description" : "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.",
+    "link" : "prompts/documentation-writer.prompt.md"
   }, {
     "filename" : "dotnet-best-practices.prompt.md",
     "title" : ".NET/C# Best Practices",
