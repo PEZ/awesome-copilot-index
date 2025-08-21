@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-20T18:06:58.699357840Z",
+  "generated" : "2025-08-21T06:07:56.438616527Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -516,6 +516,11 @@
     "title" : "Entity Framework Core Best Practices",
     "description" : "Get best practices for Entity Framework Core",
     "link" : "prompts/ef-core.prompt.md"
+  }, {
+    "filename" : "first-ask.prompt.md",
+    "title" : "Act Informed: First understand together with the human, then do",
+    "description" : "Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension.",
+    "link" : "prompts/first-ask.prompt.md"
   }, {
     "filename" : "folder-structure-blueprint-generator.prompt.md",
     "title" : "Project Folder Structure Blueprint Generator",
