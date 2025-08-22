@@ -1,4 +1,4 @@
-{:generated "2025-08-21T18:07:06.448081761Z",
+{:generated "2025-08-22T06:07:39.625056290Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -19,6 +19,10 @@
    :title "ASP.NET REST API Development",
    :description "Guidelines for building REST APIs with ASP.NET",
    :link "instructions/aspnet-rest-apis.instructions.md"}
+  {:filename "azure-devops-pipelines.instructions.md",
+   :title "Azure DevOps Pipeline YAML Best Practices",
+   :description "Best practices for Azure DevOps Pipeline YAML files",
+   :link "instructions/azure-devops-pipelines.instructions.md"}
   {:filename "azure-functions-typescript.instructions.md",
    :title "Azure Functions Typescript",
    :description "TypeScript patterns for Azure Functions",
@@ -419,6 +423,12 @@
    "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.",
    :link
    "prompts/create-github-issues-for-unmet-specification-requirements.prompt.md"}
+  {:filename "create-github-pull-request-from-specification.prompt.md",
+   :title "Create GitHub Pull Request from Specification",
+   :description
+   "Create GitHub Pull Request for feature request from specification file using pull_request_template.md template.",
+   :link
+   "prompts/create-github-pull-request-from-specification.prompt.md"}
   {:filename "create-implementation-plan.prompt.md",
    :title "Create Implementation Plan",
    :description
