@@ -4,15 +4,19 @@ title: Awesome Copilot Index
 description: Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes.
 ---
 
-# Awesome Copilot Index
-
-<div style="float: right; margin: -1rem 0 1rem 1rem;">
-  <a href="https://github.com/github/awesome-copilot" target="_blank">
+<div class="page-navigation top">
+  <a href="awesome-copilot-script">Awesome Copilot Script</a>
+  <span class="separator">|</span>
+  <a href="cursorrules-to-copilot-script">Cursor Rules to Copilot Script</a>
+  <span class="separator">|</span>
+  <a href="https://github.com/PEZ/awesome-copilot-index" target="_blank" rel="noopener" class="github-badge">
     <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
   </a>
 </div>
 
-This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes.
+# Awesome Copilot Index
+
+This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes. The site is also hosting [Joyride](https://github.com/BetterThanTomorrow/joyride) scripts that use the indexes to bring the content into [VS Code](https://code.visualstudio.com/) for you.
 
 ## Download Index Files
 
@@ -56,5 +60,15 @@ If you find this project useful, consider sponsoring me:
 Thanks for considering!
 
 ---
+
+<div class="page-navigation bottom">
+  <a href="awesome-copilot-script">Awesome Copilot Script</a>
+  <span class="separator">|</span>
+  <a href="cursorrules-to-copilot-script">Cursor Rules to Copilot Script</a>
+  <span class="separator">|</span>
+  <a href="https://github.com/PEZ/awesome-copilot-index" target="_blank" rel="noopener" class="github-badge">
+    <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
+  </a>
+</div>
 
 Source for this site: [pez/awesome-copilot-index](https://github.com/pez/awesome-copilot-index)
