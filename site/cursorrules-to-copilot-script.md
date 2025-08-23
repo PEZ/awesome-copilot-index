@@ -9,6 +9,16 @@ redirect_from:
   - /awesome-cursorrules-to-copilot-script.html
 ---
 
+<div class="page-navigation top">
+  <a href="index.html">← Back to Index</a>
+  <span class="separator">|</span>
+  <a href="cursorrules_to_copilot.cljs">Download Script</a>
+  <span class="separator">|</span>
+  <a href="https://github.com/PEZ/awesome-copilot-index" target="_blank" rel="noopener" class="github-badge">
+    <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
+  </a>
+</div>
+
 # Cursor Rules to Copilot Joyride Script
 
 Convert Cursor Rules to Copilot configuration, both local and from [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) right from inside VS Code with this [Joyride](https://github.com/BetterThanTomorrow/joyride) Script. When converting you'll get to select to target Copilot [Instructions](https://code.visualstudio.com/docs/copilot/copilot-customization#_custom-instructions), [Prompts](https://code.visualstudio.com/docs/copilot/copilot-customization#_prompt-files-experimental), and [Chat modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes).
@@ -51,4 +61,12 @@ See also: [Awesome Copilot VS Code Menu](awesome-copilot-script)
 
 ---
 
-[← Back to Index](index.html) | [Download Script](cursorrules_to_copilot.cljs)
+<div class="page-navigation bottom">
+  <a href="index.html">← Back to Index</a>
+  <span class="separator">|</span>
+  <a href="cursorrules_to_copilot.cljs">Download Script</a>
+  <span class="separator">|</span>
+  <a href="https://github.com/PEZ/awesome-copilot-index" target="_blank" rel="noopener" class="github-badge">
+    <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
+  </a>
+</div>

@@ -298,6 +298,79 @@ textarea.code:hover {
   }
 }
 
+/* Navigation styling for top and bottom links */
+.page-navigation {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 1.5rem 0;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  background: rgba(248, 250, 252, 0.5);
+  border-radius: 8px;
+}
+
+.page-navigation.top {
+  border-bottom: 2px solid #3b82f6;
+  border-top: none;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.page-navigation.bottom {
+  border-top: 2px solid #3b82f6;
+  border-bottom: none;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.page-navigation a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-navigation a:hover {
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.page-navigation .separator {
+  color: #9ca3af;
+  margin: 0 0.5rem;
+  font-weight: normal;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.page-navigation .github-badge {
+  display: inline-block;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+  line-height: 1;
+}
+
+.page-navigation .github-badge:hover {
+  transform: scale(1.05);
+}
+
+.page-navigation .github-badge img {
+  margin: 0;
+  box-shadow: none;
+  border-radius: 4px;
+  height: 28px;
+  display: block;
+}
+
 /* Animation for smooth loading */
 main {
   animation: fadeIn 0.5s ease-out;

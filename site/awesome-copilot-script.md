@@ -5,6 +5,16 @@ description: The script that powers the Awesome Copilot menu in VS Code via Joyr
 youtubeId: AiL8LurZgSI
 ---
 
+<div class="page-navigation top">
+  <a href="index.html">← Back to Index</a>
+  <span class="separator">|</span>
+  <a href="awesome_copilot.cljs">Download Script</a>
+  <span class="separator">|</span>
+  <a href="https://github.com/PEZ/awesome-copilot-index" target="_blank" rel="noopener" class="github-badge">
+    <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
+  </a>
+</div>
+
 # Awesome Copilot Joyride Script
 
 This script powers the Awesome Copilot menu in VS Code via [Joyride](https://github.com/BetterThanTomorrow/joyride).
@@ -40,4 +50,12 @@ See also: [Cursor Rules to Copilot Joyride Script](cursorrules-to-copilot-script
 
 ---
 
-[← Back to Index](index.html) | [Download Script](awesome_copilot.cljs)
+<div class="page-navigation bottom">
+  <a href="index.html">← Back to Index</a>
+  <span class="separator">|</span>
+  <a href="awesome_copilot.cljs">Download Script</a>
+  <span class="separator">|</span>
+  <a href="https://github.com/PEZ/awesome-copilot-index" target="_blank" rel="noopener" class="github-badge">
+    <img src="https://img.shields.io/badge/fork%20me%20on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Fork me on GitHub" />
+  </a>
+</div>
