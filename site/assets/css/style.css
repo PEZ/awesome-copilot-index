@@ -377,24 +377,24 @@ textarea.code:hover {
     padding: 0.5rem 0.5rem;
     margin: 1rem 0;
   }
-  
+
   .page-navigation a {
     margin: 0.0625rem 0.25rem;
     padding: 0.375rem 0.75rem;
     font-size: 0.875rem;
     display: inline-block;
   }
-  
+
   .page-navigation .separator {
     margin: 0 0.0625rem;
     font-size: 0.875rem;
   }
-  
+
   .page-navigation .github-badge {
     margin: 0.0625rem 0.0625rem;
     display: inline-block;
   }
-  
+
   .page-navigation .github-badge img {
     height: 24px;
   }
@@ -406,23 +406,23 @@ textarea.code:hover {
     padding: 0.5rem 0.5rem;
     line-height: 1.4;
   }
-  
+
   .page-navigation a {
     margin: 0.0625rem 0.0625rem;
     padding: 0.5rem 0.75rem;
     font-size: 0.8rem;
   }
-  
+
   .page-navigation .separator {
     display: none;
   }
-  
+
   .page-navigation .github-badge {
     display: block;
     margin: 0.25rem auto 0 auto;
     width: fit-content;
   }
-  
+
   .page-navigation .github-badge img {
     height: 26px;
   }

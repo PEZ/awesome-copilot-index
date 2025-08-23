@@ -38,6 +38,14 @@ bb generate-cursorrules-index  # Generates cursor rules index
 - Site builds from `site/` directory with generated JSON/EDN indices
 - CSS supports both `ul` (bullet) and `ol` (numbered) lists with blue styling
 
+### Development Template Workflow
+When editing `site/index-template.md` during development:
+1. **Edit the template file**: Make changes to `site/index-template.md`
+2. **Regenerate index**: Run `bb generate-index` to process template with real data
+3. **Jekyll auto-reload**: Jekyll's live reload automatically picks up the generated `index.md` changes
+
+**Important**: Always edit the template file (`index-template.md`), not the generated file (`index.md`). The `bb generate-index` task uses existing Selmer template processing to generate `index.md` with real repository data, not placeholder values.
+
 ## Project-Specific Patterns
 
 ### Frontmatter Parsing Edge Cases
@@ -112,3 +120,48 @@ Title extraction priority: frontmatter `:title` → H1 heading → filename tran
 - **Structural editing** - Use Calva's backseat driver structural editing tools for cleaner, balanced code rather than manual bracket balancing
 
 Remember: Focus on data transformations, use Babashka's built-in libraries, and follow Clojure's functional programming style. Think: What would Rich Hickey do? Build simple, composable functions that transform data clearly and predictably.
+
+## Common Development Mistakes to Avoid
+
+### File and Directory Management
+- **ALWAYS verify file locations and working directories** - Use `pwd` and `ls` commands to confirm context before file operations
+- **Check if files exist before attempting operations** - Use tools to verify file structure, especially for binary files
+- **Working directory awareness** - Jekyll must be run from the `site/` subdirectory, not the project root
+- **Binary file handling** - Never use `create_file` for binary data (images, etc.). Use proper binary file creation methods or manual saving
+
+### Template vs Generated File Confusion
+- **Identify source vs generated files** - Look for template files (e.g., `index-template.md`) vs generated files (e.g., `index.md`)
+- **Edit the source, not the output** - Always edit template files, not the generated artifacts
+- **Understand build processes** - Check for build tasks (e.g., `bb generate-index`) that transform templates into output files
+- **Git tracking awareness** - If changes don't show in git, you may be editing generated files
+- **Template development workflow** - When editing `index-template.md`, always run `bb generate-index` to regenerate `index.md` with real data
+
+### CSS and Web Development
+- **Read existing CSS before modifications** - Always examine current styles to understand existing patterns
+- **Avoid CSS property conflicts** - Don't combine `display: block` with `vertical-align` properties
+- **Mobile-first responsive design** - Consider all screen sizes, not just desktop
+- **Progressive enhancement** - Start with simple solutions and enhance for specific needs
+
+### Jekyll and Static Site Issues
+- **Jekyll plugin loading** - Restart Jekyll server after adding new plugins to `_plugins/` directory
+- **File exclusion** - Add template files to Jekyll's `exclude` list to prevent them from being published as separate pages
+- **Path resolution** - Use Jekyll's `relative_url` filter for proper path handling in different environments
+
+### Process and Communication
+- **Break down complex tasks** - Use todo lists for multi-step operations to track progress
+- **One change at a time** - Make incremental changes rather than large complex modifications
+- **Verify before proceeding** - Check each step works before moving to the next
+- **Read error messages carefully** - CSS linting errors and terminal output provide valuable debugging information
+
+### Technical Debt Prevention
+- **Complete implementations** - Don't leave half-finished features (e.g., favicon setup without proper binary files)
+- **Clean up unused code** - Remove obsolete CSS rules and HTML elements when replacing functionality
+- **Consistent patterns** - Follow established project patterns rather than introducing new approaches mid-stream
+
+### Testing and Validation
+- **Test on target platforms** - Mobile layouts should be tested on actual mobile screen sizes
+- **Validate HTML/CSS** - Check for linting errors and validation issues
+- **Cross-browser compatibility** - Consider how changes affect different browsers and devices
+- **Live reload verification** - Ensure development servers are running and updating correctly
+
+Remember: **Measure twice, cut once** - Always understand the current state before making changes, and verify each change works before proceeding to the next step.
