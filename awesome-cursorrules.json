@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-24T06:06:53.598053155Z",
+  "generated" : "2025-08-24T18:05:56.671336975Z",
   "cursor-rules" : [ {
     "description" : "Rules for creating and maintaining Dockerfiles.",
     "tech-stack" : "Python Containerization",
@@ -1435,10 +1435,22 @@
     "link" : "rules/java-springboot-jpa-cursorrules-prompt-file/spring-boot-configuration.mdc",
     "component-type" : "mdc"
   }, {
+    "description" : "Accessibility guidelines for Next.js 15 and React 19 applications to ensure inclusive design and compliance with WCAG standards.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "Accessibility Guidelines",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/accessibility-guidelines.mdc",
+    "component-type" : "mdc"
+  }, {
     "description" : "Enforces a consistent naming convention for directories across the project.",
     "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
     "domain" : "Directory Naming Conventions",
     "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/directory-naming-conventions.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Error handling patterns for Next.js 15 and React 19 applications, including error boundaries, API error handling, and graceful degradation strategies.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "Error Handling Patterns",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/error-handling-patterns.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Applies general coding principles and best practices for TypeScript and React development across the project.",
@@ -1465,6 +1477,42 @@
     "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/next-js-15-state-management-rules.mdc",
     "component-type" : "mdc"
   }, {
+    "description" : "Performance optimization strategies for Next.js 15 and React 19 applications, including bundle optimization, caching, and rendering strategies.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "Performance Optimization",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/performance-optimization.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Guidelines for leveraging React 19 specific features in Next.js 15 applications, including new hooks, compiler optimizations, and improved server components.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "React 19 Specific Features",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/react-19-specific-features.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Best practices for using Tailwind CSS in Next.js 15 and React 19 applications, including responsive design, custom configurations, and performance optimization.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "Tailwind Css Best Practices",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/tailwind-css-best-practices.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Testing guidelines for Next.js 15 and React 19 applications, including unit testing, integration testing, and end-to-end testing strategies.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "Testing Guidelines",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/testing-guidelines.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Best practices for using the Vercel AI SDK in Next.js 15 applications with React Server Components and streaming capabilities.",
+    "tech-stack" : "Nextjs15 React19 Vercelai Tailwind",
+    "domain" : "Vercel Ai Sdk Best Practices",
+    "link" : "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/vercel-ai-sdk-best-practices.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Accessibility guidelines for Angular + TypeScript applications to ensure inclusive design and compliance with WCAG standards.",
+    "tech-stack" : "Angular TS/TypeScript",
+    "domain" : "Accessibility Guidelines",
+    "link" : "rules/angular-typescript-cursorrules-prompt-file/accessibility-guidelines.mdc",
+    "component-type" : "mdc"
+  }, {
     "description" : "General rules for Angular components, focusing on code quality, performance, and maintainability.",
     "tech-stack" : "Angular TS/TypeScript",
     "domain" : "Angular General",
@@ -1483,10 +1531,22 @@
     "link" : "rules/angular-typescript-cursorrules-prompt-file/general-reasoning.mdc",
     "component-type" : "mdc"
   }, {
+    "description" : "Performance optimization strategies for Angular + TypeScript applications, including bundle optimization, caching, and rendering strategies.",
+    "tech-stack" : "Angular TS/TypeScript",
+    "domain" : "Performance Optimization",
+    "link" : "rules/angular-typescript-cursorrules-prompt-file/performance-optimization.mdc",
+    "component-type" : "mdc"
+  }, {
     "description" : "Instructions for refactoring code, focusing on readability, performance, and maintainability.",
     "tech-stack" : "Angular TS/TypeScript",
     "domain" : "Refactoring Existing Code",
     "link" : "rules/angular-typescript-cursorrules-prompt-file/refactoring-existing-code.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Testing guidelines for Angular + TypeScript applications, including unit testing, component testing, and end-to-end testing strategies.",
+    "tech-stack" : "Angular TS/TypeScript",
+    "domain" : "Testing Guidelines",
+    "link" : "rules/angular-typescript-cursorrules-prompt-file/testing-guidelines.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Enforces code style and best practices for TypeScript files.",
@@ -2051,6 +2111,24 @@
     "tech-stack" : "Graphical Apps Development",
     "domain" : "Param Parameterized Class Rules",
     "link" : "rules/graphical-apps-development-cursorrules-prompt-file/param-parameterized-class-rules.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Accessibility guidelines for Vue 3 Composition API applications to ensure inclusive design and compliance with WCAG standards.",
+    "tech-stack" : "Vue3 Composition Api",
+    "domain" : "Accessibility Guidelines",
+    "link" : "rules/vue3-composition-api-cursorrules-prompt-file/accessibility-guidelines.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Performance optimization strategies for Vue 3 Composition API applications, including bundle optimization, caching, and rendering strategies.",
+    "tech-stack" : "Vue3 Composition Api",
+    "domain" : "Performance Optimization",
+    "link" : "rules/vue3-composition-api-cursorrules-prompt-file/performance-optimization.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Testing guidelines for Vue 3 Composition API applications, including unit testing, component testing, and end-to-end testing strategies.",
+    "tech-stack" : "Vue3 Composition Api",
+    "domain" : "Testing Guidelines",
+    "link" : "rules/vue3-composition-api-cursorrules-prompt-file/testing-guidelines.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Additional instructions for Vue 3 development, covering areas like error handling, styling and best practices.",
@@ -3203,6 +3281,24 @@
     "tech-stack" : "Scala Kafka",
     "domain" : "Linting Formatting",
     "link" : "rules/scala-kafka-cursorrules-prompt-file/linting-formatting.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Accessibility guidelines for TypeScript + React applications to ensure inclusive design and compliance with WCAG standards.",
+    "tech-stack" : "TS/TypeScript React",
+    "domain" : "Accessibility Guidelines",
+    "link" : "rules/typescript-react-cursorrules-prompt-file/accessibility-guidelines.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Performance optimization strategies for TypeScript + React applications, including bundle optimization, caching, and rendering strategies.",
+    "tech-stack" : "TS/TypeScript React",
+    "domain" : "Performance Optimization",
+    "link" : "rules/typescript-react-cursorrules-prompt-file/performance-optimization.mdc",
+    "component-type" : "mdc"
+  }, {
+    "description" : "Testing guidelines for TypeScript + React applications, including unit testing, integration testing, and end-to-end testing strategies.",
+    "tech-stack" : "TS/TypeScript React",
+    "domain" : "Testing Guidelines",
+    "link" : "rules/typescript-react-cursorrules-prompt-file/testing-guidelines.mdc",
     "component-type" : "mdc"
   }, {
     "description" : "Provides additional instructions for TypeScript React development, including file extensions, strict checks, and error handling.",
