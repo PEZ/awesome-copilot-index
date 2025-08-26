@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-25T18:07:06.764957279Z",
+  "generated" : "2025-08-26T06:07:48.592225283Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -70,6 +70,11 @@
     "title" : "Copilot Process tracking Instructions",
     "description" : "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
     "link" : "instructions/copilot-thought-logging.instructions.md"
+  }, {
+    "filename" : "csharp-ko.instructions.md",
+    "title" : "C# 코드 작성 규칙",
+    "description" : "C# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999",
+    "link" : "instructions/csharp-ko.instructions.md"
   }, {
     "filename" : "csharp.instructions.md",
     "title" : "C# Development",
