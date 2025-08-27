@@ -1,4 +1,4 @@
-{:generated "2025-08-26T18:06:45.979808381Z",
+{:generated "2025-08-27T06:07:22.261225774Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -40,6 +40,11 @@
    :title "Blazor",
    :description "Blazor component and application patterns",
    :link "instructions/blazor.instructions.md"}
+  {:filename "clojure-memory.instructions.md",
+   :title "Clojure Memory",
+   :description
+   "Things agents tend to forget or get wrong when they are working with Clojure projects.",
+   :link "instructions/clojure-memory.instructions.md"}
   {:filename "cmake-vcpkg.instructions.md",
    :title "Cmake Vcpkg",
    :description "C++ project configuration and package management",
@@ -370,6 +375,11 @@
    :description
    "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.",
    :link "prompts/breakdown-test.prompt.md"}
+  {:filename "clojure-add-to-memory.prompt.md",
+   :title "Clojure Memory Updater",
+   :description
+   "Have the agent update the clojure-memory.instructions.md file with mistakes it just made, or lessons learned. Also consider installing the default clojure-memory.instructions.md",
+   :link "prompts/clojure-add-to-memory.prompt.md"}
   {:filename "code-exemplars-blueprint-generator.prompt.md",
    :title "Code Exemplars Blueprint Generator",
    :description
