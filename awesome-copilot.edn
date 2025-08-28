@@ -1,4 +1,4 @@
-{:generated "2025-08-27T18:06:45.451206375Z",
+{:generated "2025-08-28T06:07:40.541236298Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -643,6 +643,11 @@
    :description
    "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
    :link "prompts/readme-blueprint-generator.prompt.md"}
+  {:filename "remember-interactive-programming.prompt.md",
+   :title "Interactive Programming Nudge",
+   :description
+   "Reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
+   :link "prompts/remember-interactive-programming.prompt.md"}
   {:filename "repo-story-time.prompt.md",
    :title "Repository Analysis: [Repo Name]",
    :description
