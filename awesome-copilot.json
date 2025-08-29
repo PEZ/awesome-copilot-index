@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-28T18:06:49.756606365Z",
+  "generated" : "2025-08-29T06:07:36.178420169Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -30,6 +30,11 @@
     "title" : "Azure Functions Typescript",
     "description" : "TypeScript patterns for Azure Functions",
     "link" : "instructions/azure-functions-typescript.instructions.md"
+  }, {
+    "filename" : "azure-logic-apps-power-automate.instructions.md",
+    "title" : "Azure Logic Apps and Power Automate Instructions",
+    "description" : "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation",
+    "link" : "instructions/azure-logic-apps-power-automate.instructions.md"
   }, {
     "filename" : "azure-verified-modules-terraform.instructions.md",
     "title" : "Azure Verified Modules (AVM) Terraform",
@@ -757,6 +762,11 @@
     "title" : "API Architect mode instructions",
     "description" : "Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.",
     "link" : "chatmodes/api-architect.chatmode.md"
+  }, {
+    "filename" : "azure-logic-apps-expert.chatmode.md",
+    "title" : "Azure Logic Apps Expert Mode",
+    "description" : "Expert guidance for Azure Logic Apps development focusing on workflow design, integration patterns, and JSON-based Workflow Definition Language.",
+    "link" : "chatmodes/azure-logic-apps-expert.chatmode.md"
   }, {
     "filename" : "azure-principal-architect.chatmode.md",
     "title" : "Azure Principal Architect mode instructions",
