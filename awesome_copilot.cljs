@@ -68,7 +68,8 @@
     (set! (.-title picker) title)
     (set! (.-placeholder picker) placeholder)
     (set! (.-ignoreFocusOut picker) true)
-    (set! (.-matchOnDetail picker) true)  ; Enable searching in detail field
+    (set! (.-matchOnDescription picker) true)  ; Enable searching by filename
+    (set! (.-matchOnDetail picker) true)       ; Enable searching in detail field
 
     (when last-choice
       (when-let [active-index (some->> items-js
