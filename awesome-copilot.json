@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-08-31T18:06:15.837469480Z",
+  "generated" : "2025-09-01T06:08:09.764121567Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -426,6 +426,11 @@
     "title" : "Copilot Instructions Blueprint Generator",
     "description" : "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.",
     "link" : "prompts/copilot-instructions-blueprint-generator.prompt.md"
+  }, {
+    "filename" : "create-agentsmd.prompt.md",
+    "title" : "Create high‑quality AGENTS.md file",
+    "description" : "\"Prompt for generating an AGENTS.md file for a repository\"",
+    "link" : "prompts/create-agentsmd.prompt.md"
   }, {
     "filename" : "create-architectural-decision-record.prompt.md",
     "title" : "Create Architectural Decision Record",
