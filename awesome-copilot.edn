@@ -1,4 +1,4 @@
-{:generated "2025-09-08T18:07:25.478121800Z",
+{:generated "2025-09-09T06:07:32.846487405Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -77,6 +77,10 @@
    :description
    "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
    :link "instructions/copilot-thought-logging.instructions.md"}
+  {:filename "csharp-ja.instructions.md",
+   :title "C# アプリケーション開発",
+   :description "C# アプリケーション構築指針 by @tsubakimoto",
+   :link "instructions/csharp-ja.instructions.md"}
   {:filename "csharp-ko.instructions.md",
    :title "C# 코드 작성 규칙",
    :description "C# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999",
@@ -206,6 +210,10 @@
    :description
    "Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code",
    :link "instructions/object-calisthenics.instructions.md"}
+  {:filename "oqtane.instructions.md",
+   :title "Oqtane",
+   :description "Oqtane Module patterns",
+   :link "instructions/oqtane.instructions.md"}
   {:filename "performance-optimization.instructions.md",
    :title "Performance Optimization Best Practices",
    :description
@@ -778,9 +786,9 @@
    "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
    :link "chatmodes/azure-verified-modules-terraform.chatmode.md"}
   {:filename "blueprint-mode.chatmode.md",
-   :title "Blueprint Mode v30",
+   :title "Blueprint Mode v37",
    :description
-   "Follows strict workflows (Debug, Express, Main, Loop) to analyze requirements, plan before coding and verify against edge cases. Self-corrects and favors simple, maintainable solutions.",
+   "Follows structured workflows (Debug, Express, Main, Loop) to plan, implement, and verify solutions. Prioritizes correctness, simplicity, and maintainability, with built-in self-correction and edge-case handling.",
    :link "chatmodes/blueprint-mode.chatmode.md"}
   {:filename "clojure-interactive-programming.chatmode.md",
    :title "Clojure Interactive Programming with Backseat Driver",
