@@ -1,4 +1,4 @@
-{:generated "2025-09-09T18:06:38.541855063Z",
+{:generated "2025-09-10T06:07:48.942700710Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -785,6 +785,16 @@
    :description
    "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
    :link "chatmodes/azure-verified-modules-terraform.chatmode.md"}
+  {:filename "bicep-implement.chatmode.md",
+   :title "Azure Bicep Infrastructure as Code coding Specialist",
+   :description
+   "Act as an Azure Bicep Infrastructure as Code coding specialist that creates Bicep templates.",
+   :link "chatmodes/bicep-implement.chatmode.md"}
+  {:filename "bicep-plan.chatmode.md",
+   :title "Azure Bicep Infrastructure Planning",
+   :description
+   "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
+   :link "chatmodes/bicep-plan.chatmode.md"}
   {:filename "blueprint-mode.chatmode.md",
    :title "Blueprint Mode v37",
    :description
