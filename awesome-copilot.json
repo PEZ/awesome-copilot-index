@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-09-10T18:07:06.444336751Z",
+  "generated" : "2025-09-11T06:08:06.289114459Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -60,6 +60,16 @@
     "title" : "Cmake Vcpkg",
     "description" : "C++ project configuration and package management",
     "link" : "instructions/cmake-vcpkg.instructions.md"
+  }, {
+    "filename" : "coldfusion-cfc.instructions.md",
+    "title" : "ColdFusion Coding Standards for CFC Files",
+    "description" : "ColdFusion Coding Standards for CFC component and application patterns",
+    "link" : "instructions/coldfusion-cfc.instructions.md"
+  }, {
+    "filename" : "coldfusion-cfm.instructions.md",
+    "title" : "ColdFusion Coding Standards",
+    "description" : "ColdFusion cfm files and application patterns",
+    "link" : "instructions/coldfusion-cfm.instructions.md"
   }, {
     "filename" : "containerization-docker-best-practices.instructions.md",
     "title" : "Containerization & Docker Best Practices",
