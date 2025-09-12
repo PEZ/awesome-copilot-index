@@ -25,12 +25,12 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 
 | Category | Count |
 |----------|------:|
-| **Instructions** | 71 |
-| **Prompts** | 80 |
-| **Chat Modes** | 55 |
-| **Total Resources** | 206 |
+| **Instructions** | 72 |
+| **Prompts** | 82 |
+| **Chat Modes** | 56 |
+| **Total Resources** | 210 |
 
-*Last updated: 2025-09-11 18:06:37 UTC*
+*Last updated: 2025-09-12 06:07:33 UTC*
 
 ## Usage Example
 

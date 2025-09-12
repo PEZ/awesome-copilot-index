@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-09-11T18:06:37.999832707Z",
+  "generated" : "2025-09-12T06:07:33.125010153Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -110,6 +110,11 @@
     "title" : "Dart and Flutter",
     "description" : "Instructions for writing Dart and Flutter code following the official recommendations.",
     "link" : "instructions/dart-n-flutter.instructions.md"
+  }, {
+    "filename" : "declarative-agents-microsoft365.instructions.md",
+    "title" : "Microsoft 365 Declarative Agents Development Guidelines",
+    "description" : "Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows",
+    "link" : "instructions/declarative-agents-microsoft365.instructions.md"
   }, {
     "filename" : "devbox-image-definition.instructions.md",
     "title" : "Dev Box image definitions",
@@ -547,6 +552,11 @@
     "description" : "Get best practices for XUnit unit testing, including data-driven tests",
     "link" : "prompts/csharp-xunit.prompt.md"
   }, {
+    "filename" : "declarative-agents.prompt.md",
+    "title" : "Microsoft 365 Declarative Agents Development Kit",
+    "description" : "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration",
+    "link" : "prompts/declarative-agents.prompt.md"
+  }, {
     "filename" : "documentation-writer.prompt.md",
     "title" : "Diátaxis Documentation Expert",
     "description" : "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.",
@@ -691,6 +701,11 @@
     "title" : "Interactive Programming Nudge",
     "description" : "Reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
     "link" : "prompts/remember-interactive-programming.prompt.md"
+  }, {
+    "filename" : "remember.prompt.md",
+    "title" : "Memory Keeper",
+    "description" : "Contemplates repeated mistakes and success patterns, and transforms lessons learned into domain-organized Copilot instructions. Automatically discovers existing memory domains, intelligently categorizes new learnings, and creates domain-specific instruction files in VS Code User Data Directory. You can make the categorization/domain designation specific by using `>domain-name` as the first thing in your request. Like so: `/remember >domain-name lesson content here`",
+    "link" : "prompts/remember.prompt.md"
   }, {
     "filename" : "repo-story-time.prompt.md",
     "title" : "Repository Analysis: [Repo Name]",
@@ -847,6 +862,11 @@
     "title" : "Debug Mode Instructions",
     "description" : "Debug your application to find and fix a bug",
     "link" : "chatmodes/debug.chatmode.md"
+  }, {
+    "filename" : "declarative-agents-architect.chatmode.md",
+    "title" : "Declarative Agents Architect",
+    "description" : null,
+    "link" : "chatmodes/declarative-agents-architect.chatmode.md"
   }, {
     "filename" : "demonstrate-understanding.chatmode.md",
     "title" : "Demonstrate Understanding mode instructions",
