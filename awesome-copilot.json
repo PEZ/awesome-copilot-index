@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-09-14T18:06:11.369394257Z",
+  "generated" : "2025-09-15T06:08:12.701411022Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -177,7 +177,7 @@
     "link" : "instructions/java.instructions.md"
   }, {
     "filename" : "joyride-user-project.instructions.md",
-    "title" : "Joyride User Script Project Assistant",
+    "title" : "Joyride User Scripts Project Assistant",
     "description" : "Expert assistance for Joyride User Script projects - REPL-driven ClojureScript and user space automation of VS Code",
     "link" : "instructions/joyride-user-project.instructions.md"
   }, {
@@ -514,12 +514,12 @@
   }, {
     "filename" : "create-spring-boot-java-project.prompt.md",
     "title" : "Create Spring Boot Java project prompt",
-    "description" : "Create Spring Boot Java project skeleton",
+    "description" : "Create Spring Boot Java Project Skeleton",
     "link" : "prompts/create-spring-boot-java-project.prompt.md"
   }, {
     "filename" : "create-spring-boot-kotlin-project.prompt.md",
     "title" : "Create Spring Boot Kotlin project prompt",
-    "description" : "Create Spring Boot Kotlin project skeleton",
+    "description" : "Create Spring Boot Kotlin Project Skeleton",
     "link" : "prompts/create-spring-boot-kotlin-project.prompt.md"
   }, {
     "filename" : "csharp-async.prompt.md",
