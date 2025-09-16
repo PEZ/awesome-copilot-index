@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-09-15T18:07:10.529869606Z",
+  "generated" : "2025-09-16T06:07:58.379000187Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -839,8 +839,8 @@
     "link" : "chatmodes/bicep-plan.chatmode.md"
   }, {
     "filename" : "blueprint-mode.chatmode.md",
-    "title" : "Blueprint Mode v37",
-    "description" : "Follows structured workflows (Debug, Express, Main, Loop) to plan, implement, and verify solutions. Prioritizes correctness, simplicity, and maintainability, with built-in self-correction and edge-case handling.",
+    "title" : "Blueprint Mode v38",
+    "description" : "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
     "link" : "chatmodes/blueprint-mode.chatmode.md"
   }, {
     "filename" : "clojure-interactive-programming.chatmode.md",
