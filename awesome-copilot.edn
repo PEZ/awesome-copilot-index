@@ -1,4 +1,4 @@
-{:generated "2025-09-16T18:07:30.152138714Z",
+{:generated "2025-09-17T06:08:08.890545511Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -64,6 +64,11 @@
    :title "ColdFusion Coding Standards",
    :description "ColdFusion cfm files and application patterns",
    :link "instructions/coldfusion-cfm.instructions.md"}
+  {:filename "collections.instructions.md",
+   :title "Collections Development",
+   :description
+   "Guidelines for creating and managing awesome-copilot collections",
+   :link "instructions/collections.instructions.md"}
   {:filename "containerization-docker-best-practices.instructions.md",
    :title "Containerization & Docker Best Practices",
    :description
@@ -509,6 +514,11 @@
    :title "Create Spring Boot Kotlin project prompt",
    :description "Create Spring Boot Kotlin Project Skeleton",
    :link "prompts/create-spring-boot-kotlin-project.prompt.md"}
+  {:filename "create-technical-spike.prompt.md",
+   :title "Create Technical Spike Document",
+   :description
+   "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.",
+   :link "prompts/create-technical-spike.prompt.md"}
   {:filename "csharp-async.prompt.md",
    :title "C# Async Programming Best Practices",
    :description "Get best practices for C# async programming",
@@ -958,6 +968,11 @@
    :description
    "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
    :link "chatmodes/refine-issue.chatmode.md"}
+  {:filename "research-technical-spike.chatmode.md",
+   :title "Technical spike research mode",
+   :description
+   "Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation.",
+   :link "chatmodes/research-technical-spike.chatmode.md"}
   {:filename "rust-gpt-4.1-beast-mode.chatmode.md",
    :title "Rust Beast Mode",
    :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
