@@ -1,4 +1,4 @@
-{:generated "2025-09-21T18:06:25.521517212Z",
+{:generated "2025-09-22T06:08:10.567414582Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -728,10 +728,22 @@
    "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
    :link "prompts/sql-optimization.prompt.md"}
   {:filename "suggest-awesome-github-copilot-chatmodes.prompt.md",
-   :title "Suggest Awesome GitHub Copilot Chatmodes",
+   :title "Suggest Awesome GitHub Copilot Custom Chat Modes",
    :description
-   "Suggest relevant GitHub Copilot chatmode files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing chatmodes in this repository.",
+   "Suggest relevant GitHub Copilot Custom Chat Modes files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom chat modes in this repository.",
    :link "prompts/suggest-awesome-github-copilot-chatmodes.prompt.md"}
+  {:filename "suggest-awesome-github-copilot-collections.prompt.md",
+   :title "Suggest Awesome GitHub Copilot Collections",
+   :description
+   "Suggest relevant GitHub Copilot collections from the awesome-copilot repository based on current repository context and chat history, providing automatic download and installation of collection assets.",
+   :link
+   "prompts/suggest-awesome-github-copilot-collections.prompt.md"}
+  {:filename "suggest-awesome-github-copilot-instructions.prompt.md",
+   :title "Suggest Awesome GitHub Copilot Instructions",
+   :description
+   "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository.",
+   :link
+   "prompts/suggest-awesome-github-copilot-instructions.prompt.md"}
   {:filename "suggest-awesome-github-copilot-prompts.prompt.md",
    :title "Suggest Awesome GitHub Copilot Prompts",
    :description
@@ -850,6 +862,11 @@
    :description
    "Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.",
    :link "chatmodes/clojure-interactive-programming.chatmode.md"}
+  {:filename "code-tour.chatmode.md",
+   :title "VSCode Tour Expert",
+   :description
+   "Expert agent for creating and maintaining VSCode CodeTour files with comprehensive schema support and best practices",
+   :link "chatmodes/code-tour.chatmode.md"}
   {:filename "critical-thinking.chatmode.md",
    :title "Critical thinking mode instructions",
    :description
