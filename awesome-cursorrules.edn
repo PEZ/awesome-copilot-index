@@ -1,4 +1,4 @@
-{:generated "2025-09-22T18:07:07.529468934Z",
+{:generated "2025-09-23T06:08:05.428225140Z",
  :cursor-rules
  [{:description
    "Enforces the use of functional components in SolidJS TypeScript files. This rule promotes a consistent and modern approach to component design in SolidJS projects.",
