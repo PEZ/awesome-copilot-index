@@ -1,4 +1,4 @@
-{:generated "2025-09-23T18:07:10.275230203Z",
+{:generated "2025-09-24T06:07:58.854551907Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -169,6 +169,21 @@
    :description
    "Instructions for writing Go code following idiomatic Go practices and community standards",
    :link "instructions/go.instructions.md"}
+  {:filename "java-11-to-java-17-upgrade.instructions.md",
+   :title "Java 11 to Java 17 Upgrade Guide",
+   :description
+   "\"Comprehensive best practices for adopting new Java 17 features since the release of Java 11.\"",
+   :link "instructions/java-11-to-java-17-upgrade.instructions.md"}
+  {:filename "java-17-to-java-21-upgrade.instructions.md",
+   :title "Java 17 to Java 21 Upgrade Guide",
+   :description
+   "\"Comprehensive best practices for adopting new Java 21 features since the release of Java 17.\"",
+   :link "instructions/java-17-to-java-21-upgrade.instructions.md"}
+  {:filename "java-21-to-java-25-upgrade.instructions.md",
+   :title "Java 21 to Java 25 Upgrade Guide",
+   :description
+   "\"Comprehensive best practices for adopting new Java 25 features since the release of Java 21.\"",
+   :link "instructions/java-21-to-java-25-upgrade.instructions.md"}
   {:filename "java.instructions.md",
    :title "Java Development",
    :description "Guidelines for building Java base applications",
