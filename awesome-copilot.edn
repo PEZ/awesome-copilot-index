@@ -1,4 +1,4 @@
-{:generated "2025-09-24T18:07:23.499646446Z",
+{:generated "2025-09-25T06:07:56.940376981Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -354,6 +354,11 @@
    :description
    "TaskSync V4 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
    :link "instructions/tasksync.instructions.md"}
+  {:filename "terraform-azure.instructions.md",
+   :title "Azure Terraform Best Practices",
+   :description
+   "Create or modify solutions built using Terraform on Azure.",
+   :link "instructions/terraform-azure.instructions.md"}
   {:filename "terraform.instructions.md",
    :title "Terraform Conventions",
    :description "Terraform Conventions and Guidelines",
@@ -867,8 +872,13 @@
    :description
    "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
    :link "chatmodes/bicep-plan.chatmode.md"}
+  {:filename "blueprint-mode-codex.chatmode.md",
+   :title "Blueprint Mode Codex v1",
+   :description
+   "Executes structured workflows with strict correctness and maintainability. Enforces a minimal tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
+   :link "chatmodes/blueprint-mode-codex.chatmode.md"}
   {:filename "blueprint-mode.chatmode.md",
-   :title "Blueprint Mode v38",
+   :title "Blueprint Mode v39",
    :description
    "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
    :link "chatmodes/blueprint-mode.chatmode.md"}
@@ -1074,6 +1084,17 @@
    :description
    "Generate technical debt remediation plans for code, tests, and documentation.",
    :link "chatmodes/tech-debt-remediation-plan.chatmode.md"}
+  {:filename "terraform-azure-implement.chatmode.md",
+   :title
+   "Azure Terraform Infrastructure as Code Implementation Specialist",
+   :description
+   "Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources.",
+   :link "chatmodes/terraform-azure-implement.chatmode.md"}
+  {:filename "terraform-azure-planning.chatmode.md",
+   :title "Azure Terraform Infrastructure Planning",
+   :description
+   "Act as implementation planner for your Azure Terraform Infrastructure as Code task.",
+   :link "chatmodes/terraform-azure-planning.chatmode.md"}
   {:filename "voidbeast-gpt41enhanced.chatmode.md",
    :title "voidBeast_GPT41Enhanced 1.0 - Elite Developer AI Assistant",
    :description
