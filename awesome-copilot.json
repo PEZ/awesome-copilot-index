@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-09-25T18:07:38.406671910Z",
+  "generated" : "2025-09-26T06:07:49.160567041Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -280,6 +280,11 @@
     "title" : "Power Apps Canvas Apps YAML Structure Guide",
     "description" : "Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.",
     "link" : "instructions/power-apps-canvas-yaml.instructions.md"
+  }, {
+    "filename" : "power-apps-code-apps.instructions.md",
+    "title" : "Power Apps Code Apps Development Instructions",
+    "description" : "Power Apps Code Apps development standards and best practices for TypeScript, React, and Power Platform integration",
+    "link" : "instructions/power-apps-code-apps.instructions.md"
   }, {
     "filename" : "power-platform-connector.instructions.md",
     "title" : "Power Platform Connectors Schema Development Instructions",
@@ -717,6 +722,11 @@
     "description" : "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.",
     "link" : "prompts/postgresql-optimization.prompt.md"
   }, {
+    "filename" : "power-apps-code-app-scaffold.prompt.md",
+    "title" : "Power Apps Code Apps Project Scaffolding",
+    "description" : "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration",
+    "link" : "prompts/power-apps-code-app-scaffold.prompt.md"
+  }, {
     "filename" : "project-workflow-analysis-blueprint-generator.prompt.md",
     "title" : "Project Workflow Documentation Generator",
     "description" : "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
@@ -1012,6 +1022,11 @@
     "title" : "PostgreSQL Database Administrator",
     "description" : "Work with PostgreSQL databases using the PostgreSQL extension.",
     "link" : "chatmodes/postgresql-dba.chatmode.md"
+  }, {
+    "filename" : "power-platform-expert.chatmode.md",
+    "title" : "Power Platform Expert",
+    "description" : "Power Platform expert providing guidance on Code Apps, canvas apps, Dataverse, connectors, and Power Platform best practices",
+    "link" : "chatmodes/power-platform-expert.chatmode.md"
   }, {
     "filename" : "prd.chatmode.md",
     "title" : "Create PRD Chat Mode",
