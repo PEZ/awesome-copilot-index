@@ -1,4 +1,4 @@
-{:generated "2025-09-28T18:06:21.266171380Z",
+{:generated "2025-09-29T06:08:24.244115357Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -368,6 +368,11 @@
    :title "Terraform Conventions",
    :description "Terraform Conventions and Guidelines",
    :link "instructions/terraform.instructions.md"}
+  {:filename "typescript-5-es2022.instructions.md",
+   :title "TypeScript Development",
+   :description
+   "Guidelines for TypeScript Development targeting TypeScript 5.x and ES2022 output",
+   :link "instructions/typescript-5-es2022.instructions.md"}
   {:filename "vuejs3.instructions.md",
    :title "VueJS 3 Development Instructions",
    :description
@@ -930,6 +935,11 @@
    :description
    "\"Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here.\"",
    :link "chatmodes/electron-angular-native.chatmode.md"}
+  {:filename "expert-cpp-software-engineer.chatmode.md",
+   :title "Expert C++ software engineer mode instructions",
+   :description
+   "Provide expert C++ software engineering guidance using modern C++ and industry best practices.",
+   :link "chatmodes/expert-cpp-software-engineer.chatmode.md"}
   {:filename "expert-dotnet-software-engineer.chatmode.md",
    :title "Expert .NET software engineer mode instructions",
    :description
