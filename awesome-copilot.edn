@@ -1,4 +1,4 @@
-{:generated "2025-09-29T18:07:40.809938428Z",
+{:generated "2025-09-30T06:08:15.939316048Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -640,6 +640,11 @@
    :description
    "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
    :link "prompts/git-flow-branch-creator.prompt.md"}
+  {:filename "github-copilot-starter.prompt.md",
+   :title "React Development Guidelines",
+   :description
+   "Set up complete GitHub Copilot configuration for a new project based on technology stack",
+   :link "prompts/github-copilot-starter.prompt.md"}
   {:filename "java-docs.prompt.md",
    :title "Java Documentation (Javadoc) Best Practices",
    :description
