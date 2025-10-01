@@ -1,4 +1,4 @@
-{:generated "2025-09-30T18:07:22.435523424Z",
+{:generated "2025-10-01T06:07:55.093441847Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -46,11 +46,11 @@
    :title "Blazor",
    :description "Blazor component and application patterns",
    :link "instructions/blazor.instructions.md"}
-  {:filename "clojure-memory.instructions.md",
-   :title "Clojure Memory",
+  {:filename "clojure.instructions.md",
+   :title "Clojure Development Instructions",
    :description
-   "Things agents tend to forget or get wrong when they are working with Clojure projects.",
-   :link "instructions/clojure-memory.instructions.md"}
+   "Clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for Clojure development.",
+   :link "instructions/clojure.instructions.md"}
   {:filename "cmake-vcpkg.instructions.md",
    :title "Cmake Vcpkg",
    :description "C++ project configuration and package management",
@@ -439,11 +439,6 @@
    :description
    "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.",
    :link "prompts/breakdown-test.prompt.md"}
-  {:filename "clojure-add-to-memory.prompt.md",
-   :title "Clojure Memory Updater",
-   :description
-   "Have the agent update the clojure-memory.instructions.md file with mistakes it just made, or lessons learned. Also consider installing the default clojure-memory.instructions.md",
-   :link "prompts/clojure-add-to-memory.prompt.md"}
   {:filename "code-exemplars-blueprint-generator.prompt.md",
    :title "Code Exemplars Blueprint Generator",
    :description
@@ -740,7 +735,7 @@
   {:filename "remember-interactive-programming.prompt.md",
    :title "Interactive Programming Nudge",
    :description
-   "Reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
+   "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
    :link "prompts/remember-interactive-programming.prompt.md"}
   {:filename "remember.prompt.md",
    :title "Memory Keeper",
