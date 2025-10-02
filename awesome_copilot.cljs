@@ -225,40 +225,23 @@
 
 (defn install-globally! [content item category]
   (p/let [vscode-user-dir (get-vscode-user-dir)
-          dir-path (cond
-                     ;; Instructions go in .vscode/instructions in user home
-                     (= category "instructions")
-                     (path/join js/process.env.HOME ".vscode" "instructions")
-
-                     ;; Both prompts and chatmodes go in User/prompts folder
-                     (or (= category "prompts") (= category "chatmodes"))
-                     (path/join vscode-user-dir "prompts")
-
-                     ;; Unknown category
-                     :else nil)
-
+          dir-path (path/join vscode-user-dir "prompts")
           filename (-> item :item :filename)]
 
-    (if dir-path
-      (try
-        (when-not (fs/existsSync dir-path)
-          (fs/mkdirSync dir-path #js {:recursive true}))
+    (try
+      (when-not (fs/existsSync dir-path)
+        (fs/mkdirSync dir-path #js {:recursive true}))
 
-        (let [file-path (path/join dir-path filename)]
-          (fs/writeFileSync file-path content)
-          (vscode/window.showInformationMessage
-           (str "Installed " filename " to " (.-appName vscode/env) " User/prompts directory"))
+      (let [file-path (path/join dir-path filename)]
+        (fs/writeFileSync file-path content)
+        (vscode/window.showInformationMessage
+         (str "Installed " filename " to " (.-appName vscode/env) " User/prompts directory"))
 
-          {:success true :path file-path})
-        (catch :default err
-          (vscode/window.showErrorMessage
-           (str "Failed to install " filename ": " (.-message err)))
-          {:success false :error (.-message err)}))
-
-      (do
+        {:success true :path file-path})
+      (catch :default err
         (vscode/window.showErrorMessage
-         (str "Unknown category: " category))
-        {:success false :error (str "Unknown category: " category)}))))
+         (str "Failed to install " filename ": " (.-message err)))
+        {:success false :error (.-message err)}))))
 
 (defn install-to-workspace! [content item category]
   (if-let [workspace-folder (first vscode/workspace.workspaceFolders)]
