@@ -1,4 +1,4 @@
-{:generated "2025-10-01T18:07:00.232497697Z",
+{:generated "2025-10-02T06:07:34.689417977Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -15,6 +15,10 @@
    :title "Angular Development Instructions",
    :description "Angular-specific coding standards and best practices",
    :link "instructions/angular.instructions.md"}
+  {:filename "ansible.instructions.md",
+   :title "Ansible Conventions and Best Practices",
+   :description "Ansible conventions and best practices",
+   :link "instructions/ansible.instructions.md"}
   {:filename "aspnet-rest-apis.instructions.md",
    :title "ASP.NET REST API Development",
    :description "Guidelines for building REST APIs with ASP.NET",
@@ -377,7 +381,12 @@
    :title "VueJS 3 Development Instructions",
    :description
    "VueJS 3 development standards and best practices with Composition API and TypeScript",
-   :link "instructions/vuejs3.instructions.md"}),
+   :link "instructions/vuejs3.instructions.md"}
+  {:filename "wordpress.instructions.md",
+   :title "WordPress Development — Copilot Instructions",
+   :description
+   "Coding, security, and testing rules for WordPress plugins and themes",
+   :link "instructions/wordpress.instructions.md"}),
  :prompts
  ({:filename "ai-prompt-engineering-safety-review.prompt.md",
    :title "AI Prompt Engineering Safety Review & Improvement",
@@ -955,6 +964,11 @@
    :description
    "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
    :link "chatmodes/gilfoyle.chatmode.md"}
+  {:filename "hlbpa.chatmode.md",
+   :title "High-Level Big Picture Architect (HLBPA)",
+   :description
+   "HLBPA: Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
+   :link "chatmodes/hlbpa.chatmode.md"}
   {:filename "implementation-plan.chatmode.md",
    :title "Implementation Plan Generation Mode",
    :description
