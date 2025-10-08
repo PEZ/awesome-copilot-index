@@ -1,4 +1,4 @@
-{:generated "2025-10-07T18:07:11.065289730Z",
+{:generated "2025-10-08T06:07:53.659360160Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -23,6 +23,11 @@
    :title "ASP.NET REST API Development",
    :description "Guidelines for building REST APIs with ASP.NET",
    :link "instructions/aspnet-rest-apis.instructions.md"}
+  {:filename "astro.instructions.md",
+   :title "Astro Development Instructions",
+   :description
+   "Astro development standards and best practices for content-driven websites",
+   :link "instructions/astro.instructions.md"}
   {:filename "azure-devops-pipelines.instructions.md",
    :title "Azure DevOps Pipeline YAML Best Practices",
    :description "Best practices for Azure DevOps Pipeline YAML files",
@@ -344,6 +349,11 @@
    :description
    "Guidelines for generating SQL statements and stored procedures",
    :link "instructions/sql-sp-generation.instructions.md"}
+  {:filename "svelte.instructions.md",
+   :title "Svelte 5 and SvelteKit Development Instructions",
+   :description
+   "Svelte 5 and SvelteKit development standards and best practices for component-based user interfaces and full-stack applications",
+   :link "instructions/svelte.instructions.md"}
   {:filename "taming-copilot.instructions.md",
    :title "Taming Copilot",
    :description
@@ -967,7 +977,7 @@
   {:filename "hlbpa.chatmode.md",
    :title "High-Level Big Picture Architect (HLBPA)",
    :description
-   "HLBPA: Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
+   "Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
    :link "chatmodes/hlbpa.chatmode.md"}
   {:filename "implementation-plan.chatmode.md",
    :title "Implementation Plan Generation Mode",
