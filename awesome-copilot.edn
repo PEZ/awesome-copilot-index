@@ -1,4 +1,4 @@
-{:generated "2025-10-08T18:07:29.893789153Z",
+{:generated "2025-10-09T06:08:07.327095857Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -213,6 +213,10 @@
    "Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.",
    :link
    "instructions/kubernetes-deployment-best-practices.instructions.md"}
+  {:filename "langchain-python.instructions.md",
+   :title "LangChain Python Instructions",
+   :description "Instructions for using LangChain with Python",
+   :link "instructions/langchain-python.instructions.md"}
   {:filename "localization.instructions.md",
    :title "Guidance for Localization",
    :description "Guidelines for localizing markdown documents",
