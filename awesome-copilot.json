@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-09T18:07:01.057160762Z",
+  "generated" : "2025-10-10T06:07:55.380617345Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -306,6 +306,11 @@
     "description" : "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
     "link" : "instructions/power-platform-connector.instructions.md"
   }, {
+    "filename" : "power-platform-mcp-development.instructions.md",
+    "title" : "Power Platform MCP Custom Connector Development",
+    "description" : "Instructions for developing Power Platform custom connectors with Model Context Protocol (MCP) integration for Microsoft Copilot Studio",
+    "link" : "instructions/power-platform-mcp-development.instructions.md"
+  }, {
     "filename" : "powershell-pester-5.instructions.md",
     "title" : "PowerShell Pester v5 Testing Guidelines",
     "description" : "PowerShell Pester testing best practices based on Pester v5 conventions",
@@ -422,6 +427,11 @@
     "link" : "instructions/wordpress.instructions.md"
   } ],
   "prompts" : [ {
+    "filename" : "add-educational-comments.prompt.md",
+    "title" : "Add Educational Comments",
+    "description" : "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.",
+    "link" : "prompts/add-educational-comments.prompt.md"
+  }, {
     "filename" : "ai-prompt-engineering-safety-review.prompt.md",
     "title" : "AI Prompt Engineering Safety Review & Improvement",
     "description" : "\"Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.\"",
@@ -687,6 +697,11 @@
     "description" : "Get best practices for JUnit 5 unit testing, including data-driven tests",
     "link" : "prompts/java-junit.prompt.md"
   }, {
+    "filename" : "java-refactoring-extract-method.prompt.md",
+    "title" : "Refactoring Java Methods with Extract Method",
+    "description" : "Refactoring using Extract Methods in Java Language",
+    "link" : "prompts/java-refactoring-extract-method.prompt.md"
+  }, {
     "filename" : "java-springboot.prompt.md",
     "title" : "Spring Boot Best Practices",
     "description" : "Get best practices for developing applications with Spring Boot.",
@@ -701,6 +716,16 @@
     "title" : "Spring Boot with Kotlin Best Practices",
     "description" : "Get best practices for developing applications with Spring Boot and Kotlin.",
     "link" : "prompts/kotlin-springboot.prompt.md"
+  }, {
+    "filename" : "mcp-copilot-studio-server-generator.prompt.md",
+    "title" : "Power Platform MCP Connector Generator",
+    "description" : "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support",
+    "link" : "prompts/mcp-copilot-studio-server-generator.prompt.md"
+  }, {
+    "filename" : "memory-merger.prompt.md",
+    "title" : "Memory Merger",
+    "description" : "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`.",
+    "link" : "prompts/memory-merger.prompt.md"
   }, {
     "filename" : "mkdocs-translations.prompt.md",
     "title" : "MkDocs AI Translator",
@@ -757,6 +782,11 @@
     "description" : "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration",
     "link" : "prompts/power-apps-code-app-scaffold.prompt.md"
   }, {
+    "filename" : "power-platform-mcp-connector-suite.prompt.md",
+    "title" : "Power Platform MCP Connector Suite",
+    "description" : "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation",
+    "link" : "prompts/power-platform-mcp-connector-suite.prompt.md"
+  }, {
     "filename" : "project-workflow-analysis-blueprint-generator.prompt.md",
     "title" : "Project Workflow Documentation Generator",
     "description" : "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
@@ -779,7 +809,7 @@
   }, {
     "filename" : "remember.prompt.md",
     "title" : "Memory Keeper",
-    "description" : "Contemplates repeated mistakes and success patterns, and transforms lessons learned into domain-organized Copilot instructions. Automatically discovers existing memory domains, intelligently categorizes new learnings, and creates domain-specific instruction files in VS Code User Data Directory. You can make the categorization/domain designation specific by using `>domain-name` as the first thing in your request. Like so: `/remember >domain-name lesson content here`",
+    "description" : "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or `ws`.",
     "link" : "prompts/remember.prompt.md"
   }, {
     "filename" : "repo-story-time.prompt.md",
@@ -1067,6 +1097,11 @@
     "title" : "Power Platform Expert",
     "description" : "Power Platform expert providing guidance on Code Apps, canvas apps, Dataverse, connectors, and Power Platform best practices",
     "link" : "chatmodes/power-platform-expert.chatmode.md"
+  }, {
+    "filename" : "power-platform-mcp-integration-expert.chatmode.md",
+    "title" : "Power Platform MCP Integration Expert",
+    "description" : "Expert in Power Platform custom connector development with MCP integration for Copilot Studio - comprehensive knowledge of schemas, protocols, and integration patterns",
+    "link" : "chatmodes/power-platform-mcp-integration-expert.chatmode.md"
   }, {
     "filename" : "prd.chatmode.md",
     "title" : "Create PRD Chat Mode",
