@@ -30,7 +30,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Chat Modes** | 66 |
 | **Total Resources** | 243 |
 
-*Last updated: 2025-10-10 18:07:04 UTC*
+*Last updated: 2025-10-11 06:06:25 UTC*
 
 ## Usage Example
 
