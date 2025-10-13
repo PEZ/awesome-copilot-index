@@ -1,4 +1,4 @@
-{:generated "2025-10-12T18:06:27.546901702Z",
+{:generated "2025-10-13T06:08:18.448096982Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -178,6 +178,11 @@
    :description
    "Instructions for writing Go code following idiomatic Go practices and community standards",
    :link "instructions/go.instructions.md"}
+  {:filename "instructions.instructions.md",
+   :title "Custom Instructions File Guidelines",
+   :description
+   "Guidelines for creating high-quality custom instruction files for GitHub Copilot",
+   :link "instructions/instructions.instructions.md"}
   {:filename "java-11-to-java-17-upgrade.instructions.md",
    :title "Java 11 to Java 17 Upgrade Guide",
    :description
@@ -306,6 +311,11 @@
    :description
    "PowerShell cmdlet and scripting best practices based on Microsoft guidelines",
    :link "instructions/powershell.instructions.md"}
+  {:filename "prompt.instructions.md",
+   :title "Copilot Prompt Files Guidelines",
+   :description
+   "Guidelines for creating high-quality prompt files for GitHub Copilot",
+   :link "instructions/prompt.instructions.md"}
   {:filename "python.instructions.md",
    :title "Python Coding Conventions",
    :description "Python coding conventions and guidelines",
