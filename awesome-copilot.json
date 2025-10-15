@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-14T18:07:12.582298685Z",
+  "generated" : "2025-10-15T06:08:05.312018803Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -667,6 +667,11 @@
     "description" : "Get best practices for Entity Framework Core",
     "link" : "prompts/ef-core.prompt.md"
   }, {
+    "filename" : "finalize-agent-prompt.prompt.md",
+    "title" : "Finalize Agent Prompt",
+    "description" : "Finalize prompt file using the role of an AI agent to polish the prompt for the end user.",
+    "link" : "prompts/finalize-agent-prompt.prompt.md"
+  }, {
     "filename" : "first-ask.prompt.md",
     "title" : "Act Informed: First understand together with the human, then do",
     "description" : "Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension.",
@@ -831,6 +836,11 @@
     "title" : "Review And Refactor",
     "description" : "Review and refactor code in your project according to defined instructions",
     "link" : "prompts/review-and-refactor.prompt.md"
+  }, {
+    "filename" : "shuffle-json-data.prompt.md",
+    "title" : "Shuffle JSON Data",
+    "description" : "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.",
+    "link" : "prompts/shuffle-json-data.prompt.md"
   }, {
     "filename" : "sql-code-review.prompt.md",
     "title" : "SQL Code Review",
