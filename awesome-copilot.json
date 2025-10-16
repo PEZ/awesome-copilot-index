@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-15T18:07:23.467768219Z",
+  "generated" : "2025-10-16T06:08:22.429348146Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -246,6 +246,11 @@
     "description" : null,
     "link" : "instructions/memory-bank.instructions.md"
   }, {
+    "filename" : "mongo-dba.instructions.md",
+    "title" : "MongoDB DBA Chat Mode Instructions",
+    "description" : "Instructions for customizing GitHub Copilot behavior for MONGODB DBA chat mode.",
+    "link" : "instructions/mongo-dba.instructions.md"
+  }, {
     "filename" : "ms-sql-dba.instructions.md",
     "title" : "MS-SQL DBA Chat Mode Instructions",
     "description" : "Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode.",
@@ -305,6 +310,36 @@
     "title" : "Power Apps Code Apps Development Instructions",
     "description" : "Power Apps Code Apps development standards and best practices for TypeScript, React, and Power Platform integration",
     "link" : "instructions/power-apps-code-apps.instructions.md"
+  }, {
+    "filename" : "power-bi-custom-visuals-development.instructions.md",
+    "title" : "Power BI Custom Visuals Development Best Practices",
+    "description" : "Comprehensive Power BI custom visuals development guide covering React, D3.js integration, TypeScript patterns, testing frameworks, and advanced visualization techniques.",
+    "link" : "instructions/power-bi-custom-visuals-development.instructions.md"
+  }, {
+    "filename" : "power-bi-data-modeling-best-practices.instructions.md",
+    "title" : "Power BI Data Modeling Best Practices",
+    "description" : "Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient, scalable, and maintainable semantic models using star schema principles.",
+    "link" : "instructions/power-bi-data-modeling-best-practices.instructions.md"
+  }, {
+    "filename" : "power-bi-dax-best-practices.instructions.md",
+    "title" : "Power BI DAX Best Practices",
+    "description" : "Comprehensive Power BI DAX best practices and patterns based on Microsoft guidance for creating efficient, maintainable, and performant DAX formulas.",
+    "link" : "instructions/power-bi-dax-best-practices.instructions.md"
+  }, {
+    "filename" : "power-bi-devops-alm-best-practices.instructions.md",
+    "title" : "Power BI DevOps and Application Lifecycle Management Best Practices",
+    "description" : "Comprehensive guide for Power BI DevOps, Application Lifecycle Management (ALM), CI/CD pipelines, deployment automation, and version control best practices.",
+    "link" : "instructions/power-bi-devops-alm-best-practices.instructions.md"
+  }, {
+    "filename" : "power-bi-report-design-best-practices.instructions.md",
+    "title" : "Power BI Report Design and Visualization Best Practices",
+    "description" : "Comprehensive Power BI report design and visualization best practices based on Microsoft guidance for creating effective, accessible, and performant reports and dashboards.",
+    "link" : "instructions/power-bi-report-design-best-practices.instructions.md"
+  }, {
+    "filename" : "power-bi-security-rls-best-practices.instructions.md",
+    "title" : "Power BI Security and Row-Level Security Best Practices",
+    "description" : "Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns implementation guide with dynamic security, best practices, and governance strategies.",
+    "link" : "instructions/power-bi-security-rls-best-practices.instructions.md"
   }, {
     "filename" : "power-platform-connector.instructions.md",
     "title" : "Power Platform Connectors Schema Development Instructions",
@@ -797,6 +832,26 @@
     "description" : "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration",
     "link" : "prompts/power-apps-code-app-scaffold.prompt.md"
   }, {
+    "filename" : "power-bi-dax-optimization.prompt.md",
+    "title" : "Power BI DAX Formula Optimizer",
+    "description" : "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations.",
+    "link" : "prompts/power-bi-dax-optimization.prompt.md"
+  }, {
+    "filename" : "power-bi-model-design-review.prompt.md",
+    "title" : "Power BI Data Model Design Review",
+    "description" : "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.",
+    "link" : "prompts/power-bi-model-design-review.prompt.md"
+  }, {
+    "filename" : "power-bi-performance-troubleshooting.prompt.md",
+    "title" : "Power BI Performance Troubleshooting Guide",
+    "description" : "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.",
+    "link" : "prompts/power-bi-performance-troubleshooting.prompt.md"
+  }, {
+    "filename" : "power-bi-report-design-consultation.prompt.md",
+    "title" : "Power BI Report Visualization Designer",
+    "description" : "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design.",
+    "link" : "prompts/power-bi-report-design-consultation.prompt.md"
+  }, {
     "filename" : "power-platform-mcp-connector-suite.prompt.md",
     "title" : "Power Platform MCP Connector Suite",
     "description" : "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation",
@@ -1048,6 +1103,11 @@
     "description" : "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
     "link" : "chatmodes/gilfoyle.chatmode.md"
   }, {
+    "filename" : "gpt-5-beast-mode.chatmode.md",
+    "title" : "GPT 5 Beast Mode",
+    "description" : "Beast Mode 2.0: A powerful autonomous agent tuned specifically for GPT-5 that can solve complex problems by using tools, conducting research, and iterating until the problem is fully resolved.",
+    "link" : "chatmodes/gpt-5-beast-mode.chatmode.md"
+  }, {
     "filename" : "hlbpa.chatmode.md",
     "title" : "High-Level Big Picture Architect (HLBPA)",
     "description" : "Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
@@ -1112,6 +1172,26 @@
     "title" : "PostgreSQL Database Administrator",
     "description" : "Work with PostgreSQL databases using the PostgreSQL extension.",
     "link" : "chatmodes/postgresql-dba.chatmode.md"
+  }, {
+    "filename" : "power-bi-data-modeling-expert.chatmode.md",
+    "title" : "Power BI Data Modeling Expert Mode",
+    "description" : "Expert Power BI data modeling guidance using star schema principles, relationship design, and Microsoft best practices for optimal model performance and usability.",
+    "link" : "chatmodes/power-bi-data-modeling-expert.chatmode.md"
+  }, {
+    "filename" : "power-bi-dax-expert.chatmode.md",
+    "title" : "Power BI DAX Expert Mode",
+    "description" : "Expert Power BI DAX guidance using Microsoft best practices for performance, readability, and maintainability of DAX formulas and calculations.",
+    "link" : "chatmodes/power-bi-dax-expert.chatmode.md"
+  }, {
+    "filename" : "power-bi-performance-expert.chatmode.md",
+    "title" : "Power BI Performance Expert Mode",
+    "description" : "Expert Power BI performance optimization guidance for troubleshooting, monitoring, and improving the performance of Power BI models, reports, and queries.",
+    "link" : "chatmodes/power-bi-performance-expert.chatmode.md"
+  }, {
+    "filename" : "power-bi-visualization-expert.chatmode.md",
+    "title" : "Power BI Visualization Expert Mode",
+    "description" : "Expert Power BI report design and visualization guidance using Microsoft best practices for creating effective, performant, and user-friendly reports and dashboards.",
+    "link" : "chatmodes/power-bi-visualization-expert.chatmode.md"
   }, {
     "filename" : "power-platform-expert.chatmode.md",
     "title" : "Power Platform Expert",
