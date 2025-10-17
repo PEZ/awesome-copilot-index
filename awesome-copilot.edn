@@ -1,4 +1,4 @@
-{:generated "2025-10-16T18:07:06.636209426Z",
+{:generated "2025-10-17T06:07:32.508929456Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -108,6 +108,11 @@
    :title "C# 코드 작성 규칙",
    :description "C# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999",
    :link "instructions/csharp-ko.instructions.md"}
+  {:filename "csharp-mcp-server.instructions.md",
+   :title "C# MCP Server Development",
+   :description
+   "Instructions for building Model Context Protocol (MCP) servers using the C# SDK",
+   :link "instructions/csharp-mcp-server.instructions.md"}
   {:filename "csharp.instructions.md",
    :title "C# Development",
    :description "Guidelines for building C# applications",
@@ -173,6 +178,11 @@
    "Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions. Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies.",
    :link
    "instructions/github-actions-ci-cd-best-practices.instructions.md"}
+  {:filename "go-mcp-server.instructions.md",
+   :title "Go MCP Server Development Guidelines",
+   :description
+   "Best practices and patterns for building Model Context Protocol (MCP) servers in Go using the official github.com/modelcontextprotocol/go-sdk package.",
+   :link "instructions/go-mcp-server.instructions.md"}
   {:filename "go.instructions.md",
    :title "Go Development Instructions",
    :description
@@ -198,6 +208,11 @@
    :description
    "\"Comprehensive best practices for adopting new Java 25 features since the release of Java 21.\"",
    :link "instructions/java-21-to-java-25-upgrade.instructions.md"}
+  {:filename "java-mcp-server.instructions.md",
+   :title "Java MCP Server Development Guidelines",
+   :description
+   "Best practices and patterns for building Model Context Protocol (MCP) servers in Java using the official MCP Java SDK with reactive streams and Spring integration.",
+   :link "instructions/java-mcp-server.instructions.md"}
   {:filename "java.instructions.md",
    :title "Java Development",
    :description "Guidelines for building Java base applications",
@@ -212,6 +227,11 @@
    :description
    "Expert assistance for Joyride Workspace automation - REPL-driven and user space ClojureScript automation within specific VS Code workspaces",
    :link "instructions/joyride-workspace-automation.instructions.md"}
+  {:filename "kotlin-mcp-server.instructions.md",
+   :title "Kotlin MCP Server Development Guidelines",
+   :description
+   "Best practices and patterns for building Model Context Protocol (MCP) servers in Kotlin using the official io.modelcontextprotocol:kotlin-sdk library.",
+   :link "instructions/kotlin-mcp-server.instructions.md"}
   {:filename "kubernetes-deployment-best-practices.instructions.md",
    :title "Kubernetes Deployment Best Practices",
    :description
@@ -357,6 +377,11 @@
    :description
    "Guidelines for creating high-quality prompt files for GitHub Copilot",
    :link "instructions/prompt.instructions.md"}
+  {:filename "python-mcp-server.instructions.md",
+   :title "Python MCP Server Development",
+   :description
+   "Instructions for building Model Context Protocol (MCP) servers using the Python SDK",
+   :link "instructions/python-mcp-server.instructions.md"}
   {:filename "python.instructions.md",
    :title "Python Coding Conventions",
    :description "Python coding conventions and guidelines",
@@ -374,10 +399,20 @@
    :title "ReactJS Development Instructions",
    :description "ReactJS development standards and best practices",
    :link "instructions/reactjs.instructions.md"}
+  {:filename "ruby-mcp-server.instructions.md",
+   :title "Ruby MCP Server Development Guidelines",
+   :description
+   "Best practices and patterns for building Model Context Protocol (MCP) servers in Ruby using the official MCP Ruby SDK gem.",
+   :link "instructions/ruby-mcp-server.instructions.md"}
   {:filename "ruby-on-rails.instructions.md",
    :title "Ruby on Rails",
    :description "Ruby on Rails coding conventions and guidelines",
    :link "instructions/ruby-on-rails.instructions.md"}
+  {:filename "rust-mcp-server.instructions.md",
+   :title "Rust MCP Server Development Best Practices",
+   :description
+   "Best practices for building Model Context Protocol servers in Rust using the official rmcp SDK with async/await patterns",
+   :link "instructions/rust-mcp-server.instructions.md"}
   {:filename "rust.instructions.md",
    :title "Rust Coding Conventions and Best Practices",
    :description
@@ -414,6 +449,11 @@
    :description
    "Svelte 5 and SvelteKit development standards and best practices for component-based user interfaces and full-stack applications",
    :link "instructions/svelte.instructions.md"}
+  {:filename "swift-mcp-server.instructions.md",
+   :title "Swift MCP Server Development Guidelines",
+   :description
+   "Best practices and patterns for building Model Context Protocol (MCP) servers in Swift using the official MCP Swift SDK package.",
+   :link "instructions/swift-mcp-server.instructions.md"}
   {:filename "taming-copilot.instructions.md",
    :title "Taming Copilot",
    :description
@@ -447,6 +487,11 @@
    :description
    "Guidelines for TypeScript Development targeting TypeScript 5.x and ES2022 output",
    :link "instructions/typescript-5-es2022.instructions.md"}
+  {:filename "typescript-mcp-server.instructions.md",
+   :title "TypeScript MCP Server Development",
+   :description
+   "Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK",
+   :link "instructions/typescript-mcp-server.instructions.md"}
   {:filename "vuejs3.instructions.md",
    :title "VueJS 3 Development Instructions",
    :description
@@ -642,6 +687,11 @@
    :description
    "Ensure that C# types are documented with XML comments and follow best practices for documentation.",
    :link "prompts/csharp-docs.prompt.md"}
+  {:filename "csharp-mcp-server-generator.prompt.md",
+   :title "Generate C# MCP Server",
+   :description
+   "Generate a complete MCP server project in C# with tools, prompts, and proper configuration",
+   :link "prompts/csharp-mcp-server-generator.prompt.md"}
   {:filename "csharp-mstest.prompt.md",
    :title "MSTest Best Practices",
    :description
@@ -729,6 +779,11 @@
    :description
    "Set up complete GitHub Copilot configuration for a new project based on technology stack",
    :link "prompts/github-copilot-starter.prompt.md"}
+  {:filename "go-mcp-server-generator.prompt.md",
+   :title "Go MCP Server Project Generator",
+   :description
+   "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk.",
+   :link "prompts/go-mcp-server-generator.prompt.md"}
   {:filename "java-docs.prompt.md",
    :title "Java Documentation (Javadoc) Best Practices",
    :description
@@ -739,6 +794,11 @@
    :description
    "Get best practices for JUnit 5 unit testing, including data-driven tests",
    :link "prompts/java-junit.prompt.md"}
+  {:filename "java-mcp-server-generator.prompt.md",
+   :title "Java MCP Server Generator",
+   :description
+   "Generate a complete Model Context Protocol server project in Java using the official MCP Java SDK with reactive streams and optional Spring Boot integration.",
+   :link "prompts/java-mcp-server-generator.prompt.md"}
   {:filename "java-refactoring-extract-method.prompt.md",
    :title "Refactoring Java Methods with Extract Method",
    :description "Refactoring using Extract Methods in Java Language",
@@ -753,6 +813,11 @@
    :description
    "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.",
    :link "prompts/javascript-typescript-jest.prompt.md"}
+  {:filename "kotlin-mcp-server-generator.prompt.md",
+   :title "Kotlin MCP Server Project Generator",
+   :description
+   "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library.",
+   :link "prompts/kotlin-mcp-server-generator.prompt.md"}
   {:filename "kotlin-springboot.prompt.md",
    :title "Spring Boot with Kotlin Best Practices",
    :description
@@ -855,6 +920,11 @@
    :description
    "Guide users through creating high-quality GitHub Copilot prompts with proper structure, tools, and best practices.",
    :link "prompts/prompt-builder.prompt.md"}
+  {:filename "python-mcp-server-generator.prompt.md",
+   :title "Generate Python MCP Server",
+   :description
+   "Generate a complete MCP server project in Python with tools, resources, and proper configuration",
+   :link "prompts/python-mcp-server-generator.prompt.md"}
   {:filename "readme-blueprint-generator.prompt.md",
    :title "README Generator Prompt",
    :description
@@ -880,6 +950,16 @@
    :description
    "Review and refactor code in your project according to defined instructions",
    :link "prompts/review-and-refactor.prompt.md"}
+  {:filename "ruby-mcp-server-generator.prompt.md",
+   :title "Ruby MCP Server Generator",
+   :description
+   "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.",
+   :link "prompts/ruby-mcp-server-generator.prompt.md"}
+  {:filename "rust-mcp-server-generator.prompt.md",
+   :title "Rust MCP Server Generator",
+   :description
+   "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK",
+   :link "prompts/rust-mcp-server-generator.prompt.md"}
   {:filename "shuffle-json-data.prompt.md",
    :title "Shuffle JSON Data",
    :description
@@ -917,11 +997,21 @@
    :description
    "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository.",
    :link "prompts/suggest-awesome-github-copilot-prompts.prompt.md"}
+  {:filename "swift-mcp-server-generator.prompt.md",
+   :title "Swift MCP Server Generator",
+   :description
+   "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package.",
+   :link "prompts/swift-mcp-server-generator.prompt.md"}
   {:filename "technology-stack-blueprint-generator.prompt.md",
    :title "Comprehensive Technology Stack Blueprint Generator",
    :description
    "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development.",
    :link "prompts/technology-stack-blueprint-generator.prompt.md"}
+  {:filename "typescript-mcp-server-generator.prompt.md",
+   :title "Generate TypeScript MCP Server",
+   :description
+   "Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration",
+   :link "prompts/typescript-mcp-server-generator.prompt.md"}
   {:filename "update-avm-modules-in-bicep.prompt.md",
    :title "Update Azure Verified Modules in Bicep Files",
    :description
@@ -1050,6 +1140,11 @@
    :description
    "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
    :link "chatmodes/csharp-dotnet-janitor.chatmode.md"}
+  {:filename "csharp-mcp-expert.chatmode.md",
+   :title "C# MCP Server Expert",
+   :description
+   "Expert assistant for developing Model Context Protocol (MCP) servers in C#",
+   :link "chatmodes/csharp-mcp-expert.chatmode.md"}
   {:filename "debug.chatmode.md",
    :title "Debug Mode Instructions",
    :description "Debug your application to find and fix a bug",
@@ -1088,6 +1183,11 @@
    :description
    "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
    :link "chatmodes/gilfoyle.chatmode.md"}
+  {:filename "go-mcp-expert.chatmode.md",
+   :title "Go MCP Server Development Expert",
+   :description
+   "Expert assistant for building Model Context Protocol (MCP) servers in Go using the official SDK.",
+   :link "chatmodes/go-mcp-expert.chatmode.md"}
   {:filename "gpt-5-beast-mode.chatmode.md",
    :title "GPT 5 Beast Mode",
    :description
@@ -1108,6 +1208,16 @@
    :description
    "Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.",
    :link "chatmodes/janitor.chatmode.md"}
+  {:filename "java-mcp-expert.chatmode.md",
+   :title "Java MCP Expert",
+   :description
+   "Expert assistance for building Model Context Protocol servers in Java using reactive streams, the official MCP Java SDK, and Spring Boot integration.",
+   :link "chatmodes/java-mcp-expert.chatmode.md"}
+  {:filename "kotlin-mcp-expert.chatmode.md",
+   :title "Kotlin MCP Server Development Expert",
+   :description
+   "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.",
+   :link "chatmodes/kotlin-mcp-expert.chatmode.md"}
   {:filename "kusto-assistant.chatmode.md",
    :title
    "Kusto Assistant: Azure Data Explorer (Kusto) Engineering Assistant",
@@ -1208,6 +1318,11 @@
    :description
    "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a propt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
    :link "chatmodes/prompt-engineer.chatmode.md"}
+  {:filename "python-mcp-expert.chatmode.md",
+   :title "Python MCP Server Expert",
+   :description
+   "Expert assistant for developing Model Context Protocol (MCP) servers in Python",
+   :link "chatmodes/python-mcp-expert.chatmode.md"}
   {:filename "refine-issue.chatmode.md",
    :title "Refine Requirement or Issue Chat Mode",
    :description
@@ -1218,10 +1333,20 @@
    :description
    "Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation.",
    :link "chatmodes/research-technical-spike.chatmode.md"}
+  {:filename "ruby-mcp-expert.chatmode.md",
+   :title "Ruby MCP Expert",
+   :description
+   "Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration.",
+   :link "chatmodes/ruby-mcp-expert.chatmode.md"}
   {:filename "rust-gpt-4.1-beast-mode.chatmode.md",
    :title "Rust Beast Mode",
    :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
    :link "chatmodes/rust-gpt-4.1-beast-mode.chatmode.md"}
+  {:filename "rust-mcp-expert.chatmode.md",
+   :title "Rust MCP Expert",
+   :description
+   "Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime",
+   :link "chatmodes/rust-mcp-expert.chatmode.md"}
   {:filename "semantic-kernel-dotnet.chatmode.md",
    :title "Semantic Kernel .NET mode instructions",
    :description
@@ -1247,6 +1372,11 @@
    :description
    "Generate or update specification documents for new or existing functionality.",
    :link "chatmodes/specification.chatmode.md"}
+  {:filename "swift-mcp-expert.chatmode.md",
+   :title "Swift MCP Expert",
+   :description
+   "Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features and the official MCP Swift SDK.",
+   :link "chatmodes/swift-mcp-expert.chatmode.md"}
   {:filename "task-planner.chatmode.md",
    :title "Task Planner Instructions",
    :description
@@ -1288,6 +1418,11 @@
    :description
    "Act as implementation planner for your Azure Terraform Infrastructure as Code task.",
    :link "chatmodes/terraform-azure-planning.chatmode.md"}
+  {:filename "typescript-mcp-expert.chatmode.md",
+   :title "TypeScript MCP Server Expert",
+   :description
+   "Expert assistant for developing Model Context Protocol (MCP) servers in TypeScript",
+   :link "chatmodes/typescript-mcp-expert.chatmode.md"}
   {:filename "voidbeast-gpt41enhanced.chatmode.md",
    :title "voidBeast_GPT41Enhanced 1.0 - Elite Developer AI Assistant",
    :description
