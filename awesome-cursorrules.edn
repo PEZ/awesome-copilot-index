@@ -1,4 +1,4 @@
-{:generated "2025-10-19T06:06:57.366025884Z",
+{:generated "2025-10-19T18:06:33.817347843Z",
  :cursor-rules
  [{:description
    "Rules for database querying and data model creation using Supabase SDK and schema builder, focusing on the API routes directory.",
