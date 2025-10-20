@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-19T18:06:33.230418830Z",
+  "generated" : "2025-10-20T06:08:06.616757271Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -310,6 +310,11 @@
     "title" : "Performance Optimization Best Practices",
     "description" : "The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.",
     "link" : "instructions/performance-optimization.instructions.md"
+  }, {
+    "filename" : "php-mcp-server.instructions.md",
+    "title" : "PHP MCP Server Development Best Practices",
+    "description" : "Best practices for building Model Context Protocol servers in PHP using the official PHP SDK with attribute-based discovery and multiple transport options",
+    "link" : "instructions/php-mcp-server.instructions.md"
   }, {
     "filename" : "playwright-python.instructions.md",
     "title" : "Playwright Python Test Generation Instructions",
@@ -812,6 +817,11 @@
     "description" : "Refactoring using Extract Methods in Java Language",
     "link" : "prompts/java-refactoring-extract-method.prompt.md"
   }, {
+    "filename" : "java-refactoring-remove-parameter.prompt.md",
+    "title" : "Refactoring Java Methods with Remove Parameter",
+    "description" : "Refactoring using Remove Parameter in Java Language",
+    "link" : "prompts/java-refactoring-remove-parameter.prompt.md"
+  }, {
     "filename" : "java-springboot.prompt.md",
     "title" : "Spring Boot Best Practices",
     "description" : "Get best practices for developing applications with Spring Boot.",
@@ -866,6 +876,11 @@
     "title" : "Next Intl Add Language",
     "description" : "Add new language to a Next.js + next-intl application",
     "link" : "prompts/next-intl-add-language.prompt.md"
+  }, {
+    "filename" : "php-mcp-server-generator.prompt.md",
+    "title" : "PHP MCP Server Generator",
+    "description" : "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK",
+    "link" : "prompts/php-mcp-server-generator.prompt.md"
   }, {
     "filename" : "playwright-automation-fill-in-form.prompt.md",
     "title" : "Automating Filling in a Form with Playwright MCP",
@@ -1262,6 +1277,11 @@
     "title" : "MS-SQL Database Administrator",
     "description" : "Work with Microsoft SQL Server databases using the MS SQL extension.",
     "link" : "chatmodes/ms-sql-dba.chatmode.md"
+  }, {
+    "filename" : "php-mcp-expert.chatmode.md",
+    "title" : "PHP MCP Expert",
+    "description" : "Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery",
+    "link" : "chatmodes/php-mcp-expert.chatmode.md"
   }, {
     "filename" : "plan.chatmode.md",
     "title" : "Plan Mode - Strategic Planning & Architecture Assistant",
