@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-22T18:07:50.370578787Z",
+  "generated" : "2025-10-23T06:08:02.953016838Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -90,11 +90,6 @@
     "title" : "Containerization & Docker Best Practices",
     "description" : "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
     "link" : "instructions/containerization-docker-best-practices.instructions.md"
-  }, {
-    "filename" : "conventional-commit.prompt.md",
-    "title" : "Conventional Commit",
-    "description" : "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.",
-    "link" : "instructions/conventional-commit.prompt.md"
   }, {
     "filename" : "convert-jpa-to-spring-data-cosmos.instructions.md",
     "title" : "Convert Spring JPA project to Spring Data Cosmos",
@@ -611,6 +606,11 @@
     "title" : "ASP.NET Core Docker Containerization Prompt",
     "description" : "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
     "link" : "prompts/containerize-aspnetcore.prompt.md"
+  }, {
+    "filename" : "conventional-commit.prompt.md",
+    "title" : "Conventional Commit",
+    "description" : "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.",
+    "link" : "prompts/conventional-commit.prompt.md"
   }, {
     "filename" : "copilot-instructions-blueprint-generator.prompt.md",
     "title" : "Copilot Instructions Blueprint Generator",
