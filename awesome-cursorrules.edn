@@ -1,4 +1,4 @@
-{:generated "2025-10-24T06:07:55.491252280Z",
+{:generated "2025-10-24T18:07:20.042370913Z",
  :cursor-rules
  [{:description
    "Configures the AI to act as a full-stack developer with expertise in React, TypeScript, PHP, Symfony, and Docker.",
@@ -2278,7 +2278,7 @@
    "rules/python-projects-guide-cursorrules-prompt-file/python-configuration-management-rule.mdc",
    :component-type "mdc"}
   {:description
-   "Specifies dependency management using Rye and virtual environments for consistent and isolated project dependencies.",
+   "Specifies uv (preferred) for dependency management and virtual environments for consistent and isolated project dependencies.",
    :tech-stack "Python Projects Guide",
    :domain "Python Dependency Management Rule",
    :link
@@ -2610,13 +2610,6 @@
    "rules/python-llm-ml-workflow-cursorrules-prompt-file/logging-module-usage.mdc",
    :component-type "mdc"}
   {:description
-   "Specifies Poetry or Rye for dependency management in Python projects.",
-   :tech-stack "Python Llm Ml Workflow",
-   :domain "Poetry Rye Dependency Management",
-   :link
-   "rules/python-llm-ml-workflow-cursorrules-prompt-file/poetry-rye-dependency-management.mdc",
-   :component-type "mdc"}
-  {:description
    "Prioritizes the use of new features available in Python 3.10 and later versions.",
    :tech-stack "Python Llm Ml Workflow",
    :domain "Prioritize Python 3 10 Features",
@@ -2643,6 +2636,13 @@
    :domain "Type Hinting Rule",
    :link
    "rules/python-llm-ml-workflow-cursorrules-prompt-file/type-hinting-rule.mdc",
+   :component-type "mdc"}
+  {:description
+   "Specifies uv (preferred) or Poetry for dependency management in Python projects.",
+   :tech-stack "Python Llm Ml Workflow",
+   :domain "Uv Dependency Management",
+   :link
+   "rules/python-llm-ml-workflow-cursorrules-prompt-file/uv-dependency-management.mdc",
    :component-type "mdc"}
   {:description
    "Guidance on initial data exploration steps within data analysis scripts, including summary statistics and data validation.",
