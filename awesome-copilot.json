@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-26T18:06:39.669692221Z",
+  "generated" : "2025-10-27T06:08:38.123310812Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -410,6 +410,11 @@
     "title" : "Quarkus",
     "description" : "Quarkus development standards and instructions",
     "link" : "instructions/quarkus.instructions.md"
+  }, {
+    "filename" : "r.instructions.md",
+    "title" : "R Programming Language Instructions",
+    "description" : "R language and document formats (R, Rmd, Quarto): coding standards and Copilot guidance for idiomatic, safe, and consistent code generation.",
+    "link" : "instructions/r.instructions.md"
   }, {
     "filename" : "reactjs.instructions.md",
     "title" : "ReactJS Development Instructions",
