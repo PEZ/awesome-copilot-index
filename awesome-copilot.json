@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-27T18:07:36.238684287Z",
+  "generated" : "2025-10-28T06:08:11.701406532Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1208,6 +1208,11 @@
     "description" : "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
     "link" : "chatmodes/dotnet-upgrade.chatmode.md"
   }, {
+    "filename" : "drupal-expert.chatmode.md",
+    "title" : "Drupal Expert",
+    "description" : "Expert assistant for Drupal development, architecture, and best practices using PHP 8.3+ and modern Drupal patterns",
+    "link" : "chatmodes/drupal-expert.chatmode.md"
+  }, {
     "filename" : "electron-angular-native.chatmode.md",
     "title" : "Electron Code Review Mode Instructions",
     "description" : "\"Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here.\"",
@@ -1272,6 +1277,11 @@
     "title" : "Kusto Assistant: Azure Data Explorer (Kusto) Engineering Assistant",
     "description" : "\"Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server\"",
     "link" : "chatmodes/kusto-assistant.chatmode.md"
+  }, {
+    "filename" : "laravel-expert-agent.chatmode.md",
+    "title" : "Laravel Expert Agent",
+    "description" : "Expert Laravel development assistant specializing in modern Laravel 12+ applications with Eloquent, Artisan, testing, and best practices",
+    "link" : "chatmodes/laravel-expert-agent.chatmode.md"
   }, {
     "filename" : "mentor.chatmode.md",
     "title" : "Mentor mode instructions",
