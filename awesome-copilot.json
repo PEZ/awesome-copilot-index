@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-28T18:07:31.032667005Z",
+  "generated" : "2025-10-29T06:08:19.186941783Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1016,6 +1016,11 @@
     "title" : "SQL Performance Optimization Assistant",
     "description" : "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
     "link" : "prompts/sql-optimization.prompt.md"
+  }, {
+    "filename" : "suggest-awesome-github-copilot-agents.prompt.md",
+    "title" : "Suggest Awesome GitHub Copilot Custom Agents",
+    "description" : "\"Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository.\"",
+    "link" : "prompts/suggest-awesome-github-copilot-agents.prompt.md"
   }, {
     "filename" : "suggest-awesome-github-copilot-chatmodes.prompt.md",
     "title" : "Suggest Awesome GitHub Copilot Custom Chat Modes",
