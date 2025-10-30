@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-29T18:07:28.471603452Z",
+  "generated" : "2025-10-30T06:07:50.282207561Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1112,6 +1112,11 @@
     "title" : "Universal PR Comment Addresser",
     "description" : "\"Address PR comments\"",
     "link" : "chatmodes/address-comments.chatmode.md"
+  }, {
+    "filename" : "aem-frontend-specialist.chatmode.md",
+    "title" : "AEM Front-End Specialist",
+    "description" : "Expert assistant for developing AEM components using HTL, Tailwind CSS, and Figma-to-code workflows with design system integration",
+    "link" : "chatmodes/aem-frontend-specialist.chatmode.md"
   }, {
     "filename" : "api-architect.chatmode.md",
     "title" : "API Architect mode instructions",
