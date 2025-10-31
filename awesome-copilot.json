@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-10-30T18:06:47.591213074Z",
+  "generated" : "2025-10-31T06:07:52.291814813Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1432,6 +1432,11 @@
     "title" : "Semantic Kernel Python mode instructions",
     "description" : "Create, update, refactor, explain or work with code using the Python version of Semantic Kernel.",
     "link" : "chatmodes/semantic-kernel-python.chatmode.md"
+  }, {
+    "filename" : "shopify-expert.chatmode.md",
+    "title" : "Shopify Expert",
+    "description" : "Expert Shopify development assistant specializing in theme development, Liquid templating, app development, and Shopify APIs",
+    "link" : "chatmodes/shopify-expert.chatmode.md"
   }, {
     "filename" : "simple-app-idea-generator.chatmode.md",
     "title" : "Idea Generator mode instructions",
