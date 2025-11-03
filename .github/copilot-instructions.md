@@ -57,7 +57,8 @@ The parser handles **trailing whitespace** on closing delimiters - `"---  "` vs 
 ### Repository Content Structure
 - `awesome-copilot-main/instructions/` - GitHub Copilot instruction files
 - `awesome-copilot-main/prompts/` - Prompt files
-- `awesome-copilot-main/chatmodes/` - Chat mode configurations
+- `awesome-copilot-main/chatmodes/` - Chat mode configurations (.chatmode.md files)
+- `awesome-copilot-main/agents/` - Agent configurations (.agent.md files)
 - `awesome-cursorrules-main/rules/` - Technology-specific cursor rules by directory
 
 ### Index Data Transformation

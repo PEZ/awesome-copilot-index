@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Awesome Copilot Index
-description: Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, and chat modes.
+description: Daily generated index of the awesome-copilot repository, providing structured access to GitHub Copilot instructions, prompts, chat modes, and agents.
 ---
 
 <div class="page-navigation top">
@@ -16,7 +16,7 @@ description: Daily generated index of the awesome-copilot repository, providing 
 
 # Awesome Copilot Index
 
-This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, and chat modes. The site is also hosting [Joyride](https://github.com/BetterThanTomorrow/joyride) scripts that use the indexes to bring the content into [VS Code](https://code.visualstudio.com/) for you.
+This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, chat modes, and agents. The site is also hosting [Joyride](https://github.com/BetterThanTomorrow/joyride) scripts that use the indexes to bring the content into [VS Code](https://code.visualstudio.com/) for you.
 
 ## Download Index Files
 
@@ -27,7 +27,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 |----------|------:|
 | **Instructions** | {{instruction-count}} |
 | **Prompts** | {{prompt-count}} |
-| **Chat Modes** | {{chatmode-count}} |
+| **Chat Modes & Agents** | {{chatmode-count}} |
 | **Total Resources** | {{total-count}} |
 
 *Last updated: {{formatted-date}}*
