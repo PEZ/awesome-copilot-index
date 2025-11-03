@@ -27,7 +27,8 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 |----------|------:|
 | **Instructions** | {{instruction-count}} |
 | **Prompts** | {{prompt-count}} |
-| **Chat Modes & Agents** | {{chatmode-count}} |
+| **Chat Modes** | {{chatmode-count}} |
+| **Agents** | {{agent-count}} |
 | **Total Resources** | {{total-count}} |
 
 *Last updated: {{formatted-date}}*

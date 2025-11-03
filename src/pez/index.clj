@@ -105,7 +105,7 @@
        (map #(process-file % base-dir))))
 
 (defn process-chatmodes-and-agents
-  "Process chatmode and agent files from chatmodes/ and agents/ directories"
+  "Process chatmode and agent files, returning separate collections"
   [base-dir]
   (let [chatmodes-dir (fs/path base-dir "chatmodes")
         agents-dir (fs/path base-dir "agents")
@@ -113,22 +113,26 @@
                       (when (fs/exists? dir)
                         (->> (get-chatmode-and-agent-files dir)
                              (map #(process-file % base-dir)))))
-        chatmodes (process-dir chatmodes-dir)
-        agents (process-dir agents-dir)]
-    (concat chatmodes agents)))
+        all-items (concat (process-dir chatmodes-dir) (process-dir agents-dir))
+        chatmodes (filter #(= "chatmode" (:type %)) all-items)
+        agents (filter #(= "agent" (:type %)) all-items)]
+    {:chatmodes chatmodes
+     :agents agents}))
 
 (defn format-stats-table
   "Format statistics for template rendering"
   [index-data]
-  (let [{:keys [instructions prompts chatmodes generated]} index-data
+  (let [{:keys [instructions prompts chatmodes agents generated]} index-data
         instruction-count (count instructions)
         prompt-count (count prompts)
         chatmode-count (count chatmodes)
-        total-count (+ instruction-count prompt-count chatmode-count)]
+        agent-count (count agents)
+        total-count (+ instruction-count prompt-count chatmode-count agent-count)]
     {:total-count total-count
      :instruction-count instruction-count
      :prompt-count prompt-count
      :chatmode-count chatmode-count
+     :agent-count agent-count
      :generated generated
      :formatted-date (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd HH:mm:ss 'UTC'")
                               (java.time.ZonedDateTime/parse generated))}))
@@ -149,11 +153,12 @@
    (println "Generating index from" base-dir "...")
    (let [instructions (process-directory (fs/path base-dir "instructions") base-dir)
          prompts (process-directory (fs/path base-dir "prompts") base-dir)
-         chatmodes (process-chatmodes-and-agents base-dir)
+         {:keys [chatmodes agents]} (process-chatmodes-and-agents base-dir)
          index-data {:generated (str (java.time.Instant/now))
                      :instructions instructions
                      :prompts prompts
-                     :chatmodes chatmodes}]
+                     :chatmodes chatmodes
+                     :agents agents}]
      (println "Writing awesome-copilot.json...")
      (spit "site/awesome-copilot.json" (json/generate-string index-data {:pretty true}))
      (println "Writing awesome-copilot.edn...")
