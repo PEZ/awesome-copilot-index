@@ -61,3 +61,24 @@
     (throw (ex-info (str "Repository directory '" awesome-dir "' not found. Run 'bb download-awesome!' first.")
                     {:directory awesome-dir})))
   (index/generate-index! awesome-dir))
+
+(def joyride-scripts
+  "Scripts to copy from Joyride user config to site directory"
+  ["awesome_copilot.cljs"
+   "cursorrules_to_copilot.cljs"])
+
+(defn ^:export copy-joyride-scripts!
+  "Copy Joyride scripts from user config to site directory"
+  [& _]
+  (let [source-dir (fs/path (fs/home) ".config" "joyride" "scripts")
+        target-dir "site"]
+    (println "Copying Joyride scripts from" (str source-dir) "to" target-dir)
+    (doseq [script joyride-scripts]
+      (let [source (fs/path source-dir script)
+            target (fs/path target-dir script)]
+        (if (fs/exists? source)
+          (do
+            (println "  ✓" script)
+            (fs/copy source target {:replace-existing true}))
+          (println "  ✗" script "(not found at source)"))))
+    (println "Joyride scripts copy complete!")))

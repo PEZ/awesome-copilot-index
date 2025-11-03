@@ -7,4 +7,6 @@
   download-cursorrules   {:doc "Download the awesome-cursorrules repository"
                           :task pez.tasks/download-cursorrules!}
   generate-cursorrules-index {:doc "Generate cursor rules index files from the awesome-cursorrules repository"
-                              :task pez.tasks/generate-cursorrules-index!}}}
+                              :task pez.tasks/generate-cursorrules-index!}
+  copy-joyride-scripts   {:doc "Copy Joyride scripts from user config to site directory"
+                          :task pez.tasks/copy-joyride-scripts!}}}
