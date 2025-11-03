@@ -1,4 +1,4 @@
-{:generated "2025-11-03T20:47:38.737195122Z",
+{:generated "2025-11-03T20:55:59.393428340Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1602,8 +1602,9 @@
    :description
    "Ask WG Code Sentinel to review your code for security issues.",
    :link "chatmodes/wg-code-sentinel.chatmode.md",
-   :type "chatmode"}
-  {:filename "CSharpExpert.agent.md",
+   :type "chatmode"}),
+ :agents
+ ({:filename "CSharpExpert.agent.md",
    :title "General C# Development",
    :description
    "An agent designed to assist with software development tasks for .NET projects.",

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Awesome Copilot Joyride Script
-description: The script that powers the Awesome Copilot menu in VS Code via Joyride, providing easy access to GitHub Copilot instructions, prompts, and chat modes.
+description: The script that powers the Awesome Copilot menu in VS Code via Joyride, providing easy access to GitHub Copilot instructions, prompts, chat modes, and agents.
 youtubeId: AiL8LurZgSI
 ---
 
