@@ -105,11 +105,11 @@
     :description "Task-specific templates"
     :detail "Pre-defined prompts for common tasks like testing, documentation, etc."
     :category "prompts"}
-   {:label "Chatmodes"
+   {:label "Agents"
     :iconPath (vscode/ThemeIcon. "color-mode")
-    :description "Conversation behavior settings"
-    :detail "Configure how Copilot Chat behaves for different activities"
-    :category "chatmodes"}])
+    :description "AI assistant behavior profiles"
+    :detail "Configure how Copilot behaves for different activities (includes legacy chatmodes)"
+    :category "agents"}])
 
 (def actions
   [{:label "View Content"
@@ -180,7 +180,7 @@
 (defn flatten-all-items [index]
   (->> [[:instructions (:instructions index)]
         [:prompts (:prompts index)]
-        [:chatmodes (:chatmodes index)]]
+        [:agents (concat (:agents index) (:chatmodes index))]]
        (mapcat (fn [[category-key items]]
                  (let [category-name (name category-key)]
                    (map (fn [item]
@@ -192,7 +192,8 @@
   (case category
     "instructions" (vscode/ThemeIcon. "list-ordered")
     "prompts" (vscode/ThemeIcon. "chevron-right")
-    "chatmodes" (vscode/ThemeIcon. "color-mode")
+    "agents" (vscode/ThemeIcon. "color-mode")
+    "chatmodes" (vscode/ThemeIcon. "color-mode") ; backward compatibility
     (vscode/ThemeIcon. "copilot")))
 
 (defn create-unified-picker-items [flattened-items]
@@ -250,7 +251,8 @@
           dir-path (case category
                      "instructions" (path/join workspace-path ".github" "instructions")
                      "prompts" (path/join workspace-path ".github" "prompts")
-                     "chatmodes" (path/join workspace-path ".github" "chatmodes")
+                     "agents" (path/join workspace-path ".github" "agents")
+                     "chatmodes" (path/join workspace-path ".github" "agents") ; legacy support
                      nil)]
 
       (if dir-path
