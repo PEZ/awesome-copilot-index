@@ -1,4 +1,4 @@
-{:generated "2025-11-02T18:06:04.608038473Z",
+{:generated "2025-11-03T06:08:13.683701075Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -64,6 +64,11 @@
    :title "Cmake Vcpkg",
    :description "C++ project configuration and package management",
    :link "instructions/cmake-vcpkg.instructions.md"}
+  {:filename "codexer.instructions.md",
+   :title "Codexer Instructions",
+   :description
+   "Advanced Python research assistant with Context 7 MCP integration, focusing on speed, reliability, and 10+ years of software development expertise",
+   :link "instructions/codexer.instructions.md"}
   {:filename "coldfusion-cfc.instructions.md",
    :title "ColdFusion Coding Standards for CFC Files",
    :description
@@ -502,6 +507,11 @@
    :description
    "Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK",
    :link "instructions/typescript-mcp-server.instructions.md"}
+  {:filename "update-code-from-shorthand.instructions.md",
+   :title "Update Code from Shorthand",
+   :description
+   "\"Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.\"",
+   :link "instructions/update-code-from-shorthand.instructions.md"}
   {:filename "vuejs3.instructions.md",
    :title "VueJS 3 Development Instructions",
    :description
@@ -862,6 +872,11 @@
    :description
    "Generate a language translation for a mkdocs documentation stack.",
    :link "prompts/mkdocs-translations.prompt.md"}
+  {:filename "model-recommendation.prompt.md",
+   :title "AI Model Recommendation for Copilot Chat Modes and Prompts",
+   :description
+   "\"Analyze chatmode or prompt files and recommend optimal AI models based on task complexity, required capabilities, and cost-efficiency\"",
+   :link "prompts/model-recommendation.prompt.md"}
   {:filename "multi-stage-dockerfile.prompt.md",
    :title "Multi Stage Dockerfile",
    :description
