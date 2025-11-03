@@ -41,7 +41,7 @@
   "Convert a filename to a human-readable title"
   [filename]
   (-> filename
-      (str/replace #"\.(instructions|prompt|chatmode)\.md$" "")
+      (str/replace #"\.(instructions|prompt|chatmode|agent)\.md$" "")
       (str/replace #"[-_]" " ")
       (str/split #" ")
       (->> (map str/capitalize)
@@ -57,6 +57,14 @@
            (#(when % (str/replace % #"^# " ""))))
       (filename-to-title filename)))
 
+(defn detect-file-type
+  "Detect file type from filename extension"
+  [filename]
+  (cond
+    (str/ends-with? filename ".agent.md") "agent"
+    (str/ends-with? filename ".chatmode.md") "chatmode"
+    :else nil))
+
 (defn process-file
   "Process a single markdown file and extract metadata"
   [file-path base-dir]
@@ -66,11 +74,13 @@
         frontmatter (parse-frontmatter (:frontmatter parsed))
         filename (fs/file-name file-path)
         title (extract-title (:content parsed) frontmatter filename)
-        relative-path (str/replace file-str (str (fs/path base-dir) fs/file-separator) "")]
-    {:filename filename
-     :title title
-     :description (:description frontmatter)
-     :link relative-path}))
+        relative-path (str/replace file-str (str (fs/path base-dir) fs/file-separator) "")
+        file-type (detect-file-type filename)]
+    (cond-> {:filename filename
+             :title title
+             :description (:description frontmatter)
+             :link relative-path}
+      file-type (assoc :type file-type))))
 
 (defn get-markdown-files
   "Get all markdown files in a directory"
@@ -79,11 +89,33 @@
        (filter #(str/ends-with? (str %) ".md"))
        (sort)))
 
+(defn get-chatmode-and-agent-files
+  "Get all .chatmode.md and .agent.md files in a directory"
+  [dir]
+  (->> (fs/list-dir dir)
+       (filter #(let [name (str %)]
+                  (or (str/ends-with? name ".chatmode.md")
+                      (str/ends-with? name ".agent.md"))))
+       (sort)))
+
 (defn process-directory
   "Process all markdown files in a directory"
   [dir base-dir]
   (->> (get-markdown-files dir)
        (map #(process-file % base-dir))))
+
+(defn process-chatmodes-and-agents
+  "Process chatmode and agent files from chatmodes/ and agents/ directories"
+  [base-dir]
+  (let [chatmodes-dir (fs/path base-dir "chatmodes")
+        agents-dir (fs/path base-dir "agents")
+        process-dir (fn [dir]
+                      (when (fs/exists? dir)
+                        (->> (get-chatmode-and-agent-files dir)
+                             (map #(process-file % base-dir)))))
+        chatmodes (process-dir chatmodes-dir)
+        agents (process-dir agents-dir)]
+    (concat chatmodes agents)))
 
 (defn format-stats-table
   "Format statistics for template rendering"
@@ -117,7 +149,7 @@
    (println "Generating index from" base-dir "...")
    (let [instructions (process-directory (fs/path base-dir "instructions") base-dir)
          prompts (process-directory (fs/path base-dir "prompts") base-dir)
-         chatmodes (process-directory (fs/path base-dir "chatmodes") base-dir)
+         chatmodes (process-chatmodes-and-agents base-dir)
          index-data {:generated (str (java.time.Instant/now))
                      :instructions instructions
                      :prompts prompts
