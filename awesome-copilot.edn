@@ -1,4 +1,4 @@
-{:generated "2025-11-03T21:25:49.289065165Z",
+{:generated "2025-11-04T06:08:08.041498526Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1110,8 +1110,9 @@
    "chatmodes/Ultimate-Transparent-Thinking-Beast-Mode.chatmode.md",
    :type "chatmode"}
   {:filename "accessibility.chatmode.md",
-   :title "Accessibility mode",
-   :description "Accessibility mode.",
+   :title "Accessibility Expert",
+   :description
+   "Expert assistant for web accessibility (WCAG 2.1/2.2), inclusive UX, and a11y testing",
    :link "chatmodes/accessibility.chatmode.md",
    :type "chatmode"}
   {:filename "address-comments.chatmode.md",
