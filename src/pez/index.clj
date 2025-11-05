@@ -137,14 +137,14 @@
      :formatted-date (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd HH:mm:ss 'UTC'")
                               (java.time.ZonedDateTime/parse generated))}))
 
-(defn render-index-page!
-  "Render the index page from template with data"
+(defn render-copilot-index-page!
+  "Render the copilot-index page from template with data"
   [index-data]
-  (let [template (slurp "site/index-template.md")
-        stats (format-stats-table index-data)
+  (let [stats (format-stats-table index-data)
+        template (slurp "site/copilot-index-template.md")
         rendered (selmer/render template stats)]
-    (println "Writing site/index.md...")
-    (spit "site/index.md" rendered)))
+    (println "Writing site/copilot-index.md...")
+    (spit "site/copilot-index.md" rendered)))
 
 (defn generate-index!
   "Generate index files from awesome-copilot repository contents"
@@ -163,7 +163,7 @@
      (spit "site/awesome-copilot.json" (json/generate-string index-data {:pretty true}))
      (println "Writing awesome-copilot.edn...")
      (spit "site/awesome-copilot.edn" (with-out-str (pprint/pprint index-data)))
-     (render-index-page! index-data)
+     (render-copilot-index-page! index-data)
      (println "Index generation complete!")
      index-data)))
 

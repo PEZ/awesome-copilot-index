@@ -10,7 +10,11 @@ redirect_from:
 ---
 
 <div class="page-navigation top">
-  <a href="index.html">← Back to Index</a>
+  <a href="./">← Home</a>
+  <span class="separator">|</span>
+  <a href="copilot-index">Copilot Index</a>
+  <span class="separator">|</span>
+  <a href="awesome-copilot-script">Awesome Copilot Script</a>
   <span class="separator">|</span>
   <a href="cursorrules_to_copilot.cljs">Download Script</a>
   <span class="separator">|</span>
@@ -62,7 +66,11 @@ See also: [Awesome Copilot VS Code Menu](awesome-copilot-script)
 ---
 
 <div class="page-navigation bottom">
-  <a href="index.html">← Back to Index</a>
+  <a href="./">← Home</a>
+  <span class="separator">|</span>
+  <a href="copilot-index">Copilot Index</a>
+  <span class="separator">|</span>
+  <a href="awesome-copilot-script">Awesome Copilot Script</a>
   <span class="separator">|</span>
   <a href="cursorrules_to_copilot.cljs">Download Script</a>
   <span class="separator">|</span>

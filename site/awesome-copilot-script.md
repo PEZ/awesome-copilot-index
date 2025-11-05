@@ -6,7 +6,11 @@ youtubeId: AiL8LurZgSI
 ---
 
 <div class="page-navigation top">
-  <a href="index.html">← Back to Index</a>
+  <a href="./">← Home</a>
+  <span class="separator">|</span>
+  <a href="copilot-index">Copilot Index</a>
+  <span class="separator">|</span>
+  <a href="cursorrules-to-copilot-script">Cursor Rules Converter</a>
   <span class="separator">|</span>
   <a href="awesome_copilot.cljs">Download Script</a>
   <span class="separator">|</span>
@@ -51,7 +55,11 @@ See also: [Cursor Rules to Copilot Joyride Script](cursorrules-to-copilot-script
 ---
 
 <div class="page-navigation bottom">
-  <a href="index.html">← Back to Index</a>
+  <a href="./">← Home</a>
+  <span class="separator">|</span>
+  <a href="copilot-index">Copilot Index</a>
+  <span class="separator">|</span>
+  <a href="cursorrules-to-copilot-script">Cursor Rules Converter</a>
   <span class="separator">|</span>
   <a href="awesome_copilot.cljs">Download Script</a>
   <span class="separator">|</span>

@@ -5,6 +5,8 @@ description: Daily generated index of the awesome-copilot repository, providing 
 ---
 
 <div class="page-navigation top">
+  <a href="./">← Home</a>
+  <span class="separator">|</span>
   <a href="awesome-copilot-script">Awesome Copilot Script</a>
   <span class="separator">|</span>
   <a href="cursorrules-to-copilot-script">Cursor Rules to Copilot Script</a>
@@ -16,7 +18,7 @@ description: Daily generated index of the awesome-copilot repository, providing 
 
 # Awesome Copilot Index
 
-This site hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, chat modes, and agents. The site is also hosting [Joyride](https://github.com/BetterThanTomorrow/joyride) scripts that use the indexes to bring the content into [VS Code](https://code.visualstudio.com/) for you.
+This page hosts a daily generated index of the [awesome-copilot](https://github.com/github/awesome-copilot) repository, providing structured access to its GitHub Copilot instructions, prompts, chat modes, and agents.
 
 ## Download Index Files
 
@@ -33,11 +35,9 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 
 *Last updated: {{formatted-date}}*
 
-## Usage Example
+## Usage
 
-The index powers the **Awesome Copilot** menu in VS Code together with [Joyride](https://github.com/BetterThanTomorrow/joyride) and this script:
-- [Awesome Copilot Joyride Script](awesome-copilot-script)
-The script includes instructions for how to install it in VS Code/Joyride.
+The index powers the **[Awesome Copilot Joyride Script](awesome-copilot-script)** for VS Code, providing access to all resources through an interactive menu.
 
 ![Awesome Copilot menu](awesome-copilot-menu.png)
 
@@ -63,6 +63,8 @@ Thanks for considering!
 ---
 
 <div class="page-navigation bottom">
+  <a href="./">← Home</a>
+  <span class="separator">|</span>
   <a href="awesome-copilot-script">Awesome Copilot Script</a>
   <span class="separator">|</span>
   <a href="cursorrules-to-copilot-script">Cursor Rules to Copilot Script</a>
