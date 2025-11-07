@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-11-06T18:07:32.955053338Z",
+  "generated" : "2025-11-07T06:08:01.177021319Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1503,6 +1503,12 @@
     "title" : "Rust MCP Expert",
     "description" : "Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime",
     "link" : "chatmodes/rust-mcp-expert.chatmode.md",
+    "type" : "chatmode"
+  }, {
+    "filename" : "search-ai-optimization-expert.chatmode.md",
+    "title" : "Search & AI Optimization Expert",
+    "description" : "Expert guidance for modern search optimization: SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) with AI-ready content strategies",
+    "link" : "chatmodes/search-ai-optimization-expert.chatmode.md",
     "type" : "chatmode"
   }, {
     "filename" : "semantic-kernel-dotnet.chatmode.md",
