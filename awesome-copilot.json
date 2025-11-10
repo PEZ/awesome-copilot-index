@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-11-09T18:06:44.491112333Z",
+  "generated" : "2025-11-10T06:08:22.520164029Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -456,6 +456,11 @@
     "description" : "Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.",
     "link" : "instructions/self-explanatory-code-commenting.instructions.md"
   }, {
+    "filename" : "shell.instructions.md",
+    "title" : "Shell Scripting Guidelines",
+    "description" : "Shell scripting best practices and conventions for bash, sh, zsh, and other shells",
+    "link" : "instructions/shell.instructions.md"
+  }, {
     "filename" : "spec-driven-workflow-v1.instructions.md",
     "title" : "Spec Driven Workflow v1",
     "description" : "Specification-Driven Workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated.",
@@ -505,6 +510,11 @@
     "title" : "Azure Terraform Best Practices",
     "description" : "Create or modify solutions built using Terraform on Azure.",
     "link" : "instructions/terraform-azure.instructions.md"
+  }, {
+    "filename" : "terraform-sap-btp.instructions.md",
+    "title" : "Terraform on SAP BTP – Best Practices & Conventions",
+    "description" : "Terraform conventions and guidelines for SAP Business Technology Platform (SAP BTP).",
+    "link" : "instructions/terraform-sap-btp.instructions.md"
   }, {
     "filename" : "terraform.instructions.md",
     "title" : "Terraform Conventions",
@@ -1101,10 +1111,15 @@
     "title" : "Update Specification",
     "description" : "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
     "link" : "prompts/update-specification.prompt.md"
+  }, {
+    "filename" : "write-coding-standards-from-file.prompt.md",
+    "title" : "Write Coding Standards From File",
+    "description" : "\"Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.\"",
+    "link" : "prompts/write-coding-standards-from-file.prompt.md"
   } ],
   "chatmodes" : [ {
     "filename" : "4.1-Beast.chatmode.md",
-    "title" : "4.1 Beast Mode (VS Code v1.102)",
+    "title" : "4.1 Beast Mode v3.1",
     "description" : "GPT 4.1 as a top-notch coding agent.",
     "link" : "chatmodes/4.1-Beast.chatmode.md",
     "type" : "chatmode"
