@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-11-11T18:07:23.642333142Z",
+  "generated" : "2025-11-12T06:08:03.172810497Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -155,6 +155,11 @@
     "title" : ".NET Framework Development",
     "description" : "Guidance for working with .NET Framework projects. Includes project structure, C# language version, NuGet management, and best practices.",
     "link" : "instructions/dotnet-framework.instructions.md"
+  }, {
+    "filename" : "dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+    "title" : "Upgrading from .NET MAUI 9 to .NET MAUI 10",
+    "description" : "Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking changes, deprecated APIs, and migration strategies for ListView to CollectionView.",
+    "link" : "instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md"
   }, {
     "filename" : "dotnet-maui.instructions.md",
     "title" : ".NET MAUI",
@@ -1299,8 +1304,8 @@
     "type" : "chatmode"
   }, {
     "filename" : "expert-react-frontend-engineer.chatmode.md",
-    "title" : "Expert React Frontend Engineer Mode Instructions",
-    "description" : "Provide expert React frontend engineering guidance using modern TypeScript and design patterns.",
+    "title" : "Expert React Frontend Engineer",
+    "description" : "\"Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript, and performance optimization\"",
     "link" : "chatmodes/expert-react-frontend-engineer.chatmode.md",
     "type" : "chatmode"
   }, {
