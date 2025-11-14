@@ -1,4 +1,4 @@
-{:generated "2025-11-13T18:07:06.076478722Z",
+{:generated "2025-11-14T06:08:05.438366656Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1367,6 +1367,18 @@
    :description
    "Meta agentic project creation assistant to help users create and manage project workflows effectively.",
    :link "chatmodes/meta-agentic-project-scaffold.chatmode.md",
+   :type "chatmode"}
+  {:filename "microsoft-agent-framework-dotnet.chatmode.md",
+   :title "Microsoft Agent Framework .NET mode instructions",
+   :description
+   "\"Create, update, refactor, explain or work with code using the .NET version of Microsoft Agent Framework.\"",
+   :link "chatmodes/microsoft-agent-framework-dotnet.chatmode.md",
+   :type "chatmode"}
+  {:filename "microsoft-agent-framework-python.chatmode.md",
+   :title "Microsoft Agent Framework Python mode instructions",
+   :description
+   "\"Create, update, refactor, explain or work with code using the Python version of Microsoft Agent Framework.\"",
+   :link "chatmodes/microsoft-agent-framework-python.chatmode.md",
    :type "chatmode"}
   {:filename "microsoft-study-mode.chatmode.md",
    :title "Microsoft Study and Learn Chat Mode",
