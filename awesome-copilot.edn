@@ -1,4 +1,4 @@
-{:generated "2025-11-15T18:06:17.594991541Z",
+{:generated "2025-11-16T06:07:24.500152465Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -257,6 +257,10 @@
    :title "Guidance for Localization",
    :description "Guidelines for localizing markdown documents",
    :link "instructions/localization.instructions.md"}
+  {:filename "makefile.instructions.md",
+   :title "Makefile Development Instructions",
+   :description "\"Best practices for authoring GNU Make Makefiles\"",
+   :link "instructions/makefile.instructions.md"}
   {:filename "markdown.instructions.md",
    :title "Markdown",
    :description "Documentation and content creation standards",
@@ -980,6 +984,11 @@
    :description
    "Guide users through creating high-quality GitHub Copilot prompts with proper structure, tools, and best practices.",
    :link "prompts/prompt-builder.prompt.md"}
+  {:filename "pytest-coverage.prompt.md",
+   :title "Pytest Coverage",
+   :description
+   "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.",
+   :link "prompts/pytest-coverage.prompt.md"}
   {:filename "python-mcp-server-generator.prompt.md",
    :title "Generate Python MCP Server",
    :description
@@ -1484,7 +1493,7 @@
   {:filename "prompt-engineer.chatmode.md",
    :title "Prompt Engineer",
    :description
-   "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a propt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
+   "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
    :link "chatmodes/prompt-engineer.chatmode.md",
    :type "chatmode"}
   {:filename "python-mcp-expert.chatmode.md",
@@ -1668,17 +1677,35 @@
    "This custom agent uses Amplitude's MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features.",
    :link "agents/amplitude-experiment-implementation.agent.md",
    :type "agent"}
+  {:filename "apify-integration-expert.agent.md",
+   :title "Apify Actor Expert Agent",
+   :description
+   "\"Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation across JavaScript/TypeScript and Python, testing, and production-ready deployment.\"",
+   :link "agents/apify-integration-expert.agent.md",
+   :type "agent"}
   {:filename "arm-migration.agent.md",
    :title "Arm Migration",
    :description
    "\"Arm Cloud Migration Assistant accelerates moving x86 workloads to Arm infrastructure. It scans the repository for architecture assumptions, portability issues, container base image and dependency incompatibilities, and recommends Arm-optimized changes. It can drive multi-arch container builds, validate performance, and guide optimization, enabling smooth cross-platform deployment directly inside GitHub.\"",
    :link "agents/arm-migration.agent.md",
    :type "agent"}
+  {:filename "comet-opik.agent.md",
+   :title "Comet Opik Operations Guide",
+   :description
+   "Unified Comet Opik agent for instrumenting LLM apps, managing prompts/projects, auditing prompts, and investigating traces/metrics via the latest Opik MCP server.",
+   :link "agents/comet-opik.agent.md",
+   :type "agent"}
   {:filename "dynatrace-expert.agent.md",
    :title "Dynatrace Expert",
    :description
    "The Dynatrace Expert Agent integrates observability and security capabilities directly into GitHub workflows, enabling development teams to investigate incidents, validate deployments, triage errors, detect performance regressions, validate releases, and manage security vulnerabilities by autonomously analysing traces, logs, and Dynatrace findings. This enables targeted and precise remediation of identified issues directly within the repository.",
    :link "agents/dynatrace-expert.agent.md",
+   :type "agent"}
+  {:filename "elasticsearch-observability.agent.md",
+   :title "System",
+   :description
+   "Our expert AI assistant for debugging code (O11y), optimizing vector search (RAG), and remediating security threats using live Elastic data.",
+   :link "agents/elasticsearch-observability.agent.md",
    :type "agent"}
   {:filename "jfrog-sec.agent.md",
    :title "Jfrog Sec",
@@ -1691,6 +1718,24 @@
    :description ">",
    :link "agents/launchdarkly-flag-cleanup.agent.md",
    :type "agent"}
+  {:filename "monday-bug-fixer.agent.md",
+   :title "Monday Bug Context Fixer",
+   :description
+   "Elite bug-fixing agent that enriches task context from Monday.com platform data. Gathers related items, docs, comments, epics, and requirements to deliver production-quality fixes with comprehensive PRs.",
+   :link "agents/monday-bug-fixer.agent.md",
+   :type "agent"}
+  {:filename "mongodb-performance-advisor.agent.md",
+   :title "Role",
+   :description
+   "Analyze MongoDB database performance, offer query and index optimization insights and provide actionable recommendations to improve overall usage of the database.",
+   :link "agents/mongodb-performance-advisor.agent.md",
+   :type "agent"}
+  {:filename "neo4j-docker-client-generator.agent.md",
+   :title "Neo4j Python Client Generator",
+   :description
+   "AI agent that generates simple, high-quality Python Neo4j client libraries from GitHub issues with proper best practices",
+   :link "agents/neo4j-docker-client-generator.agent.md",
+   :type "agent"}
   {:filename "neon-migration-specialist.agent.md",
    :title "Neon Database Migration Specialist",
    :description
@@ -1702,6 +1747,12 @@
    :description
    "Identify and fix slow Postgres queries automatically using Neon's branching workflow. Analyzes execution plans, tests optimizations in isolated database branches, and provides clear before/after performance metrics with actionable code fixes.",
    :link "agents/neon-optimization-analyzer.agent.md",
+   :type "agent"}
+  {:filename "newrelic-deployment-observability.agent.md",
+   :title "New Relic Deployment Observability Agent",
+   :description
+   "Assists engineers before and after deployments by optimizing New Relic instrumentation, linking code changes to telemetry via change tracking, validating alerts and dashboards, and summarizing production health and next steps.",
+   :link "agents/newrelic-deployment-observability.agent.md",
    :type "agent"}
   {:filename "octopus-deploy-release-notes-mcp.agent.md",
    :title "Release Notes for Octopus Deploy",
