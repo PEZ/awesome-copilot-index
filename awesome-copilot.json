@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-11-16T18:06:34.946179836Z",
+  "generated" : "2025-11-17T06:08:27.523919166Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1708,6 +1708,12 @@
     "title" : "Comet Opik Operations Guide",
     "description" : "Unified Comet Opik agent for instrumenting LLM apps, managing prompts/projects, auditing prompts, and investigating traces/metrics via the latest Opik MCP server.",
     "link" : "agents/comet-opik.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "diffblue-cover.agent.md",
+    "title" : "Java Unit Test Agent",
+    "description" : "Expert agent for creating unit tests for java applications using Diffblue Cover.",
+    "link" : "agents/diffblue-cover.agent.md",
     "type" : "agent"
   }, {
     "filename" : "dynatrace-expert.agent.md",
