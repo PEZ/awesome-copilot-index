@@ -1,4 +1,4 @@
-{:generated "2025-11-17T18:06:33.639461863Z",
+{:generated "2025-11-18T06:08:01.846670271Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1298,6 +1298,12 @@
    "Provide expert .NET software engineering guidance using modern software design patterns.",
    :link "chatmodes/expert-dotnet-software-engineer.chatmode.md",
    :type "chatmode"}
+  {:filename "expert-nextjs-developer.chatmode.md",
+   :title "Expert Next.js Developer",
+   :description
+   "\"Expert Next.js 16 developer specializing in App Router, Server Components, Cache Components, Turbopack, and modern React patterns with TypeScript\"",
+   :link "chatmodes/expert-nextjs-developer.chatmode.md",
+   :type "chatmode"}
   {:filename "expert-react-frontend-engineer.chatmode.md",
    :title "Expert React Frontend Engineer",
    :description
@@ -1412,6 +1418,12 @@
    :description
    "Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery",
    :link "chatmodes/php-mcp-expert.chatmode.md",
+   :type "chatmode"}
+  {:filename "pimcore-expert.chatmode.md",
+   :title "Pimcore Expert",
+   :description
+   "Expert Pimcore development assistant specializing in CMS, DAM, PIM, and E-Commerce solutions with Symfony integration",
+   :link "chatmodes/pimcore-expert.chatmode.md",
    :type "chatmode"}
   {:filename "plan.chatmode.md",
    :title "Plan Mode - Strategic Planning & Architecture Assistant",
@@ -1683,6 +1695,12 @@
    "\"Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation across JavaScript/TypeScript and Python, testing, and production-ready deployment.\"",
    :link "agents/apify-integration-expert.agent.md",
    :type "agent"}
+  {:filename "arch.agent.md",
+   :title "Senior Cloud Architect Agent",
+   :description
+   "Expert in modern architecture design patterns, NFR requirements, and creating comprehensive architectural diagrams and documentation",
+   :link "agents/arch.agent.md",
+   :type "agent"}
   {:filename "arm-migration.agent.md",
    :title "Arm Migration",
    :description
@@ -1700,6 +1718,12 @@
    :description
    "Expert agent for creating unit tests for java applications using Diffblue Cover.",
    :link "agents/diffblue-cover.agent.md",
+   :type "agent"}
+  {:filename "droid.agent.md",
+   :title "Code review and analysis",
+   :description
+   "Provides installation guidance, usage examples, and automation patterns for the Droid CLI, with emphasis on droid exec for CI/CD and non-interactive automation",
+   :link "agents/droid.agent.md",
    :type "agent"}
   {:filename "dynatrace-expert.agent.md",
    :title "Dynatrace Expert",
