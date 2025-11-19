@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-11-18T18:07:32.109528397Z",
+  "generated" : "2025-11-19T06:07:47.059557684Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -1816,6 +1816,12 @@
     "title" : "Stackhawk Security Onboarding",
     "description" : "Automatically set up StackHawk security testing for your repository with generated configuration and GitHub Actions workflow",
     "link" : "agents/stackhawk-security-onboarding.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "technical-content-evaluator.agent.md",
+    "title" : "Technical Content Evaluator Agent",
+    "description" : "Elite technical content editor and curriculum architect for evaluating technical training materials, documentation, and educational content. Reviews for technical accuracy, pedagogical excellence, content flow, code validation, and ensures A-grade quality standards.",
+    "link" : "agents/technical-content-evaluator.agent.md",
     "type" : "agent"
   }, {
     "filename" : "terraform.agent.md",
