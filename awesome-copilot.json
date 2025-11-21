@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-11-20T06:07:47.856482607Z",
+  "generated" : "2025-11-21T06:08:13.397549400Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -330,6 +330,11 @@
     "title" : "PHP MCP Server Development Best Practices",
     "description" : "Best practices for building Model Context Protocol servers in PHP using the official PHP SDK with attribute-based discovery and multiple transport options",
     "link" : "instructions/php-mcp-server.instructions.md"
+  }, {
+    "filename" : "playwright-dotnet.instructions.md",
+    "title" : "Playwright .NET Test Generation Instructions",
+    "description" : "Playwright .NET test generation instructions",
+    "link" : "instructions/playwright-dotnet.instructions.md"
   }, {
     "filename" : "playwright-python.instructions.md",
     "title" : "Playwright Python Test Generation Instructions",
@@ -1726,6 +1731,12 @@
     "title" : "Comet Opik Operations Guide",
     "description" : "Unified Comet Opik agent for instrumenting LLM apps, managing prompts/projects, auditing prompts, and investigating traces/metrics via the latest Opik MCP server.",
     "link" : "agents/comet-opik.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "context7.agent.md",
+    "title" : "Context7 Documentation Expert",
+    "description" : "Expert in latest library versions, best practices, and correct syntax using up-to-date documentation",
+    "link" : "agents/context7.agent.md",
     "type" : "agent"
   }, {
     "filename" : "diffblue-cover.agent.md",
