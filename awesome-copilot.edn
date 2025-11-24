@@ -1,4 +1,4 @@
-{:generated "2025-11-23T18:06:45.173291184Z",
+{:generated "2025-11-24T06:08:46.232765602Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -307,6 +307,87 @@
    :title "Oqtane",
    :description "Oqtane Module patterns",
    :link "instructions/oqtane.instructions.md"}
+  {:filename "pcf-alm.instructions.md",
+   :title "Code Components Application Lifecycle Management (ALM)",
+   :description
+   "Application lifecycle management (ALM) for PCF code components",
+   :link "instructions/pcf-alm.instructions.md"}
+  {:filename "pcf-api-reference.instructions.md",
+   :title "Power Apps Component Framework API Reference",
+   :description
+   "Complete PCF API reference with all interfaces and their availability in model-driven and canvas apps",
+   :link "instructions/pcf-api-reference.instructions.md"}
+  {:filename "pcf-best-practices.instructions.md",
+   :title "Best Practices and Guidance for Code Components",
+   :description
+   "Best practices and guidance for developing PCF code components",
+   :link "instructions/pcf-best-practices.instructions.md"}
+  {:filename "pcf-canvas-apps.instructions.md",
+   :title "Code Components for Canvas Apps",
+   :description
+   "Code components for canvas apps implementation, security, and configuration",
+   :link "instructions/pcf-canvas-apps.instructions.md"}
+  {:filename "pcf-code-components.instructions.md",
+   :title "Code Components",
+   :description
+   "Understanding code components structure and implementation",
+   :link "instructions/pcf-code-components.instructions.md"}
+  {:filename "pcf-community-resources.instructions.md",
+   :title "PCF Community Resources",
+   :description
+   "PCF community resources including gallery, videos, blogs, and development tools",
+   :link "instructions/pcf-community-resources.instructions.md"}
+  {:filename "pcf-dependent-libraries.instructions.md",
+   :title "Dependent Libraries (Preview)",
+   :description "Using dependent libraries in PCF components",
+   :link "instructions/pcf-dependent-libraries.instructions.md"}
+  {:filename "pcf-events.instructions.md",
+   :title "Define Events (Preview)",
+   :description "Define and handle custom events in PCF components",
+   :link "instructions/pcf-events.instructions.md"}
+  {:filename "pcf-fluent-modern-theming.instructions.md",
+   :title "Style Components with Modern Theming (Preview)",
+   :description "Style components with modern theming using Fluent UI",
+   :link "instructions/pcf-fluent-modern-theming.instructions.md"}
+  {:filename "pcf-limitations.instructions.md",
+   :title "Limitations",
+   :description
+   "Limitations and restrictions of Power Apps Component Framework",
+   :link "instructions/pcf-limitations.instructions.md"}
+  {:filename "pcf-manifest-schema.instructions.md",
+   :title "Manifest Schema Reference",
+   :description
+   "Complete manifest schema reference for PCF components with all available XML elements",
+   :link "instructions/pcf-manifest-schema.instructions.md"}
+  {:filename "pcf-model-driven-apps.instructions.md",
+   :title "Code Components for Model-Driven Apps",
+   :description
+   "Code components for model-driven apps implementation and configuration",
+   :link "instructions/pcf-model-driven-apps.instructions.md"}
+  {:filename "pcf-overview.instructions.md",
+   :title "Power Apps Component Framework Overview",
+   :description
+   "Power Apps Component Framework overview and fundamentals",
+   :link "instructions/pcf-overview.instructions.md"}
+  {:filename "pcf-power-pages.instructions.md",
+   :title "Use Code Components in Power Pages",
+   :description "Using code components in Power Pages sites",
+   :link "instructions/pcf-power-pages.instructions.md"}
+  {:filename "pcf-react-platform-libraries.instructions.md",
+   :title "React Controls & Platform Libraries",
+   :description
+   "React controls and platform libraries for PCF components",
+   :link "instructions/pcf-react-platform-libraries.instructions.md"}
+  {:filename "pcf-sample-components.instructions.md",
+   :title "How to Use the Sample Components",
+   :description
+   "How to use and run PCF sample components from the PowerApps-Samples repository",
+   :link "instructions/pcf-sample-components.instructions.md"}
+  {:filename "pcf-tooling.instructions.md",
+   :title "Get Tooling for Power Apps Component Framework",
+   :description
+   "Get Microsoft Power Platform CLI tooling for Power Apps Component Framework",
+   :link "instructions/pcf-tooling.instructions.md"}
   {:filename "performance-optimization.instructions.md",
    :title "Performance Optimization Best Practices",
    :description
@@ -1787,12 +1868,6 @@
    :description
    "Identify and fix slow Postgres queries automatically using Neon's branching workflow. Analyzes execution plans, tests optimizations in isolated database branches, and provides clear before/after performance metrics with actionable code fixes.",
    :link "agents/neon-optimization-analyzer.agent.md",
-   :type "agent"}
-  {:filename "newrelic-deployment-observability.agent.md",
-   :title "New Relic Deployment Observability Agent",
-   :description
-   "Assists engineers before and after deployments by optimizing New Relic instrumentation, linking code changes to telemetry via change tracking, validating alerts and dashboards, and summarizing production health and next steps.",
-   :link "agents/newrelic-deployment-observability.agent.md",
    :type "agent"}
   {:filename "octopus-deploy-release-notes-mcp.agent.md",
    :title "Release Notes for Octopus Deploy",
