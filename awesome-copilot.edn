@@ -1,4 +1,4 @@
-{:generated "2025-11-24T18:07:46.990873127Z",
+{:generated "2025-11-25T06:08:31.155054162Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1206,555 +1206,29 @@
    :description
    "\"Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.\"",
    :link "prompts/write-coding-standards-from-file.prompt.md"}),
- :chatmodes
- ({:filename "4.1-Beast.chatmode.md",
+ :chatmodes (),
+ :agents
+ ({:filename "4.1-Beast.agent.md",
    :title "4.1 Beast Mode v3.1",
    :description "GPT 4.1 as a top-notch coding agent.",
-   :link "chatmodes/4.1-Beast.chatmode.md",
-   :type "chatmode"}
-  {:filename "Thinking-Beast-Mode.chatmode.md",
-   :title "Thinking Beast Mode",
-   :description
-   "A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.",
-   :link "chatmodes/Thinking-Beast-Mode.chatmode.md",
-   :type "chatmode"}
-  {:filename "Ultimate-Transparent-Thinking-Beast-Mode.chatmode.md",
-   :title "Ultimate Transparent Thinking Beast Mode",
-   :description "Ultimate Transparent Thinking Beast Mode",
-   :link
-   "chatmodes/Ultimate-Transparent-Thinking-Beast-Mode.chatmode.md",
-   :type "chatmode"}
-  {:filename "accessibility.chatmode.md",
-   :title "Accessibility Expert",
-   :description
-   "Expert assistant for web accessibility (WCAG 2.1/2.2), inclusive UX, and a11y testing",
-   :link "chatmodes/accessibility.chatmode.md",
-   :type "chatmode"}
-  {:filename "address-comments.chatmode.md",
-   :title "Universal PR Comment Addresser",
-   :description "\"Address PR comments\"",
-   :link "chatmodes/address-comments.chatmode.md",
-   :type "chatmode"}
-  {:filename "aem-frontend-specialist.chatmode.md",
-   :title "AEM Front-End Specialist",
-   :description
-   "Expert assistant for developing AEM components using HTL, Tailwind CSS, and Figma-to-code workflows with design system integration",
-   :link "chatmodes/aem-frontend-specialist.chatmode.md",
-   :type "chatmode"}
-  {:filename "api-architect.chatmode.md",
-   :title "API Architect mode instructions",
-   :description
-   "Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.",
-   :link "chatmodes/api-architect.chatmode.md",
-   :type "chatmode"}
-  {:filename "atlassian-requirements-to-jira.chatmode.md",
-   :title "Requirements to Jira Epic & User Story Creator",
-   :description
-   "Transform requirements documents into structured Jira epics and user stories with intelligent duplicate detection, change management, and user-approved creation workflow.",
-   :link "chatmodes/atlassian-requirements-to-jira.chatmode.md",
-   :type "chatmode"}
-  {:filename "azure-logic-apps-expert.chatmode.md",
-   :title "Azure Logic Apps Expert Mode",
-   :description
-   "Expert guidance for Azure Logic Apps development focusing on workflow design, integration patterns, and JSON-based Workflow Definition Language.",
-   :link "chatmodes/azure-logic-apps-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "azure-principal-architect.chatmode.md",
-   :title "Azure Principal Architect mode instructions",
-   :description
-   "Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.",
-   :link "chatmodes/azure-principal-architect.chatmode.md",
-   :type "chatmode"}
-  {:filename "azure-saas-architect.chatmode.md",
-   :title "Azure SaaS Architect mode instructions",
-   :description
-   "Provide expert Azure SaaS Architect guidance focusing on multitenant applications using Azure Well-Architected SaaS principles and Microsoft best practices.",
-   :link "chatmodes/azure-saas-architect.chatmode.md",
-   :type "chatmode"}
-  {:filename "azure-verified-modules-bicep.chatmode.md",
-   :title "Azure AVM Bicep mode",
-   :description
-   "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).",
-   :link "chatmodes/azure-verified-modules-bicep.chatmode.md",
-   :type "chatmode"}
-  {:filename "azure-verified-modules-terraform.chatmode.md",
-   :title "Azure AVM Terraform mode",
-   :description
-   "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
-   :link "chatmodes/azure-verified-modules-terraform.chatmode.md",
-   :type "chatmode"}
-  {:filename "bicep-implement.chatmode.md",
-   :title "Azure Bicep Infrastructure as Code coding Specialist",
-   :description
-   "Act as an Azure Bicep Infrastructure as Code coding specialist that creates Bicep templates.",
-   :link "chatmodes/bicep-implement.chatmode.md",
-   :type "chatmode"}
-  {:filename "bicep-plan.chatmode.md",
-   :title "Azure Bicep Infrastructure Planning",
-   :description
-   "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
-   :link "chatmodes/bicep-plan.chatmode.md",
-   :type "chatmode"}
-  {:filename "blueprint-mode-codex.chatmode.md",
-   :title "Blueprint Mode Codex v1",
-   :description
-   "Executes structured workflows with strict correctness and maintainability. Enforces a minimal tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
-   :link "chatmodes/blueprint-mode-codex.chatmode.md",
-   :type "chatmode"}
-  {:filename "blueprint-mode.chatmode.md",
-   :title "Blueprint Mode v39",
-   :description
-   "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
-   :link "chatmodes/blueprint-mode.chatmode.md",
-   :type "chatmode"}
-  {:filename "clojure-interactive-programming.chatmode.md",
-   :title "Clojure Interactive Programming with Backseat Driver",
-   :description
-   "Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.",
-   :link "chatmodes/clojure-interactive-programming.chatmode.md",
-   :type "chatmode"}
-  {:filename "code-tour.chatmode.md",
-   :title "VSCode Tour Expert",
-   :description
-   "Expert agent for creating and maintaining VSCode CodeTour files with comprehensive schema support and best practices",
-   :link "chatmodes/code-tour.chatmode.md",
-   :type "chatmode"}
-  {:filename "critical-thinking.chatmode.md",
-   :title "Critical thinking mode instructions",
-   :description
-   "Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes.",
-   :link "chatmodes/critical-thinking.chatmode.md",
-   :type "chatmode"}
-  {:filename "csharp-dotnet-janitor.chatmode.md",
-   :title "C#/.NET Janitor",
-   :description
-   "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
-   :link "chatmodes/csharp-dotnet-janitor.chatmode.md",
-   :type "chatmode"}
-  {:filename "csharp-mcp-expert.chatmode.md",
-   :title "C# MCP Server Expert",
-   :description
-   "Expert assistant for developing Model Context Protocol (MCP) servers in C#",
-   :link "chatmodes/csharp-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "debug.chatmode.md",
-   :title "Debug Mode Instructions",
-   :description "Debug your application to find and fix a bug",
-   :link "chatmodes/debug.chatmode.md",
-   :type "chatmode"}
-  {:filename "declarative-agents-architect.chatmode.md",
-   :title "Declarative Agents Architect",
-   :description nil,
-   :link "chatmodes/declarative-agents-architect.chatmode.md",
-   :type "chatmode"}
-  {:filename "demonstrate-understanding.chatmode.md",
-   :title "Demonstrate Understanding mode instructions",
-   :description
-   "Validate user understanding of code, design patterns, and implementation details through guided questioning.",
-   :link "chatmodes/demonstrate-understanding.chatmode.md",
-   :type "chatmode"}
-  {:filename "dotnet-upgrade.chatmode.md",
-   :title ".NET Upgrade Collection",
-   :description
-   "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
-   :link "chatmodes/dotnet-upgrade.chatmode.md",
-   :type "chatmode"}
-  {:filename "drupal-expert.chatmode.md",
-   :title "Drupal Expert",
-   :description
-   "Expert assistant for Drupal development, architecture, and best practices using PHP 8.3+ and modern Drupal patterns",
-   :link "chatmodes/drupal-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "electron-angular-native.chatmode.md",
-   :title "Electron Code Review Mode Instructions",
-   :description
-   "\"Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here.\"",
-   :link "chatmodes/electron-angular-native.chatmode.md",
-   :type "chatmode"}
-  {:filename "expert-cpp-software-engineer.chatmode.md",
-   :title "Expert C++ software engineer mode instructions",
-   :description
-   "Provide expert C++ software engineering guidance using modern C++ and industry best practices.",
-   :link "chatmodes/expert-cpp-software-engineer.chatmode.md",
-   :type "chatmode"}
-  {:filename "expert-dotnet-software-engineer.chatmode.md",
-   :title "Expert .NET software engineer mode instructions",
-   :description
-   "Provide expert .NET software engineering guidance using modern software design patterns.",
-   :link "chatmodes/expert-dotnet-software-engineer.chatmode.md",
-   :type "chatmode"}
-  {:filename "expert-nextjs-developer.chatmode.md",
-   :title "Expert Next.js Developer",
-   :description
-   "\"Expert Next.js 16 developer specializing in App Router, Server Components, Cache Components, Turbopack, and modern React patterns with TypeScript\"",
-   :link "chatmodes/expert-nextjs-developer.chatmode.md",
-   :type "chatmode"}
-  {:filename "expert-react-frontend-engineer.chatmode.md",
-   :title "Expert React Frontend Engineer",
-   :description
-   "\"Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript, and performance optimization\"",
-   :link "chatmodes/expert-react-frontend-engineer.chatmode.md",
-   :type "chatmode"}
-  {:filename "gilfoyle.chatmode.md",
-   :title "Gilfoyle Code Review Mode",
-   :description
-   "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
-   :link "chatmodes/gilfoyle.chatmode.md",
-   :type "chatmode"}
-  {:filename "go-mcp-expert.chatmode.md",
-   :title "Go MCP Server Development Expert",
-   :description
-   "Expert assistant for building Model Context Protocol (MCP) servers in Go using the official SDK.",
-   :link "chatmodes/go-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "gpt-5-beast-mode.chatmode.md",
-   :title "GPT 5 Beast Mode",
-   :description
-   "Beast Mode 2.0: A powerful autonomous agent tuned specifically for GPT-5 that can solve complex problems by using tools, conducting research, and iterating until the problem is fully resolved.",
-   :link "chatmodes/gpt-5-beast-mode.chatmode.md",
-   :type "chatmode"}
-  {:filename "hlbpa.chatmode.md",
-   :title "High-Level Big Picture Architect (HLBPA)",
-   :description
-   "Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
-   :link "chatmodes/hlbpa.chatmode.md",
-   :type "chatmode"}
-  {:filename "implementation-plan.chatmode.md",
-   :title "Implementation Plan Generation Mode",
-   :description
-   "Generate an implementation plan for new features or refactoring existing code.",
-   :link "chatmodes/implementation-plan.chatmode.md",
-   :type "chatmode"}
-  {:filename "janitor.chatmode.md",
-   :title "Universal Janitor",
-   :description
-   "Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.",
-   :link "chatmodes/janitor.chatmode.md",
-   :type "chatmode"}
-  {:filename "java-mcp-expert.chatmode.md",
-   :title "Java MCP Expert",
-   :description
-   "Expert assistance for building Model Context Protocol servers in Java using reactive streams, the official MCP Java SDK, and Spring Boot integration.",
-   :link "chatmodes/java-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "kotlin-mcp-expert.chatmode.md",
-   :title "Kotlin MCP Server Development Expert",
-   :description
-   "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.",
-   :link "chatmodes/kotlin-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "kusto-assistant.chatmode.md",
-   :title
-   "Kusto Assistant: Azure Data Explorer (Kusto) Engineering Assistant",
-   :description
-   "\"Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server\"",
-   :link "chatmodes/kusto-assistant.chatmode.md",
-   :type "chatmode"}
-  {:filename "laravel-expert-agent.chatmode.md",
-   :title "Laravel Expert Agent",
-   :description
-   "Expert Laravel development assistant specializing in modern Laravel 12+ applications with Eloquent, Artisan, testing, and best practices",
-   :link "chatmodes/laravel-expert-agent.chatmode.md",
-   :type "chatmode"}
-  {:filename "mentor.chatmode.md",
-   :title "Mentor mode instructions",
-   :description
-   "Help mentor the engineer by providing guidance and support.",
-   :link "chatmodes/mentor.chatmode.md",
-   :type "chatmode"}
-  {:filename "meta-agentic-project-scaffold.chatmode.md",
-   :title "Meta Agentic Project Scaffold",
-   :description
-   "Meta agentic project creation assistant to help users create and manage project workflows effectively.",
-   :link "chatmodes/meta-agentic-project-scaffold.chatmode.md",
-   :type "chatmode"}
-  {:filename "microsoft-agent-framework-dotnet.chatmode.md",
-   :title "Microsoft Agent Framework .NET mode instructions",
-   :description
-   "\"Create, update, refactor, explain or work with code using the .NET version of Microsoft Agent Framework.\"",
-   :link "chatmodes/microsoft-agent-framework-dotnet.chatmode.md",
-   :type "chatmode"}
-  {:filename "microsoft-agent-framework-python.chatmode.md",
-   :title "Microsoft Agent Framework Python mode instructions",
-   :description
-   "\"Create, update, refactor, explain or work with code using the Python version of Microsoft Agent Framework.\"",
-   :link "chatmodes/microsoft-agent-framework-python.chatmode.md",
-   :type "chatmode"}
-  {:filename "microsoft-study-mode.chatmode.md",
-   :title "Microsoft Study and Learn Chat Mode",
-   :description
-   "Activate your personal Microsoft/Azure tutor - learn through guided discovery, not just answers.",
-   :link "chatmodes/microsoft-study-mode.chatmode.md",
-   :type "chatmode"}
-  {:filename "microsoft_learn_contributor.chatmode.md",
-   :title "Microsoft Learn Contributor",
-   :description
-   "Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices.",
-   :link "chatmodes/microsoft_learn_contributor.chatmode.md",
-   :type "chatmode"}
-  {:filename "ms-sql-dba.chatmode.md",
-   :title "MS-SQL Database Administrator",
-   :description
-   "Work with Microsoft SQL Server databases using the MS SQL extension.",
-   :link "chatmodes/ms-sql-dba.chatmode.md",
-   :type "chatmode"}
-  {:filename "php-mcp-expert.chatmode.md",
-   :title "PHP MCP Expert",
-   :description
-   "Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery",
-   :link "chatmodes/php-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "pimcore-expert.chatmode.md",
-   :title "Pimcore Expert",
-   :description
-   "Expert Pimcore development assistant specializing in CMS, DAM, PIM, and E-Commerce solutions with Symfony integration",
-   :link "chatmodes/pimcore-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "plan.chatmode.md",
-   :title "Plan Mode - Strategic Planning & Architecture Assistant",
-   :description
-   "Strategic planning and architecture assistant focused on thoughtful analysis before implementation. Helps developers understand codebases, clarify requirements, and develop comprehensive implementation strategies.",
-   :link "chatmodes/plan.chatmode.md",
-   :type "chatmode"}
-  {:filename "planner.chatmode.md",
-   :title "Planning mode instructions",
-   :description
-   "Generate an implementation plan for new features or refactoring existing code.",
-   :link "chatmodes/planner.chatmode.md",
-   :type "chatmode"}
-  {:filename "playwright-tester.chatmode.md",
-   :title "Playwright Tester",
-   :description "Testing mode for Playwright tests",
-   :link "chatmodes/playwright-tester.chatmode.md",
-   :type "chatmode"}
-  {:filename "postgresql-dba.chatmode.md",
-   :title "PostgreSQL Database Administrator",
-   :description
-   "Work with PostgreSQL databases using the PostgreSQL extension.",
-   :link "chatmodes/postgresql-dba.chatmode.md",
-   :type "chatmode"}
-  {:filename "power-bi-data-modeling-expert.chatmode.md",
-   :title "Power BI Data Modeling Expert Mode",
-   :description
-   "Expert Power BI data modeling guidance using star schema principles, relationship design, and Microsoft best practices for optimal model performance and usability.",
-   :link "chatmodes/power-bi-data-modeling-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "power-bi-dax-expert.chatmode.md",
-   :title "Power BI DAX Expert Mode",
-   :description
-   "Expert Power BI DAX guidance using Microsoft best practices for performance, readability, and maintainability of DAX formulas and calculations.",
-   :link "chatmodes/power-bi-dax-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "power-bi-performance-expert.chatmode.md",
-   :title "Power BI Performance Expert Mode",
-   :description
-   "Expert Power BI performance optimization guidance for troubleshooting, monitoring, and improving the performance of Power BI models, reports, and queries.",
-   :link "chatmodes/power-bi-performance-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "power-bi-visualization-expert.chatmode.md",
-   :title "Power BI Visualization Expert Mode",
-   :description
-   "Expert Power BI report design and visualization guidance using Microsoft best practices for creating effective, performant, and user-friendly reports and dashboards.",
-   :link "chatmodes/power-bi-visualization-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "power-platform-expert.chatmode.md",
-   :title "Power Platform Expert",
-   :description
-   "Power Platform expert providing guidance on Code Apps, canvas apps, Dataverse, connectors, and Power Platform best practices",
-   :link "chatmodes/power-platform-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "power-platform-mcp-integration-expert.chatmode.md",
-   :title "Power Platform MCP Integration Expert",
-   :description
-   "Expert in Power Platform custom connector development with MCP integration for Copilot Studio - comprehensive knowledge of schemas, protocols, and integration patterns",
-   :link "chatmodes/power-platform-mcp-integration-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "prd.chatmode.md",
-   :title "Create PRD Chat Mode",
-   :description
-   "Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, technical considerations, and metrics. Optionally create GitHub issues upon user confirmation.",
-   :link "chatmodes/prd.chatmode.md",
-   :type "chatmode"}
-  {:filename "principal-software-engineer.chatmode.md",
-   :title "Principal software engineer mode instructions",
-   :description
-   "Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation.",
-   :link "chatmodes/principal-software-engineer.chatmode.md",
-   :type "chatmode"}
-  {:filename "prompt-builder.chatmode.md",
-   :title "Prompt Builder Instructions",
-   :description
-   "Expert prompt engineering and validation system for creating high-quality prompts - Brought to you by microsoft/edge-ai",
-   :link "chatmodes/prompt-builder.chatmode.md",
-   :type "chatmode"}
-  {:filename "prompt-engineer.chatmode.md",
-   :title "Prompt Engineer",
-   :description
-   "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
-   :link "chatmodes/prompt-engineer.chatmode.md",
-   :type "chatmode"}
-  {:filename "python-mcp-expert.chatmode.md",
-   :title "Python MCP Server Expert",
-   :description
-   "Expert assistant for developing Model Context Protocol (MCP) servers in Python",
-   :link "chatmodes/python-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "refine-issue.chatmode.md",
-   :title "Refine Requirement or Issue Chat Mode",
-   :description
-   "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
-   :link "chatmodes/refine-issue.chatmode.md",
-   :type "chatmode"}
-  {:filename "research-technical-spike.chatmode.md",
-   :title "Technical spike research mode",
-   :description
-   "Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation.",
-   :link "chatmodes/research-technical-spike.chatmode.md",
-   :type "chatmode"}
-  {:filename "ruby-mcp-expert.chatmode.md",
-   :title "Ruby MCP Expert",
-   :description
-   "Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration.",
-   :link "chatmodes/ruby-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "rust-gpt-4.1-beast-mode.chatmode.md",
-   :title "Rust Beast Mode",
-   :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
-   :link "chatmodes/rust-gpt-4.1-beast-mode.chatmode.md",
-   :type "chatmode"}
-  {:filename "rust-mcp-expert.chatmode.md",
-   :title "Rust MCP Expert",
-   :description
-   "Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime",
-   :link "chatmodes/rust-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "search-ai-optimization-expert.chatmode.md",
-   :title "Search & AI Optimization Expert",
-   :description
-   "Expert guidance for modern search optimization: SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) with AI-ready content strategies",
-   :link "chatmodes/search-ai-optimization-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "semantic-kernel-dotnet.chatmode.md",
-   :title "Semantic Kernel .NET mode instructions",
-   :description
-   "Create, update, refactor, explain or work with code using the .NET version of Semantic Kernel.",
-   :link "chatmodes/semantic-kernel-dotnet.chatmode.md",
-   :type "chatmode"}
-  {:filename "semantic-kernel-python.chatmode.md",
-   :title "Semantic Kernel Python mode instructions",
-   :description
-   "Create, update, refactor, explain or work with code using the Python version of Semantic Kernel.",
-   :link "chatmodes/semantic-kernel-python.chatmode.md",
-   :type "chatmode"}
-  {:filename "shopify-expert.chatmode.md",
-   :title "Shopify Expert",
-   :description
-   "Expert Shopify development assistant specializing in theme development, Liquid templating, app development, and Shopify APIs",
-   :link "chatmodes/shopify-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "simple-app-idea-generator.chatmode.md",
-   :title "Idea Generator mode instructions",
-   :description
-   "Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification creation.",
-   :link "chatmodes/simple-app-idea-generator.chatmode.md",
-   :type "chatmode"}
-  {:filename "software-engineer-agent-v1.chatmode.md",
-   :title "Software Engineer Agent v1",
-   :description
-   "Expert-level software engineering agent. Deliver production-ready, maintainable code. Execute systematically and specification-driven. Document comprehensively. Operate autonomously and adaptively.",
-   :link "chatmodes/software-engineer-agent-v1.chatmode.md",
-   :type "chatmode"}
-  {:filename "specification.chatmode.md",
-   :title "Specification mode instructions",
-   :description
-   "Generate or update specification documents for new or existing functionality.",
-   :link "chatmodes/specification.chatmode.md",
-   :type "chatmode"}
-  {:filename "swift-mcp-expert.chatmode.md",
-   :title "Swift MCP Expert",
-   :description
-   "Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features and the official MCP Swift SDK.",
-   :link "chatmodes/swift-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "task-planner.chatmode.md",
-   :title "Task Planner Instructions",
-   :description
-   "Task planner for creating actionable implementation plans - Brought to you by microsoft/edge-ai",
-   :link "chatmodes/task-planner.chatmode.md",
-   :type "chatmode"}
-  {:filename "task-researcher.chatmode.md",
-   :title "Task Researcher Instructions",
-   :description
-   "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai",
-   :link "chatmodes/task-researcher.chatmode.md",
-   :type "chatmode"}
-  {:filename "tdd-green.chatmode.md",
-   :title "TDD Green Phase - Make Tests Pass Quickly",
-   :description
-   "Implement minimal code to satisfy GitHub issue requirements and make failing tests pass without over-engineering.",
-   :link "chatmodes/tdd-green.chatmode.md",
-   :type "chatmode"}
-  {:filename "tdd-red.chatmode.md",
-   :title "TDD Red Phase - Write Failing Tests First",
-   :description
-   "Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists.",
-   :link "chatmodes/tdd-red.chatmode.md",
-   :type "chatmode"}
-  {:filename "tdd-refactor.chatmode.md",
-   :title "TDD Refactor Phase - Improve Quality & Security",
-   :description
-   "Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance.",
-   :link "chatmodes/tdd-refactor.chatmode.md",
-   :type "chatmode"}
-  {:filename "tech-debt-remediation-plan.chatmode.md",
-   :title "Technical Debt Remediation Plan",
-   :description
-   "Generate technical debt remediation plans for code, tests, and documentation.",
-   :link "chatmodes/tech-debt-remediation-plan.chatmode.md",
-   :type "chatmode"}
-  {:filename "terraform-azure-implement.chatmode.md",
-   :title
-   "Azure Terraform Infrastructure as Code Implementation Specialist",
-   :description
-   "Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources.",
-   :link "chatmodes/terraform-azure-implement.chatmode.md",
-   :type "chatmode"}
-  {:filename "terraform-azure-planning.chatmode.md",
-   :title "Azure Terraform Infrastructure Planning",
-   :description
-   "Act as implementation planner for your Azure Terraform Infrastructure as Code task.",
-   :link "chatmodes/terraform-azure-planning.chatmode.md",
-   :type "chatmode"}
-  {:filename "typescript-mcp-expert.chatmode.md",
-   :title "TypeScript MCP Server Expert",
-   :description
-   "Expert assistant for developing Model Context Protocol (MCP) servers in TypeScript",
-   :link "chatmodes/typescript-mcp-expert.chatmode.md",
-   :type "chatmode"}
-  {:filename "voidbeast-gpt41enhanced.chatmode.md",
-   :title "voidBeast_GPT41Enhanced 1.0 - Elite Developer AI Assistant",
-   :description
-   "4.1 voidBeast_GPT41Enhanced 1.0 : a advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution. Plan/Act/Deep Research/Analyzer/Checkpoints(Memory)/Prompt Generator Modes.",
-   :link "chatmodes/voidbeast-gpt41enhanced.chatmode.md",
-   :type "chatmode"}
-  {:filename "wg-code-alchemist.chatmode.md",
-   :title "Wg Code Alchemist",
-   :description
-   "Ask WG Code Alchemist to transform your code with Clean Code principles and SOLID design",
-   :link "chatmodes/wg-code-alchemist.chatmode.md",
-   :type "chatmode"}
-  {:filename "wg-code-sentinel.chatmode.md",
-   :title "Wg Code Sentinel",
-   :description
-   "Ask WG Code Sentinel to review your code for security issues.",
-   :link "chatmodes/wg-code-sentinel.chatmode.md",
-   :type "chatmode"}),
- :agents
- ({:filename "CSharpExpert.agent.md",
+   :link "agents/4.1-Beast.agent.md",
+   :type "agent"}
+  {:filename "CSharpExpert.agent.md",
    :title "General C# Development",
    :description
    "An agent designed to assist with software development tasks for .NET projects.",
    :link "agents/CSharpExpert.agent.md",
+   :type "agent"}
+  {:filename "Thinking-Beast-Mode.agent.md",
+   :title "Thinking Beast Mode",
+   :description
+   "A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.",
+   :link "agents/Thinking-Beast-Mode.agent.md",
+   :type "agent"}
+  {:filename "Ultimate-Transparent-Thinking-Beast-Mode.agent.md",
+   :title "Ultimate Transparent Thinking Beast Mode",
+   :description "Ultimate Transparent Thinking Beast Mode",
+   :link "agents/Ultimate-Transparent-Thinking-Beast-Mode.agent.md",
    :type "agent"}
   {:filename "WinFormsExpert.agent.md",
    :title "WinForms Development Guidelines",
@@ -1762,17 +1236,40 @@
    "Support development of .NET (OOP) WinForms Designer compatible Apps.",
    :link "agents/WinFormsExpert.agent.md",
    :type "agent"}
+  {:filename "accessibility.agent.md",
+   :title "Accessibility Expert",
+   :description
+   "Expert assistant for web accessibility (WCAG 2.1/2.2), inclusive UX, and a11y testing",
+   :link "agents/accessibility.agent.md",
+   :type "agent"}
+  {:filename "address-comments.agent.md",
+   :title "Universal PR Comment Addresser",
+   :description "\"Address PR comments\"",
+   :link "agents/address-comments.agent.md",
+   :type "agent"}
   {:filename "adr-generator.agent.md",
    :title "ADR Generator Agent",
    :description
    "Expert agent for creating comprehensive Architectural Decision Records (ADRs) with structured formatting optimized for AI consumption and human readability.",
    :link "agents/adr-generator.agent.md",
    :type "agent"}
+  {:filename "aem-frontend-specialist.agent.md",
+   :title "AEM Front-End Specialist",
+   :description
+   "Expert assistant for developing AEM components using HTL, Tailwind CSS, and Figma-to-code workflows with design system integration",
+   :link "agents/aem-frontend-specialist.agent.md",
+   :type "agent"}
   {:filename "amplitude-experiment-implementation.agent.md",
    :title "Amplitude Experiment Implementation",
    :description
    "This custom agent uses Amplitude's MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features.",
    :link "agents/amplitude-experiment-implementation.agent.md",
+   :type "agent"}
+  {:filename "api-architect.agent.md",
+   :title "API Architect mode instructions",
+   :description
+   "Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.",
+   :link "agents/api-architect.agent.md",
    :type "agent"}
   {:filename "apify-integration-expert.agent.md",
    :title "Apify Actor Expert Agent",
@@ -1792,6 +1289,78 @@
    "\"Arm Cloud Migration Assistant accelerates moving x86 workloads to Arm infrastructure. It scans the repository for architecture assumptions, portability issues, container base image and dependency incompatibilities, and recommends Arm-optimized changes. It can drive multi-arch container builds, validate performance, and guide optimization, enabling smooth cross-platform deployment directly inside GitHub.\"",
    :link "agents/arm-migration.agent.md",
    :type "agent"}
+  {:filename "atlassian-requirements-to-jira.agent.md",
+   :title "Requirements to Jira Epic & User Story Creator",
+   :description
+   "Transform requirements documents into structured Jira epics and user stories with intelligent duplicate detection, change management, and user-approved creation workflow.",
+   :link "agents/atlassian-requirements-to-jira.agent.md",
+   :type "agent"}
+  {:filename "azure-logic-apps-expert.agent.md",
+   :title "Azure Logic Apps Expert Mode",
+   :description
+   "\"Expert guidance for Azure Logic Apps development focusing on workflow design, integration patterns, and JSON-based Workflow Definition Language.\"",
+   :link "agents/azure-logic-apps-expert.agent.md",
+   :type "agent"}
+  {:filename "azure-principal-architect.agent.md",
+   :title "Azure Principal Architect mode instructions",
+   :description
+   "\"Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.\"",
+   :link "agents/azure-principal-architect.agent.md",
+   :type "agent"}
+  {:filename "azure-saas-architect.agent.md",
+   :title "Azure SaaS Architect mode instructions",
+   :description
+   "\"Provide expert Azure SaaS Architect guidance focusing on multitenant applications using Azure Well-Architected SaaS principles and Microsoft best practices.\"",
+   :link "agents/azure-saas-architect.agent.md",
+   :type "agent"}
+  {:filename "azure-verified-modules-bicep.agent.md",
+   :title "Azure AVM Bicep mode",
+   :description
+   "\"Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).\"",
+   :link "agents/azure-verified-modules-bicep.agent.md",
+   :type "agent"}
+  {:filename "azure-verified-modules-terraform.agent.md",
+   :title "Azure AVM Terraform mode",
+   :description
+   "\"Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).\"",
+   :link "agents/azure-verified-modules-terraform.agent.md",
+   :type "agent"}
+  {:filename "bicep-implement.agent.md",
+   :title "Azure Bicep Infrastructure as Code coding Specialist",
+   :description
+   "Act as an Azure Bicep Infrastructure as Code coding specialist that creates Bicep templates.",
+   :link "agents/bicep-implement.agent.md",
+   :type "agent"}
+  {:filename "bicep-plan.agent.md",
+   :title "Azure Bicep Infrastructure Planning",
+   :description
+   "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
+   :link "agents/bicep-plan.agent.md",
+   :type "agent"}
+  {:filename "blueprint-mode-codex.agent.md",
+   :title "Blueprint Mode Codex v1",
+   :description
+   "Executes structured workflows with strict correctness and maintainability. Enforces a minimal tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
+   :link "agents/blueprint-mode-codex.agent.md",
+   :type "agent"}
+  {:filename "blueprint-mode.agent.md",
+   :title "Blueprint Mode v39",
+   :description
+   "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
+   :link "agents/blueprint-mode.agent.md",
+   :type "agent"}
+  {:filename "clojure-interactive-programming.agent.md",
+   :title "Clojure Interactive Programming",
+   :description
+   "\"Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.\"",
+   :link "agents/clojure-interactive-programming.agent.md",
+   :type "agent"}
+  {:filename "code-tour.agent.md",
+   :title "VSCode Tour Expert",
+   :description
+   "Expert agent for creating and maintaining VSCode CodeTour files with comprehensive schema support and best practices",
+   :link "agents/code-tour.agent.md",
+   :type "agent"}
   {:filename "comet-opik.agent.md",
    :title "Comet Opik Operations Guide",
    :description
@@ -1804,17 +1373,63 @@
    "Expert in latest library versions, best practices, and correct syntax using up-to-date documentation",
    :link "agents/context7.agent.md",
    :type "agent"}
+  {:filename "critical-thinking.agent.md",
+   :title "Critical thinking mode instructions",
+   :description
+   "Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes.",
+   :link "agents/critical-thinking.agent.md",
+   :type "agent"}
+  {:filename "csharp-dotnet-janitor.agent.md",
+   :title "C#/.NET Janitor",
+   :description
+   "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
+   :link "agents/csharp-dotnet-janitor.agent.md",
+   :type "agent"}
+  {:filename "csharp-mcp-expert.agent.md",
+   :title "C# MCP Server Expert",
+   :description
+   "\"Expert assistant for developing Model Context Protocol (MCP) servers in C#\"",
+   :link "agents/csharp-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "debug.agent.md",
+   :title "Debug Mode Instructions",
+   :description "Debug your application to find and fix a bug",
+   :link "agents/debug.agent.md",
+   :type "agent"}
+  {:filename "declarative-agents-architect.agent.md",
+   :title "Declarative Agents Architect",
+   :description nil,
+   :link "agents/declarative-agents-architect.agent.md",
+   :type "agent"}
+  {:filename "demonstrate-understanding.agent.md",
+   :title "Demonstrate Understanding mode instructions",
+   :description
+   "Validate user understanding of code, design patterns, and implementation details through guided questioning.",
+   :link "agents/demonstrate-understanding.agent.md",
+   :type "agent"}
   {:filename "diffblue-cover.agent.md",
    :title "Java Unit Test Agent",
    :description
    "Expert agent for creating unit tests for java applications using Diffblue Cover.",
    :link "agents/diffblue-cover.agent.md",
    :type "agent"}
+  {:filename "dotnet-upgrade.agent.md",
+   :title ".NET Upgrade Collection",
+   :description
+   "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
+   :link "agents/dotnet-upgrade.agent.md",
+   :type "agent"}
   {:filename "droid.agent.md",
    :title "Code review and analysis",
    :description
    "Provides installation guidance, usage examples, and automation patterns for the Droid CLI, with emphasis on droid exec for CI/CD and non-interactive automation",
    :link "agents/droid.agent.md",
+   :type "agent"}
+  {:filename "drupal-expert.agent.md",
+   :title "Drupal Expert",
+   :description
+   "Expert assistant for Drupal development, architecture, and best practices using PHP 8.3+ and modern Drupal patterns",
+   :link "agents/drupal-expert.agent.md",
    :type "agent"}
   {:filename "dynatrace-expert.agent.md",
    :title "Dynatrace Expert",
@@ -1828,16 +1443,143 @@
    "Our expert AI assistant for debugging code (O11y), optimizing vector search (RAG), and remediating security threats using live Elastic data.",
    :link "agents/elasticsearch-observability.agent.md",
    :type "agent"}
+  {:filename "electron-angular-native.agent.md",
+   :title "Electron Code Review Mode Instructions",
+   :description
+   "\"Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here.\"",
+   :link "agents/electron-angular-native.agent.md",
+   :type "agent"}
+  {:filename "expert-cpp-software-engineer.agent.md",
+   :title "Expert C++ software engineer mode instructions",
+   :description
+   "Provide expert C++ software engineering guidance using modern C++ and industry best practices.",
+   :link "agents/expert-cpp-software-engineer.agent.md",
+   :type "agent"}
+  {:filename "expert-dotnet-software-engineer.agent.md",
+   :title "Expert .NET software engineer mode instructions",
+   :description
+   "\"Provide expert .NET software engineering guidance using modern software design patterns.\"",
+   :link "agents/expert-dotnet-software-engineer.agent.md",
+   :type "agent"}
+  {:filename "expert-nextjs-developer.agent.md",
+   :title "Expert Next.js Developer",
+   :description
+   "\"Expert Next.js 16 developer specializing in App Router, Server Components, Cache Components, Turbopack, and modern React patterns with TypeScript\"",
+   :link "agents/expert-nextjs-developer.agent.md",
+   :type "agent"}
+  {:filename "expert-react-frontend-engineer.agent.md",
+   :title "Expert React Frontend Engineer",
+   :description
+   "\"Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript, and performance optimization\"",
+   :link "agents/expert-react-frontend-engineer.agent.md",
+   :type "agent"}
+  {:filename "gilfoyle.agent.md",
+   :title "Gilfoyle Code Review Mode",
+   :description
+   "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
+   :link "agents/gilfoyle.agent.md",
+   :type "agent"}
+  {:filename "go-mcp-expert.agent.md",
+   :title "Go MCP Server Development Expert",
+   :description
+   "\"Expert assistant for building Model Context Protocol (MCP) servers in Go using the official SDK.\"",
+   :link "agents/go-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "gpt-5-beast-mode.agent.md",
+   :title "GPT 5 Beast Mode",
+   :description
+   "Beast Mode 2.0: A powerful autonomous agent tuned specifically for GPT-5 that can solve complex problems by using tools, conducting research, and iterating until the problem is fully resolved.",
+   :link "agents/gpt-5-beast-mode.agent.md",
+   :type "agent"}
+  {:filename "hlbpa.agent.md",
+   :title "High-Level Big Picture Architect (HLBPA)",
+   :description
+   "Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
+   :link "agents/hlbpa.agent.md",
+   :type "agent"}
+  {:filename "implementation-plan.agent.md",
+   :title "Implementation Plan Generation Mode",
+   :description
+   "\"Generate an implementation plan for new features or refactoring existing code.\"",
+   :link "agents/implementation-plan.agent.md",
+   :type "agent"}
+  {:filename "janitor.agent.md",
+   :title "Universal Janitor",
+   :description
+   "Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.",
+   :link "agents/janitor.agent.md",
+   :type "agent"}
+  {:filename "java-mcp-expert.agent.md",
+   :title "Java MCP Expert",
+   :description
+   "\"Expert assistance for building Model Context Protocol servers in Java using reactive streams, the official MCP Java SDK, and Spring Boot integration.\"",
+   :link "agents/java-mcp-expert.agent.md",
+   :type "agent"}
   {:filename "jfrog-sec.agent.md",
    :title "Jfrog Sec",
    :description
    "The dedicated Application Security agent for automated security remediation. Verifies package and version compliance, and suggests vulnerability fixes using JFrog security intelligence.",
    :link "agents/jfrog-sec.agent.md",
    :type "agent"}
+  {:filename "kotlin-mcp-expert.agent.md",
+   :title "Kotlin MCP Server Development Expert",
+   :description
+   "\"Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.\"",
+   :link "agents/kotlin-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "kusto-assistant.agent.md",
+   :title
+   "Kusto Assistant: Azure Data Explorer (Kusto) Engineering Assistant",
+   :description
+   "\"Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server\"",
+   :link "agents/kusto-assistant.agent.md",
+   :type "agent"}
+  {:filename "laravel-expert-agent.agent.md",
+   :title "Laravel Expert Agent",
+   :description
+   "Expert Laravel development assistant specializing in modern Laravel 12+ applications with Eloquent, Artisan, testing, and best practices",
+   :link "agents/laravel-expert-agent.agent.md",
+   :type "agent"}
   {:filename "launchdarkly-flag-cleanup.agent.md",
    :title "LaunchDarkly Flag Cleanup Agent",
    :description ">",
    :link "agents/launchdarkly-flag-cleanup.agent.md",
+   :type "agent"}
+  {:filename "mentor.agent.md",
+   :title "Mentor mode instructions",
+   :description
+   "Help mentor the engineer by providing guidance and support.",
+   :link "agents/mentor.agent.md",
+   :type "agent"}
+  {:filename "meta-agentic-project-scaffold.agent.md",
+   :title "Meta Agentic Project Scaffold",
+   :description
+   "\"Meta agentic project creation assistant to help users create and manage project workflows effectively.\"",
+   :link "agents/meta-agentic-project-scaffold.agent.md",
+   :type "agent"}
+  {:filename "microsoft-agent-framework-dotnet.agent.md",
+   :title "Microsoft Agent Framework .NET mode instructions",
+   :description
+   "\"Create, update, refactor, explain or work with code using the .NET version of Microsoft Agent Framework.\"",
+   :link "agents/microsoft-agent-framework-dotnet.agent.md",
+   :type "agent"}
+  {:filename "microsoft-agent-framework-python.agent.md",
+   :title "Microsoft Agent Framework Python mode instructions",
+   :description
+   "\"Create, update, refactor, explain or work with code using the Python version of Microsoft Agent Framework.\"",
+   :link "agents/microsoft-agent-framework-python.agent.md",
+   :type "agent"}
+  {:filename "microsoft-study-mode.agent.md",
+   :title "Microsoft Study and Learn Chat Mode",
+   :description
+   "Activate your personal Microsoft/Azure tutor - learn through guided discovery, not just answers.",
+   :link "agents/microsoft-study-mode.agent.md",
+   :type "agent"}
+  {:filename "microsoft_learn_contributor.agent.md",
+   :title "Microsoft Learn Contributor",
+   :description
+   "Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices.",
+   :link "agents/microsoft_learn_contributor.agent.md",
    :type "agent"}
   {:filename "monday-bug-fixer.agent.md",
    :title "Monday Bug Context Fixer",
@@ -1850,6 +1592,12 @@
    :description
    "Analyze MongoDB database performance, offer query and index optimization insights and provide actionable recommendations to improve overall usage of the database.",
    :link "agents/mongodb-performance-advisor.agent.md",
+   :type "agent"}
+  {:filename "ms-sql-dba.agent.md",
+   :title "MS-SQL Database Administrator",
+   :description
+   "\"Work with Microsoft SQL Server databases using the MS SQL extension.\"",
+   :link "agents/ms-sql-dba.agent.md",
    :type "agent"}
   {:filename "neo4j-docker-client-generator.agent.md",
    :title "Neo4j Python Client Generator",
@@ -1881,11 +1629,225 @@
    "Responds to PagerDuty incidents by analyzing incident context, identifying recent code changes, and suggesting fixes via GitHub PRs.",
    :link "agents/pagerduty-incident-responder.agent.md",
    :type "agent"}
+  {:filename "php-mcp-expert.agent.md",
+   :title "PHP MCP Expert",
+   :description
+   "\"Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery\"",
+   :link "agents/php-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "pimcore-expert.agent.md",
+   :title "Pimcore Expert",
+   :description
+   "Expert Pimcore development assistant specializing in CMS, DAM, PIM, and E-Commerce solutions with Symfony integration",
+   :link "agents/pimcore-expert.agent.md",
+   :type "agent"}
+  {:filename "plan.agent.md",
+   :title "Plan Mode - Strategic Planning & Architecture Assistant",
+   :description
+   "\"Strategic planning and architecture assistant focused on thoughtful analysis before implementation. Helps developers understand codebases, clarify requirements, and develop comprehensive implementation strategies.\"",
+   :link "agents/plan.agent.md",
+   :type "agent"}
+  {:filename "planner.agent.md",
+   :title "Planning mode instructions",
+   :description
+   "\"Generate an implementation plan for new features or refactoring existing code.\"",
+   :link "agents/planner.agent.md",
+   :type "agent"}
+  {:filename "playwright-tester.agent.md",
+   :title "Playwright Tester",
+   :description "\"Testing mode for Playwright tests\"",
+   :link "agents/playwright-tester.agent.md",
+   :type "agent"}
+  {:filename "postgresql-dba.agent.md",
+   :title "PostgreSQL Database Administrator",
+   :description
+   "\"Work with PostgreSQL databases using the PostgreSQL extension.\"",
+   :link "agents/postgresql-dba.agent.md",
+   :type "agent"}
+  {:filename "power-bi-data-modeling-expert.agent.md",
+   :title "Power BI Data Modeling Expert Mode",
+   :description
+   "\"Expert Power BI data modeling guidance using star schema principles, relationship design, and Microsoft best practices for optimal model performance and usability.\"",
+   :link "agents/power-bi-data-modeling-expert.agent.md",
+   :type "agent"}
+  {:filename "power-bi-dax-expert.agent.md",
+   :title "Power BI DAX Expert Mode",
+   :description
+   "\"Expert Power BI DAX guidance using Microsoft best practices for performance, readability, and maintainability of DAX formulas and calculations.\"",
+   :link "agents/power-bi-dax-expert.agent.md",
+   :type "agent"}
+  {:filename "power-bi-performance-expert.agent.md",
+   :title "Power BI Performance Expert Mode",
+   :description
+   "\"Expert Power BI performance optimization guidance for troubleshooting, monitoring, and improving the performance of Power BI models, reports, and queries.\"",
+   :link "agents/power-bi-performance-expert.agent.md",
+   :type "agent"}
+  {:filename "power-bi-visualization-expert.agent.md",
+   :title "Power BI Visualization Expert Mode",
+   :description
+   "\"Expert Power BI report design and visualization guidance using Microsoft best practices for creating effective, performant, and user-friendly reports and dashboards.\"",
+   :link "agents/power-bi-visualization-expert.agent.md",
+   :type "agent"}
+  {:filename "power-platform-expert.agent.md",
+   :title "Power Platform Expert",
+   :description
+   "\"Power Platform expert providing guidance on Code Apps, canvas apps, Dataverse, connectors, and Power Platform best practices\"",
+   :link "agents/power-platform-expert.agent.md",
+   :type "agent"}
+  {:filename "power-platform-mcp-integration-expert.agent.md",
+   :title "Power Platform MCP Integration Expert",
+   :description
+   "Expert in Power Platform custom connector development with MCP integration for Copilot Studio - comprehensive knowledge of schemas, protocols, and integration patterns",
+   :link "agents/power-platform-mcp-integration-expert.agent.md",
+   :type "agent"}
+  {:filename "prd.agent.md",
+   :title "Create PRD Chat Mode",
+   :description
+   "\"Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, technical considerations, and metrics. Optionally create GitHub issues upon user confirmation.\"",
+   :link "agents/prd.agent.md",
+   :type "agent"}
+  {:filename "principal-software-engineer.agent.md",
+   :title "Principal software engineer mode instructions",
+   :description
+   "Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation.",
+   :link "agents/principal-software-engineer.agent.md",
+   :type "agent"}
+  {:filename "prompt-builder.agent.md",
+   :title "Prompt Builder Instructions",
+   :description
+   "Expert prompt engineering and validation system for creating high-quality prompts - Brought to you by microsoft/edge-ai",
+   :link "agents/prompt-builder.agent.md",
+   :type "agent"}
+  {:filename "prompt-engineer.agent.md",
+   :title "Prompt Engineer",
+   :description
+   "\"A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.\"",
+   :link "agents/prompt-engineer.agent.md",
+   :type "agent"}
+  {:filename "python-mcp-expert.agent.md",
+   :title "Python MCP Server Expert",
+   :description
+   "\"Expert assistant for developing Model Context Protocol (MCP) servers in Python\"",
+   :link "agents/python-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "refine-issue.agent.md",
+   :title "Refine Requirement or Issue Chat Mode",
+   :description
+   "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
+   :link "agents/refine-issue.agent.md",
+   :type "agent"}
+  {:filename "research-technical-spike.agent.md",
+   :title "Technical spike research mode",
+   :description
+   "\"Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation.\"",
+   :link "agents/research-technical-spike.agent.md",
+   :type "agent"}
+  {:filename "ruby-mcp-expert.agent.md",
+   :title "Ruby MCP Expert",
+   :description
+   "\"Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration.\"",
+   :link "agents/ruby-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "rust-gpt-4.1-beast-mode.agent.md",
+   :title "Rust Beast Mode",
+   :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
+   :link "agents/rust-gpt-4.1-beast-mode.agent.md",
+   :type "agent"}
+  {:filename "rust-mcp-expert.agent.md",
+   :title "Rust MCP Expert",
+   :description
+   "\"Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime\"",
+   :link "agents/rust-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "search-ai-optimization-expert.agent.md",
+   :title "Search & AI Optimization Expert",
+   :description
+   "Expert guidance for modern search optimization: SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) with AI-ready content strategies",
+   :link "agents/search-ai-optimization-expert.agent.md",
+   :type "agent"}
+  {:filename "semantic-kernel-dotnet.agent.md",
+   :title "Semantic Kernel .NET mode instructions",
+   :description
+   "Create, update, refactor, explain or work with code using the .NET version of Semantic Kernel.",
+   :link "agents/semantic-kernel-dotnet.agent.md",
+   :type "agent"}
+  {:filename "semantic-kernel-python.agent.md",
+   :title "Semantic Kernel Python mode instructions",
+   :description
+   "Create, update, refactor, explain or work with code using the Python version of Semantic Kernel.",
+   :link "agents/semantic-kernel-python.agent.md",
+   :type "agent"}
+  {:filename "shopify-expert.agent.md",
+   :title "Shopify Expert",
+   :description
+   "Expert Shopify development assistant specializing in theme development, Liquid templating, app development, and Shopify APIs",
+   :link "agents/shopify-expert.agent.md",
+   :type "agent"}
+  {:filename "simple-app-idea-generator.agent.md",
+   :title "Idea Generator mode instructions",
+   :description
+   "Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification creation.",
+   :link "agents/simple-app-idea-generator.agent.md",
+   :type "agent"}
+  {:filename "software-engineer-agent-v1.agent.md",
+   :title "Software Engineer Agent v1",
+   :description
+   "Expert-level software engineering agent. Deliver production-ready, maintainable code. Execute systematically and specification-driven. Document comprehensively. Operate autonomously and adaptively.",
+   :link "agents/software-engineer-agent-v1.agent.md",
+   :type "agent"}
+  {:filename "specification.agent.md",
+   :title "Specification mode instructions",
+   :description
+   "Generate or update specification documents for new or existing functionality.",
+   :link "agents/specification.agent.md",
+   :type "agent"}
   {:filename "stackhawk-security-onboarding.agent.md",
    :title "Stackhawk Security Onboarding",
    :description
    "Automatically set up StackHawk security testing for your repository with generated configuration and GitHub Actions workflow",
    :link "agents/stackhawk-security-onboarding.agent.md",
+   :type "agent"}
+  {:filename "swift-mcp-expert.agent.md",
+   :title "Swift MCP Expert",
+   :description
+   "\"Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features and the official MCP Swift SDK.\"",
+   :link "agents/swift-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "task-planner.agent.md",
+   :title "Task Planner Instructions",
+   :description
+   "\"Task planner for creating actionable implementation plans - Brought to you by microsoft/edge-ai\"",
+   :link "agents/task-planner.agent.md",
+   :type "agent"}
+  {:filename "task-researcher.agent.md",
+   :title "Task Researcher Instructions",
+   :description
+   "\"Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai\"",
+   :link "agents/task-researcher.agent.md",
+   :type "agent"}
+  {:filename "tdd-green.agent.md",
+   :title "TDD Green Phase - Make Tests Pass Quickly",
+   :description
+   "Implement minimal code to satisfy GitHub issue requirements and make failing tests pass without over-engineering.",
+   :link "agents/tdd-green.agent.md",
+   :type "agent"}
+  {:filename "tdd-red.agent.md",
+   :title "TDD Red Phase - Write Failing Tests First",
+   :description
+   "\"Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists.\"",
+   :link "agents/tdd-red.agent.md",
+   :type "agent"}
+  {:filename "tdd-refactor.agent.md",
+   :title "TDD Refactor Phase - Improve Quality & Security",
+   :description
+   "\"Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance.\"",
+   :link "agents/tdd-refactor.agent.md",
+   :type "agent"}
+  {:filename "tech-debt-remediation-plan.agent.md",
+   :title "Technical Debt Remediation Plan",
+   :description
+   "Generate technical debt remediation plans for code, tests, and documentation.",
+   :link "agents/tech-debt-remediation-plan.agent.md",
    :type "agent"}
   {:filename "technical-content-evaluator.agent.md",
    :title "Technical Content Evaluator Agent",
@@ -1893,9 +1855,46 @@
    "Elite technical content editor and curriculum architect for evaluating technical training materials, documentation, and educational content. Reviews for technical accuracy, pedagogical excellence, content flow, code validation, and ensures A-grade quality standards.",
    :link "agents/technical-content-evaluator.agent.md",
    :type "agent"}
+  {:filename "terraform-azure-implement.agent.md",
+   :title
+   "Azure Terraform Infrastructure as Code Implementation Specialist",
+   :description
+   "\"Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources.\"",
+   :link "agents/terraform-azure-implement.agent.md",
+   :type "agent"}
+  {:filename "terraform-azure-planning.agent.md",
+   :title "Azure Terraform Infrastructure Planning",
+   :description
+   "\"Act as implementation planner for your Azure Terraform Infrastructure as Code task.\"",
+   :link "agents/terraform-azure-planning.agent.md",
+   :type "agent"}
   {:filename "terraform.agent.md",
    :title "🧭 Terraform Agent Instructions",
    :description
    "\"Terraform infrastructure specialist with automated HCP Terraform workflows. Leverages Terraform MCP server for registry integration, workspace management, and run orchestration. Generates compliant code using latest provider/module versions, manages private registries, automates variable sets, and orchestrates infrastructure deployments with proper validation and security practices.\"",
    :link "agents/terraform.agent.md",
+   :type "agent"}
+  {:filename "typescript-mcp-expert.agent.md",
+   :title "TypeScript MCP Server Expert",
+   :description
+   "\"Expert assistant for developing Model Context Protocol (MCP) servers in TypeScript\"",
+   :link "agents/typescript-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "voidbeast-gpt41enhanced.agent.md",
+   :title "voidBeast_GPT41Enhanced 1.0 - Elite Developer AI Assistant",
+   :description
+   "4.1 voidBeast_GPT41Enhanced 1.0 : a advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution. Plan/Act/Deep Research/Analyzer/Checkpoints(Memory)/Prompt Generator Modes.",
+   :link "agents/voidbeast-gpt41enhanced.agent.md",
+   :type "agent"}
+  {:filename "wg-code-alchemist.agent.md",
+   :title "Wg Code Alchemist",
+   :description
+   "Ask WG Code Alchemist to transform your code with Clean Code principles and SOLID design",
+   :link "agents/wg-code-alchemist.agent.md",
+   :type "agent"}
+  {:filename "wg-code-sentinel.agent.md",
+   :title "Wg Code Sentinel",
+   :description
+   "Ask WG Code Sentinel to review your code for security issues.",
+   :link "agents/wg-code-sentinel.agent.md",
    :type "agent"})}
