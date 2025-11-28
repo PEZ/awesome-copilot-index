@@ -1,4 +1,4 @@
-{:generated "2025-11-27T18:07:44.757844595Z",
+{:generated "2025-11-28T06:08:14.503542262Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -549,6 +549,11 @@
    :description
    "Specification-Driven Workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated.",
    :link "instructions/spec-driven-workflow-v1.instructions.md"}
+  {:filename "springboot-4-migration.instructions.md",
+   :title "Spring Boot 3.x to 4.0 Migration Guide",
+   :description
+   "\"Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin DSL and version catalogs\"",
+   :link "instructions/springboot-4-migration.instructions.md"}
   {:filename "springboot.instructions.md",
    :title "Spring Boot Development",
    :description
