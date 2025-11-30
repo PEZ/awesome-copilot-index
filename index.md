@@ -31,7 +31,7 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Agents** | 117 |
 | **Total Resources** | 362 |
 
-*Last updated: 2025-11-30 06:07:44 UTC*
+*Last updated: 2025-11-30 18:06:54 UTC*
 
 ## Usage Example
 
