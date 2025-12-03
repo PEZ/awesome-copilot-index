@@ -1,4 +1,4 @@
-{:generated "2025-12-02T18:08:36.803131942Z",
+{:generated "2025-12-03T06:08:09.325994033Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -818,6 +818,11 @@
    :description
    "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.",
    :link "prompts/create-technical-spike.prompt.md"}
+  {:filename "create-tldr-page.prompt.md",
+   :title "Create TLDR Page",
+   :description
+   "Create a tldr page from documentation URLs and command examples, requiring both URL and command name.",
+   :link "prompts/create-tldr-page.prompt.md"}
   {:filename "csharp-async.prompt.md",
    :title "C# Async Programming Best Practices",
    :description "Get best practices for C# async programming",
@@ -1176,6 +1181,11 @@
    :description
    "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development.",
    :link "prompts/technology-stack-blueprint-generator.prompt.md"}
+  {:filename "tldr-prompt.prompt.md",
+   :title "TLDR Prompt",
+   :description
+   "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries.",
+   :link "prompts/tldr-prompt.prompt.md"}
   {:filename "typescript-mcp-server-generator.prompt.md",
    :title "Generate TypeScript MCP Server",
    :description
