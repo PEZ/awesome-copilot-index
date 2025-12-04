@@ -1,4 +1,4 @@
-{:generated "2025-12-03T18:08:29.539007582Z",
+{:generated "2025-12-04T06:08:11.163663100Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1229,7 +1229,7 @@
  :chatmodes (),
  :agents
  ({:filename "4.1-Beast.agent.md",
-   :title "4.1 Beast Mode v3.1",
+   :title "Workflow",
    :description "GPT 4.1 as a top-notch coding agent.",
    :link "agents/4.1-Beast.agent.md",
    :type "agent"}
@@ -1240,7 +1240,7 @@
    :link "agents/CSharpExpert.agent.md",
    :type "agent"}
   {:filename "Thinking-Beast-Mode.agent.md",
-   :title "Thinking Beast Mode",
+   :title "Quantum Cognitive Workflow Architecture",
    :description
    "A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.",
    :link "agents/Thinking-Beast-Mode.agent.md",
@@ -1376,7 +1376,7 @@
    :link "agents/clojure-interactive-programming.agent.md",
    :type "agent"}
   {:filename "code-tour.agent.md",
-   :title "VSCode Tour Expert",
+   :title "VSCode Tour Expert 🗺️",
    :description
    "Expert agent for creating and maintaining VSCode CodeTour files with comprehensive schema support and best practices",
    :link "agents/code-tour.agent.md",
@@ -1410,6 +1410,12 @@
    :description
    "\"Expert assistant for developing Model Context Protocol (MCP) servers in C#\"",
    :link "agents/csharp-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "custom-agent-foundry.agent.md",
+   :title "Custom Agent Foundry - Expert Agent Designer",
+   :description
+   "Expert at designing and creating VS Code custom agents with optimal configurations",
+   :link "agents/custom-agent-foundry.agent.md",
    :type "agent"}
   {:filename "debug.agent.md",
    :title "Debug Mode Instructions",
@@ -1506,7 +1512,7 @@
    :link "agents/go-mcp-expert.agent.md",
    :type "agent"}
   {:filename "gpt-5-beast-mode.agent.md",
-   :title "GPT 5 Beast Mode",
+   :title "Operating principles",
    :description
    "Beast Mode 2.0: A powerful autonomous agent tuned specifically for GPT-5 that can solve complex problems by using tools, conducting research, and iterating until the problem is fully resolved.",
    :link "agents/gpt-5-beast-mode.agent.md",
@@ -1775,7 +1781,7 @@
    :link "agents/ruby-mcp-expert.agent.md",
    :type "agent"}
   {:filename "rust-gpt-4.1-beast-mode.agent.md",
-   :title "Rust Beast Mode",
+   :title "Workflow",
    :description "Rust GPT-4.1 Coding Beast Mode for VS Code",
    :link "agents/rust-gpt-4.1-beast-mode.agent.md",
    :type "agent"}
