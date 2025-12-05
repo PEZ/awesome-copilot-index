@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-12-04T18:08:48.199835666Z",
+  "generated" : "2025-12-05T06:08:09.794412395Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -135,6 +135,76 @@
     "title" : "Dart and Flutter",
     "description" : "Instructions for writing Dart and Flutter code following the official recommendations.",
     "link" : "instructions/dart-n-flutter.instructions.md"
+  }, {
+    "filename" : "dataverse-python-advanced-features.instructions.md",
+    "title" : "Dataverse SDK for Python - Advanced Features Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-advanced-features.instructions.md"
+  }, {
+    "filename" : "dataverse-python-agentic-workflows.instructions.md",
+    "title" : "Dataverse SDK for Python - Agentic Workflows Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-agentic-workflows.instructions.md"
+  }, {
+    "filename" : "dataverse-python-api-reference.instructions.md",
+    "title" : "Dataverse SDK for Python — API Reference Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-api-reference.instructions.md"
+  }, {
+    "filename" : "dataverse-python-authentication-security.instructions.md",
+    "title" : "Dataverse SDK for Python — Authentication & Security Patterns",
+    "description" : null,
+    "link" : "instructions/dataverse-python-authentication-security.instructions.md"
+  }, {
+    "filename" : "dataverse-python-best-practices.instructions.md",
+    "title" : "Dataverse SDK for Python - Best Practices Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-best-practices.instructions.md"
+  }, {
+    "filename" : "dataverse-python-error-handling.instructions.md",
+    "title" : "Dataverse SDK for Python — Error Handling & Troubleshooting Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-error-handling.instructions.md"
+  }, {
+    "filename" : "dataverse-python-file-operations.instructions.md",
+    "title" : "Dataverse SDK for Python - File Operations & Practical Examples",
+    "description" : null,
+    "link" : "instructions/dataverse-python-file-operations.instructions.md"
+  }, {
+    "filename" : "dataverse-python-modules.instructions.md",
+    "title" : "Dataverse SDK for Python — Complete Module Reference",
+    "description" : null,
+    "link" : "instructions/dataverse-python-modules.instructions.md"
+  }, {
+    "filename" : "dataverse-python-pandas-integration.instructions.md",
+    "title" : "Dataverse SDK for Python - Pandas Integration Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-pandas-integration.instructions.md"
+  }, {
+    "filename" : "dataverse-python-performance-optimization.instructions.md",
+    "title" : "Dataverse SDK for Python — Performance & Optimization Guide",
+    "description" : null,
+    "link" : "instructions/dataverse-python-performance-optimization.instructions.md"
+  }, {
+    "filename" : "dataverse-python-real-world-usecases.instructions.md",
+    "title" : "Dataverse SDK for Python — Real-World Use Cases & Templates",
+    "description" : null,
+    "link" : "instructions/dataverse-python-real-world-usecases.instructions.md"
+  }, {
+    "filename" : "dataverse-python-sdk.instructions.md",
+    "title" : "Dataverse SDK for Python — Official Quickstart",
+    "description" : null,
+    "link" : "instructions/dataverse-python-sdk.instructions.md"
+  }, {
+    "filename" : "dataverse-python-testing-debugging.instructions.md",
+    "title" : "Dataverse SDK for Python — Testing & Debugging Strategies",
+    "description" : null,
+    "link" : "instructions/dataverse-python-testing-debugging.instructions.md"
+  }, {
+    "filename" : "dataverse-python.instructions.md",
+    "title" : "Dataverse SDK for Python — Getting Started",
+    "description" : null,
+    "link" : "instructions/dataverse-python.instructions.md"
   }, {
     "filename" : "declarative-agents-microsoft365.instructions.md",
     "title" : "Microsoft 365 Declarative Agents Development Guidelines",
@@ -747,6 +817,11 @@
     "description" : "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.",
     "link" : "prompts/conventional-commit.prompt.md"
   }, {
+    "filename" : "convert-plaintext-to-md.prompt.md",
+    "title" : "Convert Plaintext Documentation to Markdown",
+    "description" : "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option.",
+    "link" : "prompts/convert-plaintext-to-md.prompt.md"
+  }, {
     "filename" : "copilot-instructions-blueprint-generator.prompt.md",
     "title" : "Copilot Instructions Blueprint Generator",
     "description" : "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.",
@@ -871,6 +946,26 @@
     "title" : "XUnit Best Practices",
     "description" : "Get best practices for XUnit unit testing, including data-driven tests",
     "link" : "prompts/csharp-xunit.prompt.md"
+  }, {
+    "filename" : "dataverse-python-advanced-patterns.prompt.md",
+    "title" : "Dataverse Python Advanced Patterns",
+    "description" : "Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques.",
+    "link" : "prompts/dataverse-python-advanced-patterns.prompt.md"
+  }, {
+    "filename" : "dataverse-python-production-code.prompt.md",
+    "title" : "System Instructions",
+    "description" : "\"Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices\"",
+    "link" : "prompts/dataverse-python-production-code.prompt.md"
+  }, {
+    "filename" : "dataverse-python-quickstart.prompt.md",
+    "title" : "Dataverse Python Quickstart",
+    "description" : "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns.",
+    "link" : "prompts/dataverse-python-quickstart.prompt.md"
+  }, {
+    "filename" : "dataverse-python-usecase-builder.prompt.md",
+    "title" : "System Instructions",
+    "description" : "\"Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations\"",
+    "link" : "prompts/dataverse-python-usecase-builder.prompt.md"
   }, {
     "filename" : "declarative-agents.prompt.md",
     "title" : "Microsoft 365 Declarative Agents Development Kit",
