@@ -1,4 +1,4 @@
-{:generated "2025-12-10T18:08:27.716098823Z",
+{:generated "2025-12-11T06:08:33.042482735Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -42,6 +42,10 @@
    "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation",
    :link
    "instructions/azure-logic-apps-power-automate.instructions.md"}
+  {:filename "azure-verified-modules-bicep.instructions.md",
+   :title "Azure Verified Modules (AVM) Bicep",
+   :description "Azure Verified Modules (AVM) and Bicep",
+   :link "instructions/azure-verified-modules-bicep.instructions.md"}
   {:filename "azure-verified-modules-terraform.instructions.md",
    :title "Azure Verified Modules (AVM) Terraform",
    :description " Azure Verified Modules (AVM) and Terraform",
@@ -1032,6 +1036,11 @@
    :description
    "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk.",
    :link "prompts/go-mcp-server-generator.prompt.md"}
+  {:filename "java-add-graalvm-native-image-support.prompt.md",
+   :title "GraalVM Native Image Agent",
+   :description
+   "GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates until successful compilation using Oracle best practices.",
+   :link "prompts/java-add-graalvm-native-image-support.prompt.md"}
   {:filename "java-docs.prompt.md",
    :title "Java Documentation (Javadoc) Best Practices",
    :description
