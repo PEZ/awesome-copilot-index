@@ -1,4 +1,4 @@
-{:generated "2025-12-14T18:07:21.912705659Z",
+{:generated "2025-12-15T06:09:38.546515427Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -19,6 +19,11 @@
    :title "Ansible Conventions and Best Practices",
    :description "Ansible conventions and best practices",
    :link "instructions/ansible.instructions.md"}
+  {:filename "apex.instructions.md",
+   :title "Apex Development",
+   :description
+   "Guidelines and best practices for Apex development on the Salesforce Platform",
+   :link "instructions/apex.instructions.md"}
   {:filename "aspnet-rest-apis.instructions.md",
    :title "ASP.NET REST API Development",
    :description "Guidelines for building REST APIs with ASP.NET",
@@ -711,6 +716,11 @@
    :description
    "\"Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.\"",
    :link "instructions/update-code-from-shorthand.instructions.md"}
+  {:filename "update-docs-on-code-change.instructions.md",
+   :title "Update Documentation on Code Change",
+   :description
+   "Automatically update README.md and documentation files when application code changes require documentation updates",
+   :link "instructions/update-docs-on-code-change.instructions.md"}
   {:filename "vuejs3.instructions.md",
    :title "VueJS 3 Development Instructions",
    :description
@@ -1564,6 +1574,12 @@
    :description
    "Expert agent for creating unit tests for java applications using Diffblue Cover.",
    :link "agents/diffblue-cover.agent.md",
+   :type "agent"}
+  {:filename "dotnet-maui.agent.md",
+   :title ".NET MAUI Coding Expert Agent",
+   :description
+   "Support development of .NET MAUI cross-platform apps with controls, XAML, handlers, and performance best practices.",
+   :link "agents/dotnet-maui.agent.md",
    :type "agent"}
   {:filename "dotnet-upgrade.agent.md",
    :title ".NET Upgrade Collection",
