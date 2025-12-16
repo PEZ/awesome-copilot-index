@@ -1,4 +1,4 @@
-{:generated "2025-12-15T18:08:25.315322201Z",
+{:generated "2025-12-16T06:08:38.212651945Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1754,6 +1754,12 @@
    :description
    "Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices.",
    :link "agents/microsoft_learn_contributor.agent.md",
+   :type "agent"}
+  {:filename "modernization.agent.md",
+   :title "Modernization Agent",
+   :description
+   "Human-in-the-loop modernization assistant for analyzing, documenting, and planning complete project modernization with architectural recommendations.",
+   :link "agents/modernization.agent.md",
    :type "agent"}
   {:filename "monday-bug-fixer.agent.md",
    :title "Monday Bug Context Fixer",
