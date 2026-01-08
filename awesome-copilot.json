@@ -1,10 +1,15 @@
 {
-  "generated" : "2026-01-07T18:08:44.789549955Z",
+  "generated" : "2026-01-08T06:08:55.953041938Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
     "description" : "\"Guidance for creating more accessible code\"",
     "link" : "instructions/a11y.instructions.md"
+  }, {
+    "filename" : "agents.instructions.md",
+    "title" : "Custom Agent File Guidelines",
+    "description" : "Guidelines for creating custom agent files for GitHub Copilot",
+    "link" : "instructions/agents.instructions.md"
   }, {
     "filename" : "ai-prompt-engineering-safety-best-practices.instructions.md",
     "title" : "AI Prompt Engineering & Safety Best Practices",
