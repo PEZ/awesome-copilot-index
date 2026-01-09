@@ -1,4 +1,4 @@
-{:generated "2026-01-09T06:09:00.135778667Z",
+{:generated "2026-01-09T18:08:34.973265618Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -348,6 +348,11 @@
    "Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.",
    :link
    "instructions/kubernetes-deployment-best-practices.instructions.md"}
+  {:filename "kubernetes-manifests.instructions.md",
+   :title "Kubernetes Manifests Instructions",
+   :description
+   "Best practices for Kubernetes YAML manifests including labeling conventions, security contexts, pod security, resource management, probes, and validation commands",
+   :link "instructions/kubernetes-manifests.instructions.md"}
   {:filename "langchain-python.instructions.md",
    :title "LangChain Python Instructions",
    :description "Instructions for using LangChain with Python",
@@ -364,6 +369,11 @@
    :title "Markdown",
    :description "Documentation and content creation standards",
    :link "instructions/markdown.instructions.md"}
+  {:filename "mcp-m365-copilot.instructions.md",
+   :title "MCP-based M365 Copilot Development Guidelines",
+   :description
+   "Best practices for building MCP-based declarative agents and API plugins for Microsoft 365 Copilot with Model Context Protocol integration",
+   :link "instructions/mcp-m365-copilot.instructions.md"}
   {:filename "memory-bank.instructions.md",
    :title "Memory Bank",
    :description nil,
@@ -716,6 +726,11 @@
    :description
    "Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK",
    :link "instructions/typescript-mcp-server.instructions.md"}
+  {:filename "typespec-m365-copilot.instructions.md",
+   :title "TypeSpec for Microsoft 365 Copilot Development Guidelines",
+   :description
+   "Guidelines and best practices for building TypeSpec-based declarative agents and API plugins for Microsoft 365 Copilot",
+   :link "instructions/typespec-m365-copilot.instructions.md"}
   {:filename "update-code-from-shorthand.instructions.md",
    :title "Update Code from Shorthand",
    :description
@@ -986,6 +1001,11 @@
    :description
    "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration",
    :link "prompts/declarative-agents.prompt.md"}
+  {:filename "devops-rollout-plan.prompt.md",
+   :title "DevOps Rollout Plan Generator",
+   :description
+   "Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infrastructure and application changes",
+   :link "prompts/devops-rollout-plan.prompt.md"}
   {:filename "documentation-writer.prompt.md",
    :title "Diátaxis Documentation Expert",
    :description
@@ -1111,6 +1131,19 @@
    :description
    "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support",
    :link "prompts/mcp-copilot-studio-server-generator.prompt.md"}
+  {:filename "mcp-create-adaptive-cards.prompt.md",
+   :title "Create Adaptive Cards for MCP Plugins",
+   :description nil,
+   :link "prompts/mcp-create-adaptive-cards.prompt.md"}
+  {:filename "mcp-create-declarative-agent.prompt.md",
+   :title
+   "Create MCP-based Declarative Agent for Microsoft 365 Copilot",
+   :description nil,
+   :link "prompts/mcp-create-declarative-agent.prompt.md"}
+  {:filename "mcp-deploy-manage-agents.prompt.md",
+   :title "Deploy and Manage MCP-Based Agents",
+   :description nil,
+   :link "prompts/mcp-deploy-manage-agents.prompt.md"}
   {:filename "memory-merger.prompt.md",
    :title "Memory Merger",
    :description
@@ -1332,6 +1365,21 @@
    :description
    "Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration",
    :link "prompts/typescript-mcp-server-generator.prompt.md"}
+  {:filename "typespec-api-operations.prompt.md",
+   :title "Add TypeSpec API Operations",
+   :description
+   "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards",
+   :link "prompts/typespec-api-operations.prompt.md"}
+  {:filename "typespec-create-agent.prompt.md",
+   :title "Create TypeSpec Declarative Agent",
+   :description
+   "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot",
+   :link "prompts/typespec-create-agent.prompt.md"}
+  {:filename "typespec-create-api-plugin.prompt.md",
+   :title "Create TypeSpec API Plugin",
+   :description
+   "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot",
+   :link "prompts/typespec-create-api-plugin.prompt.md"}
   {:filename "update-avm-modules-in-bicep.prompt.md",
    :title "Update Azure Verified Modules in Bicep Files",
    :description
@@ -1574,6 +1622,12 @@
    "Validate user understanding of code, design patterns, and implementation details through guided questioning.",
    :link "agents/demonstrate-understanding.agent.md",
    :type "agent"}
+  {:filename "devops-expert.agent.md",
+   :title "DevOps Expert",
+   :description
+   "DevOps specialist following the infinity loop principle (Plan → Code → Build → Test → Release → Deploy → Operate → Monitor) with focus on automation, collaboration, and continuous improvement",
+   :link "agents/devops-expert.agent.md",
+   :type "agent"}
   {:filename "diffblue-cover.agent.md",
    :title "Java Unit Test Agent",
    :description
@@ -1652,6 +1706,12 @@
    "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
    :link "agents/gilfoyle.agent.md",
    :type "agent"}
+  {:filename "github-actions-expert.agent.md",
+   :title "GitHub Actions Expert",
+   :description
+   "GitHub Actions specialist focused on secure CI/CD workflows, action pinning, OIDC authentication, permissions least privilege, and supply-chain security",
+   :link "agents/github-actions-expert.agent.md",
+   :type "agent"}
   {:filename "go-mcp-expert.agent.md",
    :title "Go MCP Server Development Expert",
    :description
@@ -1723,6 +1783,12 @@
    :description
    "Expert at implementing internationalization (i18n) in web applications using a systematic, checklist-driven approach.",
    :link "agents/lingodotdev-i18n.agent.md",
+   :type "agent"}
+  {:filename "mcp-m365-agent-expert.agent.md",
+   :title "MCP M365 Agent Expert",
+   :description
+   "Expert assistant for building MCP-based declarative agents for Microsoft 365 Copilot with Model Context Protocol integration",
+   :link "agents/mcp-m365-agent-expert.agent.md",
    :type "agent"}
   {:filename "mentor.agent.md",
    :title "Mentor mode instructions",
@@ -1837,6 +1903,12 @@
    :description
    "\"Generate an implementation plan for new features or refactoring existing code.\"",
    :link "agents/planner.agent.md",
+   :type "agent"}
+  {:filename "platform-sre-kubernetes.agent.md",
+   :title "Platform SRE for Kubernetes",
+   :description
+   "SRE-focused Kubernetes specialist prioritizing reliability, safe rollouts/rollbacks, security defaults, and operational verification for production-grade deployments",
+   :link "agents/platform-sre-kubernetes.agent.md",
    :type "agent"}
   {:filename "playwright-tester.agent.md",
    :title "Playwright Tester",
@@ -2094,6 +2166,12 @@
    :description
    "\"Act as implementation planner for your Azure Terraform Infrastructure as Code task.\"",
    :link "agents/terraform-azure-planning.agent.md",
+   :type "agent"}
+  {:filename "terraform-iac-reviewer.agent.md",
+   :title "Terraform IaC Reviewer",
+   :description
+   "Terraform-focused agent that reviews and creates safer IaC changes with emphasis on state safety, least privilege, module patterns, drift detection, and plan/apply discipline",
+   :link "agents/terraform-iac-reviewer.agent.md",
    :type "agent"}
   {:filename "terraform.agent.md",
    :title "🧭 Terraform Agent Instructions",
