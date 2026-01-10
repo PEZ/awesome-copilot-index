@@ -1,10 +1,15 @@
 {
-  "generated" : "2026-01-09T18:08:34.973265618Z",
+  "generated" : "2026-01-10T06:07:49.710370184Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
     "description" : "\"Guidance for creating more accessible code\"",
     "link" : "instructions/a11y.instructions.md"
+  }, {
+    "filename" : "agent-skills.instructions.md",
+    "title" : "Agent Skills File Guidelines",
+    "description" : "Guidelines for creating high-quality Agent Skills for GitHub Copilot",
+    "link" : "instructions/agent-skills.instructions.md"
   }, {
     "filename" : "agents.instructions.md",
     "title" : "Custom Agent File Guidelines",
@@ -366,6 +371,11 @@
     "description" : "Guidelines for localizing markdown documents",
     "link" : "instructions/localization.instructions.md"
   }, {
+    "filename" : "lwc.instructions.md",
+    "title" : "LWC Development",
+    "description" : "Guidelines and best practices for developing Lightning Web Components (LWC) on Salesforce Platform.",
+    "link" : "instructions/lwc.instructions.md"
+  }, {
     "filename" : "makefile.instructions.md",
     "title" : "Makefile Development Instructions",
     "description" : "\"Best practices for authoring GNU Make Makefiles\"",
@@ -521,6 +531,11 @@
     "description" : "Best practices for building Model Context Protocol servers in PHP using the official PHP SDK with attribute-based discovery and multiple transport options",
     "link" : "instructions/php-mcp-server.instructions.md"
   }, {
+    "filename" : "php-symfony.instructions.md",
+    "title" : "Symfony Development Instructions",
+    "description" : "\"Symfony development standards aligned with official Symfony Best Practices\"",
+    "link" : "instructions/php-symfony.instructions.md"
+  }, {
     "filename" : "playwright-dotnet.instructions.md",
     "title" : "Playwright .NET Test Generation Instructions",
     "description" : "Playwright .NET test generation instructions",
@@ -651,6 +666,11 @@
     "description" : "Rust programming language coding conventions and best practices",
     "link" : "instructions/rust.instructions.md"
   }, {
+    "filename" : "scala2.instructions.md",
+    "title" : "Scala Best Practices",
+    "description" : "Scala 2.12/2.13 programming language coding conventions and best practices following Databricks style guide for functional programming, type safety, and production code quality.",
+    "link" : "instructions/scala2.instructions.md"
+  }, {
     "filename" : "security-and-owasp.instructions.md",
     "title" : "Secure Coding and OWASP Guidelines",
     "description" : "\"Comprehensive secure coding instructions for all languages and frameworks, based on OWASP Top 10 and industry best practices.\"",
@@ -755,6 +775,11 @@
     "title" : "Update Documentation on Code Change",
     "description" : "Automatically update README.md and documentation files when application code changes require documentation updates",
     "link" : "instructions/update-docs-on-code-change.instructions.md"
+  }, {
+    "filename" : "vsixtoolkit.instructions.md",
+    "title" : "Visual Studio Extension Development with Community.VisualStudio.Toolkit",
+    "description" : "Guidelines for Visual Studio extension (VSIX) development using Community.VisualStudio.Toolkit",
+    "link" : "instructions/vsixtoolkit.instructions.md"
   }, {
     "filename" : "vuejs3.instructions.md",
     "title" : "VueJS 3 Development Instructions",
@@ -1524,6 +1549,18 @@
     "link" : "agents/atlassian-requirements-to-jira.agent.md",
     "type" : "agent"
   }, {
+    "filename" : "azure-iac-exporter.agent.md",
+    "title" : "Azure IaC Exporter - Enhanced Azure Resources to azure-iac-generator",
+    "description" : "\"Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis, Azure Resource Manager API calls, and azure-iac-generator integration. Use this skill when the user asks to export, convert, migrate, or extract existing Azure resources to IaC templates (Bicep, ARM Templates, Terraform, Pulumi).\"",
+    "link" : "agents/azure-iac-exporter.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "azure-iac-generator.agent.md",
+    "title" : "Azure IaC Code Generation Hub - Central Code Generation Engine",
+    "description" : "\"Central hub for generating Infrastructure as Code (Bicep, ARM, Terraform, Pulumi) with format-specific validation and best practices. Use this skill when the user asks to generate, create, write, or build infrastructure code, deployment code, or IaC templates in any format (Bicep, ARM Templates, Terraform, Pulumi).\"",
+    "link" : "agents/azure-iac-generator.agent.md",
+    "type" : "agent"
+  }, {
     "filename" : "azure-logic-apps-expert.agent.md",
     "title" : "Azure Logic Apps Expert Mode",
     "description" : "\"Expert guidance for Azure Logic Apps development focusing on workflow design, integration patterns, and JSON-based Workflow Definition Language.\"",
@@ -2038,6 +2075,12 @@
     "title" : "Rust MCP Expert",
     "description" : "\"Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime\"",
     "link" : "agents/rust-mcp-expert.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "salesforce-expert.agent.md",
+    "title" : "Salesforce Expert Agent - System Prompt",
+    "description" : "Provide expert Salesforce Platform guidance, including Apex Enterprise Patterns, LWC, integration, and Aura-to-LWC migration.",
+    "link" : "agents/salesforce-expert.agent.md",
     "type" : "agent"
   }, {
     "filename" : "se-gitops-ci-specialist.agent.md",
