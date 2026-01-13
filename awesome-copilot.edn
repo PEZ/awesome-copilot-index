@@ -1,4 +1,4 @@
-{:generated "2026-01-12T18:08:24.577598512Z",
+{:generated "2026-01-13T06:09:08.783682504Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -409,8 +409,9 @@
    "Next.js + Tailwind development standards and instructions",
    :link "instructions/nextjs-tailwind.instructions.md"}
   {:filename "nextjs.instructions.md",
-   :title "Next.js Best Practices for LLMs (2025)",
-   :description nil,
+   :title "Next.js Best Practices for LLMs (2026)",
+   :description
+   "\"Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client boundaries (aligned with Next.js 16.1.1).\"",
    :link "instructions/nextjs.instructions.md"}
   {:filename "nodejs-javascript-vitest.instructions.md",
    :title "Code Generation Guidelines",
