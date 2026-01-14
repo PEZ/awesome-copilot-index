@@ -1,4 +1,4 @@
-{:generated "2026-01-13T18:08:51.000735573Z",
+{:generated "2026-01-14T06:09:01.138178776Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1662,6 +1662,12 @@
    :description
    "Validate user understanding of code, design patterns, and implementation details through guided questioning.",
    :link "agents/demonstrate-understanding.agent.md",
+   :type "agent"}
+  {:filename "devils-advocate.agent.md",
+   :title "Devils Advocate",
+   :description
+   "\"I play the devil's advocate to challenge and stress-test your ideas by finding flaws, risks, and edge cases\"",
+   :link "agents/devils-advocate.agent.md",
    :type "agent"}
   {:filename "devops-expert.agent.md",
    :title "DevOps Expert",
