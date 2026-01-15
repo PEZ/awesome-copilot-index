@@ -1,4 +1,4 @@
-{:generated "2026-01-14T18:08:57.480098739Z",
+{:generated "2026-01-15T06:09:11.058033368Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -303,6 +303,11 @@
    :description
    "Instructions for writing Go code following idiomatic Go practices and community standards",
    :link "instructions/go.instructions.md"}
+  {:filename "html-css-style-color-guide.instructions.md",
+   :title "HTML CSS Style Color Guide",
+   :description
+   "Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs.",
+   :link "instructions/html-css-style-color-guide.instructions.md"}
   {:filename "instructions.instructions.md",
    :title "Custom Instructions File Guidelines",
    :description
@@ -1348,7 +1353,7 @@
   {:filename "suggest-awesome-github-copilot-agents.prompt.md",
    :title "Suggest Awesome GitHub Copilot Custom Agents",
    :description
-   "\"Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository.\"",
+   "\"Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates.\"",
    :link "prompts/suggest-awesome-github-copilot-agents.prompt.md"}
   {:filename "suggest-awesome-github-copilot-chatmodes.prompt.md",
    :title "Suggest Awesome GitHub Copilot Custom Chat Modes",
