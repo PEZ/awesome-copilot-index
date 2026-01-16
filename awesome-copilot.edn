@@ -1,4 +1,4 @@
-{:generated "2026-01-15T18:11:18.352269520Z",
+{:generated "2026-01-16T06:08:28.351326297Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1363,19 +1363,19 @@
   {:filename "suggest-awesome-github-copilot-collections.prompt.md",
    :title "Suggest Awesome GitHub Copilot Collections",
    :description
-   "Suggest relevant GitHub Copilot collections from the awesome-copilot repository based on current repository context and chat history, providing automatic download and installation of collection assets.",
+   "Suggest relevant GitHub Copilot collections from the awesome-copilot repository based on current repository context and chat history, providing automatic download and installation of collection assets, and identifying outdated collection assets that need updates.",
    :link
    "prompts/suggest-awesome-github-copilot-collections.prompt.md"}
   {:filename "suggest-awesome-github-copilot-instructions.prompt.md",
    :title "Suggest Awesome GitHub Copilot Instructions",
    :description
-   "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository.",
+   "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.",
    :link
    "prompts/suggest-awesome-github-copilot-instructions.prompt.md"}
   {:filename "suggest-awesome-github-copilot-prompts.prompt.md",
    :title "Suggest Awesome GitHub Copilot Prompts",
    :description
-   "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository.",
+   "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository, and identifying outdated prompts that need updates.",
    :link "prompts/suggest-awesome-github-copilot-prompts.prompt.md"}
   {:filename "swift-mcp-server-generator.prompt.md",
    :title "Swift MCP Server Generator",
