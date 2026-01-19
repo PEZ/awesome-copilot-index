@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-01-18T18:07:23.708342747Z",
+  "generated" : "2026-01-19T06:11:15.347356545Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -807,6 +807,11 @@
     "description" : "\"Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.\"",
     "link" : "prompts/ai-prompt-engineering-safety-review.prompt.md"
   }, {
+    "filename" : "apple-appstore-reviewer.prompt.md",
+    "title" : "Apple App Store Review Specialist",
+    "description" : "\"Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.\"",
+    "link" : "prompts/apple-appstore-reviewer.prompt.md"
+  }, {
     "filename" : "architecture-blueprint-generator.prompt.md",
     "title" : "Comprehensive Project Architecture Blueprint Generator",
     "description" : "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.",
@@ -1221,6 +1226,11 @@
     "title" : "Next Intl Add Language",
     "description" : "Add new language to a Next.js + next-intl application",
     "link" : "prompts/next-intl-add-language.prompt.md"
+  }, {
+    "filename" : "openapi-to-application-code.prompt.md",
+    "title" : "Generate Application from OpenAPI Spec",
+    "description" : "Generate a complete, production-ready application from an OpenAPI specification",
+    "link" : "prompts/openapi-to-application-code.prompt.md"
   }, {
     "filename" : "php-mcp-server-generator.prompt.md",
     "title" : "PHP MCP Server Generator",
@@ -1942,6 +1952,12 @@
     "title" : "Release Notes for Octopus Deploy",
     "description" : "Generate release notes for a release in Octopus Deploy. The tools for this MCP server provide access to the Octopus Deploy APIs.",
     "link" : "agents/octopus-deploy-release-notes-mcp.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "openapi-to-application.agent.md",
+    "title" : "OpenAPI to Application Generator",
+    "description" : "Expert assistant for generating working applications from OpenAPI specifications",
+    "link" : "agents/openapi-to-application.agent.md",
     "type" : "agent"
   }, {
     "filename" : "pagerduty-incident-responder.agent.md",
