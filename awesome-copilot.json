@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-01-21T18:19:31.402203223Z",
+  "generated" : "2026-01-22T06:09:12.024564627Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -130,6 +130,26 @@
     "title" : "Convert Spring JPA project to Spring Data Cosmos",
     "description" : "Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data Cosmos",
     "link" : "instructions/convert-jpa-to-spring-data-cosmos.instructions.md"
+  }, {
+    "filename" : "copilot-sdk-csharp.instructions.md",
+    "title" : "Copilot Sdk Csharp",
+    "description" : "This file provides guidance on building C# applications using GitHub Copilot SDK.",
+    "link" : "instructions/copilot-sdk-csharp.instructions.md"
+  }, {
+    "filename" : "copilot-sdk-go.instructions.md",
+    "title" : "Copilot Sdk Go",
+    "description" : "\"This file provides guidance on building Go applications using GitHub Copilot SDK.\"",
+    "link" : "instructions/copilot-sdk-go.instructions.md"
+  }, {
+    "filename" : "copilot-sdk-nodejs.instructions.md",
+    "title" : "or",
+    "description" : "\"This file provides guidance on building Node.js/TypeScript applications using GitHub Copilot SDK.\"",
+    "link" : "instructions/copilot-sdk-nodejs.instructions.md"
+  }, {
+    "filename" : "copilot-sdk-python.instructions.md",
+    "title" : "or with poetry",
+    "description" : "\"This file provides guidance on building Python applications using GitHub Copilot SDK.\"",
+    "link" : "instructions/copilot-sdk-python.instructions.md"
   }, {
     "filename" : "copilot-thought-logging.instructions.md",
     "title" : "Copilot Process tracking Instructions",
@@ -1628,6 +1648,24 @@
     "title" : "Blueprint Mode v39",
     "description" : "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
     "link" : "agents/blueprint-mode.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "cast-imaging-impact-analysis.agent.md",
+    "title" : "CAST Imaging Impact Analysis Agent",
+    "description" : "Specialized agent for comprehensive change impact assessment and risk analysis in software systems using CAST Imaging",
+    "link" : "agents/cast-imaging-impact-analysis.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "cast-imaging-software-discovery.agent.md",
+    "title" : "CAST Imaging Software Discovery Agent",
+    "description" : "Specialized agent for comprehensive software application discovery and architectural mapping through static code analysis using CAST Imaging",
+    "link" : "agents/cast-imaging-software-discovery.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "cast-imaging-structural-quality-advisor.agent.md",
+    "title" : "CAST Imaging Structural Quality Advisor Agent",
+    "description" : "Specialized agent for identifying, analyzing, and providing remediation guidance for code quality issues using CAST Imaging",
+    "link" : "agents/cast-imaging-structural-quality-advisor.agent.md",
     "type" : "agent"
   }, {
     "filename" : "clojure-interactive-programming.agent.md",
