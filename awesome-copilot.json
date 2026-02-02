@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-02-01T18:09:27.108110647Z",
+  "generated" : "2026-02-02T06:27:16.085894587Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -35,6 +35,11 @@
     "title" : "Apex Development",
     "description" : "Guidelines and best practices for Apex development on the Salesforce Platform",
     "link" : "instructions/apex.instructions.md"
+  }, {
+    "filename" : "arch-linux.instructions.md",
+    "title" : "Arch Linux Administration Guidelines",
+    "description" : "Guidance for Arch Linux administration, pacman workflows, and rolling-release best practices.",
+    "link" : "instructions/arch-linux.instructions.md"
   }, {
     "filename" : "aspnet-rest-apis.instructions.md",
     "title" : "ASP.NET REST API Development",
@@ -80,6 +85,11 @@
     "title" : "Blazor",
     "description" : "Blazor component and application patterns",
     "link" : "instructions/blazor.instructions.md"
+  }, {
+    "filename" : "centos-linux.instructions.md",
+    "title" : "CentOS Administration Guidelines",
+    "description" : "Guidance for CentOS administration, RHEL-compatible tooling, and SELinux-aware operations.",
+    "link" : "instructions/centos-linux.instructions.md"
   }, {
     "filename" : "clojure.instructions.md",
     "title" : "Clojure Development Instructions",
@@ -251,6 +261,11 @@
     "description" : null,
     "link" : "instructions/dataverse-python.instructions.md"
   }, {
+    "filename" : "debian-linux.instructions.md",
+    "title" : "Debian Linux Administration Guidelines",
+    "description" : "Guidance for Debian-based Linux administration, apt workflows, and Debian policy conventions.",
+    "link" : "instructions/debian-linux.instructions.md"
+  }, {
     "filename" : "declarative-agents-microsoft365.instructions.md",
     "title" : "Microsoft 365 Declarative Agents Development Guidelines",
     "description" : "Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows",
@@ -295,6 +310,11 @@
     "title" : "Dotnet Wpf",
     "description" : ".NET WPF component and application patterns",
     "link" : "instructions/dotnet-wpf.instructions.md"
+  }, {
+    "filename" : "fedora-linux.instructions.md",
+    "title" : "Fedora Administration Guidelines",
+    "description" : "Guidance for Fedora (Red Hat family) systems, dnf workflows, SELinux, and modern systemd practices.",
+    "link" : "instructions/fedora-linux.instructions.md"
   }, {
     "filename" : "genaiscript.instructions.md",
     "title" : "Genaiscript",
@@ -832,6 +852,11 @@
     "description" : "\"Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.\"",
     "link" : "prompts/apple-appstore-reviewer.prompt.md"
   }, {
+    "filename" : "arch-linux-triage.prompt.md",
+    "title" : "Arch Linux Triage",
+    "description" : "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.",
+    "link" : "prompts/arch-linux-triage.prompt.md"
+  }, {
     "filename" : "architecture-blueprint-generator.prompt.md",
     "title" : "Comprehensive Project Architecture Blueprint Generator",
     "description" : "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.",
@@ -886,6 +911,11 @@
     "title" : "Test Planning & Quality Assurance Prompt",
     "description" : "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.",
     "link" : "prompts/breakdown-test.prompt.md"
+  }, {
+    "filename" : "centos-linux-triage.prompt.md",
+    "title" : "CentOS Linux Triage",
+    "description" : "Triage and resolve CentOS issues using RHEL-compatible tooling, SELinux-aware practices, and firewalld.",
+    "link" : "prompts/centos-linux-triage.prompt.md"
   }, {
     "filename" : "code-exemplars-blueprint-generator.prompt.md",
     "title" : "Code Exemplars Blueprint Generator",
@@ -1062,6 +1092,11 @@
     "description" : "\"Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations\"",
     "link" : "prompts/dataverse-python-usecase-builder.prompt.md"
   }, {
+    "filename" : "debian-linux-triage.prompt.md",
+    "title" : "Debian Linux Triage",
+    "description" : "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.",
+    "link" : "prompts/debian-linux-triage.prompt.md"
+  }, {
     "filename" : "declarative-agents.prompt.md",
     "title" : "Microsoft 365 Declarative Agents Development Kit",
     "description" : "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration",
@@ -1101,6 +1136,11 @@
     "title" : "Entity Framework Core Best Practices",
     "description" : "Get best practices for Entity Framework Core",
     "link" : "prompts/ef-core.prompt.md"
+  }, {
+    "filename" : "fedora-linux-triage.prompt.md",
+    "title" : "Fedora Linux Triage",
+    "description" : "Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance.",
+    "link" : "prompts/fedora-linux-triage.prompt.md"
   }, {
     "filename" : "finalize-agent-prompt.prompt.md",
     "title" : "Finalize Agent Prompt",
@@ -1561,6 +1601,12 @@
     "link" : "agents/apify-integration-expert.agent.md",
     "type" : "agent"
   }, {
+    "filename" : "arch-linux-expert.agent.md",
+    "title" : "Arch Linux Expert",
+    "description" : "Arch Linux specialist focused on pacman, rolling-release maintenance, and Arch-centric system administration workflows.",
+    "link" : "agents/arch-linux-expert.agent.md",
+    "type" : "agent"
+  }, {
     "filename" : "arch.agent.md",
     "title" : "Senior Cloud Architect Agent",
     "description" : "Expert in modern architecture design patterns, NFR requirements, and creating comprehensive architectural diagrams and documentation",
@@ -1663,6 +1709,12 @@
     "link" : "agents/cast-imaging-structural-quality-advisor.agent.md",
     "type" : "agent"
   }, {
+    "filename" : "centos-linux-expert.agent.md",
+    "title" : "CentOS Linux Expert",
+    "description" : "CentOS (Stream/Legacy) Linux specialist focused on RHEL-compatible administration, yum/dnf workflows, and enterprise hardening.",
+    "link" : "agents/centos-linux-expert.agent.md",
+    "type" : "agent"
+  }, {
     "filename" : "clojure-interactive-programming.agent.md",
     "title" : "Clojure Interactive Programming",
     "description" : "\"Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.\"",
@@ -1709,6 +1761,12 @@
     "title" : "Custom Agent Foundry - Expert Agent Designer",
     "description" : "Expert at designing and creating VS Code custom agents with optimal configurations",
     "link" : "agents/custom-agent-foundry.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "debian-linux-expert.agent.md",
+    "title" : "Debian Linux Expert",
+    "description" : "Debian Linux specialist focused on stable system administration, apt-based package management, and Debian policy-aligned practices.",
+    "link" : "agents/debian-linux-expert.agent.md",
     "type" : "agent"
   }, {
     "filename" : "debug.agent.md",
@@ -1811,6 +1869,12 @@
     "title" : "Expert React Frontend Engineer",
     "description" : "\"Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript, and performance optimization\"",
     "link" : "agents/expert-react-frontend-engineer.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "fedora-linux-expert.agent.md",
+    "title" : "Fedora Linux Expert",
+    "description" : "Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.",
+    "link" : "agents/fedora-linux-expert.agent.md",
     "type" : "agent"
   }, {
     "filename" : "gilfoyle.agent.md",
@@ -2111,6 +2175,12 @@
     "title" : "Refine Requirement or Issue Chat Mode",
     "description" : "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
     "link" : "agents/refine-issue.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "repo-architect.agent.md",
+    "title" : "Repo Architect Agent",
+    "description" : "Bootstraps and validates agentic project structures for GitHub Copilot (VS Code) and OpenCode CLI workflows. Run after `opencode /init` or VS Code Copilot initialization to scaffold proper folder hierarchies, instructions, agents, skills, and prompts.",
+    "link" : "agents/repo-architect.agent.md",
     "type" : "agent"
   }, {
     "filename" : "research-technical-spike.agent.md",
