@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-02-02T18:14:18.790783043Z",
+  "generated" : "2026-02-03T06:20:28.523835871Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Instructions for accessibility",
@@ -761,6 +761,11 @@
     "description" : "Best practices and patterns for building Model Context Protocol (MCP) servers in Swift using the official MCP Swift SDK package.",
     "link" : "instructions/swift-mcp-server.instructions.md"
   }, {
+    "filename" : "tailwind-v4-vite.instructions.md",
+    "title" : "Tailwind CSS v4+ Installation with Vite",
+    "description" : "Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite plugin",
+    "link" : "instructions/tailwind-v4-vite.instructions.md"
+  }, {
     "filename" : "taming-copilot.instructions.md",
     "title" : "Taming Copilot",
     "description" : "Prevent Copilot from wreaking havoc across your codebase, keeping it under control.",
@@ -1128,7 +1133,7 @@
     "link" : "prompts/dotnet-upgrade.prompt.md"
   }, {
     "filename" : "editorconfig.prompt.md",
-    "title" : "EditorConfig Expert",
+    "title" : ".editorconfig",
     "description" : "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.",
     "link" : "prompts/editorconfig.prompt.md"
   }, {
@@ -1378,7 +1383,7 @@
     "link" : "prompts/readme-blueprint-generator.prompt.md"
   }, {
     "filename" : "remember-interactive-programming.prompt.md",
-    "title" : "Interactive Programming Nudge",
+    "title" : "Remember Interactive Programming",
     "description" : "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
     "link" : "prompts/remember-interactive-programming.prompt.md"
   }, {
