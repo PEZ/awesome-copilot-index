@@ -1,4 +1,4 @@
-{:generated "2026-02-03T18:21:16.597031194Z",
+{:generated "2026-02-04T06:19:57.874537448Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -1049,9 +1049,9 @@
    "Generate a complete MCP server project in C# with tools, prompts, and proper configuration",
    :link "prompts/csharp-mcp-server-generator.prompt.md"}
   {:filename "csharp-mstest.prompt.md",
-   :title "MSTest Best Practices",
+   :title "MSTest Best Practices (MSTest 3.x/4.x)",
    :description
-   "Get best practices for MSTest unit testing, including data-driven tests",
+   "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests",
    :link "prompts/csharp-mstest.prompt.md"}
   {:filename "csharp-nunit.prompt.md",
    :title "NUnit Best Practices",
