@@ -1,4 +1,4 @@
-{:generated "2026-02-05T18:21:07.399723755Z",
+{:generated "2026-02-06T06:21:16.772330943Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Instructions for accessibility",
@@ -458,6 +458,11 @@
    :description
    "\"Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client boundaries (aligned with Next.js 16.1.1).\"",
    :link "instructions/nextjs.instructions.md"}
+  {:filename "no-heredoc.instructions.md",
+   :title "MANDATORY: File Operation Override",
+   :description
+   "Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead of shell redirections",
+   :link "instructions/no-heredoc.instructions.md"}
   {:filename "nodejs-javascript-vitest.instructions.md",
    :title "Code Generation Guidelines",
    :description
