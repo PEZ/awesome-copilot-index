@@ -1,8 +1,8 @@
 {
-  "generated" : "2026-02-09T18:21:17.899752198Z",
+  "generated" : "2026-02-10T06:28:59.360100423Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
-    "title" : "Instructions for accessibility",
+    "title" : "Accessibility instructions",
     "description" : "\"Guidance for creating more accessible code\"",
     "link" : "instructions/a11y.instructions.md"
   }, {
@@ -1921,6 +1921,12 @@
     "title" : "Implementation Plan Generation Mode",
     "description" : "\"Generate an implementation plan for new features or refactoring existing code.\"",
     "link" : "agents/implementation-plan.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "insiders-a11y-tracker.agent.md",
+    "title" : "Insiders A11y Tracker",
+    "description" : "Specialized agent for tracking and analyzing accessibility improvements in VS Code Insiders builds",
+    "link" : "agents/insiders-a11y-tracker.agent.md",
     "type" : "agent"
   }, {
     "filename" : "janitor.agent.md",
