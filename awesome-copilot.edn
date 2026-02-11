@@ -1,4 +1,4 @@
-{:generated "2026-02-10T18:26:15.682115949Z",
+{:generated "2026-02-11T06:27:58.358353429Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Accessibility instructions",
@@ -123,6 +123,11 @@
    "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
    :link
    "instructions/containerization-docker-best-practices.instructions.md"}
+  {:filename "context-engineering.instructions.md",
+   :title "Context Engineering",
+   :description
+   "Guidelines for structuring code and projects to maximize GitHub Copilot effectiveness through better context management",
+   :link "instructions/context-engineering.instructions.md"}
   {:filename "convert-cassandra-to-spring-data-cosmos.instructions.md",
    :title
    "Comprehensive Guide: Converting Spring Boot Cassandra Applications to use Azure Cosmos DB with Spring Data Cosmos (spring-data-cosmos)",
@@ -934,6 +939,11 @@
    :description
    "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
    :link "prompts/containerize-aspnetcore.prompt.md"}
+  {:filename "context-map.prompt.md",
+   :title "Context Map",
+   :description
+   "Generate a map of all files relevant to a task before making changes",
+   :link "prompts/context-map.prompt.md"}
   {:filename "conventional-commit.prompt.md",
    :title "Conventional Commit",
    :description
@@ -1373,6 +1383,11 @@
    :description
    "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
    :link "prompts/readme-blueprint-generator.prompt.md"}
+  {:filename "refactor-plan.prompt.md",
+   :title "Refactor Plan",
+   :description
+   "Plan a multi-file refactor with proper sequencing and rollback steps",
+   :link "prompts/refactor-plan.prompt.md"}
   {:filename "remember-interactive-programming.prompt.md",
    :title "Remember Interactive Programming",
    :description
@@ -1517,6 +1532,11 @@
    :description
    "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
    :link "prompts/update-specification.prompt.md"}
+  {:filename "what-context-needed.prompt.md",
+   :title "What Context Do You Need?",
+   :description
+   "Ask Copilot what files it needs to see before answering a question",
+   :link "prompts/what-context-needed.prompt.md"}
   {:filename "write-coding-standards-from-file.prompt.md",
    :title "Write Coding Standards From File",
    :description
@@ -1726,6 +1746,12 @@
    :description
    "Unified Comet Opik agent for instrumenting LLM apps, managing prompts/projects, auditing prompts, and investigating traces/metrics via the latest Opik MCP server.",
    :link "agents/comet-opik.agent.md",
+   :type "agent"}
+  {:filename "context-architect.agent.md",
+   :title "Context Architect",
+   :description
+   "An agent that helps plan and execute multi-file changes by identifying relevant context and dependencies",
+   :link "agents/context-architect.agent.md",
    :type "agent"}
   {:filename "context7.agent.md",
    :title "Context7 Documentation Expert",
