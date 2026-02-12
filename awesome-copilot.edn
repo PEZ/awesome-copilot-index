@@ -1,4 +1,4 @@
-{:generated "2026-02-11T18:23:13.682324559Z",
+{:generated "2026-02-12T06:27:40.071088294Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Accessibility instructions",
@@ -2193,6 +2193,12 @@
    :description
    "\"Expert assistant for developing Model Context Protocol (MCP) servers in Python\"",
    :link "agents/python-mcp-expert.agent.md",
+   :type "agent"}
+  {:filename "reepl-linkedin.agent.md",
+   :title "Reepl -- LinkedIn Content Agent",
+   :description
+   "\"AI-powered LinkedIn content creation, scheduling, and analytics agent. Create posts, carousels, and manage your LinkedIn presence with GitHub Copilot.\"",
+   :link "agents/reepl-linkedin.agent.md",
    :type "agent"}
   {:filename "refine-issue.agent.md",
    :title "Refine Requirement or Issue Chat Mode",

@@ -28,10 +28,10 @@ This site hosts a daily generated index of the [awesome-copilot](https://github.
 | **Instructions** | 170 |
 | **Prompts** | 141 |
 | **Chat Modes** | 0 |
-| **Agents** | 147 |
-| **Total Resources** | 458 |
+| **Agents** | 148 |
+| **Total Resources** | 459 |
 
-*Last updated: 2026-02-11 18:23:13 UTC*
+*Last updated: 2026-02-12 06:27:40 UTC*
 
 ## Usage Example
 
