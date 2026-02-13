@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-02-12T18:22:24.108654826Z",
+  "generated" : "2026-02-13T06:24:54.751442582Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Accessibility instructions",
@@ -1911,6 +1911,54 @@
     "title" : "Fedora Linux Expert",
     "description" : "Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.",
     "link" : "agents/fedora-linux-expert.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-chrome-tester.agent.md",
+    "title" : "Gem Chrome Tester",
+    "description" : "\"Automates browser testing, UI/UX validation via Chrome DevTools\"",
+    "link" : "agents/gem-chrome-tester.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-devops.agent.md",
+    "title" : "Gem Devops",
+    "description" : "\"Manages containers, CI/CD pipelines, and infrastructure deployment\"",
+    "link" : "agents/gem-devops.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-documentation-writer.agent.md",
+    "title" : "Gem Documentation Writer",
+    "description" : "\"Generates technical docs, diagrams, maintains code-documentation parity\"",
+    "link" : "agents/gem-documentation-writer.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-implementer.agent.md",
+    "title" : "Gem Implementer",
+    "description" : "\"Executes TDD code changes, ensures verification, maintains quality\"",
+    "link" : "agents/gem-implementer.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-orchestrator.agent.md",
+    "title" : "Gem Orchestrator",
+    "description" : "\"Coordinates multi-agent workflows, delegates tasks, synthesizes results via runSubagent\"",
+    "link" : "agents/gem-orchestrator.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-planner.agent.md",
+    "title" : "Gem Planner",
+    "description" : "\"Creates DAG-based plans with pre-mortem analysis and task decomposition from research findings\"",
+    "link" : "agents/gem-planner.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-researcher.agent.md",
+    "title" : "Gem Researcher",
+    "description" : "\"Research specialist: gathers codebase context, identifies relevant files/patterns, returns structured findings\"",
+    "link" : "agents/gem-researcher.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "gem-reviewer.agent.md",
+    "title" : "Gem Reviewer",
+    "description" : "\"Security gatekeeper for critical tasks—OWASP, secrets, compliance\"",
+    "link" : "agents/gem-reviewer.agent.md",
     "type" : "agent"
   }, {
     "filename" : "gilfoyle.agent.md",
