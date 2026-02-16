@@ -1,5 +1,5 @@
 {
-  "generated" : "2026-02-15T18:09:30.844520273Z",
+  "generated" : "2026-02-16T06:27:50.941743215Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Accessibility instructions",
@@ -120,11 +120,6 @@
     "title" : "ColdFusion Coding Standards",
     "description" : "ColdFusion cfm files and application patterns",
     "link" : "instructions/coldfusion-cfm.instructions.md"
-  }, {
-    "filename" : "collections.instructions.md",
-    "title" : "Collections Development",
-    "description" : "Guidelines for creating and managing awesome-copilot collections",
-    "link" : "instructions/collections.instructions.md"
   }, {
     "filename" : "containerization-docker-best-practices.instructions.md",
     "title" : "Containerization & Docker Best Practices",
@@ -792,8 +787,8 @@
     "link" : "instructions/task-implementation.instructions.md"
   }, {
     "filename" : "tasksync.instructions.md",
-    "title" : "TaskSync V4 Protocol",
-    "description" : "TaskSync V4 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
+    "title" : "TaskSync V5 Protocol",
+    "description" : "TaskSync V5 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
     "link" : "instructions/tasksync.instructions.md"
   }, {
     "filename" : "terraform-azure.instructions.md",
@@ -1397,6 +1392,11 @@
     "description" : "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
     "link" : "prompts/readme-blueprint-generator.prompt.md"
   }, {
+    "filename" : "refactor-method-complexity-reduce.prompt.md",
+    "title" : "Refactor Method to Reduce Cognitive Complexity",
+    "description" : "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods.",
+    "link" : "prompts/refactor-method-complexity-reduce.prompt.md"
+  }, {
     "filename" : "refactor-plan.prompt.md",
     "title" : "Refactor Plan",
     "description" : "Plan a multi-file refactor with proper sequencing and rollback steps",
@@ -1467,11 +1467,6 @@
     "description" : "\"Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates.\"",
     "link" : "prompts/suggest-awesome-github-copilot-agents.prompt.md"
   }, {
-    "filename" : "suggest-awesome-github-copilot-collections.prompt.md",
-    "title" : "Suggest Awesome GitHub Copilot Collections",
-    "description" : "Suggest relevant GitHub Copilot collections from the awesome-copilot repository based on current repository context and chat history, providing automatic download and installation of collection assets, and identifying outdated collection assets that need updates.",
-    "link" : "prompts/suggest-awesome-github-copilot-collections.prompt.md"
-  }, {
     "filename" : "suggest-awesome-github-copilot-instructions.prompt.md",
     "title" : "Suggest Awesome GitHub Copilot Instructions",
     "description" : "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.",
@@ -1481,6 +1476,11 @@
     "title" : "Suggest Awesome GitHub Copilot Prompts",
     "description" : "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository, and identifying outdated prompts that need updates.",
     "link" : "prompts/suggest-awesome-github-copilot-prompts.prompt.md"
+  }, {
+    "filename" : "suggest-awesome-github-copilot-skills.prompt.md",
+    "title" : "Suggest Awesome GitHub Copilot Skills",
+    "description" : "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates.",
+    "link" : "prompts/suggest-awesome-github-copilot-skills.prompt.md"
   }, {
     "filename" : "swift-mcp-server-generator.prompt.md",
     "title" : "Swift MCP Server Generator",
@@ -2261,6 +2261,12 @@
     "link" : "agents/python-mcp-expert.agent.md",
     "type" : "agent"
   }, {
+    "filename" : "qa-subagent.agent.md",
+    "title" : "Qa Subagent",
+    "description" : "Meticulous QA subagent for test planning, bug hunting, edge-case analysis, and implementation verification.",
+    "link" : "agents/qa-subagent.agent.md",
+    "type" : "agent"
+  }, {
     "filename" : "reepl-linkedin.agent.md",
     "title" : "Reepl -- LinkedIn Content Agent",
     "description" : "\"AI-powered LinkedIn content creation, scheduling, and analytics agent. Create posts, carousels, and manage your LinkedIn presence with GitHub Copilot.\"",
@@ -2289,6 +2295,12 @@
     "title" : "Ruby MCP Expert",
     "description" : "\"Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration.\"",
     "link" : "agents/ruby-mcp-expert.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "rug-orchestrator.agent.md",
+    "title" : "Rug Orchestrator",
+    "description" : "Pure orchestration agent that decomposes requests, delegates all work to subagents, validates outcomes, and repeats until complete.",
+    "link" : "agents/rug-orchestrator.agent.md",
     "type" : "agent"
   }, {
     "filename" : "rust-gpt-4.1-beast-mode.agent.md",
@@ -2397,6 +2409,12 @@
     "title" : "Stackhawk Security Onboarding",
     "description" : "Automatically set up StackHawk security testing for your repository with generated configuration and GitHub Actions workflow",
     "link" : "agents/stackhawk-security-onboarding.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "swe-subagent.agent.md",
+    "title" : "Swe Subagent",
+    "description" : "Senior software engineer subagent for implementation tasks: feature development, debugging, refactoring, and testing.",
+    "link" : "agents/swe-subagent.agent.md",
     "type" : "agent"
   }, {
     "filename" : "swift-mcp-expert.agent.md",
