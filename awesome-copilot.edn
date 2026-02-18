@@ -1,4 +1,4 @@
-{:generated "2026-02-17T18:22:09.010966520Z",
+{:generated "2026-02-18T06:26:24.177406854Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Accessibility instructions",
@@ -1894,11 +1894,11 @@
    "Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.",
    :link "agents/fedora-linux-expert.agent.md",
    :type "agent"}
-  {:filename "gem-chrome-tester.agent.md",
-   :title "Gem Chrome Tester",
+  {:filename "gem-browser-tester.agent.md",
+   :title "Gem Browser Tester",
    :description
-   "\"Automates browser testing, UI/UX validation via Chrome DevTools\"",
-   :link "agents/gem-chrome-tester.agent.md",
+   "\"Automates browser testing, UI/UX validation using browser automation tools and visual verification techniques\"",
+   :link "agents/gem-browser-tester.agent.md",
    :type "agent"}
   {:filename "gem-devops.agent.md",
    :title "Gem Devops",
@@ -2168,6 +2168,54 @@
    :title "Playwright Tester",
    :description "\"Testing mode for Playwright tests\"",
    :link "agents/playwright-tester.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-builder.agent.md",
+   :title "Builder Agent",
+   :description
+   "Runs build/compile commands for any language and reports results. Discovers build command from project files if not specified.",
+   :link "agents/polyglot-test-builder.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-fixer.agent.md",
+   :title "Fixer Agent",
+   :description
+   "Fixes compilation errors in source or test files. Analyzes error messages and applies corrections.",
+   :link "agents/polyglot-test-fixer.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-generator.agent.md",
+   :title "Test Generator Agent",
+   :description
+   "Orchestrates comprehensive test generation using Research-Plan-Implement pipeline. Use when asked to generate tests, write unit tests, improve test coverage, or add tests.",
+   :link "agents/polyglot-test-generator.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-implementer.agent.md",
+   :title "Test Implementer",
+   :description
+   "Implements a single phase from the test plan. Writes test files and verifies they compile and pass. Calls builder, tester, and fixer agents as needed.",
+   :link "agents/polyglot-test-implementer.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-linter.agent.md",
+   :title "Linter Agent",
+   :description
+   "Runs code formatting/linting for any language. Discovers lint command from project files if not specified.",
+   :link "agents/polyglot-test-linter.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-planner.agent.md",
+   :title "Test Planner",
+   :description
+   "Creates structured test implementation plans from research findings. Organizes tests into phases by priority and complexity. Works with any language.",
+   :link "agents/polyglot-test-planner.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-researcher.agent.md",
+   :title "Test Researcher",
+   :description
+   "Analyzes codebases to understand structure, testing patterns, and testability. Identifies source files, existing tests, build commands, and testing framework. Works with any language.",
+   :link "agents/polyglot-test-researcher.agent.md",
+   :type "agent"}
+  {:filename "polyglot-test-tester.agent.md",
+   :title "Tester Agent",
+   :description
+   "Runs test commands for any language and reports results. Discovers test command from project files if not specified.",
+   :link "agents/polyglot-test-tester.agent.md",
    :type "agent"}
   {:filename "postgresql-dba.agent.md",
    :title "PostgreSQL Database Administrator",
