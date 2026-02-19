@@ -1,10 +1,15 @@
 {
-  "generated" : "2026-02-18T18:18:28.392962053Z",
+  "generated" : "2026-02-19T06:25:43.959375074Z",
   "instructions" : [ {
     "filename" : "a11y.instructions.md",
     "title" : "Accessibility instructions",
     "description" : "\"Guidance for creating more accessible code\"",
     "link" : "instructions/a11y.instructions.md"
+  }, {
+    "filename" : "agent-safety.instructions.md",
+    "title" : "Agent Safety & Governance",
+    "description" : "Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks, tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability.",
+    "link" : "instructions/agent-safety.instructions.md"
   }, {
     "filename" : "agent-skills.instructions.md",
     "title" : "Agent Skills File Guidelines",
@@ -1611,6 +1616,12 @@
     "title" : "AEM Front-End Specialist",
     "description" : "Expert assistant for developing AEM components using HTL, Tailwind CSS, and Figma-to-code workflows with design system integration",
     "link" : "agents/aem-frontend-specialist.agent.md",
+    "type" : "agent"
+  }, {
+    "filename" : "agent-governance-reviewer.agent.md",
+    "title" : "Agent Governance Reviewer",
+    "description" : "AI agent governance expert that reviews code for safety issues, missing governance controls, and helps implement policy enforcement, trust scoring, and audit trails in agent systems.",
+    "link" : "agents/agent-governance-reviewer.agent.md",
     "type" : "agent"
   }, {
     "filename" : "amplitude-experiment-implementation.agent.md",
