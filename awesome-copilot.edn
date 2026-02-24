@@ -1,4 +1,4 @@
-{:generated "2026-02-23T18:24:26.776791927Z",
+{:generated "2026-02-24T06:25:04.762622933Z",
  :instructions
  ({:filename "a11y.instructions.md",
    :title "Accessibility instructions",
@@ -128,6 +128,11 @@
    :description
    "Guidelines for structuring code and projects to maximize GitHub Copilot effectiveness through better context management",
    :link "instructions/context-engineering.instructions.md"}
+  {:filename "context7.instructions.md",
+   :title "Context7-aware development",
+   :description
+   "Use Context7 for authoritative external docs and API references when local context is insufficient",
+   :link "instructions/context7.instructions.md"}
   {:filename "convert-cassandra-to-spring-data-cosmos.instructions.md",
    :title
    "Comprehensive Guide: Converting Spring Boot Cassandra Applications to use Azure Cosmos DB with Spring Data Cosmos (spring-data-cosmos)",
@@ -166,6 +171,11 @@
    :description
    "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
    :link "instructions/copilot-thought-logging.instructions.md"}
+  {:filename "cpp-language-service-tools.instructions.md",
+   :title "Cpp Language Service Tools",
+   :description
+   "You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools, GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot. When working with C++ code, you have access to powerful language service tools that provide accurate, IntelliSense-powered analysis. **Always prefer these tools over manual code inspection, text search, or guessing.**",
+   :link "instructions/cpp-language-service-tools.instructions.md"}
   {:filename "csharp-ja.instructions.md",
    :title "C# アプリケーション開発",
    :description "C# アプリケーション構築指針 by @tsubakimoto",
@@ -425,6 +435,11 @@
    :title "Makefile Development Instructions",
    :description "\"Best practices for authoring GNU Make Makefiles\"",
    :link "instructions/makefile.instructions.md"}
+  {:filename "markdown-accessibility.instructions.md",
+   :title "Markdown Accessibility Review Guidelines",
+   :description
+   "Markdown accessibility guidelines based on GitHub''s 5 best practices for inclusive documentation",
+   :link "instructions/markdown-accessibility.instructions.md"}
   {:filename "markdown.instructions.md",
    :title "Markdown",
    :description "Documentation and content creation standards",
@@ -443,6 +458,11 @@
    :description
    "Instructions for customizing GitHub Copilot behavior for MONGODB DBA chat mode.",
    :link "instructions/mongo-dba.instructions.md"}
+  {:filename "moodle.instructions.md",
+   :title "Project Context",
+   :description
+   "Instructions for GitHub Copilot to generate code in a Moodle project context.",
+   :link "instructions/moodle.instructions.md"}
   {:filename "ms-sql-dba.instructions.md",
    :title "MS-SQL DBA Chat Mode Instructions",
    :description
@@ -879,6 +899,12 @@
    :description
    "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
    :link "prompts/azure-resource-health-diagnose.prompt.md"}
+  {:filename "bigquery-pipeline-audit.prompt.md",
+   :title
+   "BigQuery Pipeline Audit: Cost, Safety and Production Readiness",
+   :description
+   "Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured report with exact patch locations.",
+   :link "prompts/bigquery-pipeline-audit.prompt.md"}
   {:filename "boost-prompt.prompt.md",
    :title "Boost Prompt",
    :description
